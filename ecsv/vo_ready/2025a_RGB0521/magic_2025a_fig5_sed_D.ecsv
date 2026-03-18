@@ -1,0 +1,36 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit: latex   , datatype: string     , description: Source name                         }
+# - {name: en        , unit: TeV     , datatype: float32 , description: Energy                              }
+# - {name: en_wlo    , unit: TeV     , datatype: float32 , description: Energy bin width low                }
+# - {name: en_wup    , unit: TeV     , datatype: float32 , description: Energy bin width up                 }
+# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Differential photon flux at energy  }
+# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
+# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
+# - {name: tstart    , unit: mjd     , datatype: float32 , description: MJD start                           }
+# - {name: tstop     , unit: mjd     , datatype: float32 , description: MJD stop                            }
+# - {name: texpo     , unit: h       , datatype: float32 , description: Observation time                    }
+# - {name: instrument, unit: latex   , datatype: string     , description: Instrument                          }
+# - {name: dataformat, unit: latex   , datatype: string     , description: Data Format                         }
+# - {name: comments  , unit: latex   , datatype: string     , description: Comments                            }
+# meta: !!omap
+# - {Filename: magic_2025a_fig5_sed_D.ecsv}
+# - {Source: "VER 0521+211"}
+# - {Figure: "Figure 5, state D"}
+# - {Title: "Time-dependent modelling of short-term variability in the TeV-blazar VER J0521+211 during the major flare in 2020"}
+# - {Comments: ""}
+# - {Reference: "magic_2025a.yaml"}
+# - {Status: "Checked"}
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+RGB 0521+211,0.10306514739990288,nan,nan,1.8401398707332323e-10,3.944698469248871e-11,3.944698469248871e-11,58908.853435,58908.853435,0.72,MAGIC,,State D
+RGB 0521+211,0.13822068786621167,nan,nan,3.1054461238247807e-10,3.302158881064355e-11,3.302158881064355e-11,58908.853435,58908.853435,0.72,MAGIC,,State D
+RGB 0521+211,0.18778262329101658,nan,nan,3.02433527506256e-10,3.152528773652699e-11,3.152528773652699e-11,58908.853435,58908.853435,0.72,MAGIC,,State D
+RGB 0521+211,0.25413645935058726,nan,nan,3.000114676539781e-10,3.424561132606901e-11,3.424561132606901e-11,58908.853435,58908.853435,0.72,MAGIC,,State D
+RGB 0521+211,0.3351354675292987,nan,nan,2.3155605963639415e-10,3.626663398844008e-11,3.626663398844008e-11,58908.853435,58908.853435,0.72,MAGIC,,State D
+RGB 0521+211,0.44820431518554926,nan,nan,3.3614425060524976e-10,5.353433470972749e-11,5.353433470972749e-11,58908.853435,58908.853435,0.72,MAGIC,,State D
+RGB 0521+211,0.6121146240234409,nan,nan,3.037644818445604e-10,6.773781107046669e-11,6.773781107046669e-11,58908.853435,58908.853435,0.72,MAGIC,,State D
+RGB 0521+211,0.825785766601567,nan,nan,3.742437275142219e-10,1.0354897760534675e-10,1.0354897760534675e-10,58908.853435,58908.853435,0.72,MAGIC,,State D
+RGB 0521+211,1.1162027587890684,nan,nan,2.480291278137145e-10,1.1138667325982454e-10,1.1138667325982454e-10,58908.853435,58908.853435,0.72,MAGIC,,State D

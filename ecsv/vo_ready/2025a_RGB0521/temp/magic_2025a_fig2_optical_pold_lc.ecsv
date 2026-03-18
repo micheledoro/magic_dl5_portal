@@ -1,0 +1,32 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: srcname, unit: latex, datatype: string}
+# - {name: t, unit: mjd, datatype: float64, format: '%.4f'}
+# - {name: t_wlo, unit: d, datatype: float64}
+# - {name: t_wup, unit: d, datatype: float64}
+# - {name: t_exp, unit: h, datatype: float64}
+# - {name: flux, unit: deg, datatype: float64, format: '%.3e'}
+# - {name: flux_elo, unit: deg, datatype: float64, format: '%.3e'}
+# - {name: flux_eup, unit: deg, datatype: float64, format: '%.3e'}
+# - {name: eth_lo, unit: GeV, datatype: float64}
+# - {name: eth_up, unit: GeV, datatype: float64}
+# - {name: instrument, unit: latex, datatype: string}
+# - {name: dataformat, unit: latex, datatype: string}
+# - {name: comments, unit: latex, datatype: string}
+# meta: !!omap
+# - {Filename: magic_template_lc.ecsv}
+# - {Source: "VER 0521+211"}
+# - {Figure: "Figure 2, panel 5"}
+# - {Title: "Time-dependent modelling of short-term variability in the TeV-blazar VER J0521+211 during the major flare in 2020"}
+# - {Comments: ""}
+# - {Reference: "magic_2025a.yaml"}
+# - {Status: "Checked"}
+# schema: astropy-2.0
+srcname;t;t_wlo;t_wup;t_exp;flux;flux_elo;flux_eup;eth_lo;eth_up;instrument;dataformat;comments
+"RGB 0521+211";58905.1719;nan;nan;nan;8.25;0.36;0.36;1.8e-09;2.2e-09;Perkins:R;;pol.deg. External
+"RGB 0521+211";58905.1768;nan;nan;nan;8.69;0.3;0.3;1.8e-09;2.2e-09;Perkins:R;;pol.deg. External
+"RGB 0521+211";58905.1815999998;nan;nan;nan;5.82;0.33;0.33;1.8e-09;2.2e-09;Perkins:R;;pol.deg. External
+"RGB 0521+211";58906.2450999999;nan;nan;nan;7.27;0.26;0.26;1.8e-09;2.2e-09;Perkins:R;;pol.deg. External
+"RGB 0521+211";58906.2519999999;nan;nan;nan;5.89;0.28;0.28;1.8e-09;2.2e-09;Perkins:R;;pol.deg. External
+"RGB 0521+211";58906.2577999998;nan;nan;nan;7.63;0.23;0.23;1.8e-09;2.2e-09;Perkins:R;;pol.deg. External
