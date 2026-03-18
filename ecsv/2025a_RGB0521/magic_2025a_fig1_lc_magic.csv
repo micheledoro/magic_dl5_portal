@@ -1,0 +1,37 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit: latex   , datatype: string    , description: Source name                                          }
+# - {name: t         , unit: mjd     , datatype: float32 , description: Time of measurement                                  }
+# - {name: t_wlo     , unit: d    , datatype: float32 , description: Lower width of time bin                                 }
+# - {name: t_wup     , unit: d    , datatype: float32 , description: Upper width of time bin                                 }
+# - {name: t_exp     , unit: h    , datatype: float32 , description: Exposure time                                           }
+# - {name: flux     , unit: cm-2 s-1, datatype: float32 , description: Flux measured above the energy threshold              }
+# - {name: flux_elo , unit: cm-2 s-1, datatype: float32 , description: Lower uncertainty of flux                             }
+# - {name: flux_eup , unit: cm-2 s-1, datatype: float32 , description: Upper uncertainty of flux                             }
+# - {name: eth_lo      , unit: GeV,      datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up      , unit: GeV,      datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, unit: latex   , datatype: string    , description: Instrument                                           }
+# - {name: dataformat, unit: latex   , datatype: string    , description: Data Format                                          }
+# - {name: comments  , unit: latex   , datatype: string    , description: Comments                                             }
+# meta: !!omap
+# - {Filename: magic_template_lc.ecsv}
+# - {Source: "VER 0521+211"}
+# - {Figure: "Figure 1, long term MWL light curve, panel 1"}
+# - {Title: "Time-dependent modelling of short-term variability in the TeV-blazar VER J0521+211 during the major flare in 2020"}
+# - {Comments: ""}
+# - {Reference: "magic_2025a.yaml"}
+# - {Status: "Checked"}
+
+srcname, t, t_wlo, t_wup, t_exp, flux, flux_elo, flux_eup, eth_lo, eth_up, instrument, dataformat, comments
+VER 0521+211, 56580.2072382449, , , , 6.97E-11, 6.63E-12, 6.63E-12, 200, , MAGIC, , MAGIC data are taken from ref https://doi.org/10.1051/0004-6361/202037811
+VER 0521+211, 56581.1970504, , , , 4.51E-11, 6.06E-12, 6.06E-12, 200, , MAGIC, , MAGIC data are taken from ref https://doi.org/10.1051/0004-6361/202037811
+VER 0521+211, 56625.0787226108, , , , 6.71E-11, 5.18E-12, 5.18E-12, 200, , MAGIC, , MAGIC data are taken from ref https://doi.org/10.1051/0004-6361/202037811
+VER 0521+211, 56627.9381799478, , , , 5.15E-11, 8.80E-12, 8.80E-12, 200, , MAGIC, , MAGIC data are taken from ref https://doi.org/10.1051/0004-6361/202037811
+VER 0521+211, 58904.879883, , , , 1.68E-10, 7.87E-12, 7.87E-12, 200, , MAGIC, , 
+VER 0521+211, 58905.881703, , , , 4.15E-11, 8.59E-12, 8.59E-12, 200, , MAGIC, , 
+VER 0521+211, 58906.9092, , , , 5.33E-11, 8.20E-12, 8.20E-12, 200, , MAGIC, , 
+VER 0521+211, 58907.852688, , , , 1.88E-10, 1.91E-11, 1.91E-11, 200, , MAGIC, , 
+VER 0521+211, 58908.853435, , , , 3.84E-10, 2.59E-11, 2.59E-11, 200, , MAGIC, , 
+VER 0521+211, 58909.853725, , , , 2.15E-10, 1.91E-11, 1.91E-11, 200, , MAGIC, , 
