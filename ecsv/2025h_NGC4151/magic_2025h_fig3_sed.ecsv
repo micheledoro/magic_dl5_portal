@@ -1,0 +1,31 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit: latex   , datatype: string     , description: Source name                         }
+# - {name: en        , unit: TeV     , datatype: float32 , description: Energy                              }
+# - {name: en_wlo    , unit: TeV     , datatype: float32 , description: Energy bin width low                }
+# - {name: en_wup    , unit: TeV     , datatype: float32 , description: Energy bin width up                 }
+# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Differential photon flux at energy  }
+# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
+# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
+# - {name: tstart    , unit: mjd     , datatype: float32 , description: MJD start                           }
+# - {name: tstop     , unit: mjd     , datatype: float32 , description: MJD stop                            }
+# - {name: texpo     , unit: h       , datatype: float32 , description: Observation time                    }
+# - {name: instrument, unit: latex   , datatype: string     , description: Instrument                          }
+# - {name: dataformat, unit: latex   , datatype: string     , description: Data Format                         }
+# - {name: comments  , unit: latex   , datatype: string     , description: Comments                            }
+# meta: !!omap
+# - {Filename: magic_2025_fig3_sed.ecsv}
+# - {Source: "NGC4151"}
+# - {Figure: "MAGIC upper limits derived assuming a power-law spectral index  = 2.0."}
+# - {Title: "Very-high-energy observations of the Seyfert galaxy NGC 4151 with MAGIC"}
+# - {Comments: "Figure 3 in the paper."}
+# - {Reference: "magic_2025h.yaml"}
+# - {Status: "Done"}
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+NGC4151,0.169,0.095,0.300,14.3e-13,nan,nan,nan,nan,29.12,MAGIC,ul,""
+NGC4151,0.533,0.300,0.949,5.1e-13,nan,nan,nan,nan,29.12,MAGIC,ul,""
+NGC4151,1.685,0.949,3.000,5.0e-13,nan,nan,nan,nan,29.12,MAGIC,ul,""
+NGC4151,5.332,3.000,9.487,3.8e-13,nan,nan,nan,nan,29.12,MAGIC,ul,""
