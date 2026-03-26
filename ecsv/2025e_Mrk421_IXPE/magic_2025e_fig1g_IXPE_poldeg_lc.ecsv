@@ -1,0 +1,94 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: srcname, datatype: string}
+# - {name: t, unit: mjd, datatype: float64, description: Time of measurement}
+# - {name: t_wlo, unit: d, datatype: float64, description: Lower width of time bin}
+# - {name: t_wup, unit: d, datatype: float64, description: Upper width of time bin}
+# - {name: t_exp, unit: h, datatype: float64, description: Exposure time}
+# - {name: flux, unit: '%', datatype: float64, description: Polarization degree measured in the energy range}
+# - {name: flux_elo, unit: '%', datatype: float64, description: Lower uncertainty of polarization degree}
+# - {name: flux_eup, unit: '%', datatype: float64, description: Upper uncertainty of polarization degree}
+# - {name: eth_lo, unit: keV, datatype: int64, description: Lower energy threshold for polarization calculation}
+# - {name: eth_up, unit: keV, datatype: int64, description: Upper energy threshold for polarization calculation}
+# - {name: instrument, datatype: string, description: Instrument}
+# - {name: dataformat, datatype: string, description: Data Format}
+# - {name: comments, datatype: string, description: Comments}
+# meta: !!omap
+# - {Filename: magic_2025e_fig1g_IXPE_lc.ecsv}
+# - {Source: Mrk 421}
+# - {Figure: Panel g of Figure 1 in the paper}
+# - {Title: Insights from the first flaring activity of a high synchrotron peaked blazar with X-ray polarization and VHE gamma rays}
+# - {Comments: 2-8 keV polarization from IXPE}
+# - {Reference: magic_2025e.yaml}
+# - {Status: Done}
+# schema: astropy-2.0
+srcname t t_wlo t_wup t_exp flux flux_elo flux_eup eth_lo eth_up instrument dataformat comments
+"Mrk 421" 60285.0411 0.0 0.0 6.0 6.47 3.89 3.89 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60285.2935 0.0 0.0 6.0 13.15 3.95 3.95 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60285.5459 0.0 0.0 6.0 10.3 3.75 3.75 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60285.7984 0.0 0.0 6.0 8.44 3.55 3.55 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60286.0508 0.0 0.0 6.0 8.5 3.79 3.79 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60286.3032 0.0 0.0 6.0 13.02 3.77 3.77 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60286.5556 0.0 0.0 6.0 20.36 3.92 3.92 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60286.8081 0.0 0.0 6.0 26.89 3.72 3.72 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60287.0605 0.0 0.0 6.0 11.8 3.91 3.91 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60287.3129 0.0 0.0 6.0 7.13 3.81 3.81 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60287.5653 0.0 0.0 6.0 14.33 3.83 3.83 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60287.8178 0.0 0.0 6.0 10.32 3.74 3.74 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60288.0702 0.0 0.0 6.0 10.94 4.21 4.21 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60288.3226 0.0 0.0 6.0 11.33 4.86 4.86 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60289.8372 0.0 0.0 6.0 29.64 10.97 10.97 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60290.0896 0.0 0.0 6.0 21.51 3.28 3.28 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60290.342 0.0 0.0 6.0 20.85 3.47 3.47 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60290.5944 0.0 0.0 6.0 22.98 3.12 3.12 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60290.8469 0.0 0.0 6.0 26.73 2.71 2.71 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60291.0993 0.0 0.0 6.0 22.92 3.21 3.21 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60291.3517 0.0 0.0 6.0 22.14 3.38 3.38 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60291.6041 0.0 0.0 6.0 17.82 3.37 3.37 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60291.8566 0.0 0.0 6.0 24.89 2.72 2.72 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60292.109 0.0 0.0 6.0 4.4 3.23 3.23 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60292.3614 0.0 0.0 6.0 5.81 3.14 3.14 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60292.6138 0.0 0.0 6.0 9.79 3.0 3.0 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60292.8663 0.0 0.0 6.0 2.93 3.99 3.99 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60294.3808 0.0 0.0 6.0 14.5 4.54 4.54 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60294.6332 0.0 0.0 6.0 12.31 3.01 3.01 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60294.8857 0.0 0.0 6.0 4.53 2.84 2.84 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60295.1381 0.0 0.0 6.0 6.26 2.92 2.92 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60295.3905 0.0 0.0 6.0 19.55 3.04 3.04 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60295.6429 0.0 0.0 6.0 22.74 2.87 2.87 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60295.8954 0.0 0.0 6.0 15.09 3.0 3.0 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60296.1478 0.0 0.0 6.0 13.51 3.14 3.14 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60296.4002 0.0 0.0 6.0 15.08 3.33 3.33 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60296.6526 0.0 0.0 6.0 15.85 2.99 2.99 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60296.9051 0.0 0.0 6.0 13.23 3.08 3.08 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60297.1575 0.0 0.0 6.0 4.61 3.5 3.5 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60297.4099 0.0 0.0 6.0 17.27 8.69 8.69 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60298.9245 0.0 0.0 6.0 9.28 3.2 3.2 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60299.1769 0.0 0.0 6.0 7.27 3.21 3.21 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60299.4293 0.0 0.0 6.0 12.31 3.16 3.16 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60299.6817 0.0 0.0 6.0 16.12 3.56 3.56 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60299.9342 0.0 0.0 6.0 13.09 3.36 3.36 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60300.1866 0.0 0.0 6.0 9.05 3.15 3.15 2 8 IXPE Detection 6_hours_integration
+"Mrk 421" 60285.1632 0.0 0.0 12.0 8.97 2.81 2.81 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60285.6599 0.0 0.0 12.0 9.41 2.59 2.59 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60286.1566 0.0 0.0 12.0 10.29 2.71 2.71 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60286.6534 0.0 0.0 12.0 22.88 2.7 2.7 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60287.1501 0.0 0.0 12.0 10.12 2.75 2.75 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60287.6468 0.0 0.0 12.0 11.24 2.69 2.69 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60288.1435 0.0 0.0 12.0 11.17 3.01 3.01 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60290.1303 0.0 0.0 12.0 19.82 2.55 2.55 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60290.627 0.0 0.0 12.0 25.87 2.16 2.16 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60291.1237 0.0 0.0 12.0 22.76 2.21 2.21 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60291.6204 0.0 0.0 12.0 22.85 2.24 2.24 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60292.1171 0.0 0.0 12.0 7.49 2.22 2.22 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60292.6138 0.0 0.0 12.0 6.86 2.1 2.1 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60294.6007 0.0 0.0 12.0 10.68 2.21 2.21 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60295.0974 0.0 0.0 12.0 6.29 2.07 2.07 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60295.5941 0.0 0.0 12.0 21.7 2.12 2.12 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60296.0908 0.0 0.0 12.0 14.43 2.21 2.21 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60296.5875 0.0 0.0 12.0 14.98 2.21 2.21 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60297.0842 0.0 0.0 12.0 7.65 2.4 2.4 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60299.071 0.0 0.0 12.0 6.17 2.25 2.25 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60299.5677 0.0 0.0 12.0 12.83 2.35 2.35 2 8 IXPE Detection 12_hours_integration
+"Mrk 421" 60300.0644 0.0 0.0 12.0 9.13 2.33 2.33 2 8 IXPE Detection 12_hours_integration

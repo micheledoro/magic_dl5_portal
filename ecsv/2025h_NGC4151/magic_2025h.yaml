@@ -1,23 +1,24 @@
 File_info:
- Fdate   = 20250818
+ Fdate   = 2026.03.18
  Fvers   = 1
- Fgen    = Stefano Marchesi stefano.marchesi@unibo.it
+ Fgen    = stefano.marchesi@unibo.it
  Fmail   = contact.magic@mpp.mpg.de 
  Flink   = <link_to_thisfile_repository>
  Fstatus = "Done"
 Paper info:
  Ptitle: "Very-high-energy observations of the Seyfert galaxy NGC 4151 with MAGIC - Indication of another gamma-ray obscured candidate neutrino source"
  Pref :  "Astron. and Astroph. 702, October 2025"
- Pdoi:   "0.1051/0004-6361/202554723"
+ Pdoi:   "10.1051/0004-6361/202554723"
  Parxiv: "https://arxiv.org/abs/2507.16527"
  Pcoll:  magic
  Pcauthor:  A. Lamastra; S. Mangano; S. Menon; E. Peretti
  Pfauthor: Abe, K.; Abe, S.; Abhir, J.; Abhishek, A.; Acciari, V.A.; Aguasca-Cabot, A.; Agudo, I.; Aniello, T.; Ansoldi, S.; Antonelli, L.A.; Arbet Engels, A.; Arcaro, C.; Arnesen, T.T.H.; Asano, K.; Babic, A.; Bakshi, C.; Barres de Almeida, U.; Barrio, J.A.; Barrios-Jimenez, L.; Batkovic, I.; Baxter, J.; Becerra Gonzalez, J.; Bednarek, W.; Bernardini, E.; Bernete, J.; Berti, A.; Besenrieder, J.; Bigongiari, C.; Biland, A.; Blanch, O.; Bonnoli, G.; Bovsnjak, vZ.; Bronzini, E.; Burelli, I.; Campoy-Ordaz, A.; Carosi, A.; Carosi, R.; Carretero-Castrillo, M.; Castro-Tirado, A.J.; Cerasole, D.; Ceribella, G.; Chai, Y.; Cifuentes, A.; Contreras, J.L.; Cortina, J.; Covino, S.; DAmico, G.; Da Vela, P.; Dazzi, F.; De Angelis, A.; De Lotto, B.; de Menezes, R.; Delfino, M.; Delgado, J.; Delgado Mendez, C.; Di Pierro, F.; Di Tria, R.; Di Venere, L.; Dinesh, A.; Dominis Prester, D.; Donini, A.; Dorner, D.; Doro, M.; Eisenberger, L.; Elsaesser, D.; Escudero, J.; Farina, L.; Foffano, L.; Font, L.; Frose, S.; Fukazawa, Y.; Garcia Lopez, R.J.; Garczarczyk, M.; Gasparyan, S.; Gaug, M.; Giesbrecht Paiva, J.G.; Giglietto, N.; Giordano, F.; Gliwny, P.; Godinovic, N.; Gradetzke, T.; Grau, R.; Green, D.; Green, J.G.; Gunther, P.; Hadasch, D.; Hahn, A.; Hassan, T.; Heckmann, L.; Herrera Llorente, J.; Hrupec, D.; Imazawa, R.; Israyelyan, D.; Jahanvi, J.; Jimenez Martinez, I.; Jimenez Quiles, J.; Jormanainen, J.; Kankkunen, S.; Kayanoki, T.; Konrad, J.; Kouch, P.M.; Kubo, H.; Kushida, J.; Lainez, M.; Lamastra, A.; Lindfors, E.; Lombardi, S.; Longo, F.; Lopez-Coto, R.; Lopez-Moya, M.; Lopez-Oramas, A.; Loporchio, S.; Lulic, L.; Lyard, E.; Majumdar, P.; Makariev, M.; Mallamaci, M.; Maneva, G.; Manganaro, M.; Mangano, S.; Mannheim, K.; Marchesi, S.; Mariotti, M.; Martinez, M.; Maruvsevec, P.; Mas-Aguilar, A.; Mazin, D.; Menchiari, S.; Mendez Gallego, J.; Menon, S.; Miceli, D.; Miranda, J.M.; Mirzoyan, R.; Molero Gonzalez, M.; Molina, E.; Mondal, H.A.; Moralejo, A.; Nakamori, T.; Nanci, C.; Neustroev, V.; Nickel, L.; Nievas Rosillo, M.; Nigro, C.; Nikolic, L.; Nilsson, K.; Nishijima, K.; Noda, K.; Nozaki, S.; Ohtani, Y.; Okumura, A.; Otero-Santos, J.; Paiano, S.; Paneque, D.; Paoletti, R.; Paredes, J.M.; Peresano, M.; Persic, M.; Pihet, M.; Pirola, G.; Podobnik, F.; Prada Moroni, P.G.; Prandini, E.; Rhode, W.; Ribo, M.; Rico, J.; Sahakyan, N.; Saito, T.; Saturni, F.G.; Schmitz, K.; Schmuckermaier, F.; Schubert, J.L.; Schweizer, T.; Sciaccaluga, A.; Silvestri, G.; Simongini, A.; Sitarek, J.; Sliusar, V.; Sobczynska, D.; Stamerra, A.; Strivskovic, J.; Strom, D.; Strzys, M.; Suda, Y.; Tajima, H.; Takahashi, M.; Takeishi, R.; Temnikov, P.; Terauchi, K.; Terzic, T.; Teshima, M.; Tutone, A.; Ubach, S.; van Scherpenberg, J.; Vazquez Acosta, M.; Ventura, S.; Verna, G.; Viale, I.; Vigliano, A.; Vigorito, C.F.; Visentin, E.
- Pads:    2025arXiv250716527A
+ Pads:    2025A%26A...702A..38A
  Pinspire : MAGIC:2025tlp
 Sources in file: 
  Tpname01: NGC 4151
- Taname01: 
+ Tra01  : 182.635417
+ Tdec01 : 39.4058333
 File list MAGIC:
  magic_2025h_fig2_sed.ecsv
  magic_2025h_fig3_sed.ecsv

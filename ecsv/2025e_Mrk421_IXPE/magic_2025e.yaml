@@ -1,0 +1,35 @@
+File_info:
+ Fdate   : 2026.03.18
+ Fvers   : 1.0
+ Fgen    : stefano.marchesi@unibo.it
+ Fmail   : contact.magic@mpp.mpg.de 
+ Flink   : <link_to_thisfile_repository>
+ Fstatus : "Done and checked"
+Paper info:
+ Ptitle: "Insights from the first flaring activity of a high synchrotron peaked blazar with X-ray polarization and VHE gamma rays"
+ Pref     : Astron.Astrophys. 695 (2025) A217
+ Pdoi     : 10.1051/0004-6361/202452785
+ Parxiv   : https://arxiv.org/abs/2410.23140
+ Pcoll    : magic
+ Pcauthor : Axel Arbet Engels, Lea Heckmann, David Paneque
+ Pfauthor : MAGIC Collaboration ;  Abe, K.; Abe, S.; Abhir, J.; Abhishek, A.; Acciari, V.A.; Aguasca-Cabot, A.; Agudo, I.; Aniello, T.; Ansoldi, S.; Antonelli, L.A.; Arbet Engels, A.; Arcaro, C.; Asano, K.; Babic, A.; Barres de Almeida, U.; Barrio, J.A.; Barrios-Jimenez, L.; Batkovic, I.; Baxter, J.; Becerra Gonzalez, J.; Bednarek, W.; Bernardini, E.; Bernete, J.; Berti, A.; Besenrieder, J.; Bigongiari, C.; Biland, A.; Blanch, O.; Bonnoli, G.; Bovsnjak, vZ.; Bronzini, E.; Burelli, I.; Campoy-Ordaz, A.; Carosi, A.; Carosi, R.; Carretero-Castrillo, M.; Castro-Tirado, A.J.; Cerasole, D.; Ceribella, G.; Chai, Y.; Chilingarian, A.; Cifuentes, A.; Colombo, E.; Contreras, J.L.; Cortina, J.; Covino, S.; D'Ammando, F.; D'Amico, G.; da Vela, P.; Dazzi, F.; de Angelis, A.; de Lotto, B.; de Menezes, R.; Delfino, M.; Delgado, J.; Delgado Mendez, C.; di Pierro, F.; di Tria, R.; di Venere, L.; Dinesh, A.; Dominis Prester, D.; Donini, A.; Dorner, D.; Doro, M.; Eisenberger, L.; Elsaesser, D.; Escudero, J.; Farina, L.; Foffano, L.; Font, L.; Frose, S.; Fukazawa, Y.; Garcia Lopez, R.J.; Garczarczyk, M.; Gasparyan, S.; Gaug, M.; Giesbrecht Paiva, J.G.; Giglietto, N.; Giordano, F.; Gliwny, P.; Godinovic, N.; Gradetzke, T.; Grau, R.; Green, D.; Green, J.G.; Gunther, P.; Hadasch, D.; Hahn, A.; Hassan, T.; Heckmann, L.; Herrera Llorente, J.; Hrupec, D.; Imazawa, R.; Israyelyan, D.; Itokawa, T.; Jimenez Martinez, I.; Jimenez Quiles, J.; Jormanainen, J.; Kankkunen, S.; Kayanoki, T.; Kerszberg, D.; Khachatryan, M.; Kluge, G.W.; Kobayashi, Y.; Konrad, J.; Kouch, P.M.; Kubo, H.; Kushida, J.; Lainez, M.; Lamastra, A.; Lindfors, E.; Lombardi, S.; Longo, F.; Lopez-Coto, R.; Lopez-Moya, M.; Lopez-Oramas, A.; Loporchio, S.; Lorini, A.; Lyard, E.; Majumdar, P.; Makariev, M.; Maneva, G.; Manganaro, M.; Mangano, S.; Mannheim, K.; Mariotti, M.; Martinez, M.; Maruvsevec, P.; Mas-Aguilar, A.; Mazin, D.; Menchiari, S.; Mender, S.; Miceli, D.; Miranda, J.M.; Mirzoyan, R.; Molero Gonzalez, M.; Molina, E.; Mondal, H.A.; Moralejo, A.; Nakamori, T.; Nanci, C.; Neustroev, V.; Nickel, L.; Nievas Rosillo, M.; Nigro, C.; Nikolic, L.; Nilsson, K.; Nishijima, K.; Njoh Ekoume, T.; Noda, K.; Nozaki, S.; Okumura, A.; Paiano, S.; Paneque, D.; Paoletti, R.; Paredes, J.M.; Peresano, M.; Persic, M.; Pihet, M.; Pirola, G.; Podobnik, F.; Prada Moroni, P.G.; Prandini, E.; Principe, G.; Rhode, W.; Ribo, M.; Rico, J.; Righi, C.; Sahakyan, N.; Saito, T.; Saturni, F.G.; Schmuckermaier, F.; Schubert, J.L.; Sciaccaluga, A.; Silvestri, G.; Sitarek, J.; Sliusar, V.; Sobczynska, D.; Stamerra, A.; Strivskovic, J.; Strom, D.; Strzys, M.; Suda, Y.; Tajima, H.; Takahashi, M.; Takeishi, R.; Temnikov, P.; Terauchi, K.; Terzic, T.; Teshima, M.; Truzzi, S.; Tutone, A.; Ubach, S.; van Scherpenberg, J.; Ventura, S.; Verna, G.; Viale, I.; Vigliano, A.; Vigorito, C.F.
+ Pads     : 2025A&A...695A.217M
+ Pinspire : MAGIC:2024mjz
+Targets in file: 
+ Tpname01: MRK421
+ Tra01:  166.1138
+ Tdec01: 38.20883
+File list MAGIC:
+ magic_2025e_fig1a_lc.ecsv
+ magic_2025e_fig1b_lc.ecsv
+Other Files:
+ magic_2025e_fig1c_Fermi-LAT_lc.ecsv
+ magic_2025e_fig1d_Swift-XRT_lc.ecsv
+ magic_2025e_fig1e_Swift-UVOT_rband_lc.ecsv
+ magic_2025e_fig1f_radio_lc.ecsv
+ magic_2025e_fig1g_IXPE_poldeg_lc.ecsv
+ magic_2025e_fig1g_Rband_poldeg_lc.ecsv
+ magic_2025e_fig1g_radio_poldeg_lc.ecsv
+ magic_2025e_fig1h_IXPE_polang_lc.ecsv
+ magic_2025e_fig1h_Rband_polang_lc.ecsv
+ magic_2025e_fig1h_radio_polang_lc.ecsv

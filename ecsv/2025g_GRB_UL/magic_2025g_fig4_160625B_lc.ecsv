@@ -1,0 +1,35 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname, unit: latex, datatype: str, description: Source name}
+# - {name: t, unit: mjd, datatype: float32, description: Time of measurement}
+# - {name: t_wlo, unit: d, datatype: float32, description: Lower width of time bin}
+# - {name: t_wup, unit: d, datatype: float32, description: Upper width of time bin}
+# - {name: t_exp, unit: h, datatype: float32, description: Exposure time}
+# - {name: flux, unit: erg/cm^2^/s, datatype: float32, description: Flux measured above the energy threshold}
+# - {name: flux_elo, unit: erg/cm^2^/s, datatype: float32, description: Lower uncertainty of flux}
+# - {name: flux_eup, unit: erg/cm^2^/s, datatype: float32, description: Upper uncertainty of flux}
+# - {name: eth_lo, unit: TeV, datatype: float32, description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up, unit: TeV, datatype: float32, description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, unit: latex, datatype: str, description: Instrument}
+# - {name: dataformat, unit: latex, datatype: str, description: Data Format}
+# - {name: comments, unit: latex, datatype: str, description: Comments}
+# meta: !!omap
+# - {Filename: magic_2025g_fig4_160625B.ecsv}
+# - {Source: "160625B"}
+# - {Figure: "Figure 4 in the paper, panel on GRB160625B"}
+# - {Title: "Testing the ubiquitous presence of very high energy emission in gamma-ray bursts with the MAGIC telescopes"}
+# - {Comments: "Only MAGIC data. Different ULs based on different photon index and EBL model"}
+# - {Reference: "magic_2025g.yaml"}
+# - {Status: "Done"}
+# schema: astropy 2.0
+srcname,t,t_wlo,t_wup,t_exp,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+160625B,57565.0597,0.080833,0.080833,3.8800,7.58E-10,0.0,0.0,200,625,MAGIC,UL,"EBL=Franceschini & Rodighiero (2018); Gamma=1.6"
+160625B,57565.0597,0.080833,0.080833,3.8800,5.11E-10,0.0,0.0,200,625,MAGIC,UL,"EBL=Franceschini & Rodighiero (2018); Gamma=2.2"
+160625B,57565.0597,0.080833,0.080833,3.8800,5.63E-09,0.0,0.0,200,625,MAGIC,UL,"EBL=Gilmore et al. (2012); Gamma=1.6"
+160625B,57565.0597,0.080833,0.080833,3.8800,3.59E-09,0.0,0.0,200,625,MAGIC,UL,"EBL=Gilmore et al. (2012); Gamma=2.2"
+160625B,57565.0258,0.046875,0.046875,2.2500,1.54E-10,0.0,0.0,110,625,MAGIC,UL,"EBL=Franceschini & Rodighiero (2018); Gamma=1.6"
+160625B,57565.0258,0.046875,0.046875,2.2500,9.50E-11,0.0,0.0,110,625,MAGIC,UL,"EBL=Franceschini & Rodighiero (2018); Gamma=2.2"
+160625B,57565.0258,0.046875,0.046875,2.2500,5.94E-10,0.0,0.0,110,625,MAGIC,UL,"EBL=Gilmore et al. (2012); Gamma=1.6"
+160625B,57565.0258,0.046875,0.046875,2.2500,3.45E-10,0.0,0.0,110,625,MAGIC,UL,"EBL=Gilmore et al. (2012); Gamma=2.2"

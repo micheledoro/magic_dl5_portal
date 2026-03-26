@@ -1,0 +1,114 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: srcname, datatype: string}
+# - {name: t, datatype: float64, description: Time of measurement}
+# - {name: t_wlo, unit: d, datatype: float64, description: Lower width of time bin}
+# - {name: t_wup, unit: d, datatype: float64, description: Upper width of time bin}
+# - {name: t_exp, unit: h, datatype: float64, description: Exposure time}
+# - {name: flux, unit: erg cm-2 s-1, datatype: float64, description: Flux measured in the energy range}
+# - {name: flux_elo, unit: erg cm-2 s-1, datatype: float64, description: Lower uncertainty of flux}
+# - {name: flux_eup, unit: erg cm-2 s-1, datatype: float64, description: Upper uncertainty of flux}
+# - {name: eth_lo, unit: keV, datatype: float64, description: Lower energy threshold for integral flux calculation}
+# - {name: eth_up, unit: keV, datatype: float64, description: Upper energy threshold for integral flux calculation}
+# - {name: instrument, datatype: string, description: Instrument}
+# - {name: dataformat, datatype: string, description: Data Format}
+# - {name: comments, datatype: string, description: Comments}
+# meta: !!omap
+# - {Filename: magic_2025e_fig1d_lc.ecsv}
+# - {Source: Mrk 421}
+# - {Figure: Panel d of Figure 1 in the paper}
+# - {Title: Insights from the first flaring activity of a high synchrotron peaked blazar with X-ray polarization and VHE gamma rays}
+# - {Comments: 'X-ray data from Swift-XRT'}
+# - {Reference: magic_2025e.yaml}
+# - {Status: Done}
+# schema: astropy-2.0
+srcname t t_wlo t_wup t_exp flux flux_elo flux_eup eth_lo eth_up instrument dataformat comments
+"Mrk 421" 60238.2249 0.0 0.0 0.0 1.1346e-09 6.2566e-12 6.2566e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60239.2145 0.0 0.0 0.0 1.1519e-09 6.7109e-12 6.7109e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60240.2068 0.0 0.0 0.0 1.1239e-09 7.3571e-12 7.3571e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60241.1435 0.0 0.0 0.0 1.4115e-09 6.9255e-12 6.9255e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60242.1991 0.0 0.0 0.0 1.0003e-09 6.2286e-12 6.2286e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60243.1896 0.0 0.0 0.0 7.1279e-10 5.5047e-12 5.5047e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60244.2395 0.0 0.0 0.0 9.6966e-10 7.8881e-12 7.8881e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60259.2297 0.0 0.0 0.0 8.6914e-10 6.3847e-12 6.3847e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60261.2055 0.0 0.0 0.0 7.3891e-10 5.7341e-12 5.7341e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60263.1832 0.0 0.0 0.0 8.0557e-10 6.6197e-12 6.6197e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60265.2348 0.0 0.0 0.0 5.7295e-10 7.3794e-12 7.3794e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60267.2137 0.0 0.0 0.0 8.4467e-10 5.8294e-12 5.8294e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60269.2617 0.0 0.0 0.0 5.9385e-10 5.895e-12 5.895e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60271.2402 0.0 0.0 0.0 5.5672e-10 6.8895e-12 6.8895e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60284.7556 0.0 0.0 0.0 7.4453e-10 6.5778e-12 6.5778e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60286.0089 0.0 0.0 0.0 7.7726e-10 8.3011e-12 8.3011e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60288.1854 0.0 0.0 0.0 7.0531e-10 6.424e-12 6.424e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60290.5074 0.0 0.0 0.0 8.3483e-10 1.026e-11 1.026e-11 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60291.0875 0.0 0.0 0.0 1.1711e-09 1.1256e-11 1.1256e-11 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60291.2317 0.0 0.0 0.0 1.0103e-09 7.2681e-12 7.2681e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60291.4958 0.0 0.0 0.0 7.1013e-10 7.0288e-12 7.0288e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60292.0773 0.0 0.0 0.0 9.3497e-10 7.6943e-12 7.6943e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60292.2115 0.0 0.0 0.0 1.0912e-09 9.5252e-12 9.5252e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60292.4741 0.0 0.0 0.0 1.1669e-09 7.6843e-12 7.6843e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60294.1869 0.0 0.0 0.0 9.5919e-10 7.7498e-12 7.7498e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60294.5238 0.0 0.0 0.0 1.0621e-09 7.4584e-12 7.4584e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60295.1832 0.0 0.0 0.0 1.2841e-09 8.1467e-12 8.1467e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60295.2486 0.0 0.0 0.0 1.2724e-09 9.6793e-12 9.6793e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60296.1671 0.0 0.0 0.0 1.2586e-09 1.0383e-11 1.0383e-11 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60296.5056 0.0 0.0 0.0 1.1152e-09 8.8579e-12 8.8579e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60298.1573 0.0 0.0 0.0 9.3391e-10 6.8418e-12 6.8418e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60298.6127 0.0 0.0 0.0 1.0715e-09 7.6265e-12 7.6265e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60299.2044 0.0 0.0 0.0 1.2562e-09 1.1606e-11 1.1606e-11 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60301.2421 0.0 0.0 0.0 1.3457e-09 9.1156e-12 9.1156e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60315.1091 0.0 0.0 0.0 6.1905e-10 6.4726e-12 6.4726e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60317.0875 0.0 0.0 0.0 3.6357e-10 6.0443e-12 6.0443e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60319.0642 0.0 0.0 0.0 4.7778e-10 7.5428e-12 7.5428e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60321.1798 0.0 0.0 0.0 6.5697e-10 7.6571e-12 7.6571e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60323.1562 0.0 0.0 0.0 9.219e-10 7.6863e-12 7.6863e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60327.1766 0.0 0.0 0.0 5.6432e-10 6.7693e-12 6.7693e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60328.3679 0.0 0.0 0.0 5.6693e-10 6.1421e-12 6.1421e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60329.1578 0.0 0.0 0.0 5.2381e-10 1.1073e-11 1.1073e-11 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60329.4745 0.0 0.0 0.0 4.1256e-10 1.0661e-11 1.0661e-11 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60331.2614 0.0 0.0 0.0 4.2187e-10 9.2258e-12 9.2258e-12 0.3 2.0 Swift-XRT Detection None
+"Mrk 421" 60238.2249 0.0 0.0 0.0 1.1212e-09 1.2618e-11 1.2618e-11 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60239.2145 0.0 0.0 0.0 9.9572e-10 1.2428e-11 1.2428e-11 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60240.2068 0.0 0.0 0.0 1.0431e-09 1.3718e-11 1.3718e-11 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60241.1435 0.0 0.0 0.0 1.289e-09 1.422e-11 1.422e-11 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60242.1991 0.0 0.0 0.0 6.5433e-10 9.3443e-12 9.3443e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60243.1896 0.0 0.0 0.0 3.3762e-10 6.2704e-12 6.2704e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60244.2395 0.0 0.0 0.0 4.8083e-10 9.2552e-12 9.2552e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60259.2297 0.0 0.0 0.0 4.8582e-10 8.6834e-12 8.6834e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60261.2055 0.0 0.0 0.0 4.072e-10 8.273e-12 8.273e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60263.1832 0.0 0.0 0.0 4.0775e-10 7.4825e-12 7.4825e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60265.2348 0.0 0.0 0.0 1.7183e-10 5.53e-12 5.53e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60267.2137 0.0 0.0 0.0 3.9118e-10 7.0417e-12 7.0417e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60269.2617 0.0 0.0 0.0 2.1248e-10 5.4194e-12 5.4194e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60271.2402 0.0 0.0 0.0 1.7719e-10 6.081e-12 6.081e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60284.7556 0.0 0.0 0.0 2.1907e-10 5.6706e-12 5.6706e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60286.0089 0.0 0.0 0.0 2.5145e-10 6.8929e-12 6.8929e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60288.1854 0.0 0.0 0.0 2.3352e-10 5.6199e-12 5.6199e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60290.5074 0.0 0.0 0.0 4.4411e-10 1.4242e-11 1.4242e-11 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60291.0875 0.0 0.0 0.0 4.497e-10 9.6465e-12 9.6465e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60291.2317 0.0 0.0 0.0 4.2459e-10 6.8718e-12 6.8718e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60291.4958 0.0 0.0 0.0 2.885e-10 6.3207e-12 6.3207e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60292.0773 0.0 0.0 0.0 3.819e-10 7.062e-12 7.062e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60292.2115 0.0 0.0 0.0 4.7567e-10 9.867e-12 9.867e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60292.4741 0.0 0.0 0.0 4.9803e-10 8.1842e-12 8.1842e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60294.1869 0.0 0.0 0.0 3.6266e-10 6.6317e-12 6.6317e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60294.5238 0.0 0.0 0.0 4.0763e-10 6.6316e-12 6.6316e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60295.1832 0.0 0.0 0.0 5.0234e-10 8.4749e-12 8.4749e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60295.2486 0.0 0.0 0.0 4.8987e-10 8.7253e-12 8.7253e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60296.1671 0.0 0.0 0.0 4.1342e-10 7.3834e-12 7.3834e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60296.5056 0.0 0.0 0.0 3.6803e-10 7.2831e-12 7.2831e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60298.1573 0.0 0.0 0.0 3.5846e-10 6.8519e-12 6.8519e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60298.6127 0.0 0.0 0.0 4.4507e-10 7.623e-12 7.623e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60299.2044 0.0 0.0 0.0 4.0682e-10 6.9927e-12 6.9927e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60301.2421 0.0 0.0 0.0 5.8338e-10 9.2057e-12 9.2057e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60315.1091 0.0 0.0 0.0 2.3453e-10 6.6413e-12 6.6413e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60317.0875 0.0 0.0 0.0 8.4739e-11 3.5509e-12 3.5509e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60319.0642 0.0 0.0 0.0 1.7487e-10 4.6683e-12 4.6683e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60321.1798 0.0 0.0 0.0 2.5572e-10 6.8919e-12 6.8919e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60323.1562 0.0 0.0 0.0 3.7779e-10 7.1425e-12 7.1425e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60327.1766 0.0 0.0 0.0 1.7954e-10 4.5281e-12 4.5281e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60328.3679 0.0 0.0 0.0 1.5531e-10 4.2182e-12 4.2182e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60329.1578 0.0 0.0 0.0 1.2382e-10 3.8875e-12 3.8875e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60329.4745 0.0 0.0 0.0 7.5581e-11 3.0604e-12 3.0604e-12 2.0 10.0 Swift-XRT Detection None
+"Mrk 421" 60331.2614 0.0 0.0 0.0 9.9098e-11 4.3182e-12 4.3182e-12 2.0 10.0 Swift-XRT Detection None

@@ -1,0 +1,64 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: srcname, datatype: string}
+# - {name: t, unit: mjd, datatype: float64, description: Time of measurement}
+# - {name: t_wlo, unit: d, datatype: float64, description: Lower width of time bin}
+# - {name: t_wup, unit: d, datatype: float64, description: Upper width of time bin}
+# - {name: t_exp, unit: h, datatype: float64, description: Exposure time}
+# - {name: flux, unit: deg, datatype: float64, description: Polarization angle measured in the energy range}
+# - {name: flux_elo, unit: deg, datatype: float64, description: Lower uncertainty of polarization angle}
+# - {name: flux_eup, unit: deg, datatype: float64, description: Upper uncertainty of polarization angle}
+# - {name: eth_lo, unit: GHz, datatype: float64, description: Lower energy threshold for polarization calculation}
+# - {name: eth_up, unit: GHz, datatype: float64, description: Upper energy threshold for polarization calculation}
+# - {name: instrument, datatype: string, description: Instrument}
+# - {name: dataformat, datatype: string, description: Data Format}
+# - {name: comments, datatype: string, description: Comments}
+# meta: !!omap
+# - {Filename: magic_2025e_fig1h_radio_lc.ecsv}
+# - {Source: Mrk 421}
+# - {Figure: Panel h of Figure 1 in the paper}
+# - {Title: Insights from the first flaring activity of a high synchrotron peaked blazar with X-ray polarization and VHE gamma rays}
+# - {Comments: Radio polarization angle}
+# - {Reference: magic_2025e.yaml}
+# - {Status: Done}
+# schema: astropy-2.0
+srcname t t_wlo t_wup t_exp flux flux_elo flux_eup eth_lo eth_up instrument dataformat comments
+"Mrk 421" 60240.3446 0.0 0.0 0.0 75.5 1.7 1.7 4.85 4.85 Effelsberg_100m Detection None
+"Mrk 421" 60261.1711 0.0 0.0 0.0 77.5 4.2 4.2 4.85 4.85 Effelsberg_100m Detection None
+"Mrk 421" 60264.0822 0.0 0.0 0.0 78.1 3.7 3.7 4.85 4.85 Effelsberg_100m Detection None
+"Mrk 421" 60275.0735 0.0 0.0 0.0 79.9 3.7 3.7 4.85 4.85 Effelsberg_100m Detection None
+"Mrk 421" 60285.0833 0.0 0.0 0.0 88.4 3.6 3.6 4.85 4.85 Effelsberg_100m Detection None
+"Mrk 421" 60290.221 0.0 0.0 0.0 87.9 2.8 2.8 4.85 4.85 Effelsberg_100m Detection None
+"Mrk 421" 60295.2519 0.0 0.0 0.0 92.9 3.0 3.0 4.85 4.85 Effelsberg_100m Detection None
+"Mrk 421" 60298.9963 0.0 0.0 0.0 99.7 3.1 3.1 4.85 4.85 Effelsberg_100m Detection None
+"Mrk 421" 60314.1121 0.0 0.0 0.0 91.1 4.1 4.1 4.85 4.85 Effelsberg_100m Detection None
+"Mrk 421" 60337.9464 0.0 0.0 0.0 99.2 3.5 3.5 4.85 4.85 Effelsberg_100m Detection None
+"Mrk 421" 60240.3214 0.0 0.0 0.0 101.5 7.6 7.6 10.45 10.45 Effelsberg_100m Detection None
+"Mrk 421" 60261.1593 0.0 0.0 0.0 115.5 8.0 8.0 10.45 10.45 Effelsberg_100m Detection None
+"Mrk 421" 60264.0576 0.0 0.0 0.0 98.0 13.5 13.5 10.45 10.45 Effelsberg_100m Detection None
+"Mrk 421" 60275.064 0.0 0.0 0.0 112.3 8.6 8.6 10.45 10.45 Effelsberg_100m Detection None
+"Mrk 421" 60285.0518 0.0 0.0 0.0 120.4 9.6 9.6 10.45 10.45 Effelsberg_100m Detection None
+"Mrk 421" 60290.1902 0.0 0.0 0.0 104.7 8.7 8.7 10.45 10.45 Effelsberg_100m Detection None
+"Mrk 421" 60295.2217 0.0 0.0 0.0 129.7 6.4 6.4 10.45 10.45 Effelsberg_100m Detection None
+"Mrk 421" 60298.9699 0.0 0.0 0.0 143.4 10.2 10.2 10.45 10.45 Effelsberg_100m Detection None
+"Mrk 421" 60314.1021 0.0 0.0 0.0 138.8 10.1 10.1 10.45 10.45 Effelsberg_100m Detection None
+"Mrk 421" 60337.9226 0.0 0.0 0.0 121.3 9.1 9.1 10.45 10.45 Effelsberg_100m Detection None
+"Mrk 421" 60240.584 0.0 0.0 0.0 119.6 4.4 4.4 14.25 14.25 Effelsberg_100m Detection None
+"Mrk 421" 60261.1667 0.0 0.0 0.0 121.3 5.5 5.5 14.25 14.25 Effelsberg_100m Detection None
+"Mrk 421" 60264.0629 0.0 0.0 0.0 128.4 4.9 4.9 14.25 14.25 Effelsberg_100m Detection None
+"Mrk 421" 60275.0695 0.0 0.0 0.0 117.1 3.2 3.2 14.25 14.25 Effelsberg_100m Detection None
+"Mrk 421" 60285.0584 0.0 0.0 0.0 122.6 3.5 3.5 14.25 14.25 Effelsberg_100m Detection None
+"Mrk 421" 60290.1965 0.0 0.0 0.0 137.1 2.6 2.6 14.25 14.25 Effelsberg_100m Detection None
+"Mrk 421" 60295.2282 0.0 0.0 0.0 139.3 2.6 2.6 14.25 14.25 Effelsberg_100m Detection None
+"Mrk 421" 60298.9783 0.0 0.0 0.0 134.7 4.5 4.5 14.25 14.25 Effelsberg_100m Detection None
+"Mrk 421" 60314.1078 0.0 0.0 0.0 138.2 4.3 4.3 14.25 14.25 Effelsberg_100m Detection None
+"Mrk 421" 60282.7354 0.0 0.0 0.0 141.79 5.84 5.84 225.5 225.5 SMA Detection None
+"Mrk 421" 60284.8199 0.0 0.0 0.0 135.45 1.79 1.79 225.5 225.5 SMA Detection None
+"Mrk 421" 60285.7931 0.0 0.0 0.0 156.23 3.37 3.37 225.5 225.5 SMA Detection None
+"Mrk 421" 60286.7915 0.0 0.0 0.0 144.72 2.04 2.04 225.5 225.5 SMA Detection None
+"Mrk 421" 60290.7849 0.0 0.0 0.0 151.08 2.1 2.1 225.5 225.5 SMA Detection None
+"Mrk 421" 60296.602 0.0 0.0 0.0 155.54 2.61 2.61 225.5 225.5 SMA Detection None
+"Mrk 421" 60301.5868 0.0 0.0 0.0 142.31 3.17 3.17 225.5 225.5 SMA Detection None
+"Mrk 421" 60311.7169 0.0 0.0 0.0 148.06 2.99 2.99 225.5 225.5 SMA Detection None
+"Mrk 421" 60333.6229 0.0 0.0 0.0 132.1 1.97 1.97 225.5 225.5 SMA Detection None

@@ -1,0 +1,33 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit: latex, datatype: string  , description: Source name                             }
+# - {name: t         , unit: mjd  , datatype: float32 , description: Time of measurement                     }
+# - {name: t_wlo     , unit: d    , datatype: float32 , description: Lower width of time bin                 }
+# - {name: t_wup     , unit: d    , datatype: float32 , description: Upper width of time bin                 }
+# - {name: t_exp     , unit: d    , datatype: float32 , description: Exposure time                           }
+# - {name: flux      , unit: cm-2 s-1   , datatype: float32 , description: Flux measured above the energy threshold}
+# - {name: flux_elo  , unit: cm-2 s-1   , datatype: float32 , description: Lower uncertainty of flux               }
+# - {name: flux_eup  , unit: cm-2 s-1   , datatype: float32 , description: Upper uncertainty of flux               }
+# - {name: eth_lo    , unit: GeV   , datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up    , unit: GeV   , datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, unit: latex, datatype: string  , description: Instrument                              }
+# - {name: dataformat, unit: latex, datatype: string  , description: Data Format                             }
+# - {name: comments  , unit: latex, datatype: string  , description: Comments                                }
+# meta: !!omap
+# - {Filename : "magic_2025f_fig3_lc.ecsv"}
+# - {Source   : "B2-1811+31"}
+# - {Figure   : "Fig. 3 Flare light-curve in a 70-day period surrounding MAGIC campaign"}
+# - {Title    : "Very-high-energy gamma-ray detection and long-term multi-wavelength view of the flaring blazar B2 1811+31"}
+# - {Comments : "Only MAGIC data above 135 GeV"}
+# - {Reference: "magic_2025f.yaml"}
+# - {Status   : "checked"}
+
+srcname,t,t_wlo,t_wup,t_exp,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+B2-1811+31,59126.9,0.0103806,0.0103806,0.0207612,3.55243e-11,1.50286e-11,1.50286e-11,135.0,1000.0,MAGIC,,
+B2-1811+31,59131.9,0.0595123,0.0595123,0.1190246,3.3186e-11,1.14521e-11,1.14521e-11,135.0,1000.0,MAGIC,,
+B2-1811+31,59127.9,0.01,0.01,0.02,3.37147e-11,0.0,0.0,135.0,1000.0,MAGIC,UL,
+B2-1811+31,59130.9,0.01,0.01,0.02,1.41426e-10,0.0,0.0,135.0,1000.0,MAGIC,UL,
+B2-1811+31,59132.9,0.01,0.01,0.02,6.17332e-11,0.0,0.0,135.0,1000.0,MAGIC,UL,
+

@@ -1,0 +1,42 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit: latex, datatype: string  , description: Source name                       }
+# - {name: en        , unit: GeV   , datatype: float32 , description: Energy                            }
+# - {name: en_wlo    , unit: GeV   , datatype: float32 , description: Energy bin width low              }
+# - {name: en_wup    , unit: GeV   , datatype: float32 , description: Energy bin width up               }
+# - {name: nufnu     , unit: erg cm-2 s-1   , datatype: float32 , description: Differential photon flux at energy}
+# - {name: nufnu_elo , unit: erg cm-2 s-1   , datatype: float32 , description: Lower uncertainty in nufnu        }
+# - {name: nufnu_eup , unit: erg cm-2 s-1   , datatype: float32 , description: Upper uncertainty in nufnu        }
+# - {name: tstart    , unit: mjd  , datatype: float32 , description: MJD start                         }
+# - {name: tstop     , unit: mjd  , datatype: float32 , description: MJD stop                          }
+# - {name: texpo     , unit: d    , datatype: float32 , description: Observation time                  }
+# - {name: instrument, unit: latex, datatype: string  , description: Instrument                        }
+# - {name: dataformat, unit: latex, datatype: string  , description: Data Format                       }
+# - {name: comments  , unit: latex, datatype: string  , description: Comments                          }
+# meta: !!omap
+# - {Filename:  "magic_2025f_fig10_sed.ecsv"}
+# - {Source:    "B2-1811+31"}
+# - {Figure:    "Fig. 10. Spectral energy distribution at HE and VHE gamma rays in Periods A and B"}
+# - {Title:     "Very-high-energy gamma-ray detection and long-term multi-wavelength view of the flaring blazar B2 1811+31"}
+# - {Comments:  ""}
+# - {Reference: "magic_2025f.yaml"}
+# - {Status:    "checked"}
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+B2-1811+31,0.31622776,0.21622777,0.6837722,3.120392e-11,8.212562e-12,9.389288e-12,59126.39,59128.39,0.0,Fermi-LAT,,
+B2-1811+31,3.1622777,2.1622777,6.8377223,1.9065147e-11,6.6728016e-12,6.6728016e-12,59126.39,59128.39,0.0,Fermi-LAT,,UL
+B2-1811+31,31.622776,21.622776,68.37722,6.678899e-11,2.3376147e-11,2.3376147e-11,59126.39,59128.39,0.0,Fermi-LAT,,UL
+B2-1811+31,0.001,0.001,0.001,1.6021767e-06,1.6021767e-06,1.6021767e-06,59126.39,59128.39,0.0,Fermi-LAT,,UL
+B2-1811+31,79.8124,15.761645,19.499306,4.5492707e-11,2.5859164e-11,2.5859164e-11,59126.84,59127.88,0.0,MAGIC,,
+B2-1811+31,123.75038,24.438679,30.233982,1.776988e-11,7.1981843e-12,7.1981843e-12,59126.84,59127.88,0.0,MAGIC,,
+B2-1811+31,0.31622776,0.21622777,0.6837722,6.958403e-12,4.9585986e-12,6.4568225e-12,59130.39,59133.39,0.0,Fermi-LAT,,
+B2-1811+31,3.1622777,2.1622777,6.8377223,4.0160257e-11,1.4593396e-11,1.7739152e-11,59130.39,59133.39,0.0,Fermi-LAT,,
+B2-1811+31,31.622776,21.622776,68.37722,4.903034e-11,3.7052264e-11,6.2226e-11,59130.39,59133.39,0.0,Fermi-LAT,,
+B2-1811+31,0.001,0.001,0.001,1.6021767e-06,1.6021767e-06,1.6021767e-06,59130.39,59133.39,0.0,Fermi-LAT,,UL
+B2-1811+31,54.806484,16.127361,19.871212,1.3409997e-10,9.029102e-11,9.029102e-11,59130.93,59132.91,0.0,MAGIC,,
+B2-1811+31,105.81475,31.137058,38.365303,1.2282887e-11,5.5104996e-12,5.5104996e-12,59130.93,59132.91,0.0,MAGIC,,
+B2-1811+31,204.29631,60.11625,74.07181,7.158979e-12,2.925841e-12,2.925841e-12,59130.93,59132.91,0.0,MAGIC,,
+B2-1811+31,394.43442,116.0663,143.01027,4.1099246e-12,2.1195884e-12,2.1195884e-12,59130.93,59132.91,0.0,MAGIC,,
+

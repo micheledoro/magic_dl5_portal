@@ -1,0 +1,42 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: srcname, datatype: string}
+# - {name: t, datatype: float64, description: Time of measurement}
+# - {name: t_wlo, unit: d, datatype: float64, description: Lower width of time bin}
+# - {name: t_wup, unit: d, datatype: float64, description: Upper width of time bin}
+# - {name: t_exp, unit: h, datatype: float64, description: Exposure time}
+# - {name: flux, unit: cm-2 s-1, datatype: float64, description: Flux measured in the energy range}
+# - {name: flux_elo, unit: cm-2 s-1, datatype: float64, description: Lower uncertainty of flux}
+# - {name: flux_eup, unit: cm-2 s-1, datatype: float64, description: Upper uncertainty of flux}
+# - {name: eth_lo, unit: TeV, datatype: int64, description: Lower energy threshold for integral flux calculation}
+# - {name: eth_up, unit: TeV, datatype: string, description: Upper energy threshold for integral flux calculation}
+# - {name: instrument, datatype: string, description: Instrument}
+# - {name: dataformat, datatype: string, description: Data Format}
+# - {name: comments, datatype: string, description: Comments}
+# meta: !!omap
+# - {Filename: magic_2025e_fig1a_lc.ecsv}
+# - {Source: Mrk 421}
+# - {Figure: Panel a (top one) of Figure 1 in the paper}
+# - {Title: Insights from the first flaring activity of a high synchrotron peaked blazar with X-ray polarization and VHE gamma rays}
+# - {Comments: 'VHE data from MAGIC, >1 TeV band'}
+# - {Reference: magic_2025e.yaml}
+# - {Status: Done}
+# schema: astropy-2.0
+srcname t t_wlo t_wup t_exp flux flux_elo flux_eup eth_lo eth_up instrument dataformat comments
+"Mrk 421" 60259.2376 0.0 0.0 0.0 3.1621e-11 2.9875e-12 2.9875e-12 1 null MAGIC Detection None
+"Mrk 421" 60261.2463 0.0 0.0 0.0 2.9484e-11 2.9787e-12 2.9787e-12 1 null MAGIC Detection None
+"Mrk 421" 60263.2485 0.0 0.0 0.0 1.3021e-11 2.2569e-12 2.2569e-12 1 null MAGIC Detection None
+"Mrk 421" 60267.2505 0.0 0.0 0.0 1.5905e-11 2.2214e-12 2.2214e-12 1 null MAGIC Detection None
+"Mrk 421" 60271.2448 0.0 0.0 0.0 6.918e-12 1.411e-12 1.411e-12 1 null MAGIC Detection None
+"Mrk 421" 60287.1606 0.0 0.0 0.0 1.8021e-11 2.2508e-12 2.2508e-12 1 null MAGIC Detection None
+"Mrk 421" 60288.1578 0.0 0.0 0.0 9.0637e-12 9.5234e-13 9.5234e-13 1 null MAGIC Detection None
+"Mrk 421" 60290.2162 0.0 0.0 0.0 2.085e-11 2.7488e-12 2.7488e-12 1 null MAGIC Detection None
+"Mrk 421" 60291.1721 0.0 0.0 0.0 2.3974e-11 1.0818e-12 1.0818e-12 1 null MAGIC Detection None
+"Mrk 421" 60292.1727 0.0 0.0 0.0 2.2397e-11 1.0223e-12 1.0223e-12 1 null MAGIC Detection None
+"Mrk 421" 60294.1623 0.0 0.0 0.0 1.6147e-11 1.3391e-12 1.3391e-12 1 null MAGIC Detection None
+"Mrk 421" 60295.1703 0.0 0.0 0.0 1.7486e-11 1.4794e-12 1.4794e-12 1 null MAGIC Detection None
+"Mrk 421" 60296.1892 0.0 0.0 0.0 1.0547e-11 1.9033e-12 1.9033e-12 1 null MAGIC Detection None
+"Mrk 421" 60299.1953 0.0 0.0 0.0 2.2977e-11 3.2591e-12 3.2591e-12 1 null MAGIC Detection None
+"Mrk 421" 60315.1096 0.0 0.0 0.0 7.0276e-12 1.8345e-12 1.8345e-12 1 null MAGIC Detection None
+"Mrk 421" 60319.1804 0.0 0.0 0.0 3.431e-12 1.4654e-12 1.4654e-12 1 null MAGIC Detection None

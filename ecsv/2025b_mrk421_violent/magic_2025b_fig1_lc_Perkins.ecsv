@@ -1,0 +1,40 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit: latex, datatype: string  , description: Source name                             }
+# - {name: t         , unit: mjd  , datatype: float32 , description: Time of measurement                     }
+# - {name: t_wlo     , unit: mjd    , datatype: float32 , description: Lower width of time bin                 }
+# - {name: t_wup     , unit: mjd    , datatype: float32 , description: Upper width of time bin                 }
+# - {name: t_exp     , unit: d    , datatype: float32 , description: Exposure time                           }
+# - {name: flux      , unit: deg   , datatype: float32 , description: Flux measured above the energy threshold}
+# - {name: flux_elo  , unit: deg   , datatype: float32 , description: Lower uncertainty of flux               }
+# - {name: flux_eup  , unit: deg   , datatype: float32 , description: Upper uncertainty of flux               }
+# - {name: eth_lo    , unit:    , datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up    , unit:    , datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, unit: latex, datatype: string  , description: Instrument                              }
+# - {name: dataformat, unit: latex, datatype: string  , description: Data Format                             }
+# - {name: comments  , unit: latex, datatype: string  , description: Comments                                }
+# meta: !!omap
+# - {Filename : "magic_2025b_fig1_Perkins_lc.ecsv"}
+# - {Source   : "Mrk 421"}
+# - {Figure   : "Fig. 1, multi-wavelength light-curve"}
+# - {Title    : "Characterization of Markarian 421 during its most violent year: Multiwavelength variability and correlations"}
+# - {Comments : ""}
+# - {Reference: "magic_2025b.yaml"}
+# - {Status   : "Checked"}
+
+srcname,t,t_wlo,t_wup,t_exp,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+Mrk 421,55278.2986,nan,nan,,6.54,1.13,1.13,,,Perkins,,R-band_%(PolarizationDegree)
+Mrk 421,55279.3024,nan,nan,,4.82,0.97,0.97,,,Perkins,,R-band_%(PolarizationDegree)
+Mrk 421,55294.2886,nan,nan,,10.8,1.44,1.44,,,Perkins,,R-band_%(PolarizationDegree)
+Mrk 421,55296.2412,nan,nan,,7.85,0.7,0.7,,,Perkins,,R-band_%(PolarizationDegree)
+Mrk 421,55298.2373,nan,nan,,6.85,0.36,0.36,,,Perkins,,R-band_%(PolarizationDegree)
+Mrk 421,55354.2134,nan,nan,,5.43,0.35,0.35,,,Perkins,,R-band_%(PolarizationDegree)
+Mrk 421,55355.2433,nan,nan,,5.05,1.24,1.24,,,Perkins,,R-band_%(PolarizationDegree)
+Mrk 421,55278.2986,nan,nan,,303.0,7.94,7.94,,,Perkins,,R-band_%(PolarizationAngle)
+Mrk 421,55279.3024,nan,nan,,304.0,9.23,9.23,,,Perkins,,R-band_%(PolarizationAngle)
+Mrk 421,55294.2886,nan,nan,,316.0,7.46,7.46,,,Perkins,,R-band_%(PolarizationAngle)
+Mrk 421,55296.2412,nan,nan,,304.0,4.83,4.83,,,Perkins,,R-band_%(PolarizationAngle)
+Mrk 421,55298.2373,nan,nan,,322.0,2.58,2.58,,,Perkins,,R-band_%(PolarizationAngle)
+Mrk 421,55354.2134,nan,nan,,327.0,2.9,2.9,,,Perkins,,R-band_%(PolarizationAngle)

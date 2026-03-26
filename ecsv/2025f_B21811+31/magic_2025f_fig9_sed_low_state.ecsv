@@ -1,0 +1,46 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit: latex, datatype: string  , description: Source name                       }
+# - {name: en        , unit: Hz   , datatype: float32 , description: Energy                            }
+# - {name: en_wlo    , unit: Hz   , datatype: float32 , description: Energy bin width low              }
+# - {name: en_wup    , unit: Hz   , datatype: float32 , description: Energy bin width up               }
+# - {name: nufnu     , unit: erg cm-2 s-1   , datatype: float32 , description: Differential photon flux at energy}
+# - {name: nufnu_elo , unit: erg cm-2 s-1   , datatype: float32 , description: Lower uncertainty in nufnu        }
+# - {name: nufnu_eup , unit: erg cm-2 s-1   , datatype: float32 , description: Upper uncertainty in nufnu        }
+# - {name: tstart    , unit: mjd  , datatype: float32 , description: MJD start                         }
+# - {name: tstop     , unit: mjd  , datatype: float32 , description: MJD stop                          }
+# - {name: texpo     , unit: d    , datatype: float32 , description: Observation time                  }
+# - {name: instrument, unit: latex, datatype: string  , description: Instrument                        }
+# - {name: dataformat, unit: latex, datatype: string  , description: Data Format                       }
+# - {name: comments  , unit: latex, datatype: string  , description: Comments                          }
+# meta: !!omap
+# - {Filename:  "magic_2025f_fig9_sed_low_state.ecsv"}
+# - {Source:    "B2-1811+31"}
+# - {Figure:    "Fig. 9. Classification based on the synchrotron peak frequency"}
+# - {Title:     "Very-high-energy gamma-ray detection and long-term multi-wavelength view of the flaring blazar B2 1811+31"}
+# - {Comments:  "Only low-state data"}
+# - {Reference: "magic_2025f.yaml"}
+# - {Status:    "checked"}
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+B2-1811+31,13630000000000.0,0.0,0.0,9.329e-13,1.2133e-13,1.2133e-13,0.0,0.0,0.0,WISE,,Low-state
+B2-1811+31,24980000000000.0,0.0,0.0,1.2278e-12,4.0609e-14,4.0609e-14,0.0,0.0,0.0,WISE,,Low-state
+B2-1811+31,65170000000000.0,0.0,0.0,2.5176e-12,6.7257e-14,6.7257e-14,0.0,0.0,0.0,WISE,,Low-state
+B2-1811+31,88170000000000.0,0.0,0.0,2.9596e-12,7.906e-14,7.906e-14,0.0,0.0,0.0,WISE,,Low-state
+B2-1811+31,13630000000000.0,0.0,0.0,1.0362e-12,1.4029e-13,1.4029e-13,0.0,0.0,0.0,WISE,,Low-state
+B2-1811+31,24980000000000.0,0.0,0.0,1.2403e-12,4.3071e-14,4.3071e-14,0.0,0.0,0.0,WISE,,Low-state
+B2-1811+31,65170000000000.0,0.0,0.0,2.6828e-12,6.7637e-14,6.7637e-14,0.0,0.0,0.0,WISE,,Low-state
+B2-1811+31,88170000000000.0,0.0,0.0,3.0876e-12,8.2481e-14,8.2481e-14,0.0,0.0,0.0,WISE,,Low-state
+B2-1811+31,548646670000000.0,0.0,0.0,5.021986e-12,3.306493e-13,3.306493e-13,0.0,0.0,0.0,Swift-UVOT,,Low-state V-filter
+B2-1811+31,683060100000000.0,0.0,0.0,5.218154e-12,2.107362e-13,2.107362e-13,0.0,0.0,0.0,Swift-UVOT,,Low-state B-filter
+B2-1811+31,865800850000000.0,0.0,0.0,4.891421e-12,1.5267506e-13,1.5267506e-13,0.0,0.0,0.0,Swift-UVOT,,Low-state U-filter
+B2-1811+31,1153846200000000.0,0.0,0.0,4.2867203e-12,2.275632e-13,2.275632e-13,0.0,0.0,0.0,Swift-UVOT,,Low-state W1-filter
+B2-1811+31,1335708000000000.0,0.0,0.0,4.6472444e-12,2.2679405e-13,2.2679405e-13,0.0,0.0,0.0,Swift-UVOT,,Low-state M2-filter
+B2-1811+31,1556016600000000.0,0.0,0.0,4.0541767e-12,1.9033496e-13,1.9033496e-13,0.0,0.0,0.0,Swift-UVOT,,Low-state W2-filter
+B2-1811+31,1.2089825e+17,4.8359296e+16,4.8359296e+16,1.6275841e-13,4.6173596e-14,4.6173596e-14,0.0,0.0,0.0,Swift-XRT,,Low-state
+B2-1811+31,2.2245278e+17,5.319523e+16,5.319523e+16,1.094594e-13,3.519262e-14,3.519262e-14,0.0,0.0,0.0,Swift-XRT,,Low-state
+B2-1811+31,3.8324746e+17,1.07599445e+17,1.07599445e+17,1.0077133e-13,3.097371e-14,3.097371e-14,0.0,0.0,0.0,Swift-XRT,,Low-state
+B2-1811+31,5.331613e+17,4.2314404e+16,4.2314404e+16,1.2181137e-13,8.7914546e-14,8.7914546e-14,0.0,0.0,0.0,Swift-XRT,,Low-state
+

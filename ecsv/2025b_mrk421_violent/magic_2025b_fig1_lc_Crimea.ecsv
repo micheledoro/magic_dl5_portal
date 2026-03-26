@@ -1,0 +1,125 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit: latex, datatype: string  , description: Source name                             }
+# - {name: t         , unit: mjd  , datatype: float32 , description: Time of measurement                     }
+# - {name: t_wlo     , unit: mjd    , datatype: float32 , description: Lower width of time bin                 }
+# - {name: t_wup     , unit: mjd    , datatype: float32 , description: Upper width of time bin                 }
+# - {name: t_exp     , unit: d    , datatype: float32 , description: Exposure time                           }
+# - {name: flux      , unit: deg   , datatype: float32 , description: Flux measured above the energy threshold}
+# - {name: flux_elo  , unit: deg   , datatype: float32 , description: Lower uncertainty of flux               }
+# - {name: flux_eup  , unit: deg   , datatype: float32 , description: Upper uncertainty of flux               }
+# - {name: eth_lo    , unit:    , datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up    , unit:    , datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, unit: latex, datatype: string  , description: Instrument                              }
+# - {name: dataformat, unit: latex, datatype: string  , description: Data Format                             }
+# - {name: comments  , unit: latex, datatype: string  , description: Comments                                }
+# meta: !!omap
+# - {Filename : "magic_2025b_fig1_Crimea_lc.ecsv"}
+# - {Source   : "Mrk 421"}
+# - {Figure   : "Fig. 1, multi-wavelength light-curve"}
+# - {Title    : "Characterization of Markarian 421 during its most violent year: Multiwavelength variability and correlations"}
+# - {Comments : ""}
+# - {Reference: "magic_2025b.yaml"}
+# - {Status   : "Checked"}
+
+srcname,t,t_wlo,t_wup,t_exp,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+Mrk 421,55217.957,nan,nan,,7.28,0.29,0.29,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55219.098,nan,nan,,6.87,0.257,0.257,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55219.117,nan,nan,,7.58,0.304,0.304,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55233.947,nan,nan,,3.73,0.075,0.075,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55241.977,nan,nan,,4.2,0.104,0.104,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55245.945,nan,nan,,4.11,0.298,0.298,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55251.103,nan,nan,,3.88,0.221,0.221,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55253.006,nan,nan,,4.01,0.319,0.319,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55253.818,nan,nan,,7.67,0.303,0.303,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55255.965,nan,nan,,1.05,0.332,0.332,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55264.785,nan,nan,,3.38,0.156,0.156,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55266.007,nan,nan,,10.8,0.211,0.211,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55269.989,nan,nan,,5.22,0.207,0.207,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55271.941,nan,nan,,6.27,0.126,0.126,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55277.863,nan,nan,,2.54,0.111,0.111,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55278.906,nan,nan,,0.278,0.185,0.185,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55280.035,nan,nan,,0.671,0.08,0.08,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55297.984,nan,nan,,2.96,0.162,0.162,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55298.883,nan,nan,,9.05,0.091,0.091,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55300.808,nan,nan,,5.85,0.134,0.134,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55300.879,nan,nan,,7.5,0.088,0.088,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55301.837,nan,nan,,5.73,0.147,0.147,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55302.868,nan,nan,,2.03,0.074,0.074,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55304.832,nan,nan,,6.88,0.059,0.059,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55304.881,nan,nan,,3.95,0.062,0.062,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55305.837,nan,nan,,5.11,0.063,0.063,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55305.879,nan,nan,,8.74,0.079,0.079,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55307.887,nan,nan,,3.8,0.109,0.109,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55311.891,nan,nan,,5.59,0.097,0.097,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55312.887,nan,nan,,5.79,0.126,0.126,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55313.883,nan,nan,,7.15,0.12,0.12,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55315.848,nan,nan,,8.5,0.138,0.138,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55316.915,nan,nan,,3.9,0.139,0.139,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55317.939,nan,nan,,10.6,0.138,0.138,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55318.828,nan,nan,,7.69,0.118,0.118,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55318.87,nan,nan,,6.64,0.116,0.116,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55319.879,nan,nan,,6.71,0.122,0.122,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55322.887,nan,nan,,4.32,0.225,0.225,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55329.965,nan,nan,,6.57,0.226,0.226,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55330.926,nan,nan,,2.94,0.134,0.134,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55331.902,nan,nan,,2.12,0.164,0.164,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55334.863,nan,nan,,6.0,0.202,0.202,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55337.886,nan,nan,,2.79,0.169,0.169,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55338.911,nan,nan,,2.52,0.194,0.194,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55340.915,nan,nan,,3.33,0.169,0.169,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55341.888,nan,nan,,1.43,0.15,0.15,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55343.882,nan,nan,,1.82,0.141,0.141,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55345.918,nan,nan,,8.58,0.138,0.138,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55363.839,nan,nan,,4.26,0.143,0.143,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55365.858,nan,nan,,7.09,0.084,0.084,,,Crimea,,R-band_%(PolarizationDegree)
+Mrk 421,55217.957,nan,nan,,129.0,1.59,1.59,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55219.098,nan,nan,,139.0,1.51,1.51,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55219.117,nan,nan,,133.0,1.6,1.6,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55233.947,nan,nan,,220.0,0.85,0.85,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55241.977,nan,nan,,348.0,0.868,0.868,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55245.945,nan,nan,,317.0,2.91,2.91,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55251.103,nan,nan,,363.0,2.5,2.5,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55253.006,nan,nan,,350.0,3.74,3.74,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55253.818,nan,nan,,270.0,1.59,1.59,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55264.785,nan,nan,,295.0,1.82,1.82,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55266.007,nan,nan,,293.0,0.867,0.867,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55269.989,nan,nan,,356.0,1.69,1.69,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55271.941,nan,nan,,311.0,0.782,0.782,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55277.863,nan,nan,,296.0,1.61,1.61,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55280.035,nan,nan,,359.0,4.48,4.48,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55297.984,nan,nan,,327.0,2.35,2.35,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55298.883,nan,nan,,350.0,0.489,0.489,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55300.808,nan,nan,,319.0,1.14,1.14,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55300.879,nan,nan,,331.0,0.433,0.433,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55301.837,nan,nan,,318.0,1.25,1.25,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55302.868,nan,nan,,319.0,1.63,1.63,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55304.832,nan,nan,,340.0,0.385,0.385,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55304.881,nan,nan,,321.0,0.72,0.72,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55305.837,nan,nan,,323.0,0.539,0.539,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55305.879,nan,nan,,337.0,0.351,0.351,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55307.887,nan,nan,,362.0,1.13,1.13,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55311.891,nan,nan,,349.0,0.734,0.734,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55312.887,nan,nan,,338.0,0.826,0.826,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55313.883,nan,nan,,324.0,0.745,0.745,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55315.848,nan,nan,,348.0,0.749,0.749,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55316.915,nan,nan,,369.0,1.65,1.65,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55317.939,nan,nan,,346.0,0.59,0.59,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55318.828,nan,nan,,341.0,0.702,0.702,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55318.87,nan,nan,,338.0,0.801,0.801,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55319.879,nan,nan,,342.0,0.83,0.83,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55322.887,nan,nan,,406.0,2.26,2.26,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55329.965,nan,nan,,369.0,1.26,1.26,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55330.926,nan,nan,,368.0,1.91,1.91,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55331.902,nan,nan,,382.0,3.37,3.37,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55334.863,nan,nan,,383.0,1.38,1.38,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55337.886,nan,nan,,246.0,2.79,2.79,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55338.911,nan,nan,,166.0,3.7,3.7,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55340.915,nan,nan,,242.0,2.39,2.39,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55341.888,nan,nan,,326.0,4.69,4.69,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55343.882,nan,nan,,289.0,3.22,3.22,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55345.918,nan,nan,,318.0,0.645,0.645,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55363.839,nan,nan,,341.0,1.55,1.55,,,Crimea,,R-band_%(PolarizationAngle)
+Mrk 421,55365.858,nan,nan,,358.0,0.563,0.563,,,Crimea,,R-band_%(PolarizationAngle)

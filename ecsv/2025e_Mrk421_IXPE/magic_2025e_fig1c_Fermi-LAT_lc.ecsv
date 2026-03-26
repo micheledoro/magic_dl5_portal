@@ -1,0 +1,67 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: srcname, datatype: string}
+# - {name: t, datatype: float64, description: Time of measurement}
+# - {name: t_wlo, unit: d, datatype: float64, description: Lower width of time bin}
+# - {name: t_wup, unit: d, datatype: float64, description: Upper width of time bin}
+# - {name: t_exp, unit: h, datatype: float64, description: Exposure time}
+# - {name: flux, unit: cm-2 s-1, datatype: float64, description: Flux measured in the energy range}
+# - {name: flux_elo, unit: cm-2 s-1, datatype: float64, description: Lower uncertainty of flux}
+# - {name: flux_eup, unit: cm-2 s-1, datatype: float64, description: Upper uncertainty of flux}
+# - {name: eth_lo, unit: GeV, datatype: float64, description: Lower energy threshold for integral flux calculation}
+# - {name: eth_up, unit: GeV, datatype: float64, description: Upper energy threshold for integral flux calculation}
+# - {name: instrument, datatype: string, description: Instrument}
+# - {name: dataformat, datatype: string, description: Data Format}
+# - {name: comments, datatype: string, description: Comments}
+# meta: !!omap
+# - {Filename: magic_2025e_fig1a_lc.ecsv}
+# - {Source: Mrk 421}
+# - {Figure: Panel c of Figure 1 in the paper}
+# - {Title: Insights from the first flaring activity of a high synchrotron peaked blazar with X-ray polarization and VHE gamma rays}
+# - {Comments: '0.3-300 GeV Fermi-LAT data'}
+# - {Reference: magic_2025e.yaml}
+# - {Status: Done}
+# schema: astropy-2.0
+srcname t t_wlo t_wup t_exp flux flux_elo flux_eup eth_lo eth_up instrument dataformat comments
+"Mrk 421" 60261.5001 0.0 0.0 0.0 7.6913e-8 1.9873e-8 1.9873e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60243.5001 0.0 0.0 0.0 1.1984e-7 2.1746e-8 2.1746e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60276.5001 0.0 0.0 0.0 1.1712e-7 1.8511e-8 1.8511e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60225.5001 0.0 0.0 0.0 7.5092e-8 1.6449e-8 1.6449e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60234.5001 0.0 0.0 0.0 9.5562e-8 1.5826e-8 1.5826e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60219.5001 0.0 0.0 0.0 1.0654e-7 2.2126e-8 2.2126e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60267.5001 0.0 0.0 0.0 6.0492e-8 1.5147e-8 1.5147e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60264.5001 0.0 0.0 0.0 8.8263e-8 1.9877e-8 1.9877e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60252.5001 0.0 0.0 0.0 7.7483e-8 1.6477e-8 1.6477e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60273.5001 0.0 0.0 0.0 9.5273e-8 1.5954e-8 1.5954e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60246.5001 0.0 0.0 0.0 1.2873e-7 2.4859e-8 2.4859e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60228.5001 0.0 0.0 0.0 1.1403e-7 1.8921e-8 1.8921e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60249.5001 0.0 0.0 0.0 8.0384e-8 2.1256e-8 2.1256e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60237.5001 0.0 0.0 0.0 6.4895e-8 1.6241e-8 1.6241e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60258.5001 0.0 0.0 0.0 9.3643e-8 2.1297e-8 2.1297e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60231.5001 0.0 0.0 0.0 1.0488e-7 1.8494e-8 1.8494e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60255.5001 0.0 0.0 0.0 1.315e-7 2.4171e-8 2.4171e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60240.5001 0.0 0.0 0.0 8.1061e-8 2.1828e-8 2.1828e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60279.5001 0.0 0.0 0.0 7.8149e-8 1.5978e-8 1.5978e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60270.5001 0.0 0.0 0.0 9.2641e-8 1.8234e-8 1.8234e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60222.5001 0.0 0.0 0.0 5.8822e-8 1.6557e-8 1.6557e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60288.5001 0.0 0.0 0.0 8.0319e-8 1.99e-8 1.99e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60285.5001 0.0 0.0 0.0 1.1624e-7 2.0753e-8 2.0753e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60297.5001 0.0 0.0 0.0 8.5441e-8 2.2125e-8 2.2125e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60282.5001 0.0 0.0 0.0 6.7858e-8 1.9525e-8 1.9525e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60300.5001 0.0 0.0 0.0 1.386e-7 2.3615e-8 2.3615e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60291.5001 0.0 0.0 0.0 1.1023e-7 2.5025e-8 2.5025e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60303.5001 0.0 0.0 0.0 8.0132e-8 1.9128e-8 1.9128e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60309.5001 0.0 0.0 0.0 1.1327e-7 2.2293e-8 2.2293e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60306.5001 0.0 0.0 0.0 1.0855e-7 2.22e-8 2.22e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60294.5001 0.0 0.0 0.0 9.7193e-8 2.0085e-8 2.0085e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60315.5001 0.0 0.0 0.0 5.2951e-8 2.606e-8 2.606e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60327.5001 0.0 0.0 0.0 8.0464e-8 2.7984e-8 2.7984e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60330.5001 0.0 0.0 0.0 9.9177e-8 2.9576e-8 2.9576e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60312.5001 0.0 0.0 0.0 5.1329e-8 2.2722e-8 2.2722e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60318.5001 0.0 0.0 0.0 3.5682e-8 1.3197e-8 1.3197e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60324.5001 0.0 0.0 0.0 5.1984e-8 2.2372e-8 2.2372e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60321.5001 0.0 0.0 0.0 1.0585e-7 2.2225e-8 2.2225e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60333.5001 0.0 0.0 0.0 1.0295e-7 2.5584e-8 2.5584e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60336.5001 0.0 0.0 0.0 7.0709e-8 2.2344e-8 2.2344e-8 0.3 300 Fermi-LAT Detection None
+"Mrk 421" 60339.5001 0.0 0.0 0.0 9.8038e-8 2.317e-8 2.317e-8 0.3 300 Fermi-LAT Detection None

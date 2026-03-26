@@ -1,0 +1,52 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit: latex, datatype: string  , description: Source name                             }
+# - {name: t         , unit: mjd  , datatype: float32 , description: Time of measurement                     }
+# - {name: t_wlo     , unit: mjd    , datatype: float32 , description: Lower width of time bin                 }
+# - {name: t_wup     , unit: mjd    , datatype: float32 , description: Upper width of time bin                 }
+# - {name: t_exp     , unit: d    , datatype: float32 , description: Exposure time                           }
+# - {name: flux      , unit: Jy   , datatype: float32 , description: Flux measured above the energy threshold}
+# - {name: flux_elo  , unit: Jy   , datatype: float32 , description: Lower uncertainty of flux               }
+# - {name: flux_eup  , unit: Jy   , datatype: float32 , description: Upper uncertainty of flux               }
+# - {name: eth_lo    , unit: GHz   , datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up    , unit: GHz   , datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, unit: latex, datatype: string  , description: Instrument                              }
+# - {name: dataformat, unit: latex, datatype: string  , description: Data Format                             }
+# - {name: comments  , unit: latex, datatype: string  , description: Comments                                }
+# meta: !!omap
+# - {Filename : "magic_2025b_fig1_SMA_lc.ecsv"}
+# - {Source   : "Mrk 421"}
+# - {Figure   : "Fig. 1, multi-wavelength light-curve"}
+# - {Title    : "Characterization of Markarian 421 during its most violent year: Multiwavelength variability and correlations"}
+# - {Comments : ""}
+# - {Reference: "magic_2025b.yaml"}
+# - {Status   : "Checked"}
+
+srcname,t,t_wlo,t_wup,t_exp,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+Mrk 421,55149.594,nan,nan,,0.24,0.022,0.022,230.0,230.0,SMA,,
+Mrk 421,55152.672,nan,nan,,0.215,0.036,0.036,230.0,230.0,SMA,,
+Mrk 421,55153.754,nan,nan,,0.263,0.042,0.042,230.0,230.0,SMA,,
+Mrk 421,55172.7617,nan,nan,,0.242,0.028,0.028,230.0,230.0,SMA,,
+Mrk 421,55185.5273,nan,nan,,0.251,0.028,0.028,230.0,230.0,SMA,,
+Mrk 421,55193.7344,nan,nan,,0.258,0.028,0.028,230.0,230.0,SMA,,
+Mrk 421,55202.582,nan,nan,,0.306,0.029,0.029,230.0,230.0,SMA,,
+Mrk 421,55226.5742,nan,nan,,0.296,0.029,0.029,230.0,230.0,SMA,,
+Mrk 421,55231.3672,nan,nan,,0.301,0.03,0.03,230.0,230.0,SMA,,
+Mrk 421,55231.5742,nan,nan,,0.285,0.029,0.029,230.0,230.0,SMA,,
+Mrk 421,55241.6094,nan,nan,,0.263,0.028,0.028,230.0,230.0,SMA,,
+Mrk 421,55247.6289,nan,nan,,0.266,0.028,0.028,230.0,230.0,SMA,,
+Mrk 421,55263.4062,nan,nan,,0.253,0.028,0.028,230.0,230.0,SMA,,
+Mrk 421,55264.332,nan,nan,,0.275,0.03,0.03,230.0,230.0,SMA,,
+Mrk 421,55273.4805,nan,nan,,0.278,0.029,0.029,230.0,230.0,SMA,,
+Mrk 421,55274.4844,nan,nan,,0.279,0.029,0.029,230.0,230.0,SMA,,
+Mrk 421,55281.457,nan,nan,,0.251,0.028,0.028,230.0,230.0,SMA,,
+Mrk 421,55285.48,nan,nan,,0.227,0.015,0.015,230.0,230.0,SMA,,
+Mrk 421,55286.2695,nan,nan,,0.244,0.028,0.028,230.0,230.0,SMA,,
+Mrk 421,55312.2617,nan,nan,,0.235,0.028,0.028,230.0,230.0,SMA,,
+Mrk 421,55319.2812,nan,nan,,0.246,0.028,0.028,230.0,230.0,SMA,,
+Mrk 421,55352.2188,nan,nan,,0.368,0.031,0.031,230.0,230.0,SMA,,
+Mrk 421,55355.1836,nan,nan,,0.334,0.073,0.073,230.0,230.0,SMA,,
+Mrk 421,55362.2148,nan,nan,,0.333,0.032,0.032,230.0,230.0,SMA,,
+Mrk 421,55366.1797,nan,nan,,0.309,0.031,0.031,230.0,230.0,SMA,,

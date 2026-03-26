@@ -1,0 +1,45 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit: latex, datatype: string  , description: Source name                       }
+# - {name: en        , unit: Hz   , datatype: float32 , description: Energy                            }
+# - {name: en_wlo    , unit: Hz   , datatype: float32 , description: Energy bin width low              }
+# - {name: en_wup    , unit: Hz   , datatype: float32 , description: Energy bin width up               }
+# - {name: nufnu     , unit: erg cm-2 s-1   , datatype: float32 , description: Differential photon flux at energy}
+# - {name: nufnu_elo , unit: erg cm-2 s-1   , datatype: float32 , description: Lower uncertainty in nufnu        }
+# - {name: nufnu_eup , unit: erg cm-2 s-1   , datatype: float32 , description: Upper uncertainty in nufnu        }
+# - {name: tstart    , unit: mjd  , datatype: float32 , description: MJD start                         }
+# - {name: tstop     , unit: mjd  , datatype: float32 , description: MJD stop                          }
+# - {name: texpo     , unit: d    , datatype: float32 , description: Observation time                  }
+# - {name: instrument, unit: latex, datatype: string  , description: Instrument                        }
+# - {name: dataformat, unit: latex, datatype: string  , description: Data Format                       }
+# - {name: comments  , unit: latex, datatype: string  , description: Comments                          }
+# meta: !!omap
+# - {Filename:  "magic_2025f_fig9_sed_high_state.ecsv"}
+# - {Source:    "B2-1811+31"}
+# - {Figure:    "Fig. 9. Classification based on the synchrotron peak frequency"}
+# - {Title:     "Very-high-energy gamma-ray detection and long-term multi-wavelength view of the flaring blazar B2 1811+31"}
+# - {Comments:  "Only high-state data"}
+# - {Reference: "magic_2025f.yaml"}
+# - {Status:    "checked"}
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+B2-1811+31,548646670000000.0,0.0,0.0,1.4889341e-11,4.5692004e-13,4.5692004e-13,0.0,0.0,0.0,Swift-UVOT,,High-state V-filter
+B2-1811+31,683060100000000.0,0.0,0.0,1.6200069e-11,4.010949e-13,4.010949e-13,0.0,0.0,0.0,Swift-UVOT,,High-state B-filter
+B2-1811+31,865800850000000.0,0.0,0.0,1.5901388e-11,4.963272e-13,4.963272e-13,0.0,0.0,0.0,Swift-UVOT,,High-state U-filter
+B2-1811+31,1153846200000000.0,0.0,0.0,1.6600653e-11,7.043291e-13,7.043291e-13,0.0,0.0,0.0,Swift-UVOT,,High-state W1-filter
+B2-1811+31,1335708000000000.0,0.0,0.0,1.8331395e-11,6.7693615e-13,6.7693615e-13,0.0,0.0,0.0,Swift-UVOT,,High-state M2-filter
+B2-1811+31,1556016600000000.0,0.0,0.0,1.659215e-11,7.000139e-13,7.000139e-13,0.0,0.0,0.0,Swift-UVOT,,High-state W2-filter
+B2-1811+31,9.67186e+16,2.4179648e+16,2.4179648e+16,5.896877e-12,6.2959636e-13,6.2959636e-13,0.0,0.0,0.0,Swift-XRT,,High-state
+B2-1811+31,1.450779e+17,2.4179648e+16,2.4179648e+16,4.086874e-12,5.0334595e-13,5.0334595e-13,0.0,0.0,0.0,Swift-XRT,,High-state
+B2-1811+31,1.934372e+17,2.4179648e+16,2.4179648e+16,4.4473015e-12,4.943292e-13,4.943292e-13,0.0,0.0,0.0,Swift-XRT,,High-state
+B2-1811+31,2.4421447e+17,2.6597618e+16,2.6597618e+16,3.3694117e-12,4.0583395e-13,4.0583395e-13,0.0,0.0,0.0,Swift-XRT,,High-state
+B2-1811+31,2.974097e+17,2.6597618e+16,2.6597618e+16,3.49789e-12,4.3936507e-13,4.3936507e-13,0.0,0.0,0.0,Swift-XRT,,High-state
+B2-1811+31,3.506049e+17,2.6597605e+16,2.6597605e+16,2.5827218e-12,4.266928e-13,4.266928e-13,0.0,0.0,0.0,Swift-XRT,,High-state
+B2-1811+31,4.0984506e+17,3.264254e+16,3.264254e+16,3.1863334e-12,5.205848e-13,5.205848e-13,0.0,0.0,0.0,Swift-XRT,,High-state
+B2-1811+31,4.7271214e+17,3.0224548e+16,3.0224548e+16,4.268222e-12,7.693808e-13,7.693808e-13,0.0,0.0,0.0,Swift-XRT,,High-state
+B2-1811+31,5.6096788e+17,5.8031163e+16,5.8031163e+16,3.0023427e-12,5.893175e-13,5.893175e-13,0.0,0.0,0.0,Swift-XRT,,High-state
+B2-1811+31,8.148542e+17,1.9585515e+17,1.9585515e+17,1.5298316e-12,3.173007e-13,3.173007e-13,0.0,0.0,0.0,Swift-XRT,,High-state
+B2-1811+31,1.312955e+18,3.022456e+17,3.022456e+17,1.0211967e-12,3.768401e-13,3.768401e-13,0.0,0.0,0.0,Swift-XRT,,High-state
+

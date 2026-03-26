@@ -1,0 +1,56 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit: latex, datatype: string  , description: Source name                       }
+# - {name: en        , unit: MeV   , datatype: float32 , description: Energy                            }
+# - {name: en_wlo    , unit: MeV   , datatype: float32 , description: Energy bin width low              }
+# - {name: en_wup    , unit: MeV   , datatype: float32 , description: Energy bin width up               }
+# - {name: nufnu     , unit: MeV cm-2 s-1   , datatype: float32 , description: Differential photon flux at energy}
+# - {name: nufnu_elo , unit: MeV cm-2 s-1   , datatype: float32 , description: Lower uncertainty in nufnu        }
+# - {name: nufnu_eup , unit: MeV cm-2 s-1   , datatype: float32 , description: Upper uncertainty in nufnu        }
+# - {name: tstart    , unit: mjd  , datatype: float32 , description: MJD start                         }
+# - {name: tstop     , unit: mjd  , datatype: float32 , description: MJD stop                          }
+# - {name: texpo     , unit: d    , datatype: float32 , description: Observation time                  }
+# - {name: instrument, unit: latex, datatype: string  , description: Instrument                        }
+# - {name: dataformat, unit: latex, datatype: string  , description: Data Format                       }
+# - {name: comments  , unit: latex, datatype: string  , description: Comments                          }
+# meta: !!omap
+# - {Filename:  "magic_2025f_fig4_sed_Fermi.ecsv"}
+# - {Source:    "B2-1811+31"}
+# - {Figure:    "Fig. 4 High-energy gamma-ray spectral energy distribution evolution"}
+# - {Title:     "Very-high-energy gamma-ray detection and long-term multi-wavelength view of the flaring blazar B2 1811+31"}
+# - {Comments:  "Fermi-LAT spectrum in the pre-flare, flare and post-flare periods"}
+# - {Reference: "magic_2025f.yaml"}
+# - {Status:    "checked"}
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+B2-1811+31,133.35214,33.352142,44.4758,8.4989415e-06,1.2363183e-06,1.2617821e-06,54682.0,58940.0,4258.0,Fermi-LAT,,
+B2-1811+31,237.13737,59.30943,79.09039,8.181846e-06,9.545308e-07,9.785238e-07,54682.0,58940.0,4258.0,Fermi-LAT,,
+B2-1811+31,421.6965,105.468735,140.64482,1.0313447e-05,9.16215e-07,9.4964804e-07,54682.0,58940.0,4258.0,Fermi-LAT,,
+B2-1811+31,749.8942,187.55289,250.10579,9.971708e-06,8.9996735e-07,9.550668e-07,54682.0,58940.0,4258.0,Fermi-LAT,,
+B2-1811+31,1333.5215,333.52142,444.75797,1.2575813e-05,1.087763e-06,1.167197e-06,54682.0,58940.0,4258.0,Fermi-LAT,,
+B2-1811+31,2371.3738,593.0943,790.90393,1.5020798e-05,1.4173696e-06,1.5346734e-06,54682.0,58940.0,4258.0,Fermi-LAT,,
+B2-1811+31,4216.965,1054.6874,1406.4482,1.3986357e-05,1.7380521e-06,1.8930092e-06,54682.0,58940.0,4258.0,Fermi-LAT,,
+B2-1811+31,7498.942,1875.5288,2501.0579,1.4860581e-05,2.2768456e-06,2.5832958e-06,54682.0,58940.0,4258.0,Fermi-LAT,,
+B2-1811+31,17782.795,7782.794,13839.982,2.3896482e-05,3.0444132e-06,3.4008613e-06,54682.0,58940.0,4258.0,Fermi-LAT,,
+B2-1811+31,56234.133,24611.355,43765.867,2.2010425e-05,4.9441383e-06,5.7213506e-06,54682.0,58940.0,4258.0,Fermi-LAT,,
+B2-1811+31,177827.94,77827.94,138399.83,8.261114e-06,4.8958095e-06,6.8447725e-06,54682.0,58940.0,4258.0,Fermi-LAT,,
+B2-1811+31,562341.3,246113.56,437658.7,1.3599622e-05,1.0205181e-05,1.7133993e-05,54682.0,58940.0,4258.0,Fermi-LAT,,
+B2-1811+31,177.82794,77.82794,138.39983,1.8018333e-06,3.804731e-07,3.858479e-07,58940.0,59190.0,250.0,Fermi-LAT,,
+B2-1811+31,562.3413,246.11356,437.65866,1.8090165e-06,2.5015865e-07,2.5805255e-07,58940.0,59190.0,250.0,Fermi-LAT,,
+B2-1811+31,1778.2794,778.2794,1383.9983,1.8569818e-06,2.4067458e-07,2.5822516e-07,58940.0,59190.0,250.0,Fermi-LAT,,
+B2-1811+31,5623.413,2461.1355,4376.587,1.5499413e-06,2.8828381e-07,3.232463e-07,58940.0,59190.0,250.0,Fermi-LAT,,
+B2-1811+31,17782.795,7782.794,13839.982,1.8102104e-06,4.944242e-07,5.8322223e-07,58940.0,59190.0,250.0,Fermi-LAT,,
+B2-1811+31,56234.133,24611.355,43765.867,1.2823411e-06,6.4012545e-07,8.4220454e-07,58940.0,59190.0,250.0,Fermi-LAT,,
+B2-1811+31,177827.94,77827.94,138399.83,1.3706865e-06,1.0311857e-06,1.7345809e-06,58940.0,59190.0,250.0,Fermi-LAT,,
+B2-1811+31,562341.3,246113.56,437658.7,6.050076e-06,1.512519e-06,1.512519e-06,58940.0,59190.0,250.0,Fermi-LAT,UL,
+B2-1811+31,177.82794,77.82794,138.39983,1.7027867e-06,1.7310717e-07,1.7457675e-07,59190.0,59945.0,755.0,Fermi-LAT,,
+B2-1811+31,562.3413,246.11356,437.65866,1.4605096e-06,1.083192e-07,1.0964444e-07,59190.0,59945.0,755.0,Fermi-LAT,,
+B2-1811+31,1778.2794,778.2794,1383.9983,1.4225087e-06,9.9016326e-08,1.0248827e-07,59190.0,59945.0,755.0,Fermi-LAT,,
+B2-1811+31,5623.413,2461.1355,4376.587,1.1350322e-06,1.1506926e-07,1.2484008e-07,59190.0,59945.0,755.0,Fermi-LAT,,
+B2-1811+31,17782.795,7782.794,13839.982,1.1453459e-06,1.8060864e-07,2.0164728e-07,59190.0,59945.0,755.0,Fermi-LAT,,
+B2-1811+31,56234.133,24611.355,43765.867,6.778941e-07,2.2497011e-07,2.7515014e-07,59190.0,59945.0,755.0,Fermi-LAT,,
+B2-1811+31,177827.94,77827.94,138399.83,3.8500764e-07,9.625191e-08,9.625191e-08,59190.0,59945.0,755.0,Fermi-LAT,UL,
+B2-1811+31,562341.3,246113.56,437658.7,1.2081542e-06,3.0203856e-07,3.0203856e-07,59190.0,59945.0,755.0,Fermi-LAT,UL,
+

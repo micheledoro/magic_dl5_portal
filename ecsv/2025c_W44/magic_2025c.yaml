@@ -1,0 +1,27 @@
+File_info:
+ Fdate   : 2026.03.18
+ Fvers   : 1
+ Fgen    : Ilaria Viale, iviale@to.infn.it
+ Fmail   : contact.magic@mpp.mpg.de
+ Flink   : <link_to_thisfile_repository>
+ Fstatus : "Done"
+Paper info:
+ Ptitle   : "Cosmic-ray acceleration and escape from supernova remnant W44 as probed by Fermi-LAT and MAGIC"
+ Pref     : A&A, 693, A255 (2025)
+ Pdoi     : 10.1051/0004-6361/202449748
+ Parxiv   : https://arxiv.org/pdf/2501.03889
+ Pcoll    : magic
+ Pcauthor : A Hahn, R. Di Tria, L. Di Venere, G. Morlino
+ Pfauthor : Abe, S.; Abhir, J.; Abhishek, A.; Acciari, V.A.; Aguasca-Cabot, A.; Agudo, I.; Aniello, T.; Ansoldi, S.; Antonelli, L.A.; Arbet Engels, A.; Arcaro, C.; Asano, K.; Babic, A.; Baquero, A.; Barres de Almeida, U.; Barrio, J.A.; Batkovic, I.; Bautista, A.; Baxter, J.; Becerra Gonzalez, J.; Bednarek, W.; Bernardini, E.; Bernete, J.; Berti, A.; Besenrieder, J.; Bigongiari, C.; Biland, A.; Blanch, O.; Bonnoli, G.; Bovsnjak, vZ.; Bronzini, E.; Burelli, I.; Busetto, G.; Campoy-Ordaz, A.; Carosi, A.; Carosi, R.; Carretero-Castrillo, M.; Castro-Tirado, A.J.; Cerasole, D.; Ceribella, G.; Chai, Y.; Chilingarian, A.; Cifuentes, A.; Colombo, E.; Contreras, J.L.; Cortina, J.; Covino, S.; D'Amico, G.; D'Elia, V.; Da Vela, P.; Dazzi, F.; De Angelis, A.; De Lotto, B.; de Menezes, R.; Del Popolo, A.; Delfino, M.; Delgado, J.; Delgado Mendez, C.; Di Pierro, F.; Dominis Prester, D.; Donini, A.; Dorner, D.; Doro, M.; Elsaesser, D.; Emery, G.; Escudero, J.; Farina, L.; Fattorini, A.; Foffano, L.; Font, L.; Frose, S.; Fukazawa, Y.; Garcia Lopez, R.J.; Garczarczyk, M.; Gasparyan, S.; Gaug, M.; Giesbrecht Paiva, J.G.; Giglietto, N.; Gliwny, P.; Godinovic, N.; Gozzini, S.R.; Gradetzke, T.; Grau, R.; Green, J.G.; Gunther, P.; Hadasch, D.; Hahn, A.; Hassan, T.; Heckmann, L.; Herrera, J.; Hrupec, D.; Hutten, M.; Imazawa, R.; Ishio, K.; Jimenez Martinez, I.; Jormanainen, J.; Kayanoki, T.; Kerszberg, D.; Kluge, G.W.; Kobayashi, Y.; Kouch, P.M.; Kubo, H.; Kushida, J.; Lainez, M.; Lamastra, A.; Leone, F.; Lindfors, E.; Linhoff, L.; Lombardi, S.; Longo, F.; Lopez-Coto, R.; Lopez-Moya, M.; Lopez-Oramas, A.; Loporchio, S.; Lorini, A.; Lyard, E.; Machado de Oliveira Fraga, B.; Majumdar, P.; Makariev, M.; Maneva, G.; Mang, N.; Manganaro, M.; Mangano, S.; Mannheim, K.; Mariotti, M.; Martinez, M.; Martinez-Chicharro, M.; Mas-Aguilar, A.; Mazin, D.; Menchiari, S.; Mender, S.; Miceli, D.; Miener, T.; Miranda, J.M.; Mirzoyan, R.; Molero Gonzalez, M.; Molina, E.; Mondal, H.A.; Moralejo, A.; Morcuende, D.; Nakamori, T.; Nanci, C.; Nava, L.; Neustroev, V.; Nickel, L.; Nievas Rosillo, M.; Nigro, C.; Nikolic, L.; Nishijima, K.; Njoh Ekoume, T.; Noda, K.; Nozaki, S.; Ohtani, Y.; Okumura, A.; Otero-Santos, J.; Paiano, S.; Palatiello, M.; Paneque, D.; Paoletti, R.; Paredes, J.M.; Peresano, M.; Persic, M.; Pihet, M.; Pirola, G.; Podobnik, F.; Prada Moroni, P.G.; Prandini, E.; Principe, G.; Priyadarshi, C.; Rhode, W.; Ribo, M.; Rico, J.; Righi, C.; Sahakyan, N.; Saito, T.; Satalecka, K.; Saturni, F.G.; Schleicher, B.; Schmidt, K.; Schmuckermaier, F.; Schubert, J.L.; Schweizer, T.; Sciaccaluga, A.; Silvestri, G.; Sitarek, J.; Sliusar, V.; Sobczynska, D.; Spolon, A.; Stamerra, A.; Strivskovic, J.; Strom, D.; Strzys, M.; Suda, Y.; Suutarinen, S.; Tajima, H.; Takahashi, M.; Takeishi, R.; Temnikov, P.; Terauchi, K.; Terzic, T.
+ Pads     : 2025A&A...693A.255A
+ Pinspire : Abe:2025yrb
+Targets in file: 
+ Tpname01: W44
+ Tra01:   284.034583  
+ Tdec01:  1.29936111
+File list MAGIC:
+ magic_2025c_fig5_sed.ecsv
+Other Files:
+ magic_2025c_fig4_W44_Fermi-LAT_SED.ecsv
+ magic_2025c_fig5_W44_NW_Fermi-LAT_SED.ecsv
+ magic_2025c_fig5_W44_SE_Fermi-LAT_SED.ecsv

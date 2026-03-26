@@ -1,36 +1,36 @@
 File_info:
- Fdate   : 2026.03.10 
+ Fdate   : 2026.03.18 
  Fvers   : 1.0
  Fgen    : michele.doro@unipd.it
- Fmail   : contact.magic@mpp.mpg.de, magic_legacy@mpp.mpg.de
+ Fmail   : contact.magic@mpp.mpg.de
  Flink   : <link_to_thisfile_repository>
  Fstatus : "Done"
 Paper info:
- Ptitle: "Time-dependent modelling of short-term variability in the TeV-blazar VER J0521+211 during the major flare in 2020"
- Pref     : A&A
+ Ptitle   : "Time-dependent modelling of short-term variability in the TeV-blazar VER J0521+211 during the major flare in 2020"
+ Pref     : Astronomy and Astrophyics
  Pdoi     : 10.1051/0004-6361/202451378
  Parxiv   : https://arxiv.org/abs/2412.15836
- Pcoll    : magic, mwl
+ Pcoll    : magic, external
  Pcauthor : J. Jormanainen, M. Nievas Rosillo, V. Fallah Ramazani, M. Artero
  Pfauthor : "S. Abe, J. Abhir, A. Abhishek, V.A. Acciari, A. Aguasca-Cabot, I. Agudo, T. Aniello, S. Ansoldi, L.A. Antonelli, A. Arbet Engels, C. Arcaro, M. Artero, K. Asano, D. Baack, A. Babić, U. Barres de Almeida, J.A. Barrio, I. Batković, A. Bautista, J. Baxter, J. Becerra González, W. Bednarek, E. Bernardini, J. Bernete, A. Berti, J. Besenrieder, C. Bigongiari, A. Biland, O. Blanch, G. Bonnoli, Ž. Bošnjak, E. Bronzini, I. Burelli, A. Campoy-Ordaz, A. Carosi, R. Carosi, M. Carretero-Castrillo, A.J. Castro-Tirado, D. Cerasole, G. Ceribella, Y. Chai, A. Cifuentes, E. Colombo, J.L. Contreras, J. Cortina, S. Covino, G. D'Amico, V. D'Elia, P. Da Vela, F. Dazzi, A. De Angelis, B. De Lotto, R. de Menezes, M. Delfino, J. Delgado, C. Delgado Mendez, F. Di Pierro, R. Di Tria, L. Di Venere, D. Dominis Prester, A. Donini, D. Dorner, M. Doro, L. Eisenberger, D. Elsaesser, J. Escudero, L. Fariña, A. Fattorini, L. Foffano, L. Font, S. Fröse, S. Fukami, Y. Fukazawa, R.J. García López, M. Garczarczyk, S. Gasparyan, M. Gaug, J.G. Giesbrecht Paiva, N. Giglietto, F. Giordano, P. Gliwny, T. Gradetzke, R. Grau, D. Green, J.G. Green, P. Günther, D. Hadasch, A. Hahn, T. Hassan, L. Heckmann, J. Herrera Llorente, D. Hrupec, R. Imazawa, K. Ishio, I. Jiménez Martínez, J. Jormanainen, S. Kankkunen, T. Kayanoki, D. Kerszberg , G.W. Kluge, Y. Kobayashi, P.M. Kouch, H. Kubo, J. Kushida, M. Láinez, A. Lamastra, F. Leone, E. Lindfors, S. Lombardi, F. Longo, R. López-Coto, M. López-Moya, A. López-Oramas, S. Loporchio, A. Lorini, E. Lyard, B. Machado de Oliveira Fraga, P. Majumdar, M. Makariev, G. Maneva, M. Manganaro, S. Mangano, K. Mannheim, M. Mariotti, M. Martínez, M. Martínez-Chicharro, A. Mas-Aguilar, D. Mazin, S. Menchiari, S. Mender, D. Miceli, T. Miener, J.M. Miranda, R. Mirzoyan, M. Molero González, E. Molina, H.A. Mondal, A. Moralejo, D. Morcuende, T. Nakamori, C. Nanci, V. Neustroev, L. Nickel, M. Nievas Rosillo, C. Nigro, L. Nikolić, K. Nilsson, K. Nishijima, T. Njoh Ekoume, K. Noda, S. Nozaki, Y. Ohtani, A. Okumura, J. Otero-Santos, S. Paiano, D. Paneque, R. Paoletti, J.M. Paredes, M. Peresano, M. Persic, M. Pihet, G. Pirola, F. Podobnik, P.G. Prada Moroni, E. Prandini, G. Principe, W. Rhode, M. Ribó, J. Rico, C. Righi, N. Sahakyan, T. Saito, F.G. Saturni, K. Schmidt, F. Schmuckermaier, J.L. Schubert, T. Schweizer, A. Sciaccaluga, G. Silvestri, J. Sitarek, V. Sliusar, D. Sobczynska, A. Spolon, A. Stamerra, J. Strišković, D. Strom, M. Strzys, Y. Suda, H. Tajima, M. Takahashi, R. Takeishi, P. Temnikov, K. Terauchi, T. Terzić, M. Teshima, S. Truzzi, A. Tutone, S. Ubach, J. van Scherpenberg, M. Vazquez Acosta, S. Ventura, G. Verna, I. Viale, C.F. Vigorito, V. Vitale, I. Vovk, R. Walter, F. Wersig, M. Will, C. Wunderlich, T. Yamamoto, MWL collaborators: R. Bachev, V. Fallah Ramazani, A.V. Filippenko, T. Hovatta, S.G. Jorstad, S. Kiehlmann, A. Lähteenmäki, I. Liodakis, A.P. Marscher, W. Max-Moerbeck, A. Omeliukh, T. Pursimo, A.C.S. Readhead, X. Rodrigues, M. Tornikoski, F. Wierda, W. Zheng"
  Pads     : 2025A%26A...694A.308M
  Pinspire : MAGIC:2024gbt
 Targets in file: 
  Tpname01: VER 0521+211
- Taname01: RGB J0521.8+2112
- Taname02: 4FGL J0521.7+2112
+ Taname01: RGB J0521.8+2112, 4FGL J0521.7+2112
+ Tra01  : 80.441525
+ Tdec01 : 21.214292
 File list MAGIC:
- magic_2025a_fig1_lc_magic.csv
- magic_2025a_fig5_sed_A.csv
- magic_2025a_fig5_sed_B.csv
- magic_2025a_fig5_sed_C.csv
- magic_2025a_fig5_sed_D.csv
- 
+ magic_2025a_fig1_lc.ecsv
+ magic_2025a_fig5_sed_A.ecsv
+ magic_2025a_fig5_sed_B.ecsv
+ magic_2025a_fig5_sed_C.ecsv
+ magic_2025a_fig5_sed_D.ecsv 
 Other Files:
- magic_2025a_fig1_lc_fermi.csv
- magic_2025a_fig1_lc_kva.csv
- magic_2025a_fig1_lc_not_evpa.csv
- magic_2025a_fig1_lc_not_pd.csv
- magic_2025a_fig1_lc_ovro.csv
- magic_2025a_fig1_lc_uvot.csv
- magic_2025a_fig1_lc_xrt.csv
+ magic_2025a_fig1_lc_fermi.ecsv
+ magic_2025a_fig1_lc_kva.ecsv
+ magic_2025a_fig1_lc_not_evpa.ecsv
+ magic_2025a_fig1_lc_not_pd.ecsv
+ magic_2025a_fig1_lc_ovro.ecsv
+ magic_2025a_fig1_lc_uvot.ecsv
+ magic_2025a_fig1_lc_xrt.ecsv

@@ -1,0 +1,55 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit: latex   , datatype: string     , description: Source name                         }
+# - {name: en        , unit: TeV     , datatype: float32 , description: Energy                              }
+# - {name: en_wlo    , unit: TeV     , datatype: float32 , description: Energy bin width low                }
+# - {name: en_wup    , unit: TeV     , datatype: float32 , description: Energy bin width up                 }
+# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Differential photon flux at energy  }
+# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
+# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
+# - {name: tstart    , unit: mjd     , datatype: float32 , description: MJD start                           }
+# - {name: tstop     , unit: mjd     , datatype: float32 , description: MJD stop                            }
+# - {name: texpo     , unit: h       , datatype: float32 , description: Observation time                    }
+# - {name: instrument, unit: latex   , datatype: string     , description: Instrument                          }
+# - {name: dataformat, unit: latex   , datatype: string     , description: Data Format                         }
+# - {name: comments  , unit: latex   , datatype: string     , description: Comments                            }
+# meta: !!omap
+# - {Filename: magic_2025g_fig5_141220A_SED.ecsv}
+# - {Source: "GRB141220A"}
+# - {Figure: "Fig5, right panel"}
+# - {Title: "Testing the ubiquitous presence of very high energy emission in gamma-ray bursts with the MAGIC telescopes"}
+# - {Comments: "Add comments"}
+# - {Reference: "magic_2025g.yaml"}
+# - {Status: "Checked"}
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+GRB141220A,0.119,0.017,0.020,1.14e-09,nan,nan,57011.253210648145,57011.25366550926,0.01083,MAGIC,ul,""
+GRB141220A,0.162,0.023,0.027,3.89e-09,nan,nan,57011.253210648145,57011.25366550926,0.01083,MAGIC,ul,""
+GRB141220A,0.220,0.031,0.037,9.82e-09,nan,nan,57011.253210648145,57011.25366550926,0.01083,MAGIC,ul,""
+GRB141220A,4.05e-10,1.05e-10,1.05e-10,1.01e-10,1.60e-11,1.60e-11,57011.253210648145,57011.25366550926,0.01083,XRT,"",""
+GRB141220A,6.25e-10,1.15e-10,1.15e-10,1.10e-10,1.76e-11,1.76e-11,57011.253210648145,57011.25366550926,0.01083,XRT,"",""
+GRB141220A,8.75e-10,1.35e-10,1.35e-10,8.93e-11,1.44e-11,1.44e-11,57011.253210648145,57011.25366550926,0.01083,XRT,"",""
+GRB141220A,1.16e-09,1.45e-10,1.45e-10,7.07e-11,1.27e-11,1.27e-11,57011.253210648145,57011.25366550926,0.01083,XRT,"",""
+GRB141220A,1.43e-09,1.35e-10,1.35e-10,1.16e-10,1.99e-11,1.99e-11,57011.253210648145,57011.25366550926,0.01083,XRT,"",""
+GRB141220A,1.75e-09,1.75e-10,1.75e-10,1.10e-10,2.15e-11,2.15e-11,57011.253210648145,57011.25366550926,0.01083,XRT,"",""
+GRB141220A,2.18e-09,2.65e-10,2.65e-10,1.26e-10,2.57e-11,2.57e-11,57011.253210648145,57011.25366550926,0.01083,XRT,"",""
+GRB141220A,2.99e-09,5.35e-10,5.35e-10,9.88e-11,2.21e-11,2.21e-11,57011.253210648145,57011.25366550926,0.01083,XRT,"",""
+GRB141220A,5.46e-09,1.94e-09,1.94e-09,8.83e-11,2.07e-11,2.07e-11,57011.253210648145,57011.25366550926,0.01083,XRT,"",""
+GRB141220A,0.119,0.017,0.020,9.02e-11,nan,nan,57011.27038194444,57011.27792824074,0.18111,MAGIC,ul,""
+GRB141220A,0.162,0.023,0.027,2.07e-10,nan,nan,57011.27038194444,57011.27792824074,0.18111,MAGIC,ul,""
+GRB141220A,0.220,0.031,0.037,1.64e-09,nan,nan,57011.27038194444,57011.27792824074,0.18111,MAGIC,ul,""
+GRB141220A,0.300,0.043,0.050,3.79e-09,nan,nan,57011.27038194444,57011.27792824074,0.18111,MAGIC,ul,""
+GRB141220A,0.408,0.058,0.068,8.78e-09,nan,nan,57011.27038194444,57011.27792824074,0.18111,MAGIC,ul,""
+GRB141220A,0.555,0.079,0.092,4.89e-09,nan,nan,57011.27038194444,57011.27792824074,0.18111,MAGIC,ul,""
+GRB141220A,4.35e-10,  1.35e-10,  1.35e-10, 3.49e-12,  6.94e-13,  6.94e-13,57011.27038194444,57011.27792824074,0.18111,XRT,"",""
+GRB141220A,6.75e-10,  1.05e-10,  1.05e-10, 4.46e-12,  9.36e-13,  9.36e-13,57011.27038194444,57011.27792824074,0.18111,XRT,"",""
+GRB141220A,8.90e-10,  1.10e-10,  1.10e-10, 5.45e-12,  9.81e-13,  9.81e-13,57011.27038194444,57011.27792824074,0.18111,XRT,"",""
+GRB141220A,1.16e-09,  1.60e-10,  1.60e-10, 3.56e-12,  6.99e-13,  6.99e-13,57011.27038194444,57011.27792824074,0.18111,XRT,"",""
+GRB141220A,1.51e-09,  1.85e-10,  1.85e-10, 5.67e-12,  1.01e-12,  1.01e-12,57011.27038194444,57011.27792824074,0.18111,XRT,"",""
+GRB141220A,1.84e-09,  1.55e-10,  1.55e-10, 8.25e-12,  1.77e-12,  1.77e-12,57011.27038194444,57011.27792824074,0.18111,XRT,"",""
+GRB141220A,2.18e-09,  1.80e-10,  1.80e-10, 1.12e-11,  2.39e-12,  2.39e-12,57011.27038194444,57011.27792824074,0.18111,XRT,"",""
+GRB141220A,2.69e-09,  3.30e-10,  3.30e-10, 8.37e-12,  1.98e-12,  1.98e-12,57011.27038194444,57011.27792824074,0.18111,XRT,"",""
+GRB141220A,4.19e-09,  1.17e-09,  1.17e-09, 4.27e-12,  1.08e-12,  1.08e-12,57011.27038194444,57011.27792824074,0.18111,XRT,"",""
+GRB141220A,5.68e-09,  3.20e-10,  3.20e-10, 8.30e-12,  4.83e-12,  4.83e-12,57011.27038194444,57011.27792824074,0.18111,XRT,"",""

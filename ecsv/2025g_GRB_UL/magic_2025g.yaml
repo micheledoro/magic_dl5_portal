@@ -1,0 +1,47 @@
+File_info:
+ Fdate   : 2026.03.18
+ Fvers   : 1.0
+ Fgen    : stefano.marchesi@unibo.it
+ Fmail   : contact.magic@mpp.mpg.de, magic_legacy@mpp.mpg.de
+ Flink   : <link_to_thisfile_repository>
+ Fstatus : "Done and checked"
+Paper info:
+ Ptitle: "Testing the ubiquitous presence of very high energy emission in gamma-ray bursts with the MAGIC telescopes"
+ Pref     : A&A, 700, A96 (2025)
+ Pdoi     : 10.1051/0004-6361/202555468
+ Parxiv   : https://arxiv.org/abs/2507.05215
+ Pcoll    : magic
+ Pcauthor : D. Miceli; A. Berti; F. Longo; L. Nava
+ Pfauthor : Abe, S.; Abhir, J.; Abhishek, A.; Acciari, V.A.; Aguasca-Cabot, A.; Agudo, I.; Aniello, T.; Ansoldi, S.; Antonelli, L.A.; Arbet Engels, A.; Arcaro, C.; Arnesen, T.T.H.; Asano, K.; Babic, A.; Bakshi, C.; Barres de Almeida, U.; Barrio, J.A.; Barrios-Jimenez, L.; Batkovic, I.; Baxter, J.; Becerra Gonzalez, J.; Bednarek, W.; Bernardini, E.; Bernete, J.; Berti, A.; Besenrieder, J.; Bigongiari, C.; Biland, A.; Blanch, O.; Bonnoli, G.; Bovsnjak, vZ.; Bronzini, E.; Burelli, I.; Campoy-Ordaz, A.; Carosi, A.; Carosi, R.; Carretero-Castrillo, M.; Castro-Tirado, A.J.; Cerasole, D.; Ceribella, G.; Chai, Y.; Cifuentes, A.; Contreras, J.L.; Cortina, J.; Covino, S.; DAmico, G.; Da Vela, P.; Dazzi, F.; De Angelis, A.; De Lotto, B.; de Menezes, R.; Delfino, M.; Delgado, J.; Delgado Mendez, C.; Di Pierro, F.; Di Tria, R.; Di Venere, L.; Dinesh, A.; Dominis Prester, D.; Donini, A.; Dorner, D.; Doro, M.; Eisenberger, L.; Elsaesser, D.; Escudero, J.; Farina, L.; Fattorini, A.; Foffano, L.; Font, L.; Frose, S.; Fukami, S.; Fukazawa, Y.; Garcia Lopez, R.J.; Garcia Soto, S.; Garczarczyk, M.; Gasparyan, S.; Gaug, M.; Giesbrecht Paiva, J.G.; Giglietto, N.; Giordano, F.; Gliwny, P.; Godinovic, N.; Gradetzke, T.; Grau, R.; Green, D.; Green, J.G.; Gunther, P.; Hadasch, D.; Hahn, A.; Hassan, T.; Heckmann, L.; Herrera Llorente, J.; Hrupec, D.; Imazawa, R.; Inoue, S.; Israyelyan, D.; Jahanvi, J.; Jimenez Martinez, I.; Jimenez Quiles, J.; Jormanainen, J.; Kankkunen, S.; Kayanoki, T.; Konrad, J.; Kouch, P.M.; Kubo, H.; Kushida, J.; Lainez, M.; Lamastra, A.; Lindfors, E.; Lombardi, S.; Longo, F.; Lopez-Coto, R.; Lopez-Moya, M.; Lopez-Oramas, A.; Loporchio, S.; Lulic, L.; Lyard, E.; Majumdar, P.; Makariev, M.; Mallamaci, M.; Maneva, G.; Manganaro, M.; Mangano, S.; Mannheim, K.; Marchesi, S.; Mariotti, M.; Martinez, M.; Maruvsevec, P.; Mas-Aguilar, A.; Mazin, D.; Menchiari, S.; Mendez Gallego, J.; Menon, S.; Miceli, D.; Miranda, J.M.; Mirzoyan, R.; Molero Gonzalez, M.; Molina, E.; Mondal, H.A.; Moralejo, A.; Moretti, E.; Nakamori, T.; Nanci, C.; Nava, L.; Neustroev, V.; Nickel, L.; Nievas Rosillo, M.; Nigro, C.; Nikolic, L.; Nilsson, K.; Nishijima, K.; Noda, K.; Nozaki, S.; Okumura, A.; Otero-Santos, J.; Paiano, S.; Paneque, D.; Paoletti, R.; Paredes, J.M.; Peresano, M.; Persic, M.; Pihet, M.; Pirola, G.; Podobnik, F.; Prada Moroni, P.G.; Prandini, E.; Ribo, M.; Rico, J.; Righi, C.; Sahakyan, N.; Saito, T.; Saturni, F.G.; Schmitz, K.; Schmuckermaier, F.; Sciaccaluga, A.; Silvestri, G.; Simongini, A.; Sitarek, J.; Sliusar, V.; Sobczynska, D.; Stamerra, A.; Strivskovic, J.; Strom, D.; Strzys, M.; Suda, Y.; Tajima, H.; Takahashi, M.; Takeishi, R.; Temnikov, P.; Terauchi, K.; Terzic, T.; Teshima, M.; Tutone, A.; Ubach, S.; van Scherpenberg, J.; Vazquez Acosta, M.; Ventura, S.; Verna, G.; Viale, I.; Vigliano, A.
+ Pads     : 2025A&A...700A..96A
+ Pinspire : Abe:2025bvx
+Targets in file: 
+ Tpname01: 130701A
+ Tra01: 357.2287
+ Tdec01: 36.0997
+ Tpname02: 131030A
+ Tra02: 345.0657
+ Tdec02: -5.3659
+ Tpname03: 141220A
+ Tra03: 195.06735
+ Tdec03: 32.13361
+ Tpname04: 160623A
+ Tra04: 315.2967
+ Tdec04: 42.2205
+ Tpname05: 160625B
+ Tra05: 308.5969
+ Tdec05: 6.9196
+ Tpname06: 171020A
+ Tra06: 39.2482
+ Tdec06: 15.2038
+File list MAGIC:
+ magic_2025g_fig4_130701A_lc.ecsv
+ magic_2025g_fig4_131030A_lc.ecsv
+ magic_2025g_fig4_141220A_lc.ecsv
+ magic_2025g_fig4_160623A_lc.ecsv
+ magic_2025g_fig4_160625B_lc.ecsv
+ magic_2025g_fig4_171020A_lc.ecsv
+ magic_2025g_fig5_130701A_SED.ecsv
+ magic_2025g_fig5_141220A_SED.ecsv
+Other Files:
+

@@ -1,0 +1,40 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit: latex, datatype: string  , description: Source name                             }
+# - {name: t         , unit: mjd  , datatype: float32 , description: Time of measurement                     }
+# - {name: t_wlo     , unit: mjd    , datatype: float32 , description: Lower width of time bin                 }
+# - {name: t_wup     , unit: mjd    , datatype: float32 , description: Upper width of time bin                 }
+# - {name: t_exp     , unit: d    , datatype: float32 , description: Exposure time                           }
+# - {name: flux      , unit: ph/cm^2/s^1   , datatype: float32 , description: Flux measured above the energy threshold}
+# - {name: flux_elo  , unit: ph/cm^2/s^1   , datatype: float32 , description: Lower uncertainty of flux               }
+# - {name: flux_eup  , unit: ph/cm^2/s^1   , datatype: float32 , description: Upper uncertainty of flux               }
+# - {name: eth_lo    , unit: TeV   , datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up    , unit: TeV   , datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, unit: latex, datatype: string  , description: Instrument                              }
+# - {name: dataformat, unit: latex, datatype: string  , description: Data Format                             }
+# - {name: comments  , unit: latex, datatype: string  , description: Comments                                }
+# meta: !!omap
+# - {Filename : "magic_2025b_fig1_VERITAS_lc.ecsv"}
+# - {Source   : "Mrk 421"}
+# - {Figure   : "Fig. 1, multi-wavelength light-curve"}
+# - {Title    : "Characterization of Markarian 421 during its most violent year: Multiwavelength variability and correlations"}
+# - {Comments : ""}
+# - {Reference: "magic_2025b.yaml"}
+# - {Status   : "Checked"}
+
+srcname,t,t_wlo,t_wup,t_exp,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+Mrk 421,55244.525,nan,nan,,1.47e-09,1.26e-11,1.26e-11,0.2,inf,VERITAS,,
+Mrk 421,55245.52,nan,nan,,6.58e-10,1.87e-11,1.87e-11,0.2,inf,VERITAS,,
+Mrk 421,55246.429,nan,nan,,5.25e-10,1.37e-11,1.37e-11,0.2,inf,VERITAS,,
+Mrk 421,55247.392,nan,nan,,2.58e-10,8.11e-12,8.11e-12,0.2,inf,VERITAS,,
+Mrk 421,55265.0,nan,nan,,4e-10,5e-11,5e-11,0.2,inf,VERITAS,,
+Mrk 421,55267.0,nan,nan,,4e-10,5e-11,5e-11,0.2,inf,VERITAS,,
+Mrk 421,55268.0,nan,nan,,4e-10,5e-11,5e-11,0.2,inf,VERITAS,,
+Mrk 421,55269.0,nan,nan,,4.2e-10,6e-11,6e-11,0.2,inf,VERITAS,,
+Mrk 421,55270.0,nan,nan,,2.6e-10,6e-11,6e-11,0.2,inf,VERITAS,,
+Mrk 421,55271.0,nan,nan,,3.5e-10,4e-11,4e-11,0.2,inf,VERITAS,,
+Mrk 421,55272.0,nan,nan,,2.5e-10,4e-11,4e-11,0.2,inf,VERITAS,,
+Mrk 421,55273.0,nan,nan,,2e-10,4e-11,4e-11,0.2,inf,VERITAS,,
+Mrk 421,55274.0,nan,nan,,1.6e-10,3e-11,3e-11,0.2,inf,VERITAS,,
