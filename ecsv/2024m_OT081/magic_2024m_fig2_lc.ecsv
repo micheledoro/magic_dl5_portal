@@ -1,0 +1,30 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                                          }
+# - {name: t         , unit: mjd     , datatype: float32 , description: Time of measurement                                  }
+# - {name: t_wlo     , unit: d    , datatype: float32 , description: Lower width of time bin                                 }
+# - {name: t_wup     , unit: d    , datatype: float32 , description: Upper width of time bin                                 }
+# - {name: texpo     , unit: h    , datatype: float32 , description: Exposure time                                           }
+# - {name: flux     , unit: cm-2 s-1, datatype: float32 , description: Flux measured above the energy threshold              }
+# - {name: flux_elo , unit: cm-2 s-1, datatype: float32 , description: Lower uncertainty of flux                             }
+# - {name: flux_eup , unit: cm-2 s-1, datatype: float32 , description: Upper uncertainty of flux                             }
+# - {name: eth_lo      , unit: GeV,      datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up      , unit: GeV,      datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                                           }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                                          }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                                             }
+# meta: !!omap
+# - {Filename: magic_2024m_fig2_lc.ecsv}
+# - {Source: "OT081 (PKS 1749+096, 4C +09.57)"}
+# - {Figure: "Fig. 2, MAGIC light curve of OT 081 during the period from MJD 57575 to MJD 57602 (2016 July 6August 2)"}
+# - {Title: "Multiwavelength study of OT 081: broadband modelling of a transitional blazar"}
+# - {Comments: "Other MWL data form Fig.2 are available in CDS: https://cdsarc.cds.unistra.fr/viz-bin/cat/J/MNRAS/540/364"}
+# - {Reference: "magic_2024m.yaml"}
+# - {Status: "Validated"}
+
+
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+OT081,57593.9,0.0397519,0.0397519,1.64,9.75204e-11,1.47306e-11,1.47306e-11,100,,MAGIC,,
+OT081,57596.9,0.00488948,0.00488948,,4.34909e-11,3.27564e-11,3.27564e-11,100,,MAGIC,ul,

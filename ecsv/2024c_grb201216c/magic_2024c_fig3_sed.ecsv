@@ -1,0 +1,33 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string    , description: Source name                         }
+# - {name: en        , unit: GeV     , datatype: float32 , description: Energy                              }
+# - {name: en_wlo    , unit: GeV     , datatype: float32 , description: Energy bin width low                }
+# - {name: en_wup    , unit: GeV     , datatype: float32 , description: Energy bin width up                 }
+# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Differential photon flux at energy  }
+# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
+# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
+# - {name: tstart    , unit: mjd     , datatype: float32 , description: MJD start                           }
+# - {name: tstop     , unit: mjd     , datatype: float32 , description: MJD stop                            }
+# - {name: texpo     , unit: s       , datatype: float32 , description: Observation time                    }
+# - {name: instrument, unit:    , datatype: string    , description: Instrument                          }
+# - {name: dataformat, unit:    , datatype: string    , description: Data Format                         }
+# - {name: comments  , unit:    , datatype: string    , description: Comments                            }
+# meta: !!omap
+# - {Filename: magic_2024c_fig3_sed.ecsv}
+# - {Source: "GRB201216C"}
+# - {Figure: "Figure 3"}
+# - {Title: "MAGIC detection of GRB 201216C at z = 1.1"}
+# - {Comments: "Observed data, no EBL corrected"}
+# - {Reference: "magic_2024c.yaml"}
+# - {Status: "Validated"}
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+GRB201216C,51.4651,9.86949,13.0296,5.0630e-10,2.9370e-10,2.9370e-10,59199,59199,1144,magic,,
+GRB201216C,79.7975,15.3028,20.2025,2.0921e-10,4.4493e-11,4.4493e-11,59199,59199,1144,magic,,
+GRB201216C,123.727,23.7272,31.3243,8.4222e-11,2.1008e-11,2.1008e-11,59199,59199,1144,magic,,
+GRB201216C,191.841,36.7894,48.5689,2.8489e-11,0.,0.,59199,59199,1144,magic,ul,
+

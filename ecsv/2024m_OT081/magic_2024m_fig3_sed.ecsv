@@ -1,0 +1,33 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                         }
+# - {name: en        , unit: TeV     , datatype: float32 , description: Energy                              }
+# - {name: en_wlo    , unit: TeV     , datatype: float32 , description: Energy bin width low                }
+# - {name: en_wup    , unit: TeV     , datatype: float32 , description: Energy bin width up                 }
+# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: SED  }
+# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
+# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
+# - {name: tstart    , unit: mjd     , datatype: float32 , description: MJD start                           }
+# - {name: tstop     , unit: mjd     , datatype: float32 , description: MJD stop                            }
+# - {name: texpo     , unit: h       , datatype: float32 , description: Observation time                    }
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                          }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                         }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                            }
+# meta: !!omap
+# - {Filename: magic_2024m_fig3_sed.ecsv}
+# - {Source: "OT081 (PKS 1749+096, 4C +09.57)"}
+# - {Figure: "3, 4b and 5b -- MAGIC SED for P3 (MJD 57593.9)"}
+# - {Title: "Multiwavelength study of OT 081: broadband modelling of a transitional blazar"}
+# - {Comments: "https://ui.adsabs.harvard.edu/abs/2025MNRAS.540..364A/abstract"}
+# - {Reference: "magic_2024m.yaml"}
+# - {Status: "Validated"}
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+OT081,0.0592546,0.00913584,0.0103852,1.66199e-10,5.11431e-11,5.11431e-11,57593.900887,57593.980391,1.64,MAGIC,,"sed EBL corrected,unfolding Tikhonov"
+OT081,0.0823339,0.0126942,0.0144302,5.57074e-11,1.45537e-11,1.45537e-11,57593.900887,57593.980391,1.64,MAGIC,,"sed EBL corrected,unfolding Tikhonov"
+OT081,0.114403,0.0176385,0.0200506,2.90364e-11,9.19717e-12,9.19717e-12,57593.900887,57593.980391,1.64,MAGIC,,"sed EBL corrected,unfolding Tikhonov"
+OT081,0.158962,0.0245087,0.0278603,2.07003e-11,6.53451e-12,6.53451e-12,57593.900887,57593.980391,1.64,MAGIC,,"sed EBL corrected,unfolding Tikhonov"
+OT081,0.220877,0.0340547,0.0387117,2.03699e-11,6.30804e-12,6.30804e-12,57593.900887,57593.980391,1.64,MAGIC,ul,"sed EBL corrected,unfolding Tikhonov"
+OT081,0.306907,0.0473188,0.0537898,2.87833e-11,1.28492e-11,1.28492e-11,57593.900887,57593.980391,1.64,MAGIC,ul,"sed EBL corrected,unfolding Tikhonov"

@@ -5,7 +5,7 @@
 # - {name: t, datatype: float64, description: Time of measurement}
 # - {name: t_wlo, unit: d, datatype: float64, description: Lower width of time bin}
 # - {name: t_wup, unit: d, datatype: float64, description: Upper width of time bin}
-# - {name: t_exp, unit: h, datatype: float64, description: Exposure time}
+# - {name: texpo, unit: h, datatype: float64, description: Exposure time}
 # - {name: flux, unit: cm-2 s-1, datatype: float64, description: Flux measured in the energy range}
 # - {name: flux_elo, unit: cm-2 s-1, datatype: float64, description: Lower uncertainty of flux}
 # - {name: flux_eup, unit: cm-2 s-1, datatype: float64, description: Upper uncertainty of flux}
@@ -23,7 +23,7 @@
 # - {Reference: magic_2025e.yaml}
 # - {Status: Done}
 # schema: astropy-2.0
-srcname t t_wlo t_wup t_exp flux flux_elo flux_eup eth_lo eth_up instrument dataformat comments
+srcname t t_wlo t_wup texpo flux flux_elo flux_eup eth_lo eth_up instrument dataformat comments
 "Mrk 421" 60259.2376 0.0 0.0 0.0 2.733e-10 1.7007e-11 1.7007e-11 0.2 1 MAGIC Detection None
 "Mrk 421" 60261.2463 0.0 0.0 0.0 2.9326e-10 1.7807e-11 1.7807e-11 0.2 1 MAGIC Detection None
 "Mrk 421" 60263.2485 0.0 0.0 0.0 2.3049e-10 1.5398e-11 1.5398e-11 0.2 1 MAGIC Detection None

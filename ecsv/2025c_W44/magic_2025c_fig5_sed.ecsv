@@ -2,7 +2,7 @@
 # ---
 # delimiter: ','
 # datatype:
-# - {name: srcname   , unit: latex   , datatype: string     , description: Source name                         }
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                         }
 # - {name: en        , unit: TeV     , datatype: float32 , description: Energy                              }
 # - {name: en_wlo    , unit: TeV     , datatype: float32 , description: Energy bin width low                }
 # - {name: en_wup    , unit: TeV     , datatype: float32 , description: Energy bin width up                 }
@@ -12,9 +12,9 @@
 # - {name: tstart    , unit: mjd     , datatype: float32 , description: MJD start                           }
 # - {name: tstop     , unit: mjd     , datatype: float32 , description: MJD stop                            }
 # - {name: texpo     , unit: h       , datatype: float32 , description: Observation time                    }
-# - {name: instrument, unit: latex   , datatype: string     , description: Instrument                          }
-# - {name: dataformat, unit: latex   , datatype: string     , description: Data Format                         }
-# - {name: comments  , unit: latex   , datatype: string     , description: Comments                            }
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                          }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                         }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                            }
 # meta: !!omap
 # - {Filename: magic_2025c_fig5_sed.ecsv}
 # - {Source: "W44"}
@@ -25,9 +25,9 @@
 # - {Status: "Checked"}
 
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
-W44, 0.191, 0.130 ,0.280, 8.81e-13,nan,nan,56392,56872,173.7,MAGIC,ul,""
-W44, 0.411, 0.280 ,0.604, 5.19e-13,nan,nan,56392,56872,173.7,MAGIC,ul,""
-W44, 0.886, 0.604 ,1.300, 4.65e-13,nan,nan,56392,56872,173.7,MAGIC,ul,""
-W44, 1.908, 1.300 ,2.801, 4.31e-13,nan,nan,56392,56872,173.7,MAGIC,ul,""
-W44, 4.111, 2.801 ,6.034, 1.16e-13,nan,nan,56392,56872,173.7,MAGIC,ul,""
-W44, 8.857, 6.034 ,13.000,1.39e-13,nan,nan,56392,56872,173.7,MAGIC,ul,""
+W44,0.191,0.130,0.280,8.81e-13,nan,nan,56392,56872,173.7,MAGIC,ul,""
+W44,0.411,0.280,0.604,5.19e-13,nan,nan,56392,56872,173.7,MAGIC,ul,""
+W44,0.886,0.604,1.300,4.65e-13,nan,nan,56392,56872,173.7,MAGIC,ul,""
+W44,1.908,1.300,2.801,4.31e-13,nan,nan,56392,56872,173.7,MAGIC,ul,""
+W44,4.111,2.801,6.034,1.16e-13,nan,nan,56392,56872,173.7,MAGIC,ul,""
+W44,8.857,6.034,13.000,1.39e-13,nan,nan,56392,56872,173.7,MAGIC,ul,""
