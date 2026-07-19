@@ -1,0 +1,36 @@
+File_info:
+ Fdate   = 20260717
+ Fvers   = 1
+ Fgen    = Stefano Marchesi stefano.marchesi@unibo.it
+ Fmail   = contact.magic@mpp.mpg.de 
+ Flink   = <https://raw.githubusercontent.com/micheledoro/magic_dl5_portal/refs/heads/main/ecsv>
+ Fstatus = "Done and checked"
+Paper info:
+ Ptitle: "Long-term multi-wavelength study of 1ES 0647+250"
+ Pref :  "Astronomy & Astrophysics, Volume 670, id.A49, 20 pp."
+ Pdoi:   "10.1051/0004-6361/202244477"
+ Parxiv: "https://https://arxiv.org/abs/2211.13268"
+ Pcoll:  magic, externals
+ Pcauthor:  Jorge Otero-Santos; Daniel Morcuende; Vandad Fallah Ramazani; Daniela Dorner; David Paneque
+ Pfauthor: Acciari, V. A.; Aniello, T.; Ansoldi, S.; Antonelli, L. A.; Arbet Engels, A.; Arcaro, C.; Artero, M.; Asano, K.; Baack, D.; Babic, A.; Baquero, A.; Barres de Almeida, U.; Barrio, J. A.; Batkovic, I.; Becerra Gonzalez, J.; Bednarek, W.; Bernardini, E.; Bernardos, M.; Berti, A.; Besenrieder, J.; Bhattacharyya, W.; Bigongiari, C.; Biland, A.; Blanch, O.; Bokenkamp, H.; Bonnoli, G.; Bovsnjak, Z.; Burelli, I.; Busetto, G.; Carosi, R.; Carretero-Castrillo, M.; Ceribella, G.; Chai, Y.; Chilingarian, A.; Cikota, S.; Colombo, E.; Contreras, J. L.; Cortina, J.; Covino, S.; DAmico, G.; DElia, V.; da Vela, P.; Dazzi, F.; de Angelis, A.; de Lotto, B.; Del Popolo, A.; Delfino, M.; Delgado, J.; Delgado Mendez, C.; Depaoli, D.; di Pierro, F.; di Venere, L.; Do Souto Espineira, E.; Dominis Prester, D.; Donini, A.; Dorner, D.; Doro, M.; Elsaesser, D.; Emery, G.; Fallah Ramazani, V.; Farina, L.; Fattorini, A.; Font, L.; Fruck, C.; Fukami, S.; Fukazawa, Y.; Garcia Lopez, R. J.; Garczarczyk, M.; Gasparyan, S.; Gaug, M.; Giesbrecht Paiva, J. G.; Giglietto, N.; Giordano, F.; Gliwny, P.; Godinovic, N.; Green, J. G.; Green, D.; Hadasch, D.; Hahn, A.; Hassan, T.; Heckmann, L.; Herrera, J.; Hrupec, D.; Hutten, M.; Inada, T.; Iotov, R.; Ishio, K.; Iwamura, Y.; Jimenez Martinez, I.; Jormanainen, J.; Kerszberg, D.; Kobayashi, Y.; Kubo, H.; Kushida, J.; Lamastra, A.; Lelas, D.; Leone, F.; Lindfors, E.; Linhoff, L.; Lombardi, S.; Longo, F.; Lopez-Coto, R.; Lopez-Moya, M.; Lopez-Oramas, A.; Loporchio, S.; Lorini, A.; Lyard, E.; Machado de Oliveira Fraga, B.; Majumdar, P.; Makariev, M.; Maneva, G.; Manganaro, M.; Mangano, S.; Mannheim, K.; Mariotti, M.; Martinez, M.; Mas Aguilar, A.; Mazin, D.; Menchiari, S.; Mender, S.; Micanovic, S.; Miceli, D.; Miener, T.; Miranda, J. M.; Mirzoyan, R.; Molina, E.; Mondal, H. A.; Moralejo, A.; Morcuende, D.; Moreno, V.; Nakamori, T.; Nanci, C.; Nava, L.; Neustroev, V.; Nievas Rosillo, M.; Nigro, C.; Nilsson, K.; Nishijima, K.; Njoh Ekoume, T.; Noda, K.; Nozaki, S.; Ohtani, Y.; Oka, T.; Otero-Santos, J.; Paiano, S.; Palatiello, M.; Paneque, D.; Paoletti, R.; Paredes, J. M.; Pavletic, L.; Persic, M.; Pihet, M.; Podobnik, F.; Prada Moroni, P. G.; Prandini, E.; Principe, G.; Priyadarshi, C.; Puljak, I.; Rhode, W.; Ribo, M.; Rico, J.; Righi, C.; Rugliancich, A.; Sahakyan, N.; Saito, T.; Sakurai, S.; Satalecka, K.; Saturni, F. G.; Schleicher, B.; Schmidt, K.; Schmuckermaier, F.; Schubert, J. L.; Schweizer, T.; Sitarek, J.; Sliusar, V.; Sobczynska, D.; Spolon, A.; Stamerra, A.; Strivskovic, J.; Strom, D.; Strzys, M.; Suda, Y.; Suric, T.; Takahashi, M.; Takeishi, R.; Tavecchio, F.; Temnikov, P.; Terzic, T.; Teshima, M.; Tosti, L.; Truzzi, S.; Tutone, A.; Ubach, S.; van Scherpenberg, J.; Vanzo, G.; Vazquez Acosta, M.; Ventura, S.; Verguilov, V.; Viale, I.; Vigorito, C. F.; Vitale, V.; Vovk, I.; Walter, R.; Will, M.; Wunderlich, C.; Yamamoto, T.; Zaric, D.; Acosta-Pulido, J. A.; D''Ammando, F.; Hovatta, T.; Kiehlmann, S.; Liodakis, I.; Leto, C.; Max-Moerbeck, W.; Pacciani, L.; Perri, M.; Readhead, A. C. S.; Reeves, R. A.; Verrecchia, F.
+ Pads:    2023A&A...670A..49M
+ Pinspire :
+Targets in file: 
+ Tpname01: 1ES 0647+250
+ Taname01: 
+ Tra01:  102.693709
+ Tdec01: 25.049896
+File list MAGIC:
+ magic_2023a_fig1a_lc.ecsv
+ magic_2023a_fig3a_SED.ecsv
+ magic_2023a_fig3b_SED.ecsv
+ magic_2023a_fig3c_SED.ecsv
+ magic_2023a_fig3d_SED.ecsv
+Other files:
+ magic_2023a_fig1b_lc.ecsv
+ magic_2023a_fig1d_lc.ecsv
+ magic_2023a_fig1e_lc.ecsv
+ magic_2023a_fig1f_lc.ecsv
+ magic_2023a_fig1g_lc.ecsv
+ magic_2023a_fig1h_lc.ecsv
+ magic_2023a_summary.txt

@@ -1,0 +1,155 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                                          }
+# - {name: t         , unit: mjd     , datatype: float32 , description: Time of measurement                                  }
+# - {name: t_wlo     , unit: d    , datatype: float32 , description: Lower width of time bin                                 }
+# - {name: t_wup     , unit: d    , datatype: float32 , description: Upper width of time bin                                 }
+# - {name: texpo     , unit: h    , datatype: float32 , description: Exposure time                                           }
+# - {name: flux     , unit: mJy, datatype: float32 , description: Flux measured above the energy threshold              }
+# - {name: flux_elo , unit: mJy, datatype: float32 , description: Lower uncertainty of flux                             }
+# - {name: flux_eup , unit: mJy, datatype: float32 , description: Upper uncertainty of flux                             }
+# - {name: eth_lo      , unit: nm,      datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up      , unit: nm,      datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                                           }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                                          }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                                             }
+# meta: !!omap
+# - {Filename: magic_2024f_fig1_lc_UVOT.ecsv}
+# - {Source: "Mrk421"}
+# - {Figure: "Fig. 1 light curve"}
+# - {Title: "First characterization of the emission behavior of Mrk421 from radio to VHE gamma rays with simultaneous X-ray polarization measurements"}
+# - {Comments: "Swift-UVOT data with W1, M2 and W2 filter"}
+# - {Reference: "magic_2024f.yaml"}
+# - {Status: "Validated"}
+
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+MRK421,59696.9242,,,,11.9,0.397,0.397,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59699.0458,,,,12.4,0.412,0.412,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59700.6417,,,,12.3,0.408,0.408,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59701.5019,,,,12.1,0.401,0.401,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59702.3665,,,,11.7,0.39,0.39,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59702.8444,,,,11.1,0.369,0.369,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59703.5574,,,,11.0,0.365,0.365,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59704.0216,,,,11.0,0.365,0.365,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59704.6225,,,,11.3,0.376,0.376,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59706.0138,,,,12.1,0.401,0.401,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59707.2104,,,,12.3,0.408,0.408,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59717.1625,,,,7.97,0.265,0.265,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59719.0786,,,,8.74,0.613,0.613,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59720.9407,,,,10.0,0.333,0.333,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59721.2162,,,,10.8,0.359,0.359,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59722.927,,,,11.4,0.379,0.379,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59723.1975,,,,11.2,0.372,0.372,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59724.9146,,,,11.1,0.369,0.369,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59725.1793,,,,11.5,0.383,0.383,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59726.9098,,,,13.6,0.452,0.452,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59727.1684,,,,13.6,0.452,0.452,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59728.9071,,,,12.4,0.412,0.412,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59729.9682,,,,14.0,0.464,0.464,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59730.8891,,,,14.0,0.464,0.464,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59731.2231,,,,14.2,0.473,0.473,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59732.9398,,,,12.5,0.416,0.416,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59733.1498,,,,13.8,0.46,0.46,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59734.0089,,,,14.5,0.482,0.482,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59734.926,,,,14.5,0.482,0.482,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59735.0037,,,,15.2,0.504,0.504,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59736.2678,,,,15.3,0.509,0.509,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59737.5851,,,,14.4,0.477,0.477,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59746.2016,,,,13.8,0.46,0.46,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59747.1371,,,,14.6,0.486,0.486,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59749.1841,,,,14.4,0.477,0.477,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59750.1789,,,,15.2,0.504,0.504,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59751.1853,,,,15.9,0.528,0.528,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59752.1779,,,,16.0,0.533,0.533,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59753.175,,,,18.1,0.601,0.601,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59754.169,,,,17.8,0.59,0.59,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59755.1684,,,,16.0,0.533,0.533,181,321,Swift-UVOT,Detection,W1 filter
+MRK421,59696.9242,,,,11.5,0.381,0.381,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59699.0458,,,,12.1,0.402,0.402,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59700.6417,,,,12.1,0.402,0.402,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59701.5019,,,,11.8,0.391,0.391,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59702.3665,,,,11.4,0.377,0.377,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59702.8444,,,,10.8,0.36,0.36,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59703.5574,,,,10.7,0.357,0.357,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59704.0216,,,,10.6,0.353,0.353,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59704.6225,,,,10.9,0.363,0.363,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59706.0138,,,,11.7,0.388,0.388,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59707.2104,,,,12.1,0.402,0.402,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59717.1625,,,,7.16,0.279,0.279,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59719.0786,,,,9.1,0.638,0.638,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59720.9407,,,,9.44,0.314,0.314,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59721.2162,,,,10.6,0.353,0.353,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59722.927,,,,10.8,0.36,0.36,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59723.1975,,,,11.5,0.381,0.381,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59724.9146,,,,10.7,0.357,0.357,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59725.1793,,,,11.4,0.377,0.377,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59726.9098,,,,13.2,0.437,0.437,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59727.1684,,,,13.4,0.445,0.445,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59728.9071,,,,11.9,0.395,0.395,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59729.9682,,,,14.2,0.47,0.47,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59730.8891,,,,13.2,0.513,0.513,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59731.2231,,,,13.9,0.462,0.462,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59732.9398,,,,11.1,0.37,0.37,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59733.1498,,,,13.6,0.453,0.453,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59734.0089,,,,14.4,0.479,0.479,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59734.926,,,,14.3,0.475,0.475,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59735.0037,,,,15.2,0.506,0.506,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59736.2678,,,,15.2,0.506,0.506,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59737.5851,,,,13.9,0.462,0.462,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59742.2212,,,,13.0,0.508,0.508,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59746.2016,,,,13.6,0.453,0.453,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59747.1371,,,,14.6,0.483,0.483,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59749.1841,,,,14.4,0.479,0.479,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59750.1789,,,,15.2,0.506,0.506,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59751.1853,,,,16.0,0.53,0.53,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59752.1779,,,,16.0,0.53,0.53,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59753.175,,,,18.2,0.603,0.603,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59754.169,,,,17.8,0.592,0.592,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59755.1684,,,,14.7,0.573,0.573,166,268,Swift-UVOT,Detection,M2 filter
+MRK421,59696.9242,,,,10.3,0.343,0.343,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59699.0458,,,,10.7,0.356,0.356,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59700.6417,,,,10.8,0.36,0.36,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59701.5019,,,,10.8,0.36,0.36,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59702.3665,,,,10.4,0.347,0.347,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59702.8444,,,,9.69,0.322,0.322,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59703.5574,,,,9.69,0.322,0.322,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59704.0216,,,,9.43,0.313,0.313,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59704.6225,,,,9.87,0.328,0.328,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59706.0138,,,,10.1,0.337,0.337,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59707.2104,,,,10.6,0.353,0.353,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59717.1625,,,,6.23,0.207,0.207,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59719.0786,,,,8.6,0.603,0.603,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59720.9407,,,,8.14,0.27,0.27,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59721.2162,,,,9.69,0.322,0.322,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59722.927,,,,9.52,0.316,0.316,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59723.1975,,,,9.96,0.331,0.331,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59724.9146,,,,9.78,0.325,0.325,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59725.1793,,,,10.3,0.343,0.343,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59726.9098,,,,12.1,0.402,0.402,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59727.1684,,,,12.0,0.398,0.398,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59728.9071,,,,10.7,0.356,0.356,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59729.9682,,,,12.8,0.424,0.424,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59730.8891,,,,11.2,0.373,0.373,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59731.2231,,,,12.7,0.42,0.42,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59732.9398,,,,9.78,0.325,0.325,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59733.1498,,,,12.2,0.405,0.405,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59734.0089,,,,13.1,0.436,0.436,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59734.926,,,,12.8,0.424,0.424,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59735.0037,,,,13.5,0.448,0.448,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59736.2678,,,,13.6,0.453,0.453,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59737.5851,,,,12.4,0.413,0.413,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59738.2564,,,,12.4,0.413,0.413,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59742.2212,,,,11.4,0.38,0.38,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59746.2016,,,,12.3,0.409,0.409,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59747.1371,,,,12.8,0.424,0.424,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59749.1841,,,,13.3,0.44,0.44,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59750.1789,,,,13.3,0.44,0.44,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59751.1853,,,,14.0,0.465,0.465,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59752.1779,,,,14.5,0.483,0.483,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59753.175,,,,16.4,0.544,0.544,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59754.169,,,,16.1,0.534,0.534,112,264,Swift-UVOT,Detection,W2 filter
+MRK421,59755.1684,,,,12.0,0.398,0.398,112,264,Swift-UVOT,Detection,W2 filter
+

@@ -1,0 +1,62 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                                          }
+# - {name: t         , unit: mjd     , datatype: float32 , description: Time of measurement                                  }
+# - {name: t_wlo     , unit: d    , datatype: float32 , description: Lower width of time bin                                 }
+# - {name: t_wup     , unit: d    , datatype: float32 , description: Upper width of time bin                                 }
+# - {name: texpo     , unit: h    , datatype: float32 , description: Exposure time                                           }
+# - {name: flux     , unit: cm-2 s-1, datatype: float32 , description: Flux measured above the energy threshold              }
+# - {name: flux_elo , unit: cm-2 s-1, datatype: float32 , description: Lower uncertainty of flux                             }
+# - {name: flux_eup , unit: cm-2 s-1, datatype: float32 , description: Upper uncertainty of flux                             }
+# - {name: eth_lo      , unit: GeV,      datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up      , unit: GeV,      datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                                           }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                                          }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                                             }
+# meta: !!omap
+# - {Filename: magic_2024e_fig1b_lc.ecsv}
+# - {Source: "1ES 2344+514"}
+# - {Figure: "Figure 1, panel b (second from top) in the paper."}
+# - {Title: "Multi-year characterisation of the broad-band emission from the intermittent extreme BL Lac 1ES~2344+514"}
+# - {Comments: "Datapoints of the Fermi-LAT light curve in the 0.3-300 GeV energy range, in the MJD 58,475 and 59,600 time range."}
+# - {Reference: "magic_2024e.yaml"}
+# - {Status: "Validated"}
+
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+1ES 2344+514,58499.000,15.000,15.000,0.0,7.3400e-09,2.4400e-09,2.4400e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,58529.000,15.000,15.000,0.0,3.4900e-09,1.6200e-09,1.6200e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,58559.000,15.000,15.000,0.0,8.8700e-09,3.2100e-09,3.2100e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,58589.000,15.000,15.000,0.0,4.4000e-09,2.9600e-09,2.9600e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,58619.000,15.000,15.000,0.0,3.1300e-09,2.1100e-09,2.1100e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,58649.000,15.000,15.000,0.0,2.3400e-09,1.3900e-09,1.3900e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,58679.000,15.000,15.000,0.0,5.2500e-09,1.7500e-09,1.7500e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,58709.000,15.000,15.000,0.0,1.0200e-08,3.2200e-09,3.2200e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,58739.000,15.000,15.000,0.0,9.7500e-09,2.8800e-09,2.8800e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,58769.000,15.000,15.000,0.0,1.0100e-08,3.8400e-09,3.8400e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,58799.000,15.000,15.000,0.0,5.1800e-09,2.6200e-09,2.6200e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,58829.000,15.000,15.000,0.0,2.4800e-09,1.3900e-09,1.3900e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,58859.000,15.000,15.000,0.0,7.1300e-09,2.4800e-09,2.4800e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,58889.000,15.000,15.000,0.0,3.5500e-09,1.7200e-09,1.7200e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,58919.000,15.000,15.000,0.0,8.3400e-09,2.6500e-09,2.6500e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,58949.000,15.000,15.000,0.0,1.2300e-08,3.6900e-09,3.6900e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,59009.000,15.000,15.000,0.0,6.8000e-09,2.6900e-09,2.6900e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,59039.000,15.000,15.000,0.0,3.1900e-09,1.6300e-09,1.6300e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,59069.000,15.000,15.000,0.0,1.0200e-08,3.2200e-09,3.2200e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,59099.000,15.000,15.000,0.0,5.9300e-09,2.6800e-09,2.6800e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,59129.000,15.000,15.000,0.0,4.7200e-09,2.5400e-09,2.5400e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,59159.000,15.000,15.000,0.0,6.4300e-09,2.9100e-09,2.9100e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,59189.000,15.000,15.000,0.0,2.7100e-09,1.6200e-09,1.6200e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,59219.000,15.000,15.000,0.0,5.3700e-09,2.3100e-09,2.3100e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,59249.000,15.000,15.000,0.0,5.7500e-09,2.8500e-09,2.8500e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,59279.000,15.000,15.000,0.0,6.4800e-09,2.4400e-09,2.4400e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,59309.000,15.000,15.000,0.0,3.7900e-09,1.8600e-09,1.8600e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,59339.000,15.000,15.000,0.0,4.2400e-09,2.3000e-09,2.3000e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,59369.000,15.000,15.000,0.0,5.4500e-09,1.8600e-09,1.8600e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,59399.000,15.000,15.000,0.0,2.2500e-09,2.0900e-09,2.0900e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,59429.000,15.000,15.000,0.0,3.5200e-09,1.7100e-09,1.7100e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,59459.000,15.000,15.000,0.0,5.4000e-09,2.6300e-09,2.6300e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+1ES 2344+514,59519.000,15.000,15.000,0.0,2.8600e-09,1.5600e-09,1.5600e-09,0.3,300,Fermi-LAT,1 sigma detection,None
+

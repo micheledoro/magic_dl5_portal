@@ -1,0 +1,33 @@
+File_info:
+ Fdate   = 20260715
+ Fvers   = 1
+ Fgen    = Stefano Marchesi stefano.marchesi@unibo.it
+ Fmail   = contact.magic@mpp.mpg.de 
+ Flink   = <https://raw.githubusercontent.com/micheledoro/magic_dl5_portal/refs/heads/main/ecsv>
+ Fstatus = "Checked"
+Paper info:
+ Ptitle: "Multi-year characterisation of the broad-band emission from the intermittent extreme BL Lac 1ES 2344+514"
+ Pref :  "Astronomy & Astrophysics, Volume 682, id.A114"
+ Pdoi:   "10.1051/0004-6361/202347845"
+ Parxiv: "https://arxiv.org/abs/2310.03922"
+ Pcoll:  magic
+ Pcauthor:  Alex Arbet Engels
+ Pfauthor: Abe, H.; Abe, S.; Acciari, V.A.; Agudo, I.; Aniello, T.; Ansoldi, S.; Antonelli, L.A.; Arbet Engels, A.; Arcaro, C.; Artero, M.; Asano, K.; Baack, D.; Babic, A.; Baquero, A.; Barres de Almeida, U.; Batkovic, I.; Baxter, J.; Becerra Gonzalez, J.; Bernardini, E.; Bernete, J.; Berti, A.; Besenrieder, J.; Bigongiari, C.; Biland, A.; Blanch, O.; Bonnoli, G.; Bovsnjak, vZ.; Burelli, I.; Busetto, G.; Campoy-Ordaz, A.; Carosi, A.; Carosi, R.; Carretero-Castrillo, M.; Castro-Tirado, A.J.; Chai, Y.; Cifuentes, A.; Cikota, S.; Colombo, E.; Contreras, J.L.; Cortina, J.; Covino, S.; DAmico, G.; DAmmando, F.; DElia, V.; Da Vela, P.; Dazzi, F.; De Angelis, A.; De Lotto, B.; Del Popolo, A.; Delfino, M.; Delgado, J.; Delgado Mendez, C.; Depaoli, D.; Di Pierro, F.; Di Venere, L.; Dominis Prester, D.; Dorner, D.; Doro, M.; Elsaesser, D.; Emery, G.; Escudero, J.; Farina, L.; Fattorini, A.; Foffano, L.; Font, L.; Fukami, S.; Fukazawa, Y.; Garcia Lopez, R.J.; Gasparyan, S.; Gaug, M.; Giesbrecht Paiva, J.G.; Giglietto, N.; Giordano, F.; Gliwny, P.; Grau, R.; Green, J.G.; Hadasch, D.; Hahn, A.; Heckmann, L.; Herrera, J.; Hrupec, D.; Hutten, M.; Imazawa, R.; Inada, T.; Iotov, R.; Ishio, K.; Jimenez Martinez, I.; Jormanainen, J.; Kerszberg, D.; Kluge, G.W.; Kobayashi, Y.; Kouch, P.M.; Kubo, H.; Kushida, J.; Lainez Lezaun, M.; Lamastra, A.; Leone, F.; Lindfors, E.; Linhoff, L.; Lombardi, S.; Longo, F.; Lopez-Moya, M.; Lopez-Oramas, A.; Loporchio, S.; Lorini, A.; Machado de Oliveira Fraga, B.; Majumdar, P.; Makariev, M.; Maneva, G.; Mang, N.; Manganaro, M.; Mariotti, M.; Martinez, M.; Martinez-Chicharro, M.; Mas-Aguilar, A.; Mazin, D.; Menchiari, S.; Mender, S.; Miceli, D.; Miener, T.; Miranda, J.M.; Mirzoyan, R.; Molero Gonzalez, M.; Molina, E.; Mondal, H.A.; Moralejo, A.; Morcuende, D.; Nakamori, T.; Nanci, C.; Neustroev, V.; Nigro, C.; Nikolic, L.; Nishijima, K.; Njoh Ekoume, T.; Noda, K.; Nozaki, S.; Ohtani, Y.; Okumura, A.; Otero-Santos, J.; Paiano, S.; Palatiello, M.; Paneque, D.; Paoletti, R.; Paredes, J.M.; Pavlovic, D.; Persic, M.; Pihet, M.; Pirola, G.; Podobnik, F.; Prada Moroni, P.G.; Prandini, E.; Principe, G.; Priyadarshi, C.; Rhode, W.; Ribo, M.; Rico, J.; Righi, C.; Sahakyan, N.; Saito, T.; Satalecka, K.; Saturni, F.G.; Schleicher, B.; Schmidt, K.; Schmuckermaier, F.; Schubert, J.L.; Schweizer, T.; Sciaccaluga, A.; Sitarek, J.; Spolon, A.; Stamerra, A.; Strivskovic, J.; Strom, D.; Suda, Y.; Tajima, H.; Takeishi, R.; Tavecchio, F.; Temnikov, P.; Terauchi, K.; Terzic, T.; Teshima, M.; Tosti, L.; Truzzi, S.; Tutone, A.; Ubach, S.; van Scherpenberg, J.; Ventura, S.; Verguilov, V.; Viale, I.; Vigorito, C.F.; Vitale, V.; Walter, R.; Wunderlich, C.; Yamamoto, T.; Multi-wavelength Collaborators; Perri, M.; Verrecchia, F.; Leto, C.; Das, S. Chatterjee, R.,
+ Pads:    2024A&A...682A.114M
+ Pinspire :
+Targets in file:
+ Tpname01: 1ES 2344+514
+ Taname01: 
+ Tra01:  356.770154
+ Tdec01: 51.704967
+File list MAGIC:
+ magic_2024e_fig1a_lc.ecsv
+ magic_2024e_fig8a_SED.ecsv
+ magic_2024e_fig8b_SED.ecsv
+ magic_2024e_fig9_SED.ecsv
+Other files:
+ magic_2024e_fig1b_lc.ecsv
+ magic_2024e_fig1c_lc.ecsv
+ magic_2024e_fig1d_lc.ecsv
+ magic_2024e_fig1e_lc.ecsv
+ magic_2024e_fig7_SED.ecsv

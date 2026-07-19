@@ -1,0 +1,47 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                           }
+# - {name: en        , unit: Hz     , datatype: float32 , description: Energy                                }
+# - {name: en_wlo    , unit: Hz     , datatype: float32 , description: Energy bin width low                  }
+# - {name: en_wup    , unit: Hz     , datatype: float32 , description: Energy bin width up                   }
+# - {name: nufnu     , unit: erg/cm^2/s^1, datatype: float32 , description: Differential photon flux at energy}
+# - {name: nufnu_elo , unit: erg/cm^2/s^1, datatype: float32 , description: Lower uncertainty in nufnu        }
+# - {name: nufnu_eup , unit: erg/cm^2/s^1, datatype: float32 , description: Upper uncertainty in nufnu        }
+# - {name: tstart    , unit: mjd     , datatype: float32 , description: MJD start                             }
+# - {name: tstop     , unit: mjd     , datatype: float32 , description: MJD stop                              }
+# - {name: texpo     , unit: h       , datatype: float32 , description: Observation time                      }
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                            }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                           }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                              }
+# meta: !!omap
+# - {Filename: magic_2024b_fig2_sed_IXPE3.ecsv}
+# - {Source: "MRK501"}
+# - {Figure: "Fig. 2"}
+# - {Title: "Insights into the broad-band emission of the TeV blazar Mrk 501 during the first X-ray polarization measurements"}
+# - {Comments: "IXPE3 period 59769.97 to 59772.04 MJD"}
+# - {Reference: "magic_2024b.yaml"}
+# - {Status: "Validated"}
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+MRK501,4.5561000000000000e+14,,,2.5624746282117891e-11,1.4733332030111192e-13,1.4733332030110545e-13,59769.10,59769.11,,Optical R-band,Detection,IXPE 3 Epoch - MJD=[ 59769.97-59772.04]
+MRK501,1.1530479153846152e+15,,,3.6132297346065850e-11,9.981529760395599e-13,9.981529760395599e-13,59769.10,59769.11,,Swift-UVOT,Detection,IXPE 3 Epoch - MJD=[ 59769.97-59772.04]
+MRK501,1.3347838735529830e+15,,,3.9089497482383963e-11,1.0758474071787562e-12,1.0758474071787368e-12,59769.10,59769.11,,Swift-UVOT,Detection,IXPE 3 Epoch - MJD=[ 59769.97-59772.04]
+MRK501,1.5549401348547715e+15,,,4.0997819274430095e-11,1.1318536254201108e-12,1.1318536254200914e-12,59769.10,59769.11,,Swift-UVOT,Detection,IXPE 3 Epoch - MJD=[ 59769.97-59772.04]
+MRK501,1.1765449999999998e+17,,,9.1513025754150785e-11,2.3381735644927625e-12,2.3381735644927366e-12,59769.10,59769.11,,Swift-XRT,Detection,IXPE 3 Epoch - MJD=[ 59769.97-59772.04]
+MRK501,1.6160420000000000e+17,,,9.3084279371541069e-11,2.245477547824412e-12,2.2454775478243733e-12,59769.10,59769.11,,Swift-XRT,Detection,IXPE 3 Epoch - MJD=[ 59769.97-59772.04]
+MRK501,2.2197130000000000e+17,,,8.7365259534087930e-11,1.8125773637399817e-12,1.8125773637399947e-12,59769.10,59769.11,,Swift-XRT,Detection,IXPE 3 Epoch - MJD=[ 59769.97-59772.04]
+MRK501,3.0488849999999994e+17,,,8.6768757296949711e-11,1.7048470123809076e-12,1.7048470123809206e-12,59769.10,59769.11,,Swift-XRT,Detection,IXPE 3 Epoch - MJD=[ 59769.97-59772.04]
+MRK501,4.1877940000000000e+17,,,8.4781632364523480e-11,2.0568474636550764e-12,2.0568474636550505e-12,59769.10,59769.11,,Swift-XRT,Detection,IXPE 3 Epoch - MJD=[ 59769.97-59772.04]
+MRK501,5.7521410000000000e+17,,,8.9848540489489972e-11,2.9028827565833134e-12,2.9028827565833005e-12,59769.10,59769.11,,Swift-XRT,Detection,IXPE 3 Epoch - MJD=[ 59769.97-59772.04]
+MRK501,7.9008490000000000e+17,,,8.0701698532813930e-11,3.1421682702790673e-12,3.1421682702790673e-12,59769.10,59769.11,,Swift-XRT,Detection,IXPE 3 Epoch - MJD=[ 59769.97-59772.04]
+MRK501,1.0852200000000000e+18,,,6.8970264216045416e-11,3.3937019210885903e-12,3.3937019210885903e-12,59769.10,59769.11,,Swift-XRT,Detection,IXPE 3 Epoch - MJD=[ 59769.97-59772.04]
+MRK501,1.2837471312779598e+23,,,2.1287593911446689e-11,4.766236059390526e-12,4.246794490436622e-12,59764.01,59778.01,,Fermi-LAT,Detection,IXPE 3 Epoch - MJD=[ 59769.97-59772.04]
+MRK501,4.0192913285495973e+23,,,1.0066001367371624e-11,4.45351126603892e-12,3.521111719111819e-12,59764.01,59778.01,,Fermi-LAT,Detection,IXPE 3 Epoch - MJD=[ 59769.97-59772.04]
+MRK501,1.2584022499565094e+24,,,2.4734427840834739e-11,1.1158286964066928e-11,8.200498783159622e-12,59764.01,59778.01,,Fermi-LAT,Detection,IXPE 3 Epoch - MJD=[ 59769.97-59772.04]
+MRK501,1.2335577498967185e+25,,,5.2552042719079698e-11,6.02656336861354e-11,3.499295032308658e-11,59764.01,59778.01,,Fermi-LAT,Detection,IXPE 3 Epoch - MJD=[ 59769.97-59772.04]
+MRK501,7.4058390643893586e+25,,,1.6118687660885989e-11,7.767829389201118e-12,7.767829389201118e-12,59769.10,59769.11,,MAGIC,Detection,IXPE 3 Epoch - MJD=[ 59769.97-59772.04]
+MRK501,1.8661238498526295e+26,,,1.1649088066013018e-11,4.402427823943838e-12,4.402427823943838e-12,59769.10,59769.11,,MAGIC,Detection,IXPE 3 Epoch - MJD=[ 59769.97-59772.04]
+MRK501,4.5873633757179559e+26,,,8.6642370544625915e-12,4.715750961659189e-12,4.715750961659187e-12,59769.10,59769.11,,MAGIC,Detection,IXPE 3 Epoch - MJD=[ 59769.97-59772.04]
