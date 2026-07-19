@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # datatype:
@@ -24,6 +24,7 @@
 # - {Reference: "magic_2025a.yaml"}
 # - {Status: "Checked"}
 
+# schema: astropy-2.0
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
 RGB 0521+211,0.0986977005004888,nan,nan,1.5400087102413716e-10,1.8913549491308147e-11,1.8913549491308147e-11,58903.5,58905.5,2.43,MAGIC,,
 RGB 0521+211,0.13459309387207102,nan,nan,1.359707189652576e-10,1.2198779372789224e-11,1.2198779372789224e-11,58903.5,58905.5,2.43,MAGIC,,

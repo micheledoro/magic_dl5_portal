@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # delimiter: ','
@@ -25,6 +25,7 @@
 # - {Reference: "magic_2024i.yaml"}
 # - {Status: "Validated"}
 
+# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
 Mrk 421,56772.9351,0.0007,0.0007,0.0352,1.5098e-09,1.9772e-10,1.9772e-10,100.0,nan,MAGIC,1 sigma detection,None
 Mrk 421,56772.9366,0.0007,0.0007,0.0352,1.5468e-09,1.8710e-10,1.8710e-10,100.0,nan,MAGIC,1 sigma detection,None
@@ -86,4 +87,3 @@ Mrk 421,56773.0223,0.0007,0.0007,0.0349,9.4620e-10,1.5485e-10,1.5485e-10,100.0,n
 Mrk 421,56773.0237,0.0007,0.0007,0.0349,9.3219e-10,1.6039e-10,1.6039e-10,100.0,nan,MAGIC,1 sigma detection,None
 Mrk 421,56773.0252,0.0007,0.0007,0.0349,9.4904e-10,1.6312e-10,1.6312e-10,100.0,nan,MAGIC,1 sigma detection,None
 Mrk 421,56773.0266,0.0007,0.0007,0.0349,1.0612e-09,1.6366e-10,1.6366e-10,100.0,nan,MAGIC,1 sigma detection,None
-

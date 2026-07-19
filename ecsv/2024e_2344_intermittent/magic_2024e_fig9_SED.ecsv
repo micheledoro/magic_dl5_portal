@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # delimiter: ','
@@ -25,6 +25,7 @@
 # - {Reference: "magic_2024e.yaml"}
 # - {Status: "Validated"}
 
+# schema: astropy-2.0
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
 1ES 2344+514,1.15e+15,0.00e+00,0.00e+00,6.468e-12,4.497e-13,4.497e-13,58701.0,58702.0,0.0,Swift-UVOT,Detection,VHE flare event - August 6th 2019
 1ES 2344+514,1.34e+15,0.00e+00,0.00e+00,8.210e-12,7.876e-13,7.876e-13,58701.0,58702.0,0.0,Swift-UVOT,Detection,VHE flare event - August 6th 2019
@@ -77,4 +78,3 @@ srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument
 1ES 2344+514,4.09e+23,3.37e+23,1.88e+24,8.053e-12,2.988e-12,2.988e-12,58703.0,58704.0,0.0,Fermi-LAT,Detection,VHE flare event - August 8th 2019
 1ES 2344+514,1.29e+25,1.07e+25,5.96e+25,2.997e-11,2.127e-11,2.127e-11,58703.0,58704.0,0.0,Fermi-LAT,Detection,VHE flare event - August 8th 2019
 1ES 2344+514,1.12e+26,0.00e+00,0.00e+00,4.591e-12,2.188e-12,2.188e-12,58703.0,58704.0,0.0,MAGIC,Detection,VHE flare event - August 8th 2019
-

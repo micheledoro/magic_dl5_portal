@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # delimiter: ','
@@ -25,6 +25,7 @@
 # - {Reference: "magic_2024e.yaml"}
 # - {Status: "Validated"}
 
+# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
 1ES 2344+514,58504.833,0.000,0.000,0.0,1.4400e-11,6.8200e-13,6.8200e-13,0.3,2.0,Swift-XRT,1 sigma detection,None
 1ES 2344+514,58511.529,0.000,0.000,0.0,1.8700e-11,1.0300e-12,1.0300e-12,0.3,2.0,Swift-XRT,1 sigma detection,None
@@ -174,4 +175,3 @@ srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,data
 1ES 2344+514,59432.000,0.000,0.000,0.0,7.5000e-12,1.0000e-13,1.0000e-13,2.0,10.0,XMM-Newton,1 sigma detection,None
 1ES 2344+514,59053.000,0.000,0.000,0.0,1.5900e-11,3.0000e-13,3.0000e-13,3.0,79.0,NuSTAR,1 sigma detection,None
 1ES 2344+514,59432.000,0.000,0.000,0.0,9.3000e-12,2.0000e-13,2.0000e-13,0.7,7.0,AstroSAT,1 sigma detection,None
-

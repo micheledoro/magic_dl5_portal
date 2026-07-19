@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # delimiter: ','
@@ -25,6 +25,7 @@
 # - {Reference: "magic_2023a.yaml"}
 # - {Status: "Validated"}
 
+# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
 1ES0647+250,55322.25,0.02,0.02,1.05,2.7804e-11,2.7176e-11,2.8498e-11,0.3,2,Swift-XRT,Detection with 1sigma uncertainty,
 1ES0647+250,55477.17,0.01,0.01,0.51,2.8658e-11,2.7888e-11,2.9523e-11,0.3,2,Swift-XRT,Detection with 1sigma uncertainty,
@@ -166,4 +167,3 @@ srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,data
 1ES0647+250,59204.02,0.10,0.10,0.19,3.3505e-11,2.8624e-11,4.0088e-11,2,10,Swift-XRT,Detection with 1sigma uncertainty,
 1ES0647+250,59206.07,0.18,0.18,0.37,4.2361e-11,3.9879e-11,4.5171e-11,2,10,Swift-XRT,Detection with 1sigma uncertainty,
 1ES0647+250,59207.14,0.21,0.21,0.42,4.0973e-11,3.8954e-11,4.3012e-11,2,10,Swift-XRT,Detection with 1sigma uncertainty,
-

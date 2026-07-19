@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # delimiter: ','
@@ -25,6 +25,7 @@
 # - {Reference: "magic_2024e.yaml"}
 # - {Status: "Validated"}
 
+# schema: astropy-2.0
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
 1ES 2344+514,1.50e+10,0.00e+00,0.00e+00,2.889e-14,9.150e-16,9.150e-16,59053.0,59054.0,0.0,OVRO,Detection,Deep exposure 1 - July 23 2020
 1ES 2344+514,8.72e+14,0.00e+00,0.00e+00,7.831e-12,3.863e-14,3.863e-14,59053.0,59054.0,5400.0,XMM-Newton OM,Detection,Deep exposure 1 - July 23 2020
@@ -93,4 +94,3 @@ srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument
 1ES 2344+514,1.96e+24,1.23e+24,5.30e+24,2.210e-12,1.323e-12,1.323e-12,59053.0,59054.0,0.0,Fermi-LAT,Detection,Deep exposure 1 - July 23 2020
 1ES 2344+514,1.96e+25,1.23e+25,5.30e+25,2.099e-11,0.000e+00,0.000e+00,59053.0,59054.0,0.0,Fermi-LAT,UL,Deep exposure 1 - July 23 2020
 1ES 2344+514,1.21e+26,0.00e+00,0.00e+00,2.028e-12,8.756e-13,8.756e-13,59053.0,59054.0,17000.0,MAGIC,Detection,Deep exposure 1 - July 23 2020
-

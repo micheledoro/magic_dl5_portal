@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # delimiter: ','
@@ -25,6 +25,7 @@
 # - {Reference: "magic_2024e.yaml"}
 # - {Status: "Validated"}
 
+# schema: astropy-2.0
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
 1ES 2344+514,1.15e+15,0.00e+00,0.00e+00,6.470e-12,4.500e-13,4.500e-13,58701.0,58702.0,0.0,Swift-UVOT,Detection,VHE FLARE - August 6th 2019
 1ES 2344+514,1.34e+15,0.00e+00,0.00e+00,8.210e-12,7.880e-13,7.880e-13,58701.0,58702.0,0.0,Swift-UVOT,Detection,VHE FLARE - August 6th 2019
@@ -185,4 +186,3 @@ srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument
 1ES 2344+514,1.44e+18,1.08e+17,1.08e+17,4.240e-12,1.430e-13,1.430e-13,59432.0,59433.0,27000.0,XMM-Newton MOS/pn,Detection,Deep exposure 2 - August 6th 2021
 1ES 2344+514,1.83e+18,2.85e+17,2.85e+17,3.500e-12,1.160e-13,1.160e-13,59432.0,59433.0,27000.0,XMM-Newton MOS/pn,Detection,Deep exposure 2 - August 6th 2021
 1ES 2344+514,2.25e+18,1.34e+17,1.34e+17,3.350e-12,1.160e-13,1.160e-13,59432.0,59433.0,27000.0,XMM-Newton MOS/pn,Detection,Deep exposure 2 - August 6th 2021
-

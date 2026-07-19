@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # datatype:
@@ -24,6 +24,7 @@
 # - {Reference: "magic_2025b.yaml"}
 # - {Status   : "Checked"}
 
+# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
 Mrk 421,55150.4726,nan,nan,,185.0,0.3,0.3,,,Steward,,R-band_%(PolarizationAngle)
 Mrk 421,55151.4836,nan,nan,,182.0,0.3,0.3,,,Steward,,R-band_%(PolarizationAngle)

@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # delimiter: ','
@@ -25,6 +25,7 @@
 # - {Reference: "magic_2023a.yaml"}
 # - {Status: "Validated"}
 
+# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
 1ES0647+250,52615.05,0.00,0.00,0.08,7.9378e-12,7.7432e-12,8.1325e-12,630.00,630.00,KWA,Detection with 1sigma uncertainty,R band
 1ES0647+250,52615.08,0.00,0.00,0.08,7.5219e-12,7.2379e-12,7.8060e-12,630.00,630.00,KWA,Detection with 1sigma uncertainty,R band
@@ -557,4 +558,3 @@ srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,data
 1ES0647+250,59206.03,0.00,0.00,0.08,1.3020e-11,1.2729e-11,1.3312e-11,630.00,630.00,Liverpool or Las Cumbres or PIRATE telescope,Detection with 1sigma uncertainty,R band
 1ES0647+250,59206.03,0.00,0.00,0.08,1.3105e-11,1.2799e-11,1.3410e-11,630.00,630.00,Liverpool or Las Cumbres or PIRATE telescope,Detection with 1sigma uncertainty,R band
 1ES0647+250,59206.03,0.00,0.00,0.08,1.3044e-11,1.2764e-11,1.3324e-11,630.00,630.00,Liverpool or Las Cumbres or PIRATE telescope,Detection with 1sigma uncertainty,R band
-

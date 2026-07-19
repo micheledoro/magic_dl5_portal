@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # delimiter: ','
@@ -25,6 +25,7 @@
 # - {Reference: "magic_2023a.yaml"}
 # - {Status: "Validated"}
 
+# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
 1ES0647+250,54476.15,0.00,0.00,-9.00,9.1045e-15,6.1604e-15,1.2049e-14,15.00,15.00,OVRO,Detection with 1sigma uncertainty,OVRO band - 15 GHz
 1ES0647+250,54480.14,0.00,0.00,-9.00,7.7868e-15,7.0495e-15,8.5241e-15,15.00,15.00,OVRO,Detection with 1sigma uncertainty,OVRO band - 15 GHz
@@ -542,4 +543,3 @@ srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,data
 1ES0647+250,59178.54,0.00,0.00,-9.00,1.4355e-14,1.4096e-14,1.4614e-14,15.00,15.00,OVRO,Detection with 1sigma uncertainty,OVRO band - 15 GHz
 1ES0647+250,59197.26,0.00,0.00,-9.00,1.4279e-14,1.3913e-14,1.4645e-14,15.00,15.00,OVRO,Detection with 1sigma uncertainty,OVRO band - 15 GHz
 1ES0647+250,59199.47,0.00,0.00,-9.00,1.4621e-14,1.4321e-14,1.4920e-14,15.00,15.00,OVRO,Detection with 1sigma uncertainty,OVRO band - 15 GHz
-

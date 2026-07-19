@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # datatype:
@@ -7,9 +7,9 @@
 # - {name: t_wlo     , unit: mjd    , datatype: float32 , description: Lower width of time bin                 }
 # - {name: t_wup     , unit: mjd    , datatype: float32 , description: Upper width of time bin                 }
 # - {name: texpo     , unit: d    , datatype: float32 , description: Exposure time                           }
-# - {name: flux      , unit: erg/cm^2/s^1   , datatype: float32 , description: Flux measured above the energy threshold}
-# - {name: flux_elo  , unit: erg/cm^2/s^1   , datatype: float32 , description: Lower uncertainty of flux               }
-# - {name: flux_eup  , unit: erg/cm^2/s^1   , datatype: float32 , description: Upper uncertainty of flux               }
+# - {name: flux      , unit: erg cm-2 s-1   , datatype: float32 , description: Flux measured above the energy threshold}
+# - {name: flux_elo  , unit: erg cm-2 s-1   , datatype: float32 , description: Lower uncertainty of flux               }
+# - {name: flux_eup  , unit: erg cm-2 s-1   , datatype: float32 , description: Upper uncertainty of flux               }
 # - {name: eth_lo    , unit: keV   , datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
 # - {name: eth_up    , unit: keV   , datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
 # - {name: instrument, unit: , datatype: string  , description: Instrument                              }
@@ -24,6 +24,7 @@
 # - {Reference: "magic_2025b.yaml"}
 # - {Status   : "Checked"}
 
+# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
 Mrk 421,55177.2096,nan,nan,,3.55e-10,3.05e-12,3.05e-12,2.0,10.0,RXTE-PCA,,
 Mrk 421,55178.2568,nan,nan,,3.24e-10,2.67e-12,2.67e-12,2.0,10.0,RXTE-PCA,,

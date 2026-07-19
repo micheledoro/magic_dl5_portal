@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # datatype:
@@ -24,6 +24,7 @@
 # - {Reference: "magic_2025f.yaml"}
 # - {Status   : "checked"}
 
+# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
 B2-1811+31,59140.8809,0.0,0.0,0.0,117.1,6.7,6.7,14.0,17.0,TELAMON,,The TELAMON flux densities are averages over multiple sub-frequencies within each band.
 B2-1811+31,59165.8206,0.0,0.0,0.0,103.2,4.1000000000000005,4.1000000000000005,14.0,17.0,TELAMON,,The TELAMON flux densities are averages over multiple sub-frequencies within each band.
@@ -58,4 +59,3 @@ B2-1811+31,59788.0148,0.0,0.0,0.0,97.5,1.6,1.6,19.0,25.0,TELAMON,,The TELAMON fl
 B2-1811+31,59813.0163,0.0,0.0,0.0,102.7,1.7,1.7,19.0,25.0,TELAMON,,The TELAMON flux densities are averages over multiple sub-frequencies within each band.
 B2-1811+31,59851.9331,0.0,0.0,0.0,95.5,1.9,1.9,19.0,25.0,TELAMON,,The TELAMON flux densities are averages over multiple sub-frequencies within each band.
 B2-1811+31,59893.787,0.0,0.0,0.0,94.2,2.9,2.9,19.0,25.0,TELAMON,,The TELAMON flux densities are averages over multiple sub-frequencies within each band.
-

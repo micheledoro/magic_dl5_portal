@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # delimiter: ','
@@ -25,6 +25,7 @@
 # - {Reference: "magic_2023a.yaml"}
 # - {Status: "Validated"}
 
+# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,photon_index,photon_index_elo,photon_index_eup,eth_lo,eth_up,instrument,dataformat,comments
 1ES0647+250,55322.25,0.02,0.02,1.05,2.06,2.02,2.09,0.3,10,Swift-XRT,Detection with 1sigma uncertainty,
 1ES0647+250,55477.17,0.01,0.01,0.51,2.02,1.97,2.06,0.3,10,Swift-XRT,Detection with 1sigma uncertainty,
@@ -96,4 +97,3 @@ srcname,t,t_wlo,t_wup,texpo,photon_index,photon_index_elo,photon_index_eup,eth_l
 1ES0647+250,59204.02,0.00,0.00,0.19,2.04,1.96,2.12,0.3,10,Swift-XRT,Detection with 1sigma uncertainty,
 1ES0647+250,59206.07,0.01,0.01,0.37,2.29,2.25,2.33,0.3,10,Swift-XRT,Detection with 1sigma uncertainty,
 1ES0647+250,59207.14,0.01,0.01,0.42,2.27,2.24,2.30,0.3,10,Swift-XRT,Detection with 1sigma uncertainty,
-

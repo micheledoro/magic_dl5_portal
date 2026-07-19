@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # delimiter: ','
@@ -7,9 +7,9 @@
 # - {name: en        , unit: Hz     , datatype: float32 , description: Energy                                }
 # - {name: en_wlo    , unit: Hz     , datatype: float32 , description: Energy bin width low                  }
 # - {name: en_wup    , unit: Hz     , datatype: float32 , description: Energy bin width up                   }
-# - {name: nufnu     , unit: erg/cm^2/s^1, datatype: float32 , description: Differential photon flux at energy}
-# - {name: nufnu_elo , unit: erg/cm^2/s^1, datatype: float32 , description: Lower uncertainty in nufnu        }
-# - {name: nufnu_eup , unit: erg/cm^2/s^1, datatype: float32 , description: Upper uncertainty in nufnu        }
+# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Differential photon flux at energy}
+# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu        }
+# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu        }
 # - {name: tstart    , unit: mjd     , datatype: float32 , description: MJD start                             }
 # - {name: tstop     , unit: mjd     , datatype: float32 , description: MJD stop                              }
 # - {name: texpo     , unit: h       , datatype: float32 , description: Observation time                      }
@@ -25,6 +25,7 @@
 # - {Reference: "magic_2024f.yaml"}
 # - {Status: "Validated"}
 
+# schema: astropy-2.0
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
 MRK421,1.816923988e+14,,,5.96e-11,5.39e-12,5.39e-12,59703.42,59705.47,,Perkins,,IXPE1 Epoch
 MRK421,4.560000000e+14,,,7.8e-11,1.71e-12,1.71e-12,59703.42,59705.47,,NOT,,IXPE1 Epoch
@@ -423,4 +424,3 @@ MRK421,1.641480353e+23,,,2.07e-11,4.72e-12,4.72e-12,59737.36,59739.41,,Fermi-LAT
 MRK421,9.23072237e+23,,,3.42e-11,1.11e-11,1.11e-11,59737.36,59739.41,,Fermi-LAT,,IXPE3 Epoch
 MRK421,5.19081665e+24,,,3.69e-11,2.6e-11,2.6e-11,59737.36,59739.41,,Fermi-LAT,,IXPE3 Epoch
 MRK421,2.919010714e+25,,,3.61e-10,2e-11,2e-11,59737.36,59739.41,,Fermi-LAT,UL,IXPE3 Epoch
-

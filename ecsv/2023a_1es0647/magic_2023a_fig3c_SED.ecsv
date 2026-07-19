@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # delimiter: ','
@@ -25,6 +25,7 @@
 # - {Reference: "magic_2023a.yaml"}
 # - {Status: "Validated"}
 
+# schema: astropy-2.0
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
 1ES0647+250,1.50e+10,0.00e+00,0.00e+00,1.351e-14,1.319e-16,1.319e-16,58819.0,58821.2,9720.0,OVRO,Detection with 1sigma uncertainty,
 1ES0647+250,4.47e+14,0.00e+00,0.00e+00,1.188e-11,9.558e-14,9.558e-14,58819.0,58821.2,9720.0,KWA,Detection with 1sigma uncertainty,
@@ -50,4 +51,3 @@ srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument
 1ES0647+250,2.80e+25,0.00e+00,0.00e+00,2.030e-11,2.032e-12,2.032e-12,58819.0,58821.2,9720.0,MAGIC,Detection with 1sigma uncertainty,
 1ES0647+250,4.34e+25,0.00e+00,0.00e+00,1.215e-11,1.688e-12,1.688e-12,58819.0,58821.2,9720.0,MAGIC,Detection with 1sigma uncertainty,
 1ES0647+250,6.59e+25,0.00e+00,0.00e+00,1.274e-11,2.356e-12,2.356e-12,58819.0,58821.2,9720.0,MAGIC,Detection with 1sigma uncertainty,
-

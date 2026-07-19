@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # datatype:
@@ -24,6 +24,7 @@
 # - {Reference: "magic_2025a.yaml"}
 # - {Status: "Checked"}
 
+# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
 VER 0521+211,55494.5,,,,5.96224680356702,0.122154693781706,0.122154693781706,,,KVA,,KVA data taken from ref https://doi.org/10.1051/0004-6361/202037811
 VER 0521+211,55496.5,,,,5.84788986184158,0.120166167507397,0.120166167507397,,,KVA,,KVA data taken from ref https://doi.org/10.1051/0004-6361/202037811

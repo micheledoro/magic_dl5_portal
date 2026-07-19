@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # datatype:
@@ -24,6 +24,7 @@
 # - {Reference: "magic_2025f.yaml"}
 # - {Status:    "checked"}
 
+# schema: astropy-2.0
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
 B2-1811+31,548646670000000.0,0.0,0.0,1.4889341e-11,4.5692004e-13,4.5692004e-13,0.0,0.0,0.0,Swift-UVOT,,High-state V-filter
 B2-1811+31,683060100000000.0,0.0,0.0,1.6200069e-11,4.010949e-13,4.010949e-13,0.0,0.0,0.0,Swift-UVOT,,High-state B-filter
@@ -42,4 +43,3 @@ B2-1811+31,4.7271214e+17,3.0224548e+16,3.0224548e+16,4.268222e-12,7.693808e-13,7
 B2-1811+31,5.6096788e+17,5.8031163e+16,5.8031163e+16,3.0023427e-12,5.893175e-13,5.893175e-13,0.0,0.0,0.0,Swift-XRT,,High-state
 B2-1811+31,8.148542e+17,1.9585515e+17,1.9585515e+17,1.5298316e-12,3.173007e-13,3.173007e-13,0.0,0.0,0.0,Swift-XRT,,High-state
 B2-1811+31,1.312955e+18,3.022456e+17,3.022456e+17,1.0211967e-12,3.768401e-13,3.768401e-13,0.0,0.0,0.0,Swift-XRT,,High-state
-

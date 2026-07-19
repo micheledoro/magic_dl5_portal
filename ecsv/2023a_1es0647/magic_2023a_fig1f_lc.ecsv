@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # delimiter: ','
@@ -25,6 +25,7 @@
 # - {Reference: "magic_2023a.yaml"}
 # - {Status: "Validated"}
 
+# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
 1ES0647+250,55511.43,0.01,0.01,616.30,1.7200e+00,1.6400e+00,1.8000e+00,546.80,546.80,Swift-UVOT,Detection with 1sigma uncertainty,V band
 1ES0647+250,55516.17,0.01,0.01,632.22,1.6800e+00,1.6000e+00,1.7600e+00,546.80,546.80,Swift-UVOT,Detection with 1sigma uncertainty,V band
@@ -298,4 +299,3 @@ srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,data
 1ES0647+250,59203.09,0.01,0.01,292.11,1.0400e+00,9.9000e-01,1.0900e+00,192.80,192.80,Swift-UVOT,Detection with 1sigma uncertainty,UVW2 band
 1ES0647+250,59206.08,0.01,0.01,345.53,1.0900e+00,1.0500e+00,1.1300e+00,192.80,192.80,Swift-UVOT,Detection with 1sigma uncertainty,UVW2 band
 1ES0647+250,59207.14,0.01,0.01,387.92,1.0500e+00,1.0100e+00,1.0900e+00,192.80,192.80,Swift-UVOT,Detection with 1sigma uncertainty,UVW2 band
-

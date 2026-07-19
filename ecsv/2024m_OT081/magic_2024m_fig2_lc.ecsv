@@ -10,8 +10,8 @@
 # - {name: flux     , unit: cm-2 s-1, datatype: float32 , description: Flux measured above the energy threshold              }
 # - {name: flux_elo , unit: cm-2 s-1, datatype: float32 , description: Lower uncertainty of flux                             }
 # - {name: flux_eup , unit: cm-2 s-1, datatype: float32 , description: Upper uncertainty of flux                             }
-# - {name: eth_lo      , unit: GeV,      datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
-# - {name: eth_up      , unit: GeV,      datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
+# - {name: eth_lo      , unit: TeV,      datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up      , unit: TeV,      datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
 # - {name: instrument, unit:    , datatype: string     , description: Instrument                                           }
 # - {name: dataformat, unit:    , datatype: string     , description: Data Format                                          }
 # - {name: comments  , unit:    , datatype: string     , description: Comments                                             }
@@ -25,6 +25,7 @@
 # - {Status: "Validated"}
 
 
+# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
-OT081,57593.9,0.0397519,0.0397519,1.64,9.75204e-11,1.47306e-11,1.47306e-11,100,,MAGIC,,
-OT081,57596.9,0.00488948,0.00488948,,4.34909e-11,3.27564e-11,3.27564e-11,100,,MAGIC,ul,
+OT081,57593.9,0.0397519,0.0397519,1.64,9.75204e-11,1.47306e-11,1.47306e-11,0.1,,MAGIC,,
+OT081,57596.9,0.00488948,0.00488948,,4.34909e-11,3.27564e-11,3.27564e-11,0.1,,MAGIC,ul,

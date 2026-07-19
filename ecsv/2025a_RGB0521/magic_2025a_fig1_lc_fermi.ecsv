@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # datatype:
@@ -24,6 +24,7 @@
 # - {Reference: "magic_2025a.yaml"}
 # - {Status: "Checked"}
 
+# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
 VER 0521+211,55085.5,nan,nan,,7.04E-08,2.17E-08,2.17E-08,0.1,300,Fermi-LAT,,Data have been acquired from the Fermi-LAT light curve repository https://fermi.gsfc.nasa.gov/ssc/data/access/lat/LightCurveRepository/
 VER 0521+211,55092.5,nan,nan,,6.43E-08,2.64E-08,2.64E-08,0.1,300,Fermi-LAT,,Data have been acquired from the Fermi-LAT light curve repository https://fermi.gsfc.nasa.gov/ssc/data/access/lat/LightCurveRepository/

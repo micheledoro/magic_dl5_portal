@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # delimiter: ','
@@ -25,6 +25,7 @@
 # - {Reference: "magic_2023a.yaml"}
 # - {Status: "Validated"}
 
+# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,photon_index,photon_index_elo,photon_index_eup,eth_lo,eth_up,instrument,dataformat,comments
 1ES0647+250,54725.0,15.0,15.0,720.0,1.645,1.349,1.941,0.3,300,Fermi-LAT,Detection with 1sigma uncertainty,
 1ES0647+250,54755.0,15.0,15.0,720.0,2.301,1.681,2.921,0.3,300,Fermi-LAT,Detection with 1sigma uncertainty,
@@ -170,4 +171,3 @@ srcname,t,t_wlo,t_wup,texpo,photon_index,photon_index_elo,photon_index_eup,eth_l
 1ES0647+250,59165.0,15.0,15.0,720.0,1.800,1.560,2.040,0.3,300,Fermi-LAT,Detection with 1sigma uncertainty,
 1ES0647+250,59195.0,15.0,15.0,720.0,1.586,1.430,1.742,0.3,300,Fermi-LAT,Detection with 1sigma uncertainty,
 1ES0647+250,59225.0,15.0,15.0,720.0,1.559,1.427,1.691,0.3,300,Fermi-LAT,Detection with 1sigma uncertainty,
-

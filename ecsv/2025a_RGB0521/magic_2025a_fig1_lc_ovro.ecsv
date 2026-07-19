@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # datatype:
@@ -25,6 +25,7 @@
 # - {Status: "Checked"}
 
 
+# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
 VER 0521+211,55903.4366782,,,,439.0985,6.7579,6.7579,,,OVRO,,OVRO data taken from ref https://doi.org/10.1051/0004-6361/202037811
 VER 0521+211,55907.2174421,,,,430.5476,17.8724,17.8724,,,OVRO,,OVRO data taken from ref https://doi.org/10.1051/0004-6361/202037811

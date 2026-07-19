@@ -1,14 +1,14 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # datatype:
 # - {name: srcname   , unit:    , datatype: string     , description: Source name                         }
-# - {name: en        , unit: MeV     , datatype: float32 , description: Energy                              }
-# - {name: en_wlo    , unit: MeV     , datatype: float32 , description: Energy bin width low                }
-# - {name: en_wup    , unit: MeV     , datatype: float32 , description: Energy bin width up                 }
-# - {name: nufnu     , unit: MeV cm-2 s-1, datatype: float32 , description: Differential photon flux at energy  }
-# - {name: nufnu_elo , unit: MeV cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
-# - {name: nufnu_eup , unit: MeV cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
+# - {name: en        , unit: TeV     , datatype: float32 , description: Energy                              }
+# - {name: en_wlo    , unit: TeV     , datatype: float32 , description: Energy bin width low                }
+# - {name: en_wup    , unit: TeV     , datatype: float32 , description: Energy bin width up                 }
+# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Differential photon flux at energy  }
+# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
+# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
 # - {name: tstart    , unit: mjd     , datatype: float32 , description: MJD start                           }
 # - {name: tstop     , unit: mjd     , datatype: float32 , description: MJD stop                            }
 # - {name: texpo     , unit: s       , datatype: float32 , description: Observation time                    }
@@ -24,38 +24,39 @@
 # - {Reference: "magic_2025c.yaml"}
 # - {Status: "To be checked"}
 
+# schema: astropy-2.0
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
-SNR W44,1.15e+02,1.47e+01,1.69e+01,2.287e-05,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
-SNR W44,1.51e+02,1.94e+01,2.22e+01,5.007e-05,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
-SNR W44,1.99e+02,2.55e+01,2.92e+01,4.328e-05,1.539e-05,-2.618e-05,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,2.62e+02,3.36e+01,3.85e+01,4.959e-05,3.630e-05,-4.079e-05,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,3.49e+02,4.87e+01,5.66e+01,7.376e-05,4.237e-05,-6.103e-05,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,4.71e+02,6.58e+01,7.65e+01,6.886e-05,4.719e-05,-5.544e-05,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,6.37e+02,8.90e+01,1.03e+02,8.160e-05,6.905e-05,-7.293e-05,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,8.60e+02,1.20e+02,1.40e+02,7.850e-05,7.066e-05,-7.050e-05,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,1.16e+03,1.57e+02,1.82e+02,7.390e-05,6.852e-05,-6.846e-05,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,1.55e+03,2.11e+02,2.44e+02,6.243e-05,5.862e-05,-5.859e-05,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,2.08e+03,2.82e+02,3.27e+02,5.882e-05,5.582e-05,-5.581e-05,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,2.78e+03,3.78e+02,4.38e+02,4.364e-05,4.127e-05,-4.124e-05,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,3.73e+03,5.07e+02,5.87e+02,4.197e-05,3.987e-05,-3.984e-05,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,4.99e+03,6.79e+02,7.86e+02,2.881e-05,2.698e-05,-2.692e-05,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,6.69e+03,9.09e+02,1.05e+03,2.368e-05,2.198e-05,-2.193e-05,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,8.96e+03,1.22e+03,1.41e+03,1.791e-05,1.624e-05,-1.617e-05,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,1.20e+04,1.63e+03,1.89e+03,8.889e-06,7.457e-06,-7.343e-06,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,1.61e+04,2.19e+03,2.53e+03,6.365e-06,5.066e-06,-4.939e-06,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,2.15e+04,2.93e+03,3.39e+03,3.030e-06,1.852e-06,-1.692e-06,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,2.88e+04,3.92e+03,4.54e+03,5.639e-06,4.202e-06,-4.001e-06,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,3.86e+04,5.25e+03,6.08e+03,1.526e-06,3.537e-07,-1.071e-07,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,5.18e+04,7.04e+03,8.15e+03,2.715e-06,1.322e-06,-1.052e-06,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,6.93e+04,9.43e+03,1.09e+04,2.815e-06,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
-SNR W44,9.29e+04,1.26e+04,1.46e+04,1.690e-06,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
-SNR W44,1.24e+05,1.69e+04,1.96e+04,5.259e-06,2.782e-06,-2.361e-06,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
-SNR W44,1.67e+05,2.27e+04,2.62e+04,6.034e-06,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
-SNR W44,2.23e+05,3.04e+04,3.51e+04,2.232e-06,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
-SNR W44,2.99e+05,4.07e+04,4.71e+04,7.430e-06,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
-SNR W44,4.01e+05,5.45e+04,6.31e+04,3.916e-06,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
-SNR W44,5.37e+05,7.30e+04,8.45e+04,5.275e-06,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
-SNR W44,7.19e+05,9.78e+04,1.13e+05,7.293e-06,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
-SNR W44,9.63e+05,1.31e+05,1.52e+05,1.131e-05,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
-SNR W44,1.29e+06,1.75e+05,2.03e+05,1.602e-05,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
-SNR W44,1.73e+06,2.35e+05,2.72e+05,2.688e-05,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
+SNR W44,0.000115,1.47e-05,1.69e-05,3.66418e-11,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
+SNR W44,0.000151,1.94e-05,2.22e-05,8.0221e-11,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
+SNR W44,0.000199,2.55e-05,2.92e-05,6.93422e-11,2.46575e-11,-4.1945e-11,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.000262,3.36e-05,3.85e-05,7.94519e-11,5.8159e-11,-6.53528e-11,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.000349,4.87e-05,5.66e-05,1.18177e-10,6.78842e-11,-9.77808e-11,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.000471,6.58e-05,7.65e-05,1.10326e-10,7.56067e-11,-8.88247e-11,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.000637,8.9e-05,0.000103,1.30738e-10,1.1063e-10,-1.16847e-10,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.00086,0.00012,0.00014,1.25771e-10,1.1321e-10,-1.12953e-10,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.00116,0.000157,0.000182,1.18401e-10,1.09781e-10,-1.09685e-10,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.00155,0.000211,0.000244,1.00024e-10,9.39196e-11,-9.38715e-11,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.00208,0.000282,0.000327,9.424e-11,8.94335e-11,-8.94175e-11,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.00278,0.000378,0.000438,6.9919e-11,6.61218e-11,-6.60738e-11,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.00373,0.000507,0.000587,6.72434e-11,6.38788e-11,-6.38307e-11,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.00499,0.000679,0.000786,4.61587e-11,4.32267e-11,-4.31306e-11,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.00669,0.000909,0.00105,3.79395e-11,3.52158e-11,-3.51357e-11,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.00896,0.00122,0.00141,2.8695e-11,2.60193e-11,-2.59072e-11,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.012,0.00163,0.00189,1.42417e-11,1.19474e-11,-1.17648e-11,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.0161,0.00219,0.00253,1.01979e-11,8.11663e-12,-7.91315e-12,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.0215,0.00293,0.00339,4.8546e-12,2.96723e-12,-2.71088e-12,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.0288,0.00392,0.00454,9.03467e-12,6.73235e-12,-6.41031e-12,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.0386,0.00525,0.00608,2.44492e-12,5.6669e-13,-1.71593e-13,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.0518,0.00704,0.00815,4.34991e-12,2.11808e-12,-1.68549e-12,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.0693,0.00943,0.0109,4.51013e-12,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
+SNR W44,0.0929,0.0126,0.0146,2.70768e-12,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
+SNR W44,0.124,0.0169,0.0196,8.42585e-12,4.45726e-12,-3.78274e-12,54628.0,58950.0,0.0,Fermi-LAT,Detection with 1 sigma uncertainty,
+SNR W44,0.167,0.0227,0.0262,9.66753e-12,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
+SNR W44,0.223,0.0304,0.0351,3.57606e-12,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
+SNR W44,0.299,0.0407,0.0471,1.19042e-11,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
+SNR W44,0.401,0.0545,0.0631,6.27412e-12,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
+SNR W44,0.537,0.073,0.0845,8.45148e-12,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
+SNR W44,0.719,0.0978,0.113,1.16847e-11,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
+SNR W44,0.963,0.131,0.152,1.81206e-11,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
+SNR W44,1.29,0.175,0.203,2.56669e-11,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),
+SNR W44,1.73,0.235,0.272,4.30665e-11,nan,nan,54628.0,58950.0,0.0,Fermi-LAT,90% confidence level upper limit (UL),

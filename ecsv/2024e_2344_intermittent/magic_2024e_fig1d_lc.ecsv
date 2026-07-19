@@ -24,6 +24,7 @@
 # - {Reference: "magic_2024e.yaml"}
 # - {Status: "To be checked"}
 
+# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
 1ES 2344+514,58504.839,0.000,0.000,0.0,6.0900e-01,3.8000e-02,3.8000e-02,225.35,294.65,Swift-UVOT/UVW1,1 sigma detection,None
 1ES 2344+514,58511.535,0.000,0.000,0.0,5.3100e-01,3.7000e-02,3.7000e-02,225.35,294.65,Swift-UVOT/UVW1,1 sigma detection,None

@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # delimiter: ','
@@ -11,8 +11,8 @@
 # - {name: flux     , unit: erg cm-2 s-1, datatype: float32 , description: Flux measured above the energy threshold              }
 # - {name: flux_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty of flux                             }
 # - {name: flux_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty of flux                             }
-# - {name: eth_lo      , unit: GeV,      datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
-# - {name: eth_up      , unit: GeV,      datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
+# - {name: eth_lo      , unit: TeV,      datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up      , unit: TeV,      datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
 # - {name: instrument, unit:    , datatype: string     , description: Instrument                                           }
 # - {name: dataformat, unit:    , datatype: string     , description: Data Format                                          }
 # - {name: comments  , unit:    , datatype: string     , description: Comments                                             }
@@ -25,20 +25,20 @@
 # - {Reference: "magic_2023a.yaml"}
 # - {Status: "Validated"}
 
+# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
-1ES0647+250,55146.7,15.0,15.0,26.7,1.4584e-11,6.9553e-12,2.2213e-11,100,nan,MAGIC,Detection with 1sigma uncertainty,
-1ES0647+250,55214.6,15.0,15.0,26.7,3.0383e-12,-2.3114e-12,8.3880e-12,100,nan,MAGIC,Detection with 1sigma uncertainty,
-1ES0647+250,55486.2,15.0,15.0,26.7,2.5311e-12,-5.7831e-12,1.0845e-11,100,nan,MAGIC,Detection with 1sigma uncertainty,
-1ES0647+250,55511.2,15.0,15.0,26.7,5.9355e-12,4.2397e-13,1.1447e-11,100,nan,MAGIC,Detection with 1sigma uncertainty,
-1ES0647+250,55553.6,15.0,15.0,26.7,3.2179e-12,-2.4794e-12,8.9152e-12,100,nan,MAGIC,Detection with 1sigma uncertainty,
-1ES0647+250,55579.6,15.0,15.0,26.7,1.2031e-11,8.2895e-12,1.5773e-11,100,nan,MAGIC,Detection with 1sigma uncertainty,
-1ES0647+250,55609.0,15.0,15.0,26.7,1.0295e-11,5.8805e-12,1.4710e-11,100,nan,MAGIC,Detection with 1sigma uncertainty,
-1ES0647+250,56986.7,0.5,0.5,2.2,1.6197e-11,8.3707e-12,2.4024e-11,100,nan,MAGIC,Detection with 1sigma uncertainty,
-1ES0647+250,58820.1,1.1,1.1,2.7,3.8193e-11,2.9386e-11,4.7000e-11,100,nan,MAGIC,Detection with 1sigma uncertainty,
-1ES0647+250,59203.2,5.1,5.1,13.5,6.7278e-11,6.3284e-11,7.1271e-11,100,nan,MAGIC,Detection with 1sigma uncertainty,
-1ES0647+250,55146.7,15.0,15.0,26.7,4.4196e-11,-9.9000e+01,-9.9000e+01,100,nan,MAGIC,95% confidence upper limit,
-1ES0647+250,55214.6,15.0,15.0,26.7,1.7989e-11,-9.9000e+01,-9.9000e+01,100,nan,MAGIC,95% confidence upper limit,
-1ES0647+250,55486.2,15.0,15.0,26.7,2.3708e-11,-9.9000e+01,-9.9000e+01,100,nan,MAGIC,95% confidence upper limit,
-1ES0647+250,55511.2,15.0,15.0,26.7,2.3548e-11,-9.9000e+01,-9.9000e+01,100,nan,MAGIC,95% confidence upper limit,
-1ES0647+250,55553.6,15.0,15.0,26.7,1.9198e-11,-9.9000e+01,-9.9000e+01,100,nan,MAGIC,95% confidence upper limit,
-
+1ES0647+250,55146.7,15.0,15.0,26.7,1.4584e-11,6.9553e-12,2.2213e-11,0.1,nan,MAGIC,Detection with 1sigma uncertainty,
+1ES0647+250,55214.6,15.0,15.0,26.7,3.0383e-12,-2.3114e-12,8.3880e-12,0.1,nan,MAGIC,Detection with 1sigma uncertainty,
+1ES0647+250,55486.2,15.0,15.0,26.7,2.5311e-12,-5.7831e-12,1.0845e-11,0.1,nan,MAGIC,Detection with 1sigma uncertainty,
+1ES0647+250,55511.2,15.0,15.0,26.7,5.9355e-12,4.2397e-13,1.1447e-11,0.1,nan,MAGIC,Detection with 1sigma uncertainty,
+1ES0647+250,55553.6,15.0,15.0,26.7,3.2179e-12,-2.4794e-12,8.9152e-12,0.1,nan,MAGIC,Detection with 1sigma uncertainty,
+1ES0647+250,55579.6,15.0,15.0,26.7,1.2031e-11,8.2895e-12,1.5773e-11,0.1,nan,MAGIC,Detection with 1sigma uncertainty,
+1ES0647+250,55609.0,15.0,15.0,26.7,1.0295e-11,5.8805e-12,1.4710e-11,0.1,nan,MAGIC,Detection with 1sigma uncertainty,
+1ES0647+250,56986.7,0.5,0.5,2.2,1.6197e-11,8.3707e-12,2.4024e-11,0.1,nan,MAGIC,Detection with 1sigma uncertainty,
+1ES0647+250,58820.1,1.1,1.1,2.7,3.8193e-11,2.9386e-11,4.7000e-11,0.1,nan,MAGIC,Detection with 1sigma uncertainty,
+1ES0647+250,59203.2,5.1,5.1,13.5,6.7278e-11,6.3284e-11,7.1271e-11,0.1,nan,MAGIC,Detection with 1sigma uncertainty,
+1ES0647+250,55146.7,15.0,15.0,26.7,4.4196e-11,-9.9000e+01,-9.9000e+01,0.1,nan,MAGIC,95% confidence upper limit,
+1ES0647+250,55214.6,15.0,15.0,26.7,1.7989e-11,-9.9000e+01,-9.9000e+01,0.1,nan,MAGIC,95% confidence upper limit,
+1ES0647+250,55486.2,15.0,15.0,26.7,2.3708e-11,-9.9000e+01,-9.9000e+01,0.1,nan,MAGIC,95% confidence upper limit,
+1ES0647+250,55511.2,15.0,15.0,26.7,2.3548e-11,-9.9000e+01,-9.9000e+01,0.1,nan,MAGIC,95% confidence upper limit,
+1ES0647+250,55553.6,15.0,15.0,26.7,1.9198e-11,-9.9000e+01,-9.9000e+01,0.1,nan,MAGIC,95% confidence upper limit,

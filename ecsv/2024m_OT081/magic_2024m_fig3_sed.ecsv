@@ -24,6 +24,7 @@
 # - {Reference: "magic_2024m.yaml"}
 # - {Status: "Validated"}
 
+# schema: astropy-2.0
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
 OT081,0.0592546,0.00913584,0.0103852,1.66199e-10,5.11431e-11,5.11431e-11,57593.900887,57593.980391,1.64,MAGIC,,"sed EBL corrected,unfolding Tikhonov"
 OT081,0.0823339,0.0126942,0.0144302,5.57074e-11,1.45537e-11,1.45537e-11,57593.900887,57593.980391,1.64,MAGIC,,"sed EBL corrected,unfolding Tikhonov"

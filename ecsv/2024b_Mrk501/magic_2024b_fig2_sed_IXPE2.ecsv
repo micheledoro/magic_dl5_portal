@@ -1,4 +1,4 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # delimiter: ','
 # delimiter: ','
@@ -7,9 +7,9 @@
 # - {name: en        , unit: Hz     , datatype: float32 , description: Energy                                }
 # - {name: en_wlo    , unit: Hz     , datatype: float32 , description: Energy bin width low                  }
 # - {name: en_wup    , unit: Hz     , datatype: float32 , description: Energy bin width up                   }
-# - {name: nufnu     , unit: erg/cm^2/s^1, datatype: float32 , description: Differential photon flux at energy}
-# - {name: nufnu_elo , unit: erg/cm^2/s^1, datatype: float32 , description: Lower uncertainty in nufnu        }
-# - {name: nufnu_eup , unit: erg/cm^2/s^1, datatype: float32 , description: Upper uncertainty in nufnu        }
+# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Differential photon flux at energy}
+# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu        }
+# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu        }
 # - {name: tstart    , unit: mjd     , datatype: float32 , description: MJD start                             }
 # - {name: tstop     , unit: mjd     , datatype: float32 , description: MJD stop                              }
 # - {name: texpo     , unit: h       , datatype: float32 , description: Observation time                      }
@@ -25,6 +25,7 @@
 # - {Reference: "magic_2024b.yaml"}
 # - {Status: "Validated"}
 
+# schema: astropy-2.0
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
 MRK501,3.7000000000000000e+10,,,3.8850000000000011e-13,3.6999999999999994e-14,3.6999999999999994e-14,59664.19,59666.19,,Metsahovi,Detection,IXPE 2 Epoch - MJD=[59665.24-59667.30]
 MRK501,4.5561000000000000e+14,,,2.3306401103480959e-11,1.7647793504133965e-12,1.7647793504133998e-12,59664.19,59666.19,,Optical R-band,Detection,IXPE 2 Epoch - MJD=[59665.24-59667.30]
