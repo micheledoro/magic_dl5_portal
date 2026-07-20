@@ -1,10 +1,9 @@
 # %ECSV 1.0
 # ---
 # delimiter: ','
-# delimiter: ','
 # datatype:
 # - {name: srcname   , unit:    , datatype: string     , description: Source name                                          }
-# - {name: t         , unit: mjd     , datatype: float32 , description: Time of measurement                                  }
+# - {name: t         , unit: mjd     , datatype: float64 , description: Time of measurement                                  }
 # - {name: t_wlo     , unit: d    , datatype: float32 , description: Lower width of time bin                                 }
 # - {name: t_wup     , unit: d    , datatype: float32 , description: Upper width of time bin                                 }
 # - {name: texpo     , unit: h    , datatype: float32 , description: Exposure time                                           }

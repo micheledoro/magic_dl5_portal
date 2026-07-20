@@ -1,7 +1,6 @@
 # %ECSV 1.0
 # ---
 # delimiter: ','
-# delimiter: ','
 # datatype:
 # - {name: srcname   , unit:    , datatype: string    , description: Source name                         }
 # - {name: en        , unit: TeV     , datatype: float32 , description: Energy                              }
@@ -10,8 +9,8 @@
 # - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Differential photon flux at energy  }
 # - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
 # - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
-# - {name: tstart    , unit: mjd     , datatype: float32 , description: MJD start                           }
-# - {name: tstop     , unit: mjd     , datatype: float32 , description: MJD stop                            }
+# - {name: tstart    , unit: mjd     , datatype: float64 , description: MJD start                           }
+# - {name: tstop     , unit: mjd     , datatype: float64 , description: MJD stop                            }
 # - {name: texpo     , unit: s       , datatype: float32 , description: Observation time                    }
 # - {name: instrument, unit:    , datatype: string    , description: Instrument                          }
 # - {name: dataformat, unit:    , datatype: string    , description: Data Format                         }
@@ -27,7 +26,7 @@
 
 # schema: astropy-2.0
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
-GRB201216C,0.0514651,0.00986949,0.0130296,5.0630e-10,2.9370e-10,2.9370e-10,59199,59199,1144,magic,,
-GRB201216C,0.0797975,0.0153028,0.0202025,2.0921e-10,4.4493e-11,4.4493e-11,59199,59199,1144,magic,,
-GRB201216C,0.123727,0.0237272,0.0313243,8.4222e-11,2.1008e-11,2.1008e-11,59199,59199,1144,magic,,
-GRB201216C,0.191841,0.0367894,0.0485689,2.8489e-11,0.,0.,59199,59199,1144,magic,ul,
+GRB201216C,0.0514651,0.00986949,0.0130296,5.0630e-10,2.9370e-10,2.9370e-10,59199.964201,59199.977720,1168.0,MAGIC,first 20 min of observation, T0+56 s to T0+1224 s (T0 = 2020-12-16 23:07:31 UT)
+GRB201216C,0.0797975,0.0153028,0.0202025,2.0921e-10,4.4493e-11,4.4493e-11,59199.964201,59199.977720,1168.0,MAGIC,,
+GRB201216C,0.123727,0.0237272,0.0313243,8.4222e-11,2.1008e-11,2.1008e-11,59199.964201,59199.977720,1168.0,MAGIC,,
+GRB201216C,0.191841,0.0367894,0.0485689,2.8489e-11,0.,0.,59199.964201,59199.977720,1168.0,MAGIC,ul,

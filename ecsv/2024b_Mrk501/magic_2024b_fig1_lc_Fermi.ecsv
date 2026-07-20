@@ -1,7 +1,6 @@
 # %ECSV 1.0
 # ---
 # delimiter: ','
-# delimiter: ','
 # datatype:
 # - {name: srcname, unit: , datatype: string, description: Source name}
 # - {name: t, unit: mjd, datatype: float32, description: Time of measurement}
