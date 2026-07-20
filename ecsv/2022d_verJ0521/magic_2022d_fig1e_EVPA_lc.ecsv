@@ -1,0 +1,104 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                                          }
+# - {name: t         , unit: mjd     , datatype: float64 , description: Time of measurement                                  }
+# - {name: t_wlo     , unit: d    , datatype: float32 , description: Lower width of time bin                                 }
+# - {name: t_wup     , unit: d    , datatype: float32 , description: Upper width of time bin                                 }
+# - {name: texpo     , unit: h    , datatype: float32 , description: Exposure time                                           }
+# - {name: flux     , unit: deg , datatype: float32 , description: Flux measured above the energy threshold              }
+# - {name: flux_elo , unit: deg , datatype: float32 , description: Lower uncertainty of flux                             }
+# - {name: flux_eup , unit: deg , datatype: float32 , description: Upper uncertainty of flux                             }
+# - {name: eth_lo      , unit: nm,      datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up      , unit: nm,      datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                                           }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                                          }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                                             }
+# meta: !!omap
+# - {Filename: magic_2022d_fig1e_EVPA_lc.ecsv}
+# - {Source: "VER J0521+211"}
+# - {Figure: "Figures 1 and 2, panel e (fifth from top) in the paper."}
+# - {Title: "Multiwavelength Observations of the Blazar VER J0521+211 during an Elevated TeV Gamma-Ray State"}
+# - {Comments: "Datapoints from Steward V-band Electic Vector Position Angle (EVPA) light curves, in the MJD 56,200 and 56,800 time range. Figure 2 is a zoom-in of Figure 1 in the MJD time range 56560-56700."}
+# - {Reference: "magic_2022d.yaml"}
+# - {Status: "Validated"}
+
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+VER J0521+211,56621.297,0.500,0.500,0.0,46.90,46.60,47.20,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56621.453,0.500,0.500,0.0,45.80,45.50,46.10,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56622.304,0.500,0.500,0.0,46.50,46.30,46.70,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56622.405,0.500,0.500,0.0,49.10,48.90,49.30,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56623.254,0.500,0.500,0.0,40.30,40.00,40.60,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56624.253,0.500,0.500,0.0,45.40,45.20,45.60,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56624.373,0.500,0.500,0.0,46.50,46.30,46.70,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56624.539,0.500,0.500,0.0,46.60,46.30,46.90,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56625.233,0.500,0.500,0.0,43.90,43.40,44.40,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56625.366,0.500,0.500,0.0,43.20,42.80,43.60,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56625.508,0.500,0.500,0.0,42.30,41.90,42.70,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56626.288,0.500,0.500,0.0,39.20,38.20,40.20,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56626.429,0.500,0.500,0.0,29.80,28.70,30.90,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56627.270,0.500,0.500,0.0,31.40,31.20,31.60,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56628.296,0.500,0.500,0.0,32.80,32.40,33.20,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56628.419,0.500,0.500,0.0,31.30,31.10,31.50,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56628.533,0.500,0.500,0.0,27.20,27.00,27.40,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56629.243,0.500,0.500,0.0,25.80,25.50,26.10,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56629.370,0.500,0.500,0.0,24.80,24.10,25.50,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56629.411,0.500,0.500,0.0,26.90,25.70,28.10,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56650.192,0.500,0.500,0.0,38.90,38.70,39.10,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56650.237,0.500,0.500,0.0,39.20,39.00,39.40,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56650.307,0.500,0.500,0.0,39.40,39.20,39.60,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56650.409,0.500,0.500,0.0,40.20,40.00,40.40,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56651.198,0.500,0.500,0.0,39.50,39.30,39.70,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56651.256,0.500,0.500,0.0,37.90,37.70,38.10,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56651.332,0.500,0.500,0.0,38.10,37.90,38.30,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56651.458,0.500,0.500,0.0,37.50,37.30,37.70,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56652.183,0.500,0.500,0.0,36.10,35.90,36.30,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56652.241,0.500,0.500,0.0,36.30,36.10,36.50,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56652.322,0.500,0.500,0.0,37.50,37.30,37.70,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56652.443,0.500,0.500,0.0,38.40,38.10,38.70,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56653.209,0.500,0.500,0.0,36.40,36.20,36.60,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56653.264,0.500,0.500,0.0,36.20,36.00,36.40,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56653.313,0.500,0.500,0.0,35.70,35.50,35.90,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56653.390,0.500,0.500,0.0,36.70,36.50,36.90,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56654.209,0.500,0.500,0.0,28.10,27.90,28.30,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56654.256,0.500,0.500,0.0,28.70,28.50,28.90,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56654.312,0.500,0.500,0.0,28.90,28.70,29.10,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56654.373,0.500,0.500,0.0,29.70,29.50,29.90,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56655.330,0.500,0.500,0.0,33.60,33.00,34.20,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56655.416,0.500,0.500,0.0,32.80,32.30,33.30,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56656.169,0.500,0.500,0.0,28.00,27.80,28.20,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56656.208,0.500,0.500,0.0,28.50,28.30,28.70,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56656.268,0.500,0.500,0.0,30.80,30.50,31.10,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56656.385,0.500,0.500,0.0,30.80,30.60,31.00,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56657.164,0.500,0.500,0.0,31.40,31.20,31.60,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56657.211,0.500,0.500,0.0,31.80,31.60,32.00,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56657.268,0.500,0.500,0.0,31.30,31.10,31.50,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56657.340,0.500,0.500,0.0,28.70,28.50,28.90,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56658.178,0.500,0.500,0.0,30.60,30.40,30.80,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56658.215,0.500,0.500,0.0,32.40,32.20,32.60,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56658.294,0.500,0.500,0.0,33.10,32.90,33.30,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56658.370,0.500,0.500,0.0,33.10,32.90,33.30,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56659.210,0.500,0.500,0.0,33.80,33.60,34.00,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56659.297,0.500,0.500,0.0,34.30,34.10,34.50,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56659.390,0.500,0.500,0.0,34.80,34.60,35.00,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56692.229,0.500,0.500,0.0,37.70,37.50,37.90,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56693.214,0.500,0.500,0.0,38.50,38.30,38.70,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56694.207,0.500,0.500,0.0,32.30,32.10,32.50,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56696.184,0.500,0.500,0.0,36.00,35.70,36.30,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56697.230,0.500,0.500,0.0,43.20,42.60,43.80,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56712.235,0.500,0.500,0.0,71.60,71.30,71.90,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56713.159,0.500,0.500,0.0,71.20,70.90,71.50,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56714.229,0.500,0.500,0.0,60.50,59.80,61.20,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56715.179,0.500,0.500,0.0,57.30,56.80,57.80,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56716.161,0.500,0.500,0.0,61.80,61.50,62.10,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56717.160,0.500,0.500,0.0,53.60,53.20,54.00,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56741.158,0.500,0.500,0.0,35.60,35.30,35.90,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56742.161,0.500,0.500,0.0,38.40,38.10,38.70,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56744.155,0.500,0.500,0.0,38.30,38.00,38.60,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56745.152,0.500,0.500,0.0,43.20,42.90,43.50,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56746.138,0.500,0.500,0.0,37.70,37.40,38.00,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56747.140,0.500,0.500,0.0,36.00,35.60,36.40,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+VER J0521+211,56748.139,0.500,0.500,0.0,37.80,37.50,38.10,507,595,Steward V-band,1 sigma detection,Electric Vector Position Angle (in degrees)
+

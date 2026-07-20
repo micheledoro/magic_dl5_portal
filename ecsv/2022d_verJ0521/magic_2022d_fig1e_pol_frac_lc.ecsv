@@ -1,0 +1,104 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                                          }
+# - {name: t         , unit: mjd     , datatype: float64 , description: Time of measurement                                  }
+# - {name: t_wlo     , unit: d    , datatype: float32 , description: Lower width of time bin                                 }
+# - {name: t_wup     , unit: d    , datatype: float32 , description: Upper width of time bin                                 }
+# - {name: texpo     , unit: h    , datatype: float32 , description: Exposure time                                           }
+# - {name: flux     , unit: '%' , datatype: float32 , description: Flux measured above the energy threshold              }
+# - {name: flux_elo , unit: '%' , datatype: float32 , description: Lower uncertainty of flux                             }
+# - {name: flux_eup , unit: '%' , datatype: float32 , description: Upper uncertainty of flux                             }
+# - {name: eth_lo      , unit: nm,      datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up      , unit: nm,      datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                                           }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                                          }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                                             }
+# meta: !!omap
+# - {Filename: magic_2022d_fig1e_pol_frac_lc.ecsv}
+# - {Source: "VER J0521+211"}
+# - {Figure: "Figures 1 and 2, panel e (fifth from top) in the paper."}
+# - {Title: "Multiwavelength Observations of the Blazar VER J0521+211 during an Elevated TeV Gamma-Ray State"}
+# - {Comments: "Datapoints from Steward V-band polarization fraction light curves, in the MJD 56,200 and 56,800 time range. Figure 2 is a zoom-in of Figure 1 in the MJD time range 56560-56700."}
+# - {Reference: "magic_2022d.yaml"}
+# - {Status: "Validated"}
+
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+VER J0521+211,56621.297,0.500,0.500,0.0,7.19,7.11,7.27,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56621.453,0.500,0.500,0.0,6.75,6.68,6.82,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56622.304,0.500,0.500,0.0,7.42,7.36,7.48,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56622.405,0.500,0.500,0.0,7.48,7.42,7.54,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56623.254,0.500,0.500,0.0,7.20,7.13,7.27,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56624.253,0.500,0.500,0.0,6.72,6.67,6.77,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56624.373,0.500,0.500,0.0,6.39,6.34,6.44,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56624.539,0.500,0.500,0.0,6.08,6.02,6.14,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56625.233,0.500,0.500,0.0,5.08,4.99,5.17,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56625.366,0.500,0.500,0.0,5.11,5.04,5.18,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56625.508,0.500,0.500,0.0,5.37,5.30,5.44,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56626.288,0.500,0.500,0.0,5.73,5.54,5.92,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56626.429,0.500,0.500,0.0,4.95,4.76,5.14,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56627.270,0.500,0.500,0.0,6.49,6.44,6.54,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56628.296,0.500,0.500,0.0,8.67,8.54,8.80,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56628.419,0.500,0.500,0.0,9.31,9.24,9.38,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56628.533,0.500,0.500,0.0,9.24,9.17,9.31,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56629.243,0.500,0.500,0.0,9.47,9.39,9.55,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56629.370,0.500,0.500,0.0,9.51,9.27,9.75,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56629.411,0.500,0.500,0.0,11.03,10.58,11.48,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56650.192,0.500,0.500,0.0,8.96,8.90,9.02,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56650.237,0.500,0.500,0.0,8.93,8.87,8.99,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56650.307,0.500,0.500,0.0,8.88,8.81,8.95,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56650.409,0.500,0.500,0.0,9.55,9.48,9.62,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56651.198,0.500,0.500,0.0,8.67,8.61,8.73,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56651.256,0.500,0.500,0.0,8.73,8.67,8.79,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56651.332,0.500,0.500,0.0,8.56,8.50,8.62,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56651.458,0.500,0.500,0.0,8.76,8.69,8.83,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56652.183,0.500,0.500,0.0,8.55,8.48,8.62,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56652.241,0.500,0.500,0.0,8.79,8.72,8.86,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56652.322,0.500,0.500,0.0,8.24,8.17,8.31,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56652.443,0.500,0.500,0.0,8.50,8.41,8.59,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56653.209,0.500,0.500,0.0,8.16,8.10,8.22,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56653.264,0.500,0.500,0.0,8.45,8.39,8.51,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56653.313,0.500,0.500,0.0,8.79,8.74,8.84,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56653.390,0.500,0.500,0.0,8.72,8.66,8.78,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56654.209,0.500,0.500,0.0,7.66,7.60,7.72,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56654.256,0.500,0.500,0.0,8.06,8.01,8.11,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56654.312,0.500,0.500,0.0,8.20,8.14,8.26,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56654.373,0.500,0.500,0.0,8.34,8.28,8.40,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56655.330,0.500,0.500,0.0,7.86,7.71,8.01,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56655.416,0.500,0.500,0.0,8.32,8.19,8.45,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56656.169,0.500,0.500,0.0,7.37,7.31,7.43,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56656.208,0.500,0.500,0.0,7.25,7.19,7.31,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56656.268,0.500,0.500,0.0,6.96,6.90,7.02,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56656.385,0.500,0.500,0.0,7.30,7.24,7.36,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56657.164,0.500,0.500,0.0,6.96,6.90,7.02,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56657.211,0.500,0.500,0.0,7.15,7.09,7.21,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56657.268,0.500,0.500,0.0,7.38,7.32,7.44,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56657.340,0.500,0.500,0.0,7.69,7.63,7.75,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56658.178,0.500,0.500,0.0,8.71,8.65,8.77,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56658.215,0.500,0.500,0.0,8.52,8.46,8.58,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56658.294,0.500,0.500,0.0,8.56,8.50,8.62,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56658.370,0.500,0.500,0.0,8.58,8.52,8.64,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56659.210,0.500,0.500,0.0,9.46,9.41,9.51,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56659.297,0.500,0.500,0.0,9.46,9.40,9.52,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56659.390,0.500,0.500,0.0,9.22,9.16,9.28,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56692.229,0.500,0.500,0.0,8.75,8.69,8.81,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56693.214,0.500,0.500,0.0,10.03,9.97,10.09,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56694.207,0.500,0.500,0.0,8.58,8.51,8.65,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56696.184,0.500,0.500,0.0,10.18,10.08,10.28,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56697.230,0.500,0.500,0.0,11.46,11.24,11.68,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56712.235,0.500,0.500,0.0,7.94,7.86,8.02,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56713.159,0.500,0.500,0.0,6.72,6.65,6.79,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56714.229,0.500,0.500,0.0,4.45,4.34,4.56,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56715.179,0.500,0.500,0.0,3.95,3.88,4.02,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56716.161,0.500,0.500,0.0,6.31,6.24,6.38,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56717.160,0.500,0.500,0.0,7.72,7.61,7.83,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56741.158,0.500,0.500,0.0,9.26,9.16,9.36,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56742.161,0.500,0.500,0.0,8.29,8.19,8.39,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56744.155,0.500,0.500,0.0,8.93,8.84,9.02,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56745.152,0.500,0.500,0.0,9.15,9.06,9.24,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56746.138,0.500,0.500,0.0,9.01,8.90,9.12,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56747.140,0.500,0.500,0.0,7.67,7.57,7.77,507,595,Steward V-band,1 sigma detection,Polarization fraction
+VER J0521+211,56748.139,0.500,0.500,0.0,6.93,6.85,7.01,507,595,Steward V-band,1 sigma detection,Polarization fraction
+
