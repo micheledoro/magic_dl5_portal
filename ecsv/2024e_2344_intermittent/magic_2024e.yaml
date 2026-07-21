@@ -1,14 +1,14 @@
 File_info:
- Fdate   = 20260715
+ Fdate   = 20260721
  Fvers   = 1
- Fgen    = Stefano Marchesi stefano.marchesi@unibo.it
- Fmail   = contact.magic@mpp.mpg.de 
+ Fgen    = Stefano Marchesi stefano.marchesi@unibo.it; Michele Doro, michele.doro@unipd.it
+ Fmail   = magic_legacy@mpp.mpg.de
  Flink   = <https://raw.githubusercontent.com/micheledoro/magic_dl5_portal/refs/heads/main/ecsv>
  Fstatus = "Checked"
 Paper info:
  Ptitle: "Multi-year characterisation of the broad-band emission from the intermittent extreme BL Lac 1ES 2344+514"
  Pref :  "Astronomy & Astrophysics, Volume 682, id.A114"
- Pdoi:   "10.1051/0004-6361/202347845"
+ Pdoi:   "https://doi.org/10.1051/0004-6361/202347845"
  Parxiv: "https://arxiv.org/abs/2310.03922"
  Pcoll:  magic
  Pcauthor:  Alex Arbet Engels
@@ -17,7 +17,6 @@ Paper info:
  Pinspire :
 Targets in file:
  Tpname01: 1ES 2344+514
- Taname01: 
  Tra01:  356.770154
  Tdec01: 51.704967
 File list MAGIC:

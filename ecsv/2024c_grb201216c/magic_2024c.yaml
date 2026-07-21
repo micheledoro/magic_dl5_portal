@@ -1,8 +1,8 @@
 File_info:
- Fdate   : 20260716
+ Fdate   : 20260721
  Fvers   : v1.0
  Fgen    : Michele Doro michele.doro@unipd.it; Stefano Marchesi stefano.marchesi@unibo.it
- Fmail   : contact.magic@mpp.mpg.de 
+ Fmail   : magic_legacy@mpp.mpg.de
  Flink   : <https://raw.githubusercontent.com/micheledoro/magic_dl5_portal/refs/heads/main/ecsv>
  Fstatus : "Checked"
 Paper info:
@@ -17,7 +17,6 @@ Paper info:
  Pinspire : Abe:2023nhj
 Targets in file: 
  Tpname01: GRB201216C
- Taname01: 
  Tra01:  16.37032
  Tdec01: 16.51612
 File list MAGIC:

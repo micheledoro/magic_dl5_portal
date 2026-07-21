@@ -1,0 +1,38 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                                          }
+# - {name: t         , unit: mjd     , datatype: float64 , description: Time of measurement                                  }
+# - {name: t_wlo     , unit: d    , datatype: float32 , description: Lower width of time bin                                 }
+# - {name: t_wup     , unit: d    , datatype: float32 , description: Upper width of time bin                                 }
+# - {name: texpo     , unit: h    , datatype: float32 , description: Exposure time                                           }
+# - {name: flux     , unit: ph s-1 cm-2 , datatype: float32 , description: Flux measured above the energy threshold              }
+# - {name: flux_elo , unit: ph s-1 cm-2 , datatype: float32 , description: Lower uncertainty of flux                             }
+# - {name: flux_eup , unit: ph s-1 cm-2 , datatype: float32 , description: Upper uncertainty of flux                             }
+# - {name: eth_lo      , unit: GeV,      datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up      , unit: GeV,      datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                                           }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                                          }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                                             }
+# meta: !!omap
+# - {Filename: magic_2022e_fig4d_lc.ecsv}
+# - {Source: "MAXI J1820+070"}
+# - {Figure: "Figure 4, panel d (fourth from top) in the paper."}
+# - {Title: "Gamma-ray observations of MAXI J1820+070 during the 2018 outburst"}
+# - {Comments: "Datapoints from Fermi-LAT and VHE (combined H.E.S.S. - MAGIC - VERITAS) light curve of MAXI J1820+070 during its 2018 outburst, in the MJD 58,189 and 58,420 time range."}
+# - {Reference: "magic_2022e.yaml"}
+# - {Status: "To be checked"}
+
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+MAXI J1820+070,58305.000,115.000,115.000,,1.8000e-08,-9.9000e+01,-9.9000e+01,0.1,500.0,lat,95% confidence level upper limit,None
+MAXI J1820+070,58246.750,56.750,56.750,,3.1000e-08,-9.9000e+01,-9.9000e+01,0.1,500.0,lat,95% confidence level upper limit,None
+MAXI J1820+070,58307.100,3.600,3.600,,1.6000e-07,-9.9000e+01,-9.9000e+01,0.1,500.0,lat,95% confidence level upper limit,None
+MAXI J1820+070,58345.350,34.650,34.650,,2.5000e-08,-9.9000e+01,-9.9000e+01,0.1,500.0,lat,95% confidence level upper limit,None
+MAXI J1820+070,58386.500,6.500,6.500,,5.2000e-08,-9.9000e+01,-9.9000e+01,0.1,500.0,lat,95% confidence level upper limit,None
+MAXI J1820+070,58406.500,13.500,13.500,,6.0000e-08,-9.9000e+01,-9.9000e+01,0.1,500.0,lat,95% confidence level upper limit,None
+MAXI J1820+070,58296.500,96.500,96.500,22.5,7.1550e-13,-9.9000e+01,-9.9000e+01,200.0,nan,magic+hess+veritas,95% confidence level upper limit,MAGIC total for the joint VHE analysis (22.5 h over HS + HS-SS + SS-HS states) -- MAGIC did not observe the Soft State; MNRAS 517 4736 Table 2
+MAXI J1820+070,58251.750,51.750,51.750,22.5,9.4660e-13,-9.9000e+01,-9.9000e+01,200.0,nan,magic+hess+veritas,95% confidence level upper limit,None
+MAXI J1820+070,58307.100,3.600,3.600,22.5,9.4660e-13,-9.9000e+01,-9.9000e+01,200.0,nan,magic+hess+veritas,95% confidence level upper limit,None
+MAXI J1820+070,58345.350,34.650,34.650,22.5,1.6000e-12,-9.9000e+01,-9.9000e+01,200.0,nan,magic+hess+veritas,95% confidence level upper limit,None
+MAXI J1820+070,58386.500,6.500,6.500,22.5,2.1870e-12,-9.9000e+01,-9.9000e+01,300.0,nan,magic+hess+veritas,95% confidence level upper limit,None

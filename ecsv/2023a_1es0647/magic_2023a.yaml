@@ -1,14 +1,14 @@
 File_info:
- Fdate   = 20260717
+ Fdate   = 20260721
  Fvers   = 1
- Fgen    = Stefano Marchesi stefano.marchesi@unibo.it
- Fmail   = contact.magic@mpp.mpg.de 
+ Fgen    = Stefano Marchesi stefano.marchesi@unibo.it; Michele Doro, michele.doro@unipd.it
+ Fmail   = magic_legacy@mpp.mpg.de
  Flink   = <https://raw.githubusercontent.com/micheledoro/magic_dl5_portal/refs/heads/main/ecsv>
- Fstatus = "Done and checked"
+ Fstatus = "Checked"
 Paper info:
  Ptitle: "Long-term multi-wavelength study of 1ES 0647+250"
  Pref :  "Astronomy & Astrophysics, Volume 670, id.A49, 20 pp."
- Pdoi:   "10.1051/0004-6361/202244477"
+ Pdoi:   "https://doi.org/10.1051/0004-6361/202244477"
  Parxiv: "https://arxiv.org/abs/2211.13268"
  Pcoll:  magic, externals
  Pcauthor:  Jorge Otero-Santos; Daniel Morcuende; Vandad Fallah Ramazani; Daniela Dorner; David Paneque
@@ -17,7 +17,6 @@ Paper info:
  Pinspire :
 Targets in file: 
  Tpname01: 1ES 0647+250
- Taname01: 
  Tra01:  102.693709
  Tdec01: 25.049896
 File list MAGIC:
@@ -34,4 +33,3 @@ Other files:
  magic_2023a_fig1f_lc.ecsv
  magic_2023a_fig1g_lc.ecsv
  magic_2023a_fig1h_lc.ecsv
- magic_2023a_summary.txt

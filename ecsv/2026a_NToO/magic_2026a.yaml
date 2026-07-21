@@ -1,0 +1,89 @@
+File_info:
+ Fdate   : 20260721
+ Fvers   : 1
+ Fgen    : Ilaria Viale, iviale@to.infn.it; Stefano Marchesi, stefano.marchesi@unibo.it; Michele Doro, michele.doro@unipd.it
+ Fmail   : magic_legacy@mpp.mpg.de
+ Flink   : <https://raw.githubusercontent.com/micheledoro/magic_dl5_portal/refs/heads/main/ecsv>
+ Fstatus : "Checked"
+Paper info:
+ Ptitle: "Prompt Searches for Very-high-energy $\gamma$-Ray Counterparts to IceCube Astrophysical Neutrino Alerts"
+ Pref     : ApJ 997 (2026) 141
+ Pdoi     : https://doi.org/10.3847/1538-4357/ae2c4e
+ Parxiv   : https://arxiv.org/abs/2512.16562
+ Pcoll    : MAGIC, FACT, H.E.S.S., VERITAS, Fermi-LAT, IceCube
+ Pcauthor : B. Schleicher, F. Schussler, I. Viale, W. Jin,
+ Pfauthor : Abhir, J. and Biland, A. and Brand, K. and Bretz, T. and Dorner, D. and Eisenberger, L. and Elsaesser, D. and Günther, P. and Hasan, S. and Hildebrand, D. and Mannheim, K. and Linhoff, M. and Pfeifle, F. and Rhode, W. and Schleicher, B. and Sliusar, V. and Vorbrugg, M. and Walter, R. and (FACT Collaboration) and Aharonian, F. and Benkhali, F. Ait and Aschersleben, J. and Ashkar, H. and Backes, M. and Martins, V. Barbosa and Batzofin, R. and Becherini, Y. and Berge, D. and Böttcher, M. and Boisson, C. and Bolmont, J. and Borowska, J. and Brose, R. and Brown, A. and Brun, F. and Bruno, B. and Casanova, S. and Celic, J. and Cerruti, M. and Chen, A. and Chernyakova, M. and Chibueze, J. and Chibueze, O. and Cornejo, B. and Cotter, G. and Cozzolongo, G. and Damascene Mbarubucyeye, J. and de Assis Scarpin, J. and Delgado Giles, A. and Djannati-Ataï, A. and Djuvsland, J. and Dmytriiev, A. and Egberts, K. and Egg, K. and Einecke, S. and Ernenwein, J.-P. and Nieves, C. Escañuela and Feijen, K. and Filipovic, M. and Fontaine, G. and Funk, S. and Gabici, S. and Glicenstein, J.F. and Goswami, P. and Grolleron, G. and Hess, B. and Hinton, J.A. and Holler, M. and Jamrozy, M. and Jankowsky, F. and Jung-Richardt, I. and Kasai, E. and Katarzyński, K. and Katjaita, H. and Kerszberg, D. and Khatoon, R. and Khélifi, B. and Kluźniak, W. and Komin, Nu. and Konno, R. and Kosack, K. and Kostunin, D. and Mezek, G. Kukec and Lang, R.G. and Lemière, A. and Lemoine-Goumard, M. and Lenain, J.-P. and Luashvili, A. and Mackey, J. and Marandon, V. and Martí-Devesa, G. and Marx, R. and Mayer, M. and Mehta, A. and Mitchell, A. and Moderski, R. and Moghadam, M.O. and Mohrmann, L. and Moulin, E. and de Naurois, M. and Niemiec, J. and de Ona Wilhelmi, E. and Panny, S. and Panter, M. and Parsons, R.D. and Pensec, U. and Pichard, P. and Pühlhofer, G. and Punch, M. and Quirrenbach, A. and Regeard, M. and Reimer, O. and Ren, H. and Rieger, F. and Rowell, G. and Rudak, B. and Sabri, K. and Sahakian, V. and Salzmann, H. and Sasaki, M. and Schäfer, J. and Schüssler, F. and Schutte, H.M. and Senniappan, M. and Shapopi, J.N.S. and Sharma, A. and Sol, H. and Spencer, S. and Stawarz, Ł. and Steenkamp, R. and Steinmassl, S. and Steppa, C. and Takahashi, T. and Tanaka, T. and Taylor, A.M. and Tsirou, M. and van Eldik, C. and Vecchi, M. and Venter, C. and Vink, J. and Wach, T. and Wagner, S.J. and Wierzcholska, A. and Zacharias, M. and Zdziarski, A.A. and Zech, A. and Żywucka, N. and (H.E.S.S. Collaboration) and Abe, S. and Abhir, J. and Abhishek, A. and Aguasca-Cabot, A. and Agudo, I. and Aniello, T. and Ansoldi, S. and Antonelli, L. A. and Engels, A. Arbet and Arcaro, C. and Artero, M. and Asano, K. and Babić, A. and Bakshi, C. and Barres de Almeida, U. and Barrio, J. A. and Barrios-Jiménez, L. and Batković, I. and Baxter, J. and Becerra González, J. and Bednarek, W. and Bernardini, E. and Bernete, J. and Berti, A. and Besenrieder, J. and Bigongiari, C. and Biland, A. and Blanch, O. and Bökenkamp, H. and Bonnoli, G. and Bošnjak, Ž. and Bronzini, E. and Burelli, I. and Campoy-Ordaz, A. and Carosi, A. and Carosi, R. and Carretero-Castrillo, M. and Castro-Tirado, A. J. and Cerasole, D. and Ceribella, G. and Chai, Y. and Chilingarian, A. and Cifuentes, A. and Contreras, J. L. and Cortina, J. and Covino, S. and D’Amico, G. and Da Vela, P. and Dazzi, F. and De Angelis, A. and De Lotto, B. and Delfino, M. and Delgado Mendez, C. and Di Pierro, F. and Di Tria, R. and Di Venere, L. and Dinesh, A. and Dominis Prester, D. and Donini, A. and Dorner, D. and Doro, M. and Eisenberger, L. and Elsaesser, D. and Escudero, J. and Fariña, L. and Fattorini, A. and Foffano, L. and Font, L. and Fröse, S. and Fukazawa, Y. and Gasparyan, S. and Gaug, M. and Paiva, J. G. Giesbrecht and Giglietto, N. and Giordano, F. and Gliwny, P. and Godinović, N. and Gradetzke, T. and Grau, R. and Green, D. and Green, J. G. and Günther, P. and Hadasch, D. and Hahn, A. and Hassan, T. and Heckmann, L. and Hrupec, D. and Imazawa, R. and Israyelyan, D. and Martínez, I. Jiménez and Quiles, J. Jiménez and Jormanainen, J. and Kankkunen, S. and Kayanoki, T. and Kerszberg, D. and Konrad, J. and Kouch, P. M. and Kubo, H. and Kushida, J. and Láinez, M. and Lamastra, A. and Lindfors, E. and Lombardi, S. and Longo, F. and López-Coto, R. and López-Moya, M. and López-Oramas, A. and Loporchio, S. and Lulić, L. and Lyard, E. and Majumdar, P. and Makariev, M. and Mallamaci, M. and Maneva, G. and Manganaro, M. and Mangano, S. and Marchesi, S. and Mariotti, M. and Martínez, M. and Maruševec, P. and Mas-Aguilar, A. and Mazin, D. and Menchiari, S. and Gallego, J. Méndez and Miceli, D. and Miranda, J. M. and Mirzoyan, R. and Molero González, M. and Molina, E. and Mondal, H. A. and Moralejo, A. and Nakamori, T. and Nanci, C. and Neustroev, V. and Rosillo, M. Nievas and Nigro, C. and Nikolić, L. and Nilsson, K. and Nishijima, K. and Noda, K. and Nozaki, S. and Okumura, A. and Santos, J. Otero- and Paiano, S. and Paneque, D. and Paredes, J. M. and Peresano, M. and Persic, M. and Pihet, M. and Podobnik, F. and Moroni, P. G. Prada and Prandini, E. and Ribó, M. and Rico, J. and Saito, T. and Sakurai, S. and Satalecka, K. and Saturni, F. G. and Schmitz, K. and Schmuckermaier, F. and Schubert, J. L. and Sciaccaluga, A. and Silvestri, G. and Sitarek, J. and Sliusar, V. and Sobczynska, D. and Stamerra, A. and Strišković, J. and Strom, D. and Strzys, M. and Suda, Y. and Tajima, H. and Takahashi, M. and Takeishi, R. and Temnikov, P. and Terauchi, K. and Terzić, T. and Tutone, A. and Ubach, S. and van Scherpenberg, J. and Acosta, M. Vazquez and Ventura, S. and Verna, G. and Viale, I. and Vigliano, A. and Vigorito, C. F. and Visentin, E. and Vitale, V. and Vovk, I. and Walter, R. and Wersig, F. and Will, M. and Yamamoto, T. and Yeung, P. K. H. and Yoo, S. and (MAGIC Collaboration) and Acharyya, A. and Archer, A. and Bangale, P. and Bartkoske, J. T. and Benbow, W. and Buckley, J. H. and Chen, Y. and Christiansen, J. L. and Chromey, A. J. and Errando, M. and Feldman, S. and Feng, Q. and Filbert, S. and Fortson, L. and Furniss, A. and Hanlon, W. and Hervet, O. and Hinrichs, C. E. and Holder, J. and Hughes, Z. and Humensky, T. B. and Jin, W. and Johnson, M. N. and Kaaret, P. and Kertzman, M. and Kherlakian, M. and Kieda, D. and Kleiner, T. K. and Korzoun, N. and Lang, M. J. and Lundy, M. and Maier, G. and Millard, M. J. and Millis, J. and Moriarty, P. and Mukherjee, R. and Ning, W. and Ong, R. A. and Pandey, A. and Pohl, M. and Quinn, J. and Rabinowitz, P. L. and Ragan, K. and Reynolds, P. T. and Ribeiro, D. and Roache, E. and Sadeh, I. and Sadun, A. C. and Saha, L. and Santander, M. and Sembroski, G. H. and Shang, R. and Tak, D. and Talluri, A. K. and Tucci, J. V. and Valverde, J. and Vassiliev, V. V. and Williams, D. A. and Wong, S. L. and (VERITAS Collaboration) and Buson, S. and (Fermi-LAT Collaboration) and Abbasi, R. and Ackermann, M. and Adams, J. and Agarwalla, S. K. and Aguilar, J. A. and Ahlers, M. and Alameddine, J.M. and Ali, S. and Amin, N. M. and Andeen, K. and Argüelles, C. and Ashida, Y. and Athanasiadou, S. and Axani, S. N. and Babu, R. and Bai, X. and Baines-Holmes, J. and Balagopal V., A. and Barwick, S. W. and Bash, S. and Basu, V. and Bay, R. and Beatty, J. J. and Becker Tjus, J. and Behrens, P. and Beise, J. and Bellenghi, C. and Benkel, B. and BenZvi, S. and Berley, D. and Bernardini, E. and Besson, D. Z. and Blaufuss, E. and Bloom, L. and Blot, S. and Bodo, I. and Bontempo, F. and Motzkin, J. Y. Book and Boscolo Meneguolo, C. and Böser, S. and Botner, O. and Böttcher, J. and Braun, J. and Brinson, B. and Brisson-Tsavoussis, Z. and Burley, R. T. and Butterfield, D. and Campana, M. A. and Carloni, K. and Carpio, J. and Chattopadhyay, S. and Chau, N. and Chen, Z. and Chirkin, D. and Choi, S. and Clark, B. A. and Coleman, A. and Coleman, P. and Collin, G. H. and Borja, D. A. Coloma and Connolly, A. and Conrad, J. M. and Cowen, D. F. and De Clercq, C. and DeLaunay, J. J. and Delgado, D. and Delmeulle, T. and Deng, S. and Desiati, P. and de Vries, K. D. and de Wasseige, G. and DeYoung, T. and Díaz-Vélez, J. C. and DiKerby, S. and Ding, T. and Dittmer, M. and Domi, A. and Draper, L. and Dueser, L. and Durnford, D. and Dutta, K. and DuVernois, M. A. and Ehrhardt, T. and Eidenschink, L. and Eimer, A. and Eller, P. and Ellinger, E. and Elsässer, D. and Engel, R. and Erpenbeck, H. and Esmail, W. and Eulig, S. and Evans, J. and Evenson, P. A. and Fan, K. L. and Fang, K. and Farrag, K. and Fazely, A. R. and Fedynitch, A. and Feigl, N. and Finley, C. and Fischer, L. and Fox, D. and Franckowiak, A. and Fukami, S. and Fürst, P. and Gallagher, J. and Ganster, E. and Garcia, A. and Garcia, M. and Garg, G. and Genton, E. and Gerhardt, L. and Ghadimi, A. and Glaser, C. and Glüsenkamp, T. and Gonzalez, J. G. and Goswami, S. and Granados, A. and Grant, D. and Gray, S. J. and Griffin, S. and Griswold, S. and Groth, K. M. and Guevel, D. and Günther, C. and Gutjahr, P. and Ha, C. and Haack, C. and Hallgren, A. and Halve, L. and Halzen, F. and Hamacher, L. and Ha Minh, M. and Handt, M. and Hanson, K. and Hardin, J. and Harnisch, A. A. and Hatch, P. and Haungs, A. and Häussler, J. and Helbing, K. and Hellrung, J. and Henke, B. and Hennig, L. and Henningsen, F. and Heuermann, L. and Hewett, R. and Heyer, N. and Hickford, S. and Hidvegi, A. and Hill, C. and Hill, G. C. and Hmaid, R. and Hoffman, K. D. and Hooper, D. and Hori, S. and Hoshina, K. and Hostert, M. and Hou, W. and Hrywniak, M. and Huber, T. and Hultqvist, K. and Hymon, K. and Ishihara, A. and Iwakiri, W. and Jacquart, M. and Jain, S. and Janik, O. and Jansson, M. and Jeong, M. and Jin, M. and Kamp, N. and Kang, D. and Kang, W. and Kang, X. and Kappes, A. and Kardum, L. and Karg, T. and Karl, M. and Karle, A. and Katil, A. and Kauer, M. and Kelley, J. L. and Khanal, M. and Khatee Zathul, A. and Kheirandish, A. and Kimku, H. and Kiryluk, J. and Klein, C. and Klein, S. R. and Kobayashi, Y. and Kochocki, A. and Koirala, R. and Kolanoski, H. and Kontrimas, T. and Köpke, L. and Kopper, C. and Koskinen, D. J. and Koundal, P. and Kowalski, M. and Kozynets, T. and Kravka, A. and Krieger, N. and Krishnamoorthi, J. and Krishnan, T. and Kruiswijk, K. and Krupczak, E. and Kumar, A. and Kun, E. and Kurahashi, N. and Lad, N. and Lagunas Gualda, C. and Arnaud, L. Lallement and Lamoureux, M. and Larson, M. J. and Lauber, F. and Lazar, J. P. and Leonard DeHolton, K. and Leszczyńska, A. and Liao, J. and Lin, C. and Liu, Y. T. and Liubarska, M. and Love, C. and Lu, L. and Lucarelli, F. and Luszczak, W. and Lyu, Y. and Macdonald, M. and Madsen, J. and Magnus, E. and Makino, Y. and Manao, E. and Mancina, S. and Mand, A. and Mariş, I. C. and Marka, S. and Marka, Z. and Marten, L. and Martinez-Soler, I. and Maruyama, R. and Mauro, J. and Mayhew, F. and McNally, F. and Mead, J. V. and Meagher, K. and Mechbal, S. and Medina, A. and Meier, M. and Merckx, Y. and Merten, L. and Mitchell, J. and Molchany, L. and Mondal, S. and Montaruli, T. and Moore, R. W. and Morii, Y. and Mosbrugger, A. and Moulai, M. and Mousadi, D. and Moyaux, E. and Mukherjee, T. and Naab, R. and Nakos, M. and Naumann, U. and Necker, J. and Neste, L. and Neumann, M. and Niederhausen, H. and Nisa, M. U. and Noda, K. and Noell, A. and Novikov, A. and Obertacke, A. and O’Dell, V. and Olivas, A. and Orsoe, R. and Osborn, J. and O’Sullivan, E. and Palusova, V. and Pandya, H. and Parenti, A. and Park, N. and Parrish, V. and Paudel, E. N. and Paul, L. and de los Heros, C. Pérez and Pernice, T. and Petersen, T. C. and Peterson, J. and Plum, M. and Pontén, A. and Poojyam, V. and Popovych, Y. and Rodriguez, M. Prado and Pries, B. and Murphy, R. Procter- and Przybylski, G. T. and Pyras, L. and Raab, C. and Rack-Helleis, J. and Rad, N. and Ravn, M. and Rawlins, K. and Rechav, Z. and Rehman, A. and Reistroffer, I. and Resconi, E. and Reusch, S. and Rho, C. D. and Rhode, W. and Ricca, L. and Riedel, B. and Rifaie, A. and Roberts, E. J. and Rongen, M. and Rosted, A. and Rott, C. and Ruhe, T. and Ruohan, L. and Ryckbosch, D. and Saffer, J. and Salazar-Gallegos, D. and Sampathkumar, P. and Sandrock, A. and Sanger-Johnson, G. and Santander, M. and Sarkar, S. and Savelberg, J. and Scarnera, M. and Schaile, P. and Schaufel, M. and Schieler, H. and Schindler, S. and Schlickmann, L. and Schlüter, B. and Schlüter, F. and Schmeisser, N. and Schmidt, T. and Schröder, F. G. and Schumacher, L. and Schwirn, S. and Sclafani, S. and Seckel, D. and Seen, L. and Seikh, M. and Seunarine, S. and Myhr, P. A. Sevle and Shah, R. and Shefali, S. and Shimizu, N. and Skrzypek, B. and Snihur, R. and Soedingrekso, J. and Sègaard, A. and Soldin, D. and Soldin, P. and Sommani, G. and Spannfellner, C. and Spiczak, G. M. and Spiering, C. and Stachurska, J. and Stamatikos, M. and Stanev, T. and Stezelberger, T. and Stürwald, T. and Stuttard, T. and Sullivan, G. W. and Taboada, I. and Ter-Antonyan, S. and Terliuk, A. and Thakuri, A. and Thiesmeyer, M. and Thompson, W. G. and Thwaites, J. and Tilav, S. and Tollefson, K. and Toscano, S. and Tosi, D. and Trettin, A. and Upadhyay, A. K. and Upshaw, K. and Vaidyanathan, A. and Valtonen-Mattila, N. and Valverde, J. and Vandenbroucke, J. and Van Eeden, T. and van Eijndhoven, N. and Van Rootselaar, L. and van Santen, J. and Vara, J. and Varsi, F. and Venugopal, M. and Vereecken, M. and Carrasco, S. Vergara and Verpoest, S. and Veske, D. and Vijai, A. and Villarreal, J. and Walck, C. and Wang, A. and Warrick, E. H. S. and Weaver, C. and Weigel, P. and Weindl, A. and Weldert, J. and Wen, A. Y. and Wendt, C. and Werthebach, J. and Weyrauch, M. and Whitehorn, N. and Wiebusch, C. H. and Williams, D. R. and Witthaus, L. and Wolf, M. and Wrede, G. and Xu, X. W. and Yanez, J. P. and Yao, Y. and Yildizci, E. and Yoshida, S. and Young, R. and Yu, F. and Yu, S. and Yuan, T. and Jurowitzki, A. Zander and Zegarelli, A. and Zhang, S. and Zhang, Z. and Zhelnin, P. and Zilberman, P. and D’Ammando, F. and (IceCube Collaboration)
+ Pads     : 2026ApJ...997..141A
+ Pinspire : FACT:2025gjy
+Targets in file: 
+ Tpname01: 1ES 1312-423
+ Tra01:  198.76413
+ Tdec01: -42.613822
+ Tpname02: GB6 J0316+0904
+ Tra02:  49.053053
+ Tdec02: 9.078689
+ Tpname03: MG1 J181841+0903
+ Tra03:  274.66692
+ Tdec03: 9.06283
+ Tpname04: OC 457
+ Tra04:  24.244145
+ Tdec04: 47.858083
+ Tpname05: OP 313
+ Tra05:  197.619433
+ Tdec05: 32.345495
+ Tpname06: PMN J0325-1843
+ Tra06:  51.477445
+ Tdec06: -18.736566
+ Tpname07: PMN J2016-0903
+ Tra07:  304.100153
+ Tdec07: -9.059296
+ Tpname08: EHE-171106A
+ Tra08:  340.0
+ Tdec08: 7.4
+ Tpname09: IceCube-190922B
+ Tra09:  4.8
+ Tdec09: -1.92
+ Tpname10: IceCube-191001A
+ Tra10:  314.08
+ Tdec10: 12.94
+ Tpname11: IceCube-200107A
+ Tra11:  148.782917
+ Tdec11: 35.85025
+ Tpname12: IceCube-201114A
+ Tra12:  104.46
+ Tdec12: 6.38
+ Tpname13: IceCube-190730A
+ Tra13:  226.104082
+ Tdec13: 10.494222
+ Tpname14: IceCube-191001A
+ Tra14:  314.08
+ Tdec14: 12.94
+File list MAGIC:
+ magic_2026a_fig4a_sed.ecsv
+ magic_2026a_fig4b_sed.ecsv
+ magic_2026a_fig4c_sed.ecsv
+ magic_2026a_fig4d_sed.ecsv
+ magic_2026a_fig4e_sed.ecsv
+ magic_2026a_fig4f_sed.ecsv
+ magic_2026a_fig5a_sed.ecsv
+ magic_2026a_fig5c_sed.ecsv
+ magic_2026a_fig5d_sed.ecsv
+ magic_2026a_fig5e_sed.ecsv
+ magic_2026a_fig5f_sed.ecsv
+ magic_2026a_fig6d_skymap.fits
+ magic_2026a_fig7a_sed.ecsv
+ magic_2026a_fig7b_sed.ecsv
+ magic_2026a_fig7c_sed.ecsv
+ magic_2026a_fig7e_sed.ecsv
+ magic_2026a_fig7f_sed.ecsv
+
+Other Files:
+ magic_2026a_fig3_sed_MWL.ecsv
+ magic_2026a_fig5b_sed_combined.ecsv
+ magic_2026a_fig6a_skymap_VERITAS.fits
+ magic_2026a_fig6b_skymap_VERITAS.fits
+ magic_2026a_fig6c_skymap_VERITAS.fits
+ magic_2026a_fig6e_skymap_HESS.fits
+ magic_2026a_fig6f_skymap_HESS.fits
+ magic_2026a_fig6g_skymap_HESS.fits
+ magic_2026a_fig7d_sed_combined.ecsv

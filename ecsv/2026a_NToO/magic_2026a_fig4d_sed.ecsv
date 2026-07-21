@@ -1,0 +1,61 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                         }
+# - {name: en        , unit: eV     , datatype: float32 , description: Energy                              }
+# - {name: en_wlo    , unit: eV     , datatype: float32 , description: Energy bin width low                }
+# - {name: en_wup    , unit: eV     , datatype: float32 , description: Energy bin width up                 }
+# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Differential photon flux at energy  }
+# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
+# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
+# - {name: tstart    , unit: mjd     , datatype: float64 , description: MJD start                           }
+# - {name: tstop     , unit: mjd     , datatype: float64 , description: MJD stop                            }
+# - {name: texpo     , unit: h       , datatype: float32 , description: Observation time                    }
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                          }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                         }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                            }
+# meta: !!omap
+# - {Filename: magic_2026a_fig4d_sed.ecsv}
+# - {Source: "OC457"}
+# - {Figure: "Combined IACT SED upper limits"}
+# - {Title: "Prompt Searches for Very-High-Energy -Ray Counterparts to IceCube Astrophysical Neutrino Alerts"}
+# - {Comments: ""}
+# - {Reference: "magic_2026a.yaml"}
+# - {Status: "Validated"}
+# schema: astropy-2.0
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+OC457,1.652480e+11,1.250000e+11,2.222850e+11,5.937180e-12,,,59065.0,59066.0,2.5,magic,ul,
+OC457,2.938530e+11,2.222850e+11,3.952850e+11,2.144630e-12,,,59065.0,59066.0,2.5,magic,ul,
+OC457,5.225490e+11,3.952850e+11,7.029270e+11,1.364890e-12,,,59065.0,59066.0,2.5,magic,ul,
+OC457,9.292330e+11,7.029270e+11,1.250000e+12,1.050840e-12,,,59065.0,59066.0,2.5,magic,ul,
+OC457,1.652430e+12,1.250000e+12,2.222850e+12,2.617760e-12,,,59065.0,59066.0,2.5,magic,ul,
+OC457,2.938480e+12,2.222850e+12,3.952850e+12,2.702510e-12,,,59065.0,59066.0,2.5,magic,ul,
+OC457,2.295296e+00,2.295296e+00,2.295296e+00,7.680675e-13,1.094931e-13,1.094931e-13,,,,swift-xrt,,
+OC457,2.863950e+00,2.863950e+00,2.863950e+00,8.452345e-13,1.447005e-13,1.447005e-13,,,,swift-xrt,,
+OC457,3.541372e+00,3.541372e+00,3.541372e+00,4.320603e-13,1.050530e-13,1.050530e-13,,,,swift-xrt,,
+OC457,4.784968e+00,4.784968e+00,4.784968e+00,5.788872e-13,1.160412e-13,1.160412e-13,,,,swift-xrt,,
+OC457,5.562473e+00,5.562473e+00,5.562473e+00,5.397249e-13,1.376191e-13,1.376191e-13,,,,swift-xrt,,
+OC457,6.100110e+00,6.100110e+00,6.100110e+00,3.254883e-13,7.972003e-14,7.972003e-14,,,,swift-xrt,,
+OC457,5.399946e+02,2.999970e+02,7.799921e+02,2.445626e-13,3.800138e-14,3.800138e-14,,,,swift-xrt,,
+OC457,9.299907e+02,7.799921e+02,1.079989e+03,3.762274e-13,5.774503e-14,5.774503e-14,,,,swift-xrt,,
+OC457,1.239988e+03,1.079989e+03,1.399986e+03,4.242646e-13,6.255241e-14,6.255241e-14,,,,swift-xrt,,
+OC457,1.554984e+03,1.399986e+03,1.709983e+03,4.813662e-13,8.317909e-14,8.317909e-14,,,,swift-xrt,,
+OC457,1.939981e+03,1.709983e+03,2.169978e+03,5.412525e-13,9.815612e-14,9.815612e-14,,,,swift-xrt,,
+OC457,2.539975e+03,2.169978e+03,2.909971e+03,5.696826e-13,1.168000e-13,1.168000e-13,,,,swift-xrt,,
+OC457,3.354966e+03,2.909971e+03,3.799962e+03,6.557144e-13,1.431604e-13,1.431604e-13,,,,swift-xrt,,
+OC457,4.879951e+03,3.799962e+03,5.959940e+03,7.411837e-13,1.303911e-13,1.303911e-13,,,,swift-xrt,,
+OC457,7.029930e+03,5.959940e+03,8.099919e+03,8.734351e-13,1.747037e-13,1.747037e-13,,,,swift-xrt,,
+OC457,1.585076e+08,1.000000e+08,2.512465e+08,8.917142e-12,5.120050e-13,5.120050e-13,,,,lat,,
+OC457,3.982401e+08,2.512465e+08,6.312334e+08,7.882639e-12,2.707622e-13,2.707622e-13,,,,lat,,
+OC457,1.000553e+09,6.312334e+08,1.585952e+09,6.784540e-12,2.395004e-13,2.395004e-13,,,,lat,,
+OC457,2.513825e+09,1.585952e+09,3.984557e+09,5.206006e-12,2.538014e-13,2.538014e-13,,,,lat,,
+OC457,6.315824e+09,3.984557e+09,1.001106e+10,3.068293e-12,2.888901e-13,2.888901e-13,,,,lat,,
+OC457,1.586810e+10,1.001106e+10,2.515185e+10,1.795570e-12,3.234872e-13,3.234872e-13,,,,lat,,
+OC457,3.986759e+10,2.515185e+10,6.319315e+10,5.562670e-13,2.875875e-13,2.875875e-13,,,,lat,,
+OC457,1.001659e+11,6.319315e+10,1.587706e+11,4.481695e-13,,,,,,lat,ul,
+OC457,2.516605e+11,1.587706e+11,3.988963e+11,1.137069e-12,,,,,,lat,ul,
+OC457,6.322808e+11,3.988963e+11,1.002213e+12,2.931037e-12,,,,,,lat,ul,
+

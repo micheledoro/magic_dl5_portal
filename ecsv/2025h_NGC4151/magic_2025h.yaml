@@ -1,14 +1,14 @@
 File_info:
- Fdate   = 2026.03.18
+ Fdate   = 20260721
  Fvers   = 1
- Fgen    = stefano.marchesi@unibo.it
- Fmail   = contact.magic@mpp.mpg.de 
+ Fgen    = stefano.marchesi@unibo.it; Michele Doro, michele.doro@unipd.it
+ Fmail   = magic_legacy@mpp.mpg.de
  Flink   = <https://raw.githubusercontent.com/micheledoro/magic_dl5_portal/refs/heads/main/ecsv>
- Fstatus = "Done"
+ Fstatus = "Checked"
 Paper info:
  Ptitle: "Very-high-energy observations of the Seyfert galaxy NGC 4151 with MAGIC - Indication of another gamma-ray obscured candidate neutrino source"
  Pref :  "Astron. and Astroph. 702, October 2025"
- Pdoi:   "10.1051/0004-6361/202554723"
+ Pdoi:   "https://doi.org/10.1051/0004-6361/202554723"
  Parxiv: "https://arxiv.org/abs/2507.16527"
  Pcoll:  magic
  Pcauthor:  A. Lamastra; S. Mangano; S. Menon; E. Peretti

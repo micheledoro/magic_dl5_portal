@@ -1,14 +1,14 @@
 File_info:
- Fdate   : 2026.03.18 
+ Fdate   : 20260721
  Fvers   : 1.0
  Fgen    : michele.doro@unipd.it
- Fmail   : contact.magic@mpp.mpg.de
+ Fmail   : magic_legacy@mpp.mpg.de
  Flink   : <https://raw.githubusercontent.com/micheledoro/magic_dl5_portal/refs/heads/main/ecsv>
- Fstatus : "Done"
+ Fstatus : "Checked"
 Paper info:
  Ptitle   : "Time-dependent modelling of short-term variability in the TeV-blazar VER J0521+211 during the major flare in 2020"
  Pref     : A&A 694, A308 (2025)
- Pdoi     : 10.1051/0004-6361/202451378
+ Pdoi     : https://doi.org/10.1051/0004-6361/202451378
  Parxiv   : https://arxiv.org/abs/2412.15836
  Pcoll    : magic, external
  Pcauthor : J. Jormanainen, M. Nievas Rosillo, V. Fallah Ramazani, M. Artero

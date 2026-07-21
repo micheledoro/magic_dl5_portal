@@ -1,14 +1,14 @@
 File_info:
- Fdate   : 2026.03.19
+ Fdate   : 20260721
  Fvers   : 2
- Fgen    : iviale@to.infn.it, stefano.marchesi@unibo.it
- Fmail   : contact.magic@mpp.mpg.de, magic_legacy@mpp.mpg.de
+ Fgen    : iviale@to.infn.it, stefano.marchesi@unibo.it; Michele Doro, michele.doro@unipd.it
+ Fmail   : magic_legacy@mpp.mpg.de
  Flink   : <https://raw.githubusercontent.com/micheledoro/magic_dl5_portal/refs/heads/main/ecsv>
- Fstatus : "Done"
+ Fstatus : "Checked"
 Paper info:
  Ptitle: "Very-high-energy gamma-ray detection and long-term multi-wavelength view of the flaring blazar B2 1811+31"
  Pref     : A&A, 697, A172 (2025)
- Pdoi     : 10.1051/0004-6361/202452942
+ Pdoi     : https://doi.org/10.1051/0004-6361/202452942
  Parxiv   : https://arxiv.org/abs/2503.19054
  Pcoll    : magic
  Pcauthor : D. Cerasole, S. Loporchio and L. Pavletić

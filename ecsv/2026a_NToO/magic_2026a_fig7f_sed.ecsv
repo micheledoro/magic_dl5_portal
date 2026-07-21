@@ -1,0 +1,59 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                         }
+# - {name: en        , unit: eV     , datatype: float32 , description: Energy                              }
+# - {name: en_wlo    , unit: eV     , datatype: float32 , description: Energy bin width low                }
+# - {name: en_wup    , unit: eV     , datatype: float32 , description: Energy bin width up                 }
+# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Differential photon flux at energy  }
+# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
+# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
+# - {name: tstart    , unit: mjd     , datatype: float64 , description: MJD start                           }
+# - {name: tstop     , unit: mjd     , datatype: float64 , description: MJD stop                            }
+# - {name: texpo     , unit: h       , datatype: float32 , description: Observation time                    }
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                          }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                         }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                            }
+# meta: !!omap
+# - {Filename: magic_2026a_fig7f_sed.ecsv}
+# - {Source: "IceCube-201114A"}
+# - {Figure: "Combined IACT SED upper limits"}
+# - {Title: "Prompt Searches for Very-High-Energy -Ray Counterparts to IceCube Astrophysical Neutrino Alerts"}
+# - {Comments: ""}
+# - {Reference: "magic_2026a.yaml"}
+# - {Status: "Validated"}
+# schema: astropy-2.0
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+IceCube-201114A,9.458330e+10,7.100000e+10,1.260000e+11,1.049990e-11,,,59167.0,59168.0,6,magic+hess+veritas,ul,
+IceCube-201114A,1.680000e+11,1.260000e+11,2.240000e+11,4.851780e-12,,,59167.0,59168.0,6,magic+hess+veritas,ul,
+IceCube-201114A,2.985830e+11,2.240000e+11,3.980000e+11,6.412440e-13,,,59167.0,59168.0,6,magic+hess+veritas,ul,
+IceCube-201114A,5.308330e+11,3.980000e+11,7.080000e+11,2.684420e-13,,,59167.0,59168.0,6,magic+hess+veritas,ul,
+IceCube-201114A,9.441250e+11,7.080000e+11,1.259000e+12,4.109510e-13,,,59167.0,59168.0,6,magic+hess+veritas,ul,
+IceCube-201114A,1.678960e+12,1.259000e+12,2.239000e+12,4.653960e-13,,,59167.0,59168.0,6,magic+hess+veritas,ul,
+IceCube-201114A,2.985540e+12,2.239000e+12,3.981000e+12,2.829730e-13,,,59167.0,59168.0,6,magic+hess+veritas,ul,
+IceCube-201114A,5.308620e+12,3.981000e+12,7.079000e+12,2.007820e-12,,,59167.0,59168.0,6,magic+hess+veritas,ul,
+IceCube-201114A,9.439830e+12,7.079000e+12,1.258800e+13,1.159590e-12,,,59167.0,59168.0,6,magic+hess+veritas,ul,
+IceCube-201114A,1.678670e+13,1.258800e+13,2.238600e+13,4.354980e-13,,,59167.0,59168.0,6,magic+hess+veritas,ul,
+IceCube-201114A,2.985200e+13,2.238600e+13,3.980800e+13,2.067620e-12,,,59167.0,59168.0,6,magic+hess+veritas,ul,
+IceCube-201114A,5.308490e+13,3.980800e+13,7.079000e+13,3.980120e-12,,,59167.0,59168.0,6,magic+hess+veritas,ul,
+IceCube-201114A,5.562473e+00,5.562473e+00,5.562473e+00,5.552196e-13,2.213163e-14,2.213163e-14,,,,swift-xrt,,
+IceCube-201114A,6.399936e+02,2.999970e+02,9.799902e+02,4.530168e-13,1.025082e-13,1.025082e-13,,,,swift-xrt,,
+IceCube-201114A,1.099989e+03,9.799902e+02,1.219988e+03,4.627402e-13,1.669803e-13,1.669803e-13,,,,swift-xrt,,
+IceCube-201114A,1.349986e+03,1.219988e+03,1.479985e+03,4.652578e-13,1.497038e-13,1.497038e-13,,,,swift-xrt,,
+IceCube-201114A,1.714983e+03,1.479985e+03,1.949981e+03,4.680873e-13,1.311142e-13,1.311142e-13,,,,swift-xrt,,
+IceCube-201114A,2.324977e+03,1.949980e+03,2.699973e+03,4.717599e-13,1.784567e-13,1.784567e-13,,,,swift-xrt,,
+IceCube-201114A,3.899961e+03,2.699973e+03,5.099949e+03,4.774369e-13,1.293803e-13,1.293803e-13,,,,swift-xrt,,
+IceCube-201114A,5.264947e+03,5.099949e+03,5.429945e+03,4.822424e-13,,,,,,swift-xrt,ul,
+IceCube-201114A,2.295296e+00,2.295296e+00,2.295296e+00,1.006235e-12,,,,,,swift-xrt,ul,
+IceCube-201114A,2.863950e+00,2.863950e+00,2.863950e+00,7.121427e-13,,,,,,swift-xrt,ul,
+IceCube-201114A,3.541372e+00,3.541372e+00,3.541372e+00,5.219347e-13,,,,,,swift-xrt,ul,
+IceCube-201114A,4.784968e+00,4.784968e+00,4.784968e+00,5.223209e-13,,,,,,swift-xrt,ul,
+IceCube-201114A,6.100110e+00,6.100110e+00,6.100110e+00,5.103520e-13,,,,,,swift-xrt,ul,
+IceCube-201114A,3.163152e+08,1.000000e+08,1.000553e+09,5.027800e-12,,,,,,lat,ul,
+IceCube-201114A,3.164900e+09,1.000553e+09,1.001106e+10,4.184987e-12,,,,,,lat,ul,
+IceCube-201114A,3.166650e+10,1.001106e+10,1.001659e+11,8.727755e-12,,,,,,lat,ul,
+IceCube-201114A,3.168400e+11,1.001659e+11,1.002213e+12,8.452212e-11,,,,,,lat,ul,
+

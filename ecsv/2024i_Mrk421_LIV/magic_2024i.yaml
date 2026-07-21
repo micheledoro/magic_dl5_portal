@@ -1,14 +1,14 @@
 File_info:
- Fdate : 20250212
+ Fdate : 20260721
  Fvers : 1
- Fgen: Stefano Marchesi stefano.marchesi@unibo.it
- Fmail : contact.magic@mpp.mpg.de 
+ Fgen: Stefano Marchesi stefano.marchesi@unibo.it; Michele Doro, michele.doro@unipd.it
+ Fmail : magic_legacy@mpp.mpg.de
  Flink : <https://raw.githubusercontent.com/micheledoro/magic_dl5_portal/refs/heads/main/ecsv>
  Fstatus : "Checked"
 Paper info:
  Ptitle: "Constraints on Lorentz invariance violation from the extraordinary Mrk 421 flare of 2014 using a novel analysis method"
   Pref :  "Journal of Cosmology and Astroparticle Physics, Volume 2024, Issue 07, id.044, 22 pp."
- Pdoi:   "10.1088/1475-7516/2024/07/044"
+ Pdoi:   "https://doi.org/10.1088/1475-7516/2024/07/044"
  Parxiv: "https://arxiv.org/abs/2406.07140"
  Pcoll: magic
  Pcauthor : Giacomo DAmico, Jelena Striskovic
@@ -17,7 +17,6 @@ Paper info:
  Pinspire :
 Targets in file:
  Tpname01: Mrk421
- Taname01: 
  Tra01:  166.113808
  Tdec01: 38.208833
 File list MAGIC:

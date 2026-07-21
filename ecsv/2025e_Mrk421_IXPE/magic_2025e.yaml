@@ -1,14 +1,14 @@
 File_info:
- Fdate   : 2026.03.18
+ Fdate   : 20260721
  Fvers   : 1.0
- Fgen    : stefano.marchesi@unibo.it
- Fmail   : contact.magic@mpp.mpg.de 
+ Fgen    : stefano.marchesi@unibo.it; Michele Doro, michele.doro@unipd.it
+ Fmail   : magic_legacy@mpp.mpg.de
  Flink   : <https://raw.githubusercontent.com/micheledoro/magic_dl5_portal/refs/heads/main/ecsv>
- Fstatus : "Done and checked"
+ Fstatus : "Checked"
 Paper info:
  Ptitle: "Insights from the first flaring activity of a high synchrotron peaked blazar with X-ray polarization and VHE gamma rays"
  Pref     : Astron.Astrophys. 695 (2025) A217
- Pdoi     : 10.1051/0004-6361/202452785
+ Pdoi     : https://doi.org/10.1051/0004-6361/202452785
  Parxiv   : https://arxiv.org/abs/2410.23140
  Pcoll    : magic
  Pcauthor : Axel Arbet Engels, Lea Heckmann, David Paneque

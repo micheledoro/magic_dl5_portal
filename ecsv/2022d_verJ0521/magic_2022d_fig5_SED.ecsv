@@ -25,25 +25,25 @@
 # - {Status: "Validated"}
 
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
-VER J0521+211,8.17e+10,1.19e+10,1.53e+10,4.802e-11,6.047e-12,6.047e-12,56580.0,56581.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,October 15th 2013
-VER J0521+211,1.20e+11,2.31e+10,1.47e+10,4.615e-11,5.325e-12,5.325e-12,56580.0,56581.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,October 15th 2013
-VER J0521+211,1.62e+11,2.68e+10,2.57e+10,4.086e-11,4.182e-12,4.182e-12,56580.0,56581.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,October 15th 2013
-VER J0521+211,2.23e+11,3.56e+10,3.73e+10,3.202e-11,3.708e-12,3.708e-12,56580.0,56581.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,October 15th 2013
-VER J0521+211,3.08e+11,4.81e+10,5.32e+10,2.113e-11,3.246e-12,3.246e-12,56580.0,56581.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,October 15th 2013
-VER J0521+211,4.27e+11,6.53e+10,7.55e+10,1.037e-11,2.661e-12,2.661e-12,56580.0,56581.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,October 15th 2013
-VER J0521+211,5.91e+11,8.90e+10,1.07e+11,2.531e-12,1.923e-12,1.923e-12,56580.0,56581.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,October 15th 2013
-VER J0521+211,8.32e+10,1.34e+10,1.38e+10,3.106e-11,6.563e-12,6.563e-12,56581.0,56582.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,October 16th 2013
-VER J0521+211,1.15e+11,1.84e+10,1.93e+10,2.158e-11,5.329e-12,5.329e-12,56581.0,56582.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,October 16th 2013
-VER J0521+211,1.60e+11,2.54e+10,2.71e+10,1.908e-11,4.186e-12,4.186e-12,56581.0,56582.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,October 16th 2013
-VER J0521+211,2.22e+11,3.50e+10,3.79e+10,1.496e-11,3.277e-12,3.277e-12,56581.0,56582.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,October 16th 2013
-VER J0521+211,3.08e+11,4.83e+10,5.30e+10,1.363e-11,3.040e-12,3.040e-12,56581.0,56582.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,October 16th 2013
-VER J0521+211,4.28e+11,6.68e+10,7.41e+10,8.989e-12,2.802e-12,2.802e-12,56581.0,56582.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,October 16th 2013
-VER J0521+211,5.93e+11,9.22e+10,1.04e+11,2.613e-12,2.187e-12,2.187e-12,56581.0,56582.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,October 16th 2013
-VER J0521+211,8.32e+10,1.34e+10,1.38e+10,3.106e-11,6.563e-12,6.563e-12,56625.0,56626.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,November 29th 2013
-VER J0521+211,1.15e+11,1.84e+10,1.93e+10,2.158e-11,5.329e-12,5.329e-12,56625.0,56626.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,November 29th 2013
-VER J0521+211,1.60e+11,2.54e+10,2.71e+10,1.908e-11,4.186e-12,4.186e-12,56625.0,56626.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,November 29th 2013
-VER J0521+211,2.22e+11,3.50e+10,3.79e+10,1.496e-11,3.277e-12,3.277e-12,56625.0,56626.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,November 29th 2013
-VER J0521+211,3.08e+11,4.83e+10,5.30e+10,1.363e-11,3.040e-12,3.040e-12,56625.0,56626.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,November 29th 2013
-VER J0521+211,4.28e+11,6.68e+10,7.41e+10,8.989e-12,2.802e-12,2.802e-12,56625.0,56626.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,November 29th 2013
-VER J0521+211,5.93e+11,9.22e+10,1.04e+11,2.613e-12,2.187e-12,2.187e-12,56625.0,56626.0,16200.0,MAGIC,Detection with 1 sigma uncertainty,November 29th 2013
+VER J0521+211,8.17e+10,1.19e+10,1.53e+10,4.802e-11,6.047e-12,6.047e-12,56580.0,56581.0,16200.0,magic,Detection with 1 sigma uncertainty,October 15th 2013
+VER J0521+211,1.20e+11,2.31e+10,1.47e+10,4.615e-11,5.325e-12,5.325e-12,56580.0,56581.0,16200.0,magic,Detection with 1 sigma uncertainty,October 15th 2013
+VER J0521+211,1.62e+11,2.68e+10,2.57e+10,4.086e-11,4.182e-12,4.182e-12,56580.0,56581.0,16200.0,magic,Detection with 1 sigma uncertainty,October 15th 2013
+VER J0521+211,2.23e+11,3.56e+10,3.73e+10,3.202e-11,3.708e-12,3.708e-12,56580.0,56581.0,16200.0,magic,Detection with 1 sigma uncertainty,October 15th 2013
+VER J0521+211,3.08e+11,4.81e+10,5.32e+10,2.113e-11,3.246e-12,3.246e-12,56580.0,56581.0,16200.0,magic,Detection with 1 sigma uncertainty,October 15th 2013
+VER J0521+211,4.27e+11,6.53e+10,7.55e+10,1.037e-11,2.661e-12,2.661e-12,56580.0,56581.0,16200.0,magic,Detection with 1 sigma uncertainty,October 15th 2013
+VER J0521+211,5.91e+11,8.90e+10,1.07e+11,2.531e-12,1.923e-12,1.923e-12,56580.0,56581.0,16200.0,magic,Detection with 1 sigma uncertainty,October 15th 2013
+VER J0521+211,8.32e+10,1.34e+10,1.38e+10,3.106e-11,6.563e-12,6.563e-12,56581.0,56582.0,16200.0,magic,Detection with 1 sigma uncertainty,October 16th 2013
+VER J0521+211,1.15e+11,1.84e+10,1.93e+10,2.158e-11,5.329e-12,5.329e-12,56581.0,56582.0,16200.0,magic,Detection with 1 sigma uncertainty,October 16th 2013
+VER J0521+211,1.60e+11,2.54e+10,2.71e+10,1.908e-11,4.186e-12,4.186e-12,56581.0,56582.0,16200.0,magic,Detection with 1 sigma uncertainty,October 16th 2013
+VER J0521+211,2.22e+11,3.50e+10,3.79e+10,1.496e-11,3.277e-12,3.277e-12,56581.0,56582.0,16200.0,magic,Detection with 1 sigma uncertainty,October 16th 2013
+VER J0521+211,3.08e+11,4.83e+10,5.30e+10,1.363e-11,3.040e-12,3.040e-12,56581.0,56582.0,16200.0,magic,Detection with 1 sigma uncertainty,October 16th 2013
+VER J0521+211,4.28e+11,6.68e+10,7.41e+10,8.989e-12,2.802e-12,2.802e-12,56581.0,56582.0,16200.0,magic,Detection with 1 sigma uncertainty,October 16th 2013
+VER J0521+211,5.93e+11,9.22e+10,1.04e+11,2.613e-12,2.187e-12,2.187e-12,56581.0,56582.0,16200.0,magic,Detection with 1 sigma uncertainty,October 16th 2013
+VER J0521+211,8.32e+10,1.34e+10,1.38e+10,3.106e-11,6.563e-12,6.563e-12,56625.0,56626.0,16200.0,magic,Detection with 1 sigma uncertainty,November 29th 2013
+VER J0521+211,1.15e+11,1.84e+10,1.93e+10,2.158e-11,5.329e-12,5.329e-12,56625.0,56626.0,16200.0,magic,Detection with 1 sigma uncertainty,November 29th 2013
+VER J0521+211,1.60e+11,2.54e+10,2.71e+10,1.908e-11,4.186e-12,4.186e-12,56625.0,56626.0,16200.0,magic,Detection with 1 sigma uncertainty,November 29th 2013
+VER J0521+211,2.22e+11,3.50e+10,3.79e+10,1.496e-11,3.277e-12,3.277e-12,56625.0,56626.0,16200.0,magic,Detection with 1 sigma uncertainty,November 29th 2013
+VER J0521+211,3.08e+11,4.83e+10,5.30e+10,1.363e-11,3.040e-12,3.040e-12,56625.0,56626.0,16200.0,magic,Detection with 1 sigma uncertainty,November 29th 2013
+VER J0521+211,4.28e+11,6.68e+10,7.41e+10,8.989e-12,2.802e-12,2.802e-12,56625.0,56626.0,16200.0,magic,Detection with 1 sigma uncertainty,November 29th 2013
+VER J0521+211,5.93e+11,9.22e+10,1.04e+11,2.613e-12,2.187e-12,2.187e-12,56625.0,56626.0,16200.0,magic,Detection with 1 sigma uncertainty,November 29th 2013
 

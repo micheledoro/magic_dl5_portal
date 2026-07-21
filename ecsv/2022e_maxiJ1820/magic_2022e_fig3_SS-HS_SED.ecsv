@@ -1,0 +1,39 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                         }
+# - {name: en        , unit: TeV     , datatype: float32 , description: Energy                              }
+# - {name: en_wlo    , unit: TeV     , datatype: float32 , description: Energy bin width low                }
+# - {name: en_wup    , unit: TeV     , datatype: float32 , description: Energy bin width up                 }
+# - {name: nufnu     , unit: TeV-1 cm-2 s-1, datatype: float32 , description: Differential photon flux at energy  }
+# - {name: nufnu_elo , unit: TeV-1 cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
+# - {name: nufnu_eup , unit: TeV-1 cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
+# - {name: tstart    , unit: mjd     , datatype: float64 , description: MJD start                           }
+# - {name: tstop     , unit: mjd     , datatype: float64 , description: MJD stop                            }
+# - {name: texpo     , unit: s       , datatype: float32 , description: Observation time                    }
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                          }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                         }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                            }
+# meta: !!omap
+# - {Filename: magic_2022e_fig3_SS-HS_sed.ecsv}
+# - {Source: "MAXI J1820+070"}
+# - {Figure: "Figure 3 (top right panel) in the paper."}
+# - {Title: "Gamma-ray observations of MAXI J1820+070 during the 2018 outburst"}
+# - {Comments: "Differential VHE flux upper limits of MAXI J1820+070 during the Hard-To-Soft State transition period covered by the paper, i.e., in the time range MJD=[58380.0-58393.0] (with a break in the middle, as reported in Table 1 of the paper). Note: the data for this file have been extracted from the plot using the WebPlotDigitizer tool. The overall exposure for each instrument is taken from Table 2 of the paper."}
+# - {Reference: "magic_2022e.yaml"}
+# - {Status: "To be checked"}
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+MAXI J1820+070,5.22e-01,1.55e-01,1.56e-01,3.990e-12,-9.900e+01,-9.900e+01,58380.0,58393.0,18720.0,magic+hess,95% confidence level upper limit,
+MAXI J1820+070,9.64e-01,2.86e-01,2.86e-01,1.710e-12,-9.900e+01,-9.900e+01,58380.0,58393.0,18720.0,magic+hess,95% confidence level upper limit,
+MAXI J1820+070,1.77e+00,5.25e-01,5.25e-01,1.500e-13,-9.900e+01,-9.900e+01,58380.0,58393.0,18720.0,magic+hess,95% confidence level upper limit,
+MAXI J1820+070,3.28e+00,9.85e-01,9.85e-01,4.930e-14,-9.900e+01,-9.900e+01,58380.0,58393.0,18720.0,magic+hess,95% confidence level upper limit,
+MAXI J1820+070,5.22e-01,1.55e-01,1.56e-01,5.450e-12,-9.900e+01,-9.900e+01,58380.0,58393.0,12240.0,magic,95% confidence level upper limit,
+MAXI J1820+070,9.64e-01,2.86e-01,2.86e-01,4.120e-12,-9.900e+01,-9.900e+01,58380.0,58393.0,12240.0,magic,95% confidence level upper limit,
+MAXI J1820+070,1.77e+00,5.25e-01,5.25e-01,1.660e-13,-9.900e+01,-9.900e+01,58380.0,58393.0,12240.0,magic,95% confidence level upper limit,
+MAXI J1820+070,3.28e+00,9.85e-01,9.85e-01,6.440e-14,-9.900e+01,-9.900e+01,58380.0,58393.0,12240.0,magic,95% confidence level upper limit,
+MAXI J1820+070,5.22e-01,1.55e-01,1.56e-01,6.510e-12,-9.900e+01,-9.900e+01,58380.0,58393.0,6480.0,hess,95% confidence level upper limit,
+MAXI J1820+070,9.64e-01,2.86e-01,2.86e-01,1.400e-12,-9.900e+01,-9.900e+01,58380.0,58393.0,6480.0,hess,95% confidence level upper limit,
+MAXI J1820+070,1.77e+00,5.25e-01,5.25e-01,4.330e-13,-9.900e+01,-9.900e+01,58380.0,58393.0,6480.0,hess,95% confidence level upper limit,
+MAXI J1820+070,3.28e+00,9.85e-01,9.85e-01,1.370e-13,-9.900e+01,-9.900e+01,58380.0,58393.0,6480.0,hess,95% confidence level upper limit,
