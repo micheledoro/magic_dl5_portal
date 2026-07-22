@@ -1,0 +1,35 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: srcname, datatype: string, description: Source name}
+# - {name: en, unit: TeV, datatype: float32, description: Energy}
+# - {name: en_wlo, unit: TeV, datatype: float32, description: Energy bin width low}
+# - {name: en_wup, unit: TeV, datatype: float32, description: Energy bin width up}
+# - {name: nufnu, unit: erg / (s cm2), datatype: float32, description: Spectral energy distribution point (nuFnu)}
+# - {name: nufnu_elo, unit: erg / (s cm2), datatype: float32, description: Lower uncertainty in nufnu}
+# - {name: nufnu_eup, unit: erg / (s cm2), datatype: float32, description: Upper uncertainty in nufnu}
+# - {name: tstart, unit: mjd, datatype: float64, description: MJD start}
+# - {name: tstop, unit: mjd, datatype: float64, description: MJD stop}
+# - {name: texpo, unit: h, datatype: float32, description: Observation time}
+# - {name: instrument, datatype: string}
+# - {name: dataformat, datatype: string, description: Data Format}
+# - {name: comments, datatype: string, description: Comments}
+# delimiter: ','
+# meta: !!omap
+# - {Filename: magic_2026e_fig3_sed_infc.ecsv}
+# - {Source: Cygnus X-3}
+# - {Figure: 'Figure 3 middle, MAGIC SED, INFC (inferior conjunction)'}
+# - {Title: Long-term study of the gamma-ray emission of Cygnus X-3 with MAGIC and Fermi-LAT}
+# - {Comments: Add comments}
+# - {Reference: magic_2026e.yaml}
+# - {Status: In preparation}
+# - {Provenance: 'authors; nuFnu TeV->erg, energy GeV->TeV'}
+# schema: astropy-2.0
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+CygX3,0.12982607,0.033426072,0.04830693,2.0291494e-12,nan,nan,56621.859375,60518.953125,129.0,magic,ul,--
+CygX3,0.23989908,0.06176608,0.08926392,2.2516683e-12,nan,nan,56621.859375,60518.953125,129.0,magic,ul,--
+CygX3,0.44329745,0.11413446,0.16494554,1.4064619e-12,nan,nan,56621.859375,60518.953125,129.0,magic,ul,--
+CygX3,0.8191471,0.21090414,0.30479288,1.1188023e-12,nan,nan,56621.859375,60518.953125,129.0,magic,ul,--
+CygX3,1.5136609,0.38972086,0.5632192,5.0946975e-13,nan,nan,56621.859375,60518.953125,129.0,magic,ul,--
+CygX3,2.7970178,0.7201379,1.040732,1.4252465e-12,nan,nan,56621.859375,60518.953125,129.0,magic,ul,--
+CygX3,5.168469,1.330719,1.9231211,7.0074794e-13,nan,nan,56621.859375,60518.953125,129.0,magic,ul,--

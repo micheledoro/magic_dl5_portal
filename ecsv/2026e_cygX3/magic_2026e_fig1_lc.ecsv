@@ -1,0 +1,92 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: srcname, datatype: string, description: Source name}
+# - {name: t, unit: mjd, datatype: float64, description: Time of measurement}
+# - {name: t_wlo, unit: d, datatype: float32, description: Lower width of time bin}
+# - {name: t_wup, unit: d, datatype: float32, description: Upper width of time bin}
+# - {name: texpo, unit: h, datatype: float32, description: Exposure time}
+# - {name: flux, unit: 1 / (s cm2), datatype: float32, description: Flux measured above the energy threshold}
+# - {name: flux_elo, unit: 1 / (s cm2), datatype: float32, description: Lower uncertainty of flux}
+# - {name: flux_eup, unit: 1 / (s cm2), datatype: float32, description: Upper uncertainty of flux}
+# - {name: eth_lo, unit: GeV, datatype: float32, description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up, unit: GeV, datatype: float32, description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, datatype: string}
+# - {name: dataformat, datatype: string, description: Data Format}
+# - {name: comments, datatype: string, description: Comments}
+# delimiter: ','
+# meta: !!omap
+# - {Filename: magic_2026e_fig1_lc.ecsv}
+# - {Source: Cygnus X-3}
+# - {Figure: Daily MAGIC VHE light curve of Cygnus X-3.}
+# - {Title: Long-term study of the gamma-ray emission of Cygnus X-3 with MAGIC and Fermi-LAT}
+# - {Comments: ''}
+# - {Reference: magic_2026e.yaml}
+# - {Status: In preparation}
+# - {Provenance: authors (as provided)}
+# schema: astropy-2.0
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+CygX3,56621.859375,0.5,0.5,1.2842896,1.0080215e-11,nan,nan,210.0,inf,magic,ul,--
+CygX3,56782.19140625,0.5,0.5,0.96043473,8.484895e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,56783.1796875,0.5,0.5,1.2836772,6.460177e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,56802.15234375,0.5,0.5,2.0826497,2.6190781e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,56803.15234375,0.5,0.5,2.149298,7.63503e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,56940.8515625,0.5,0.5,0.43609363,9.556121e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,56941.8671875,0.5,0.5,0.835356,1.7540336e-11,nan,nan,210.0,inf,magic,ul,--
+CygX3,56942.96875,0.5,0.5,1.0534194,2.7509347e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,56943.953125,0.5,0.5,0.3975729,1.1370221e-11,nan,nan,210.0,inf,magic,ul,--
+CygX3,56945.93359375,0.5,0.5,0.36403945,2.2692093e-11,nan,nan,210.0,inf,magic,ul,--
+CygX3,57232.19921875,0.5,0.5,0.6533671,1.4063435e-11,nan,nan,210.0,inf,magic,ul,--
+CygX3,57354.8515625,0.5,0.5,0.85784173,1.682976e-11,nan,nan,210.0,inf,magic,ul,--
+CygX3,57355.8359375,0.5,0.5,0.43343732,8.119525e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,57525.1796875,0.5,0.5,0.9729454,9.4567375e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,57622.92578125,0.5,0.5,2.098035,1.2905397e-11,nan,nan,210.0,inf,magic,ul,--
+CygX3,57623.9375,0.5,0.5,1.8072163,3.7532763e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,57626.89453125,0.5,0.5,0.9558091,1.8162128e-11,nan,nan,210.0,inf,magic,ul,--
+CygX3,57628.89453125,0.5,0.5,0.97454506,7.702637e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,57629.89453125,0.5,0.5,0.9390939,7.981167e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,57630.93359375,0.5,0.5,2.9194498,6.8532736e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,57631.93359375,0.5,0.5,2.7580187,3.9322473e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,57633.0,0.5,0.5,5.652073,4.6790653e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,57633.99609375,0.5,0.5,5.765715,6.049231e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,57634.9921875,0.5,0.5,5.675475,6.0604603e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,57635.9921875,0.5,0.5,5.7346363,4.3370607e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,57637.0,0.5,0.5,5.20169,7.821297e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,57637.98828125,0.5,0.5,5.520945,7.8507496e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,57649.8671875,0.5,0.5,0.13586679,7.742079e-11,nan,nan,210.0,inf,magic,ul,--
+CygX3,57650.8828125,0.5,0.5,1.0669559,9.055974e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,57651.8984375,0.5,0.5,2.0959022,4.2313882e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,57652.91015625,0.5,0.5,2.4388225,6.4063936e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,58306.046875,0.5,0.5,1.0537785,1.0957103e-11,nan,nan,210.0,inf,magic,ul,--
+CygX3,58307.07421875,0.5,0.5,0.9783296,1.2277908e-11,nan,nan,210.0,inf,magic,ul,--
+CygX3,58341.01953125,0.5,0.5,2.9296587,4.4273335e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,58346.00390625,0.5,0.5,1.9425313,9.1606635e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,58347.01171875,0.5,0.5,1.3007851,1.3200246e-11,nan,nan,210.0,inf,magic,ul,--
+CygX3,58583.2109375,0.5,0.5,0.9725667,1.41102225e-11,nan,nan,210.0,inf,magic,ul,--
+CygX3,58639.0859375,0.5,0.5,2.02922,5.456191e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,58640.11328125,0.5,0.5,2.482276,4.8606436e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,58641.140625,0.5,0.5,1.4423984,6.4870505e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,58659.01953125,0.5,0.5,1.6152136,7.54561e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,58660.0390625,0.5,0.5,1.5025351,8.935735e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,58663.0390625,0.5,0.5,1.9493557,6.8055644e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,59020.125,0.5,0.5,1.741376,7.411168e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,59024.140625,0.5,0.5,2.6113033,9.989296e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,59055.06640625,0.5,0.5,1.124666,8.411313e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,59056.0703125,0.5,0.5,1.9582644,1.22224895e-11,nan,nan,210.0,inf,magic,ul,--
+CygX3,59057.078125,0.5,0.5,2.2806835,8.683736e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,59073.94140625,0.5,0.5,0.9734813,2.1383671e-11,nan,nan,210.0,inf,magic,ul,--
+CygX3,59075.0625,0.5,0.5,0.5893709,8.885764e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,59077.0078125,0.5,0.5,1.9588085,5.9630196e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,59100.9296875,0.5,0.5,1.913059,1.3697773e-11,nan,nan,210.0,inf,magic,ul,--
+CygX3,59101.94921875,0.5,0.5,1.9531981,1.0985402e-11,nan,nan,210.0,inf,magic,ul,--
+CygX3,59102.9140625,0.5,0.5,1.3630245,1.0624612e-11,nan,nan,210.0,inf,magic,ul,--
+CygX3,59105.8984375,0.5,0.5,1.9567442,8.358596e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,59132.95703125,0.5,0.5,1.8523345,5.433017e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,59320.21484375,0.5,0.5,1.172515,9.857723e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,59368.08203125,0.5,0.5,1.8402822,1.6068969e-11,nan,nan,210.0,inf,magic,ul,--
+CygX3,60489.01953125,0.5,0.5,2.0097082,1.512656e-11,nan,nan,210.0,inf,magic,ul,--
+CygX3,60492.046875,0.5,0.5,2.8600779,5.2532835e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,60493.07421875,0.5,0.5,3.8368778,4.4012125e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,60494.07421875,0.5,0.5,2.2796204,4.2078255e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,60501.12109375,0.5,0.5,2.630742,4.602981e-12,nan,nan,210.0,inf,magic,ul,--
+CygX3,60518.953125,0.5,0.5,2.4091537,1.6767483e-11,nan,nan,210.0,inf,magic,ul,--

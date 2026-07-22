@@ -1,0 +1,28 @@
+File_info:
+ Fdate   = 20260722
+ Fvers   = 1.0
+ Fgen    = Michele Doro, michele.doro@unipd.it
+ Fmail   = magic_legacy@mpp.mpg.de
+ Flink   = <https://raw.githubusercontent.com/micheledoro/magic_dl5_portal/refs/heads/main/ecsv>
+ Fstatus = "Checked"
+Paper info:
+ Ptitle: "Long-term study of the gamma-ray emission of Cygnus X-3 with MAGIC and Fermi-LAT"
+ Pref :  "Journal of High Energy Astrophysics, Volume 53, id.100630 (2026)"
+ Pdoi:   "https://doi.org/10.1016/j.jheap.2026.100630"
+ Parxiv: "https://arxiv.org/abs/2604.27671"
+ Pcoll:  magic, lat
+ Pcauthor: Luis Barrios-Jiménez; M. Carretero-Castrillo; E. Molina
+ Pfauthor: Abe, K.; Abe, S.; Abhir, J.; Abhishek, A.; Acciari, V.A.; Aguasca-Cabot, A.; Agudo, I.; Albanese, I.; Aniello, T.; Ansoldi, S.; Antonelli, L.A.; Engels, A. Arbet; Arcaro, C.; Arnesen, T.T.H.; Babić, A.; Bakshi, C.; de Almeida, U. Barres; Barrio, J.A.; Barrios-Jiménez, L.; Batković, I.; Baxter, J.; González, J. Becerra; Bednarek, W.; Bernardini, E.; Bernete, J.; Berti, A.; Besenrieder, J.; Bigongiari, C.; Biland, A.; Blanch, O.; Bonnoli, G.; Bordas, P.; Bošnjak, Ž.; Bronzini, E.; Burelli, I.; Campa, C.; Campoy-Ordaz, A.; Carosi, A.; Carosi, R.; Carretero-Castrillo, M.; Castro-Tirado, A.J.; Cerasole, D.; Ceribella, G.; Cerviño, A.; Chilingarian, A.; Chon, G.; Santos, A. Cifuentes; Contreras, J.L.; Cortina, J.; Covino, S.; D'Amico, G.; Da Vela, P.; Dazzi, F.; De Angelis, A.; De Lotto, B.; Delfino, M.; Delgado, J.; Di Pierro, F.; Di Tria, R.; Di Venere, L.; Dinesh, A.; Dominis Prester, D.; Donini, A.; Dorner, D.; Doro, M.; Eisenberger, L.; Elsaesser, D.; Foffano, L.; Font, L.; Frías García-Lago, F.; Fröse, S.; Fukazawa, Y.; Soto, S. García; Gaug, M.; Giesbrecht Paiva, J.G.; Giglietto, N.; Giordano, F.; Gliwny, P.; Godinović, N.; Gradetzke, T.; Grau, R.; Green, J.G.; Günther, P.; Hadasch, D.; Hahn, A.; Harutyunyan, G.; Hassan, T.; Herrera Llorente, J.; Hrupec, D.; Israyelyan, D.; Jahanvi, J.; Martínez, I. Jiménez; Quiles, J. Jiménez; Kankkunen, S.; Konrad, J.; Kouch, P.M.; Kubo, H.; Kushida, J.; Láinez, M.; Lamastra, A.; Lindfors, E.; Lombardi, S.; Longo, F.; López-Coto, R.; López-Moya, M.; López-Oramas, A.; Loporchio, S.; Lulić, L.; Lyard, E.; Majumdar, P.; Makariev, M.; Maneva, G.; Manganaro, M.; Mangano, S.; Mariotti, M.; Martínez, M.; Maruševec, P.; Mazin, D.; Menchiari, S.; Gallego, J. Méndez; Menon, S.; Miceli, D.; Miranda, J.M.; Mirzoyan, R.; Molero González, M.; Molina, E.; Mondal, H.A.; Moralejo, A.; Nanci, C.; Negro, A.; Neustroev, V.; Nievas Rosillo, M.; Nigro, C.; Nikolić, L.; Nozaki, S.; Okumura, A.; Otero-Santos, J.; Paiano, S.; Paneque, D.; Paoletti, R.; Paredes, J.M.; Peresano, M.; Persic, M.; Pihet, M.; Podobnik, F.; Prada Moroni, P.G.; Prandini, E.; Rhode, W.; Ribó, M.; Rico, J.; Roy, A.; Sahakyan, N.; Saturni, F.G.; Schiavone, F.; Schmitz, K.; Schweizer, T.; Sciaccaluga, A.; Silvestri, G.; Simongini, A.; Sitarek, J.; Sobczynska, D.; Stamerra, A.; Strišković, J.; Strom, D.; Strzys, M.; Suda, Y.; Takeishi, R.; Barberà, J. Tartera; Temnikov, P.; Terzić, T.; Teshima, M.; Tutone, A.; Ubach, S.; Vazquez Acosta, M.; Ventura, S.; Verna, G.; Viale, I.; Vigliano, A.; Vigorito, C.F.; Visentin, E.; Vitale, V.; Vorbrugg, M.; Vovk, I.; Walter, R.; Walther, C.; Wersig, F.; Yeung, P.K.H.; Bosch-Ramon, V.
+ Pads:    2026JHEAp..5300630A
+ Pinspire : Abe:2026ieo
+Sources in file:
+ Tpname01: Cygnus X-3
+ Tra01:  308.10742
+ Tdec01: 40.95775
+File list MAGIC:
+ magic_2026e_fig1_lc.ecsv
+ magic_2026e_fig2_lc_orbital.ecsv
+ magic_2026e_fig3_sed_global.ecsv
+ magic_2026e_fig3_sed_infc.ecsv
+ magic_2026e_fig3_sed_supc.ecsv
+Other files:
