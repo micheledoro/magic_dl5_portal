@@ -17,7 +17,7 @@
 # - {name: dataformat, unit:    , datatype: string     , description: Data Format                                          }
 # - {name: comments  , unit:    , datatype: string     , description: Comments                                             }
 # meta: !!omap
-# - {Filename: 2022d_fig1c_lc.ecsv}
+# - {Filename: 2022d_fig1c_lc_xrt.ecsv}
 # - {Source: "VER J0521+211"}
 # - {Figure: "Figures 1 and 2, panel c (third from top) in the paper."}
 # - {Title: "Multiwavelength Observations of the Blazar VER J0521+211 during an Elevated TeV Gamma-Ray State"}

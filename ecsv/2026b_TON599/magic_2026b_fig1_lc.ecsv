@@ -21,6 +21,7 @@
 # - {Figure: "Figure 1, MAGIC VHE light curve (>80 GeV)"}
 # - {Title: "First detection of VHE gamma-ray signal from the FSRQ TON 0599"}
 # - {Comments: "Nightly MAGIC integral flux above 80 GeV, 2017 Dec 15-29. texpo is the per-night observation window (2 x observation halftime); the paper quotes 19.2 h effective in total."}
+# - {Provenance: "authors (as provided)"}
 # - {Reference: "magic_2026b.yaml"}
 # - {Status: "In preparation"}
 

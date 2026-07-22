@@ -16,7 +16,7 @@
 # - {name: dataformat, unit:    , datatype: string     , description: Data Format                                          }
 # - {name: comments  , unit:    , datatype: string     , description: Comments                                             }
 # meta: !!omap
-# - {Filename: 2022e_fig4a_lc.ecsv}
+# - {Filename: 2022e_fig4a_lc_radio.ecsv}
 # - {Source: "MAXI J1820+070"}
 # - {Figure: "Figure 4, panel a (first from top) in the paper."}
 # - {Title: "Gamma-ray observations of MAXI J1820+070 during the 2018 outburst"}

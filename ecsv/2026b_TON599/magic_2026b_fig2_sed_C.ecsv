@@ -21,6 +21,7 @@
 # - {Figure: "Figure 2, MAGIC SED period C (intermediate flux state), observed"}
 # - {Title: "First detection of VHE gamma-ray signal from the FSRQ TON 0599"}
 # - {Comments: "Observed (not EBL-deabsorbed) MAGIC spectrum. texpo is the MAGIC observation window summed over the period nights."}
+# - {Provenance: "authors; converted energy GeV->TeV, nuFnu TeV->erg cm-2 s-1"}
 # - {Reference: "magic_2026b.yaml"}
 # - {Status: "In preparation"}
 

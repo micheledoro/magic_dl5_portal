@@ -16,7 +16,7 @@
 # - {name: dataformat, unit:    , datatype: string     , description: Data Format                                          }
 # - {name: comments  , unit:    , datatype: string     , description: Comments                                             }
 # meta: !!omap
-# - {Filename: 2023a_fig1d_lc.ecsv}
+# - {Filename: 2023a_fig1d_lc_xrt.ecsv}
 # - {Source: "1ES0647+250"}
 # - {Figure: "Figure 1, panel d in the paper."}
 # - {Title: "Long-term multi-wavelength study of 1ES 0647+250"}

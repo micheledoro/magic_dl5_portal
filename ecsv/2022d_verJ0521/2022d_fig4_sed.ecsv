@@ -7,9 +7,9 @@
 # - {name: en        , unit: TeV     , datatype: float32 , description: Energy                              }
 # - {name: en_wlo    , unit: TeV     , datatype: float32 , description: Energy bin width low                }
 # - {name: en_wup    , unit: TeV     , datatype: float32 , description: Energy bin width up                 }
-# - {name: nufnu     , unit: cm-2 s-1 TeV-1, datatype: float32 , description: Differential photon flux at energy  }
-# - {name: nufnu_elo , unit: cm-2 s-1 TeV-1, datatype: float32 , description: Lower uncertainty in nufnu          }
-# - {name: nufnu_eup , unit: cm-2 s-1 TeV-1, datatype: float32 , description: Upper uncertainty in nufnu          }
+# - {name: dnde      , unit: cm-2 s-1 TeV-1, datatype: float32 , description: Differential photon flux at energy  }
+# - {name: dnde_elo  , unit: cm-2 s-1 TeV-1, datatype: float32 , description: Lower uncertainty in dnde          }
+# - {name: dnde_eup  , unit: cm-2 s-1 TeV-1, datatype: float32 , description: Upper uncertainty in dnde          }
 # - {name: tstart    , unit: mjd     , datatype: float64 , description: MJD start                           }
 # - {name: tstop     , unit: mjd     , datatype: float64 , description: MJD stop                            }
 # - {name: texpo     , unit: s       , datatype: float32 , description: Observation time                    }
@@ -25,7 +25,7 @@
 # - {Reference: "magic_2022d.yaml"}
 # - {Status: "Validated"}
 
-srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+srcname,en,en_wlo,en_wup,dnde,dnde_elo,dnde_eup,tstart,tstop,texpo,instrument,dataformat,comments
 VER J0521+211,1.18e-01,1.81e-02,2.32e-02,2.150e-09,1.340e-10,1.340e-10,56580.0,56628.5,0.0,veritas,Detection with 1 sigma uncertainty,Intermediate flux state (BB1)
 VER J0521+211,1.67e-01,2.56e-02,3.26e-02,8.110e-10,4.130e-11,4.130e-11,56580.0,56628.5,0.0,veritas,Detection with 1 sigma uncertainty,Intermediate flux state (BB1)
 VER J0521+211,2.36e-01,3.62e-02,4.61e-02,2.950e-10,1.750e-11,1.750e-11,56580.0,56628.5,0.0,veritas,Detection with 1 sigma uncertainty,Intermediate flux state (BB1)

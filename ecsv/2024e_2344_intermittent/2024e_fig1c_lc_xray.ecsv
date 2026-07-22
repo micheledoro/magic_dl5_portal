@@ -16,7 +16,7 @@
 # - {name: dataformat, unit:    , datatype: string     , description: Data Format                                          }
 # - {name: comments  , unit:    , datatype: string     , description: Comments                                             }
 # meta: !!omap
-# - {Filename: 2024e_fig1c_lc.ecsv}
+# - {Filename: 2024e_fig1c_lc_xray.ecsv}
 # - {Source: "1ES 2344+514"}
 # - {Figure: "Figure 1, panel c (third from top) in the paper."}
 # - {Title: "Multi-year characterisation of the broad-band emission from the intermittent extreme BL Lac 1ES~2344+514"}

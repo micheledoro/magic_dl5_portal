@@ -25,33 +25,33 @@
 # - {Status: "Validated"}
 
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
-VER J0521+211,56580.230,0.500,0.500,1.1163,6.9600e-07,6.2970e-07,7.6229e-07,0.2,nan,magic,1 sigma detection,per-night MAGIC exposure provided by the authors (C. Arcaro)
-VER J0521+211,56581.230,0.500,0.500,0.9775,4.5088e-07,3.9026e-07,5.1151e-07,0.2,nan,magic,1 sigma detection,per-night MAGIC exposure provided by the authors (C. Arcaro)
-VER J0521+211,56625.080,0.500,0.500,1.9321,6.7031e-07,6.1847e-07,7.2215e-07,0.2,nan,magic,1 sigma detection,per-night MAGIC exposure provided by the authors (C. Arcaro)
-VER J0521+211,56628.030,0.500,0.500,0.4740,5.1442e-07,4.2641e-07,6.0243e-07,0.2,nan,magic,1 sigma detection,per-night MAGIC exposure provided by the authors (C. Arcaro)
-VER J0521+211,56242.394,0.500,0.500,0.0,2.3900e-07,2.0810e-07,2.6990e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56243.394,0.500,0.500,0.0,2.4000e-07,2.0440e-07,2.7560e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56244.394,0.500,0.500,0.0,1.0000e-07,5.1300e-08,1.4870e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56245.394,0.500,0.500,0.0,2.4600e-07,1.9470e-07,2.9730e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56337.394,0.500,0.500,0.0,1.2900e-07,7.0900e-08,1.8710e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56580.394,0.500,0.500,0.0,3.2300e-07,2.9010e-07,3.5590e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56581.394,0.500,0.500,0.0,3.3400e-07,2.8780e-07,3.8020e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56605.394,0.500,0.500,0.0,6.1200e-07,5.6330e-07,6.6070e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56622.394,0.500,0.500,0.0,5.4000e-07,4.9360e-07,5.8640e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56624.394,0.500,0.500,0.0,3.7000e-07,3.2820e-07,4.1180e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56625.394,0.500,0.500,0.0,3.7800e-07,3.3640e-07,4.1960e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56629.394,0.500,0.500,0.0,8.7700e-07,8.3650e-07,9.1750e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56636.394,0.500,0.500,0.0,3.2700e-07,2.2850e-07,4.2550e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56637.394,0.500,0.500,0.0,3.3100e-07,2.5440e-07,4.0760e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56650.394,0.500,0.500,0.0,9.6000e-08,5.1300e-08,1.4070e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56651.394,0.500,0.500,0.0,1.2100e-07,7.4100e-08,1.6790e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56652.394,0.500,0.500,0.0,2.3800e-07,1.8600e-07,2.9000e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56653.394,0.500,0.500,0.0,3.5200e-07,2.5460e-07,4.4940e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56654.394,0.500,0.500,0.0,3.4400e-07,2.9040e-07,3.9760e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56656.394,0.500,0.500,0.0,3.6600e-07,3.1060e-07,4.2140e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56657.394,0.500,0.500,0.0,1.4200e-07,5.8100e-08,2.2590e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56658.394,0.500,0.500,0.0,1.8200e-07,1.3640e-07,2.2760e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56683.394,0.500,0.500,0.0,1.9300e-07,1.0330e-07,2.8270e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56685.394,0.500,0.500,0.0,2.1300e-07,1.0500e-07,3.2100e-07,0.2,nan,veritas,1 sigma detection,None
-VER J0521+211,56689.394,0.500,0.500,0.0,1.3900e-07,6.6100e-08,2.1190e-07,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56580.230,0.500,0.500,1.1163,6.9600e-11,6.2970e-11,7.6229e-11,0.2,nan,magic,1 sigma detection,per-night MAGIC exposure provided by the authors (C. Arcaro)
+VER J0521+211,56581.230,0.500,0.500,0.9775,4.5088e-11,3.9026e-11,5.1151e-11,0.2,nan,magic,1 sigma detection,per-night MAGIC exposure provided by the authors (C. Arcaro)
+VER J0521+211,56625.080,0.500,0.500,1.9321,6.7031e-11,6.1847e-11,7.2215e-11,0.2,nan,magic,1 sigma detection,per-night MAGIC exposure provided by the authors (C. Arcaro)
+VER J0521+211,56628.030,0.500,0.500,0.4740,5.1442e-11,4.2641e-11,6.0243e-11,0.2,nan,magic,1 sigma detection,per-night MAGIC exposure provided by the authors (C. Arcaro)
+VER J0521+211,56242.394,0.500,0.500,0.0,2.3900e-11,2.0810e-11,2.6990e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56243.394,0.500,0.500,0.0,2.4000e-11,2.0440e-11,2.7560e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56244.394,0.500,0.500,0.0,1.0000e-11,5.1300e-12,1.4870e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56245.394,0.500,0.500,0.0,2.4600e-11,1.9470e-11,2.9730e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56337.394,0.500,0.500,0.0,1.2900e-11,7.0900e-12,1.8710e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56580.394,0.500,0.500,0.0,3.2300e-11,2.9010e-11,3.5590e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56581.394,0.500,0.500,0.0,3.3400e-11,2.8780e-11,3.8020e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56605.394,0.500,0.500,0.0,6.1200e-11,5.6330e-11,6.6070e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56622.394,0.500,0.500,0.0,5.4000e-11,4.9360e-11,5.8640e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56624.394,0.500,0.500,0.0,3.7000e-11,3.2820e-11,4.1180e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56625.394,0.500,0.500,0.0,3.7800e-11,3.3640e-11,4.1960e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56629.394,0.500,0.500,0.0,8.7700e-11,8.3650e-11,9.1750e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56636.394,0.500,0.500,0.0,3.2700e-11,2.2850e-11,4.2550e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56637.394,0.500,0.500,0.0,3.3100e-11,2.5440e-11,4.0760e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56650.394,0.500,0.500,0.0,9.6000e-12,5.1300e-12,1.4070e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56651.394,0.500,0.500,0.0,1.2100e-11,7.4100e-12,1.6790e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56652.394,0.500,0.500,0.0,2.3800e-11,1.8600e-11,2.9000e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56653.394,0.500,0.500,0.0,3.5200e-11,2.5460e-11,4.4940e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56654.394,0.500,0.500,0.0,3.4400e-11,2.9040e-11,3.9760e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56656.394,0.500,0.500,0.0,3.6600e-11,3.1060e-11,4.2140e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56657.394,0.500,0.500,0.0,1.4200e-11,5.8100e-12,2.2590e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56658.394,0.500,0.500,0.0,1.8200e-11,1.3640e-11,2.2760e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56683.394,0.500,0.500,0.0,1.9300e-11,1.0330e-11,2.8270e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56685.394,0.500,0.500,0.0,2.1300e-11,1.0500e-11,3.2100e-11,0.2,nan,veritas,1 sigma detection,None
+VER J0521+211,56689.394,0.500,0.500,0.0,1.3900e-11,6.6100e-12,2.1190e-11,0.2,nan,veritas,1 sigma detection,None
 
