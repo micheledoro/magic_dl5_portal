@@ -22,6 +22,6 @@ Targets in file:
 File list MAGIC:
  magic_2025c_fig5_sed.ecsv
 Other Files:
- magic_2025c_fig4_W44_Fermi-LAT_SED.ecsv
- magic_2025c_fig5_W44_NW_Fermi-LAT_SED.ecsv
- magic_2025c_fig5_W44_SE_Fermi-LAT_SED.ecsv
+ 2025c_fig4_sed_W44_Fermi-LAT.ecsv
+ 2025c_fig5_sed_W44_NW_Fermi-LAT.ecsv
+ 2025c_fig5_sed_W44_SE_Fermi-LAT.ecsv

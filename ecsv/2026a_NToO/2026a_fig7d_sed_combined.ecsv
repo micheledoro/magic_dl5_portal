@@ -1,0 +1,41 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                         }
+# - {name: en        , unit: eV     , datatype: float32 , description: Energy                              }
+# - {name: en_wlo    , unit: eV     , datatype: float32 , description: Energy bin width low                }
+# - {name: en_wup    , unit: eV     , datatype: float32 , description: Energy bin width up                 }
+# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Differential photon flux at energy  }
+# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
+# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
+# - {name: tstart    , unit: mjd     , datatype: float64 , description: MJD start                           }
+# - {name: tstop     , unit: mjd     , datatype: float64 , description: MJD stop                            }
+# - {name: texpo     , unit: h       , datatype: float32 , description: Observation time                    }
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                          }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                         }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                            }
+# meta: !!omap
+# - {Filename: 2026a_fig7d_sed_combined.ecsv}
+# - {Source: "IC191001A"}
+# - {Figure: "Combined IACT SED upper limits"}
+# - {Title: "Prompt Searches for Very-High-Energy -Ray Counterparts to IceCube Astrophysical Neutrino Alerts"}
+# - {Comments: ""}
+# - {Reference: "magic_2026a.yaml"}
+# - {Status: "Validated"}
+# schema: astropy-2.0
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+IC191001A,2.985830e+11,2.240000e+11,3.980000e+11,1.521090e-11,,,,,,fact+veritas,ul,
+IC191001A,9.441250e+11,7.080000e+11,1.259000e+12,1.023310e-11,,,,,,fact+veritas,ul,
+IC191001A,1.678960e+12,1.259000e+12,2.239000e+12,1.020600e-11,,,,,,fact+veritas,ul,
+IC191001A,2.985540e+12,2.239000e+12,3.981000e+12,6.322850e-12,,,,,,fact+veritas,ul,
+IC191001A,5.308620e+12,3.981000e+12,7.079000e+12,1.338180e-11,,,,,,fact+veritas,ul,
+IC191001A,9.439830e+12,7.079000e+12,1.258800e+13,2.471400e-11,,,,,,fact+veritas,ul,
+IC191001A,1.678670e+13,1.258800e+13,2.238600e+13,2.619910e-11,,,,,,fact+veritas,ul,
+IC191001A,3.163152e+08,1.000000e+08,1.000553e+09,4.289328e-12,,,,,,lat,ul,
+IC191001A,3.164900e+09,1.000553e+09,1.001106e+10,2.679782e-12,,,,,,lat,ul,
+IC191001A,3.166650e+10,1.001106e+10,1.001659e+11,9.244095e-12,,,,,,lat,ul,
+IC191001A,3.168400e+11,1.001659e+11,1.002213e+12,9.094512e-11,,,,,,lat,ul,
+

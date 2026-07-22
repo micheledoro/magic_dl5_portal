@@ -1,0 +1,31 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                         }
+# - {name: en        , unit: TeV     , datatype: float32 , description: Energy                              }
+# - {name: en_wlo    , unit: TeV     , datatype: float32 , description: Energy bin width low                }
+# - {name: en_wup    , unit: TeV     , datatype: float32 , description: Energy bin width up                 }
+# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Spectral energy distribution point (nuFnu) }
+# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
+# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
+# - {name: tstart    , unit: mjd     , datatype: float64 , description: MJD start                           }
+# - {name: tstop     , unit: mjd     , datatype: float64 , description: MJD stop                            }
+# - {name: texpo     , unit: h       , datatype: float32 , description: Observation time                    }
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                          }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                         }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                            }
+# meta: !!omap
+# - {Filename: magic_2026b_fig2_sed_D.ecsv}
+# - {Source: "TON 0599"}
+# - {Figure: "Figure 2, MAGIC SED period D (low flux state), observed"}
+# - {Title: "First detection of VHE gamma-ray signal from the FSRQ TON 0599"}
+# - {Comments: "Observed (not EBL-deabsorbed) MAGIC spectrum. texpo is the MAGIC observation window summed over the period nights."}
+# - {Reference: "magic_2026b.yaml"}
+# - {Status: "In preparation"}
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+TON 0599,5.08120e-02,,,2.7958e-11,1.2924e-11,1.2924e-11,58108.196978,58116.281194,15.167,magic,detection,
+TON 0599,6.05877e-02,,,2.2711e-11,6.6835e-12,6.6835e-12,58108.196978,58116.281194,15.167,magic,detection,
+TON 0599,7.58722e-02,,,1.3383e-11,5.2900e-12,5.2900e-12,58108.196978,58116.281194,15.167,magic,detection,
+TON 0599,1.15623e-01,,,8.1622e-12,2.9855e-12,2.9855e-12,58108.196978,58116.281194,15.167,magic,detection,

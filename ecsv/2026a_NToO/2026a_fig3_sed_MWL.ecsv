@@ -1,0 +1,41 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                         }
+# - {name: en        , unit: keV     , datatype: float32 , description: Energy                              }
+# - {name: en_wlo    , unit: keV     , datatype: float32 , description: Energy bin width low                }
+# - {name: en_wup    , unit: keV     , datatype: float32 , description: Energy bin width up                 }
+# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Differential photon flux at energy  }
+# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
+# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
+# - {name: tstart    , unit: mjd     , datatype: float64 , description: MJD start                           }
+# - {name: tstop     , unit: mjd     , datatype: float64 , description: MJD stop                            }
+# - {name: texpo     , unit: s       , datatype: float32 , description: Observation time                    }
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                          }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                         }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                            }
+# meta: !!omap
+# - {Filename: 2026a_fig3_sed_MWL.ecsv}
+# - {Source: "1ES1312-423"}
+# - {Figure: "Figure 3 in the paper."}
+# - {Title: "Prompt Searches for Very-High-Energy gamma-Ray Counterparts to IceCube Astrophysical Neutrino Alerts"}
+# - {Comments: ""}
+# - {Reference: "magic_2026a.yaml"}
+# - {Status: "Validated"}
+# schema: astropy-2.0
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+1ES1312-423,3.16e+05,2.16e+05,6.84e+05,7.174e-12,,,,,,lat,UL,90% confidence level upper limit (UL)
+1ES1312-423,3.16e+06,2.16e+06,6.85e+06,1.174e-11,,,,,,lat,UL,90% confidence level upper limit (UL)
+1ES1312-423,3.17e+07,2.17e+07,6.85e+07,7.635e-11,,,,,,lat,UL,90% confidence level upper limit (UL)
+1ES1312-423,3.17e+08,2.17e+08,6.85e+08,7.712e-10,,,,,,lat,UL,90% confidence level upper limit (UL)
+1ES1312-423,7.500000e-01,2.500000e-01,2.500000e-01,1.221233e-11,4.556834e-13,4.556834e-13,,,,swift-xrt,,Swift-XRT 2019
+1ES1312-423,1.500000e+00,5.000000e-01,5.000000e-01,1.370795e-11,3.865846e-13,3.865846e-13,,,,swift-xrt,,Swift-XRT 2019
+1ES1312-423,2.500000e+00,5.000000e-01,5.000000e-01,1.334559e-11,4.335770e-13,4.335770e-13,,,,swift-xrt,,Swift-XRT 2019
+1ES1312-423,3.500000e+00,5.000000e-01,5.000000e-01,1.265210e-11,5.586516e-13,5.586516e-13,,,,swift-xrt,,Swift-XRT 2019
+1ES1312-423,4.500000e+00,5.000000e-01,5.000000e-01,1.192145e-11,7.511387e-13,7.511387e-13,,,,swift-xrt,,Swift-XRT 2019
+1ES1312-423,5.500000e+00,5.000000e-01,5.000000e-01,1.122871e-11,9.447995e-13,9.447995e-13,,,,swift-xrt,,Swift-XRT 2019
+1ES1312-423,6.500000e+00,5.000000e-01,5.000000e-01,1.059263e-11,1.117459e-12,1.117459e-12,,,,swift-xrt,,Swift-XRT 2019
+1ES1312-423,5.520219e-03,0.000000e+00,0.000000e+00,5.700400e-12,2.226960e-13,2.226960e-13,,,,swift-xrt,,Swift-UVOT UVM2 2019
+1ES1312-423,5.520219e-03,0.000000e+00,0.000000e+00,3.105372e-12,1.113480e-13,1.113480e-13,,,,swift-xrt,,Swift-UVOT UVM2 2011

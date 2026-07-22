@@ -1,0 +1,39 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                                          }
+# - {name: t         , unit: mjd     , datatype: float64 , description: Time of measurement                                  }
+# - {name: t_wlo     , unit: d    , datatype: float32 , description: Lower width of time bin                                 }
+# - {name: t_wup     , unit: d    , datatype: float32 , description: Upper width of time bin                                 }
+# - {name: texpo     , unit: h    , datatype: float32 , description: Exposure time                                           }
+# - {name: flux     , unit: cm-2 s-1, datatype: float32 , description: Flux measured above the energy threshold              }
+# - {name: flux_elo , unit: cm-2 s-1, datatype: float32 , description: Lower uncertainty of flux                             }
+# - {name: flux_eup , unit: cm-2 s-1, datatype: float32 , description: Upper uncertainty of flux                             }
+# - {name: eth_lo      , unit: GeV,      datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up      , unit: GeV,      datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                                           }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                                          }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                                             }
+# meta: !!omap
+# - {Filename: magic_2026b_fig1_lc.ecsv}
+# - {Source: "TON 0599"}
+# - {Figure: "Figure 1, MAGIC VHE light curve (>80 GeV)"}
+# - {Title: "First detection of VHE gamma-ray signal from the FSRQ TON 0599"}
+# - {Comments: "Nightly MAGIC integral flux above 80 GeV, 2017 Dec 15-29. texpo is the per-night observation window (2 x observation halftime); the paper quotes 19.2 h effective in total."}
+# - {Reference: "magic_2026b.yaml"}
+# - {Status: "In preparation"}
+
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+TON 0599,58102.23,0.02096,0.02096,1.006,2.5567e-10,3.0098e-11,3.0098e-11,80,,magic,detection,
+TON 0599,58103.23,0.04746,0.04746,2.278,3.0628e-10,2.5050e-11,2.5050e-11,80,,magic,detection,
+TON 0599,58106.23,0.05079,0.05079,2.438,1.3402e-10,1.7318e-11,1.7318e-11,80,,magic,detection,
+TON 0599,58107.22,0.05946,0.05946,2.854,9.4758e-11,1.5999e-11,1.5999e-11,80,,magic,detection,
+TON 0599,58108.23,0.03302,0.03302,1.585,8.8429e-11,,,80,,magic,95% confidence upper limit,
+TON 0599,58110.23,0.06276,0.06276,3.013,5.6003e-11,1.7011e-11,1.7011e-11,80,,magic,detection,
+TON 0599,58111.24,0.04786,0.04786,2.297,9.4602e-11,,,80,,magic,95% confidence upper limit,
+TON 0599,58112.26,0.02920,0.02920,1.402,8.1652e-11,,,80,,magic,95% confidence upper limit,
+TON 0599,58113.19,0.02808,0.02808,1.348,6.9961e-11,,,80,,magic,95% confidence upper limit,
+TON 0599,58114.22,0.06199,0.06199,2.975,4.2082e-11,1.7006e-11,1.7006e-11,80,,magic,detection,
+TON 0599,58115.25,0.03186,0.03186,1.529,5.7054e-11,,,80,,magic,95% confidence upper limit,
+TON 0599,58116.26,0.02119,0.02119,1.017,3.7593e-11,,,80,,magic,95% confidence upper limit,

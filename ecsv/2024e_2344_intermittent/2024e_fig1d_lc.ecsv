@@ -1,0 +1,225 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                                          }
+# - {name: t         , unit: mjd     , datatype: float64 , description: Time of measurement                                  }
+# - {name: t_wlo     , unit: d    , datatype: float32 , description: Lower width of time bin                                 }
+# - {name: t_wup     , unit: d    , datatype: float32 , description: Upper width of time bin                                 }
+# - {name: texpo     , unit: h    , datatype: float32 , description: Exposure time                                           }
+# - {name: flux     , unit: mJy, datatype: float32 , description: Flux measured above the energy threshold              }
+# - {name: flux_elo , unit: mJy, datatype: float32 , description: Lower uncertainty of flux                             }
+# - {name: flux_eup , unit: mJy, datatype: float32 , description: Upper uncertainty of flux                             }
+# - {name: eth_lo      , unit: nm,      datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up      , unit: nm,      datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                                           }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                                          }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                                             }
+# meta: !!omap
+# - {Filename: 2024e_fig1d_lc.ecsv}
+# - {Source: "1ES 2344+514"}
+# - {Figure: "Figure 1, panel d (fourth from top) in the paper."}
+# - {Title: "Multi-year characterisation of the broad-band emission from the intermittent extreme BL Lac 1ES~2344+514"}
+# - {Comments: "Datapoints of the Swift-UVOT light curves, in the MJD 58,475 and 59,600 time range."}
+# - {Reference: "magic_2024e.yaml"}
+# - {Status: "To be checked"}
+
+# schema: astropy-2.0
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+1ES 2344+514,58504.839,0.000,0.000,0.0,6.0900e-01,3.8000e-02,3.8000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58511.535,0.000,0.000,0.0,5.3100e-01,3.7000e-02,3.7000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58521.958,0.000,0.000,0.0,5.4100e-01,3.8000e-02,3.8000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58525.608,0.000,0.000,0.0,6.3200e-01,3.9000e-02,3.9000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58532.055,0.000,0.000,0.0,5.2100e-01,2.8000e-02,2.8000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58539.885,0.000,0.000,0.0,4.8000e-01,3.4000e-02,3.4000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58546.272,0.000,0.000,0.0,5.5100e-01,3.9000e-02,3.9000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58553.382,0.000,0.000,0.0,5.1100e-01,3.6000e-02,3.6000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58560.020,0.000,0.000,0.0,4.3700e-01,3.1000e-02,3.1000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58567.382,0.000,0.000,0.0,4.2200e-01,3.3000e-02,3.3000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58701.063,0.000,0.000,0.0,5.6100e-01,3.9000e-02,3.9000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58702.126,0.000,0.000,0.0,5.3100e-01,3.7000e-02,3.7000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58703.117,0.000,0.000,0.0,4.3700e-01,3.8000e-02,3.8000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58704.774,0.000,0.000,0.0,5.9300e-01,4.7000e-02,4.7000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58707.961,0.000,0.000,0.0,4.3700e-01,3.8000e-02,3.8000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58716.132,0.000,0.000,0.0,4.5400e-01,4.0000e-02,4.0000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58724.112,0.000,0.000,0.0,4.7100e-01,2.9000e-02,2.9000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58760.955,0.000,0.000,0.0,6.4400e-01,3.5000e-02,3.5000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59017.178,0.000,0.000,0.0,4.5800e-01,3.6000e-02,3.6000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59018.173,0.000,0.000,0.0,3.9900e-01,3.1000e-02,3.1000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59023.150,0.000,0.000,0.0,3.1700e-01,2.8000e-02,2.8000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59027.131,0.000,0.000,0.0,3.3800e-01,3.0000e-02,3.0000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59048.114,0.000,0.000,0.0,5.4600e-01,2.9000e-02,2.9000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59052.092,0.000,0.000,0.0,5.5100e-01,3.0000e-02,3.0000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59053.041,0.000,0.000,0.0,5.6100e-01,3.5000e-02,3.5000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59054.209,0.000,0.000,0.0,6.5600e-01,3.5000e-02,3.5000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59060.065,0.000,0.000,0.0,4.5400e-01,3.2000e-02,3.2000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59079.181,0.000,0.000,0.0,4.5000e-01,3.2000e-02,3.2000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59080.439,0.000,0.000,0.0,4.6200e-01,3.6000e-02,3.6000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59084.160,0.000,0.000,0.0,4.1000e-01,2.5000e-02,2.5000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59089.204,0.000,0.000,0.0,4.3300e-01,2.3000e-02,2.3000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59107.125,0.000,0.000,0.0,4.2200e-01,2.6000e-02,2.6000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59112.446,0.000,0.000,0.0,4.1400e-01,2.6000e-02,2.6000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59117.037,0.000,0.000,0.0,4.6200e-01,2.5000e-02,2.5000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59129.310,0.000,0.000,0.0,4.5000e-01,2.4000e-02,2.4000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59130.917,0.000,0.000,0.0,4.3300e-01,2.7000e-02,2.7000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59131.241,0.000,0.000,0.0,4.5000e-01,2.1000e-02,2.1000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59135.144,0.000,0.000,0.0,4.9800e-01,3.9000e-02,3.9000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59140.007,0.000,0.000,0.0,4.1000e-01,2.9000e-02,2.9000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59145.038,0.000,0.000,0.0,4.3300e-01,2.7000e-02,2.7000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59165.760,0.000,0.000,0.0,5.2600e-01,2.8000e-02,2.8000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59169.284,0.000,0.000,0.0,5.2100e-01,4.1000e-02,4.1000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59171.874,0.000,0.000,0.0,4.6200e-01,2.9000e-02,2.9000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59189.191,0.000,0.000,0.0,4.5400e-01,2.8000e-02,2.8000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59191.121,0.000,0.000,0.0,4.2200e-01,1.9000e-02,1.9000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59196.954,0.000,0.000,0.0,4.1400e-01,2.6000e-02,2.6000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59203.852,0.000,0.000,0.0,3.9900e-01,3.1000e-02,3.1000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59221.865,0.000,0.000,0.0,5.8700e-01,3.1000e-02,3.1000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59225.846,0.000,0.000,0.0,5.3600e-01,2.9000e-02,2.9000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59404.071,0.000,0.000,0.0,5.2600e-01,2.8000e-02,2.8000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59406.118,0.000,0.000,0.0,5.5100e-01,3.0000e-02,3.0000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59408.174,0.000,0.000,0.0,5.3100e-01,2.8000e-02,2.8000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59410.107,0.000,0.000,0.0,5.4600e-01,2.9000e-02,2.9000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59412.096,0.000,0.000,0.0,5.4600e-01,2.9000e-02,2.9000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59414.017,0.000,0.000,0.0,5.1100e-01,2.7000e-02,2.7000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59428.031,0.000,0.000,0.0,4.4500e-01,2.7000e-02,2.7000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59430.018,0.000,0.000,0.0,4.5400e-01,3.2000e-02,3.2000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59431.016,0.000,0.000,0.0,4.9300e-01,2.6000e-02,2.6000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59433.013,0.000,0.000,0.0,5.0200e-01,3.5000e-02,3.5000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59434.598,0.000,0.000,0.0,5.2600e-01,2.8000e-02,2.8000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59441.034,0.000,0.000,0.0,4.7100e-01,2.5000e-02,2.5000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59443.096,0.000,0.000,0.0,4.6200e-01,3.6000e-02,3.6000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59459.075,0.000,0.000,0.0,4.1400e-01,4.0000e-02,4.0000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59490.545,0.000,0.000,0.0,4.7500e-01,2.5000e-02,2.5000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59496.924,0.000,0.000,0.0,4.1400e-01,2.6000e-02,2.6000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59516.228,0.000,0.000,0.0,4.5400e-01,4.0000e-02,4.0000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59555.180,0.000,0.000,0.0,4.8000e-01,2.2000e-02,2.2000e-02,225.35,294.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58504.839,0.000,0.000,0.0,6.5600e-01,4.6000e-02,4.6000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,58511.535,0.000,0.000,0.0,6.4400e-01,4.5000e-02,4.5000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,58521.958,0.000,0.000,0.0,5.6600e-01,4.4000e-02,4.4000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,58525.608,0.000,0.000,0.0,6.0900e-01,4.3000e-02,4.3000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,58532.055,0.000,0.000,0.0,5.0700e-01,3.1000e-02,3.1000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,58539.885,0.000,0.000,0.0,5.1200e-01,4.0000e-02,4.0000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,58546.272,0.000,0.000,0.0,4.7100e-01,4.5000e-02,4.5000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,58553.382,0.000,0.000,0.0,5.0200e-01,3.9000e-02,3.9000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,58560.020,0.000,0.000,0.0,4.4600e-01,3.5000e-02,3.5000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,58701.063,0.000,0.000,0.0,6.1500e-01,5.9000e-02,5.9000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,58702.126,0.000,0.000,0.0,4.9800e-01,5.2000e-02,5.2000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,58703.117,0.000,0.000,0.0,5.1600e-01,5.0000e-02,5.0000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,58704.774,0.000,0.000,0.0,6.0400e-01,5.3000e-02,5.3000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,58707.961,0.000,0.000,0.0,4.5400e-01,4.8000e-02,4.8000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,58716.132,0.000,0.000,0.0,5.1200e-01,5.4000e-02,5.4000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,58724.112,0.000,0.000,0.0,4.8900e-01,6.4000e-02,6.4000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,58760.955,0.000,0.000,0.0,6.7400e-01,3.6000e-02,3.6000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59017.178,0.000,0.000,0.0,4.6700e-01,4.1000e-02,4.1000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59018.173,0.000,0.000,0.0,4.2900e-01,3.7000e-02,3.7000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59023.150,0.000,0.000,0.0,3.4100e-01,3.3000e-02,3.3000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59027.131,0.000,0.000,0.0,3.5100e-01,3.4000e-02,3.4000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59048.114,0.000,0.000,0.0,4.7100e-01,3.3000e-02,3.3000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59052.092,0.000,0.000,0.0,5.0200e-01,3.1000e-02,3.1000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59053.041,0.000,0.000,0.0,5.7100e-01,4.0000e-02,4.0000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59054.209,0.000,0.000,0.0,6.3800e-01,3.9000e-02,3.9000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59060.065,0.000,0.000,0.0,3.7100e-01,3.2000e-02,3.2000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59079.181,0.000,0.000,0.0,4.2900e-01,3.4000e-02,3.4000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59080.439,0.000,0.000,0.0,4.7100e-01,4.1000e-02,4.1000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59084.160,0.000,0.000,0.0,3.8500e-01,2.7000e-02,2.7000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59089.204,0.000,0.000,0.0,3.7800e-01,2.6000e-02,2.6000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59107.125,0.000,0.000,0.0,4.1400e-01,2.9000e-02,2.9000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59112.446,0.000,0.000,0.0,3.9500e-01,2.8000e-02,2.8000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59117.037,0.000,0.000,0.0,4.4200e-01,3.1000e-02,3.1000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59129.310,0.000,0.000,0.0,4.6200e-01,2.9000e-02,2.9000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59130.917,0.000,0.000,0.0,3.9200e-01,3.8000e-02,3.8000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59135.144,0.000,0.000,0.0,4.7500e-01,4.1000e-02,4.1000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59140.007,0.000,0.000,0.0,4.3700e-01,3.4000e-02,3.4000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59145.038,0.000,0.000,0.0,4.6700e-01,2.9000e-02,2.9000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59165.760,0.000,0.000,0.0,5.3100e-01,3.3000e-02,3.3000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59169.284,0.000,0.000,0.0,4.2900e-01,4.9000e-02,4.9000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59171.874,0.000,0.000,0.0,4.7500e-01,3.3000e-02,3.3000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59189.191,0.000,0.000,0.0,4.2900e-01,3.4000e-02,3.4000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59196.954,0.000,0.000,0.0,4.5000e-01,3.2000e-02,3.2000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59203.852,0.000,0.000,0.0,3.4800e-01,3.3000e-02,3.3000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59221.865,0.000,0.000,0.0,5.6100e-01,3.9000e-02,3.9000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59225.846,0.000,0.000,0.0,4.5000e-01,3.2000e-02,3.2000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59404.071,0.000,0.000,0.0,5.1200e-01,3.2000e-02,3.2000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59406.118,0.000,0.000,0.0,5.3100e-01,5.1000e-02,5.1000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59408.174,0.000,0.000,0.0,5.2600e-01,3.2000e-02,3.2000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59410.107,0.000,0.000,0.0,4.9800e-01,3.1000e-02,3.1000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59412.096,0.000,0.000,0.0,5.9300e-01,3.7000e-02,3.7000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59414.017,0.000,0.000,0.0,4.9300e-01,3.0000e-02,3.0000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59428.031,0.000,0.000,0.0,4.9800e-01,3.5000e-02,3.5000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59430.018,0.000,0.000,0.0,4.6700e-01,3.7000e-02,3.7000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59431.016,0.000,0.000,0.0,4.5800e-01,2.8000e-02,2.8000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59433.013,0.000,0.000,0.0,5.3600e-01,4.2000e-02,4.2000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59434.598,0.000,0.000,0.0,5.2100e-01,3.2000e-02,3.2000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59441.034,0.000,0.000,0.0,4.8000e-01,3.0000e-02,3.0000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59443.096,0.000,0.000,0.0,4.2600e-01,4.1000e-02,4.1000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59459.075,0.000,0.000,0.0,3.8800e-01,4.4000e-02,4.4000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59490.545,0.000,0.000,0.0,4.5800e-01,2.8000e-02,2.8000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59496.924,0.000,0.000,0.0,4.4600e-01,3.1000e-02,3.1000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59516.228,0.000,0.000,0.0,3.5100e-01,4.0000e-02,4.0000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59543.174,0.000,0.000,0.0,3.5400e-01,4.0000e-02,4.0000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,59554.125,0.000,0.000,0.0,4.4600e-01,2.4000e-02,2.4000e-02,199.70,249.50,swift-uvot,1 sigma detection,None
+1ES 2344+514,58504.839,0.000,0.000,0.0,5.4800e-01,3.4000e-02,3.4000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58511.535,0.000,0.000,0.0,5.2300e-01,3.2000e-02,3.2000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58521.958,0.000,0.000,0.0,4.6400e-01,2.9000e-02,2.9000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58525.608,0.000,0.000,0.0,6.3500e-01,3.4000e-02,3.4000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58532.055,0.000,0.000,0.0,4.7700e-01,2.2000e-02,2.2000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58539.885,0.000,0.000,0.0,4.8600e-01,3.0000e-02,3.0000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58546.272,0.000,0.000,0.0,4.4700e-01,2.8000e-02,2.8000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58553.382,0.000,0.000,0.0,4.2300e-01,2.6000e-02,2.6000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58560.020,0.000,0.000,0.0,4.0100e-01,2.5000e-02,2.5000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58567.382,0.000,0.000,0.0,3.1800e-01,3.3000e-02,3.3000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58701.063,0.000,0.000,0.0,5.3800e-01,3.3000e-02,3.3000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58702.126,0.000,0.000,0.0,4.4700e-01,3.1000e-02,3.1000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58704.774,0.000,0.000,0.0,5.2800e-01,3.7000e-02,3.7000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58707.961,0.000,0.000,0.0,4.0800e-01,3.2000e-02,3.2000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58716.132,0.000,0.000,0.0,4.2700e-01,3.4000e-02,3.4000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58724.112,0.000,0.000,0.0,4.4300e-01,2.7000e-02,2.7000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,58760.955,0.000,0.000,0.0,5.5300e-01,3.4000e-02,3.4000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59017.178,0.000,0.000,0.0,4.4700e-01,2.8000e-02,2.8000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59018.173,0.000,0.000,0.0,3.6200e-01,2.5000e-02,2.5000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59023.150,0.000,0.000,0.0,3.1800e-01,2.2000e-02,2.2000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59027.131,0.000,0.000,0.0,3.5900e-01,2.5000e-02,2.5000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59048.114,0.000,0.000,0.0,4.3900e-01,2.4000e-02,2.4000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59052.092,0.000,0.000,0.0,4.3900e-01,2.4000e-02,2.4000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59053.041,0.000,0.000,0.0,4.9500e-01,1.9000e-02,1.9000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59054.209,0.000,0.000,0.0,5.5800e-01,2.6000e-02,2.6000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59060.065,0.000,0.000,0.0,3.6200e-01,2.5000e-02,2.5000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59079.181,0.000,0.000,0.0,4.1600e-01,2.6000e-02,2.6000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59080.439,0.000,0.000,0.0,3.7900e-01,2.7000e-02,2.7000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59084.160,0.000,0.000,0.0,3.3900e-01,1.8000e-02,1.8000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59089.204,0.000,0.000,0.0,3.1800e-01,1.7000e-02,1.7000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59107.125,0.000,0.000,0.0,3.9300e-01,2.1000e-02,2.1000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59112.446,0.000,0.000,0.0,3.5500e-01,1.9000e-02,1.9000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59117.037,0.000,0.000,0.0,3.9300e-01,2.1000e-02,2.1000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59129.310,0.000,0.000,0.0,4.0100e-01,2.1000e-02,2.1000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59130.917,0.000,0.000,0.0,3.3300e-01,1.8000e-02,1.8000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59135.144,0.000,0.000,0.0,4.1600e-01,2.9000e-02,2.9000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59140.007,0.000,0.000,0.0,3.4600e-01,2.4000e-02,2.4000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59145.038,0.000,0.000,0.0,4.0100e-01,2.1000e-02,2.1000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59165.760,0.000,0.000,0.0,4.5600e-01,2.4000e-02,2.4000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59169.284,0.000,0.000,0.0,5.1800e-01,3.6000e-02,3.6000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59171.874,0.000,0.000,0.0,4.0800e-01,2.2000e-02,2.2000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59189.191,0.000,0.000,0.0,3.8600e-01,2.4000e-02,2.4000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59196.954,0.000,0.000,0.0,3.8600e-01,2.1000e-02,2.1000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59203.852,0.000,0.000,0.0,3.6200e-01,2.5000e-02,2.5000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59221.865,0.000,0.000,0.0,4.6800e-01,2.5000e-02,2.5000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59225.846,0.000,0.000,0.0,4.4700e-01,2.4000e-02,2.4000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59404.071,0.000,0.000,0.0,4.6400e-01,2.1000e-02,2.1000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59406.118,0.000,0.000,0.0,4.7700e-01,3.7000e-02,3.7000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59408.174,0.000,0.000,0.0,5.0900e-01,2.7000e-02,2.7000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59410.107,0.000,0.000,0.0,4.3500e-01,2.3000e-02,2.3000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59412.096,0.000,0.000,0.0,5.0000e-01,2.3000e-02,2.3000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59414.017,0.000,0.000,0.0,4.6000e-01,2.5000e-02,2.5000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59428.031,0.000,0.000,0.0,4.2300e-01,2.3000e-02,2.3000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59430.018,0.000,0.000,0.0,4.3100e-01,2.7000e-02,2.7000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59431.016,0.000,0.000,0.0,4.5100e-01,2.1000e-02,2.1000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59433.013,0.000,0.000,0.0,4.6000e-01,2.8000e-02,2.8000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59434.598,0.000,0.000,0.0,4.3500e-01,2.3000e-02,2.3000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59441.034,0.000,0.000,0.0,3.9000e-01,2.1000e-02,2.1000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59443.096,0.000,0.000,0.0,4.1200e-01,2.9000e-02,2.9000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59459.075,0.000,0.000,0.0,3.7900e-01,3.0000e-02,3.0000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59490.545,0.000,0.000,0.0,3.9000e-01,2.1000e-02,2.1000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59496.924,0.000,0.000,0.0,4.1600e-01,2.2000e-02,2.2000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59516.228,0.000,0.000,0.0,3.0400e-01,2.7000e-02,2.7000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59543.174,0.000,0.000,0.0,3.6200e-01,2.8000e-02,2.8000e-02,159.95,225.65,swift-uvot,1 sigma detection,None
+1ES 2344+514,59553.068,0.000,0.000,0.0,3.3000e-01,1.8000e-02,1.8000e-02,159.95,225.65,swift-uvot,1 sigma detection,None

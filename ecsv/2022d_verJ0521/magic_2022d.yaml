@@ -21,12 +21,12 @@ Sources in file:
  Tdec01: 21.214292
 File list MAGIC:
  magic_2022d_fig1a_lc.ecsv
- magic_2022d_fig5_SED.ecsv
+ magic_2022d_fig5_sed.ecsv
 Other files:
- magic_2022d_fig1b_lc.ecsv
- magic_2022d_fig1c_lc.ecsv
- magic_2022d_fig1d_lc.ecsv
- magic_2022d_fig1e_pol_frac_lc.ecsv
- magic_2022d_fig1e_EVPA_lc.ecsv
- magic_2022d_fig4_SED.ecsv
- magic_2022d_fig9_BB1_SED.ecsv
+ 2022d_fig1b_lc.ecsv
+ 2022d_fig1c_lc.ecsv
+ 2022d_fig1d_lc.ecsv
+ 2022d_fig1e_lc_pol_frac.ecsv
+ 2022d_fig1e_lc_EVPA.ecsv
+ 2022d_fig4_sed.ecsv
+ 2022d_fig9_sed_BB1.ecsv

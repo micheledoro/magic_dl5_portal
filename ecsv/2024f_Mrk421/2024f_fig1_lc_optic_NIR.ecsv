@@ -1,0 +1,69 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                                          }
+# - {name: t         , unit: mjd     , datatype: float64 , description: Time of measurement                                  }
+# - {name: t_wlo     , unit: d    , datatype: float32 , description: Lower width of time bin                                 }
+# - {name: t_wup     , unit: d    , datatype: float32 , description: Upper width of time bin                                 }
+# - {name: texpo     , unit: h    , datatype: float32 , description: Exposure time                                           }
+# - {name: flux     , unit: mJy, datatype: float32 , description: Flux measured above the energy threshold              }
+# - {name: flux_elo , unit: mJy, datatype: float32 , description: Lower uncertainty of flux                             }
+# - {name: flux_eup , unit: mJy, datatype: float32 , description: Upper uncertainty of flux                             }
+# - {name: eth_lo      , unit: nm,      datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up      , unit: nm,      datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                                           }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                                          }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                                             }
+# meta: !!omap
+# - {Filename: 2024f_fig1_lc_optic_NIR.ecsv}
+# - {Source: "Mrk421"}
+# - {Figure: "Fig. 1 light curve"}
+# - {Title: "First characterization of the emission behavior of Mrk421 from radio to VHE gamma rays with simultaneous X-ray polarization measurements"}
+# - {Comments: ""}
+# - {Reference: "magic_2024f.yaml"}
+# - {Status: "Validated"}
+
+# schema: astropy-2.0
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+MRK421,59703.159,,,,27.5,2.58,2.58,1323,1937,perkins,,
+MRK421,59704.1748,,,,32.8,2.97,2.97,1323,1937,perkins,,
+MRK421,59708.2381,,,,30.2,2.76,2.76,1323,1937,perkins,,
+MRK421,59713.1737,,,,23.8,2.31,2.31,1323,1937,perkins,,
+MRK421,59736.1566,,,,37.0,3.04,3.04,1323,1937,perkins,,
+MRK421,59737.1703,,,,33.5,2.86,2.86,1323,1937,perkins,,
+MRK421,59738.1507,,,,29.7,2.8,2.8,1323,1937,perkins,,
+MRK421,59712.7837,,,,16.0,0.4,0.4,520,796,robopol,,
+MRK421,59712.7897,,,,16.4,0.4,0.4,520,796,robopol,,
+MRK421,59712.7948,,,,16.1,0.4,0.4,520,796,robopol,,
+MRK421,59713.8205,,,,14.8,0.4,0.4,520,796,robopol,,
+MRK421,59715.8046,,,,14.1,0.4,0.4,520,796,robopol,,
+MRK421,59717.8649,,,,14.1,0.4,0.4,520,796,robopol,,
+MRK421,59721.8659,,,,15.3,0.4,0.4,520,796,robopol,,
+MRK421,59729.8054,,,,20.2,0.4,0.4,520,796,robopol,,
+MRK421,59730.8345,,,,19.8,0.4,0.4,520,796,robopol,,
+MRK421,59731.846,,,,20.5,0.4,0.4,520,796,robopol,,
+MRK421,59732.8147,,,,19.3,0.4,0.4,520,796,robopol,,
+MRK421,59737.8893,,,,21.2,0.4,0.4,520,796,robopol,,
+MRK421,59747.7901,,,,20.5,0.4,0.4,520,796,robopol,,
+MRK421,59703.3958,,,,17.1,0.376,0.376,520,796,not-telescope,,
+MRK421,59734.8968,,,,18.5,0.401,0.401,520,796,not-telescope,,
+MRK421,59735.9209,,,,21.0,0.448,0.448,520,796,not-telescope,,
+MRK421,59736.9171,,,,21.2,0.678,0.678,520,796,not-telescope,,
+MRK421,59703.0,,,,19.6,3.93,3.93,520,796,kanata,,
+MRK421,59704.0,,,,16.1,3.28,3.28,520,796,kanata,,
+MRK421,59704.9911,,,,17.1,0.0164,0.0164,520,796,t90,,
+MRK421,59704.9918,,,,17.2,0.0185,0.0185,520,796,t90,,
+MRK421,59704.9925,,,,17.1,0.0164,0.0164,520,796,t90,,
+MRK421,59721.8992,,,,16.0,0.00972,0.00972,520,796,t90,,
+MRK421,59721.8999,,,,15.9,0.00971,0.00971,520,796,t90,,
+MRK421,59721.9006,,,,16.1,0.00977,0.00977,520,796,t90,,
+MRK421,59729.9376,,,,20.5,0.0212,0.0212,520,796,t90,,
+MRK421,59729.9383,,,,20.1,0.0139,0.0139,520,796,t90,,
+MRK421,59729.939,,,,20.3,0.014,0.014,520,796,t90,,
+MRK421,59740.8952,,,,18.9,0.0199,0.0199,520,796,t90,,
+MRK421,59740.8959,,,,18.8,0.0198,0.0198,520,796,t90,,
+MRK421,59740.8966,,,,18.9,0.0222,0.0222,520,796,t90,,
+MRK421,59746.9794,,,,20.9,0.0743,0.0743,520,796,t90,,
+MRK421,59746.9813,,,,21.5,0.0907,0.0907,520,796,t90,,
+MRK421,59746.9832,,,,21.7,0.0938,0.0938,520,796,t90,,

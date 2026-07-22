@@ -20,15 +20,15 @@ Sources in file:
  Tra01:  275.091427
  Tdec01: 7.185357
 File list MAGIC:
- magic_2022e_fig3_Full_SED.ecsv
- magic_2022e_fig3_HS_SED.ecsv
- magic_2022e_fig3_HS-SS_SED.ecsv
- magic_2022e_fig3_SS-HS_SED.ecsv
+ magic_2022e_fig3_sed_Full.ecsv
+ magic_2022e_fig3_sed_HS.ecsv
+ magic_2022e_fig3_sed_HS-SS.ecsv
+ magic_2022e_fig3_sed_SS-HS.ecsv
  magic_2022e_fig4d_lc.ecsv
- magic_2022e_fig5_HS_SED.ecsv
- magic_2022e_fig5_HS-SS_SED.ecsv
- magic_2022e_fig5_SS-HS_SED.ecsv
+ magic_2022e_fig5_sed_HS.ecsv
+ magic_2022e_fig5_sed_HS-SS.ecsv
+ magic_2022e_fig5_sed_SS-HS.ecsv
 Other files:
- magic_2022e_fig4a_lc.ecsv
- magic_2022e_fig4b_lc.ecsv
- magic_2022e_fig4c_lc.ecsv
+ 2022e_fig4a_lc.ecsv
+ 2022e_fig4b_lc.ecsv
+ 2022e_fig4c_lc.ecsv

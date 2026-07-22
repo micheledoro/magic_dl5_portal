@@ -23,13 +23,13 @@ File list MAGIC:
  magic_2025e_fig1a_lc.ecsv
  magic_2025e_fig1b_lc.ecsv
 Other Files:
- magic_2025e_fig1c_Fermi-LAT_lc.ecsv
- magic_2025e_fig1d_Swift-XRT_lc.ecsv
- magic_2025e_fig1e_Swift-UVOT_rband_lc.ecsv
- magic_2025e_fig1f_radio_lc.ecsv
- magic_2025e_fig1g_IXPE_poldeg_lc.ecsv
- magic_2025e_fig1g_Rband_poldeg_lc.ecsv
- magic_2025e_fig1g_radio_poldeg_lc.ecsv
- magic_2025e_fig1h_IXPE_polang_lc.ecsv
- magic_2025e_fig1h_Rband_polang_lc.ecsv
- magic_2025e_fig1h_radio_polang_lc.ecsv
+ 2025e_fig1c_lc_Fermi-LAT.ecsv
+ 2025e_fig1d_lc_Swift-XRT.ecsv
+ 2025e_fig1e_lc_Swift-UVOT_rband.ecsv
+ 2025e_fig1f_lc_radio.ecsv
+ 2025e_fig1g_lc_IXPE_poldeg.ecsv
+ 2025e_fig1g_lc_Rband_poldeg.ecsv
+ 2025e_fig1g_lc_radio_poldeg.ecsv
+ 2025e_fig1h_lc_IXPE_polang.ecsv
+ 2025e_fig1h_lc_Rband_polang.ecsv
+ 2025e_fig1h_lc_radio_polang.ecsv

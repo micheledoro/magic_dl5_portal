@@ -22,11 +22,11 @@ Targets in file:
 File list MAGIC:
  magic_2024b_fig1_lc.ecsv 
 Other Files:
- magic_2024b_fig1_lc_Fermi.ecsv
- magic_2024b_fig1_lc_LE.ecsv
- magic_2024b_fig1_lc_UVOT.ecsv
- magic_2024b_fig1_lc_optic.ecsv
- magic_2024b_fig1_lc_RADIO.ecsv
- magic_2024b_fig2_sed_IXPE1.ecsv
- magic_2024b_fig2_sed_IXPE2.ecsv
- magic_2024b_fig2_sed_IXPE3.ecsv
+ 2024b_fig1_lc_Fermi.ecsv
+ 2024b_fig1_lc_LE.ecsv
+ 2024b_fig1_lc_UVOT.ecsv
+ 2024b_fig1_lc_optic.ecsv
+ 2024b_fig1_lc_RADIO.ecsv
+ 2024b_fig2_sed_IXPE1.ecsv
+ 2024b_fig2_sed_IXPE2.ecsv
+ 2024b_fig2_sed_IXPE3.ecsv
