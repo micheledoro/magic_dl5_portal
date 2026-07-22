@@ -1,0 +1,43 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                         }
+# - {name: en        , unit: TeV     , datatype: float32 , description: Energy                              }
+# - {name: en_wlo    , unit: TeV     , datatype: float32 , description: Energy bin width low                }
+# - {name: en_wup    , unit: TeV     , datatype: float32 , description: Energy bin width up                 }
+# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Spectral energy distribution point (nuFnu) }
+# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
+# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
+# - {name: tstart    , unit: mjd     , datatype: float64 , description: MJD start                           }
+# - {name: tstop     , unit: mjd     , datatype: float64 , description: MJD stop                            }
+# - {name: texpo     , unit: h       , datatype: float32 , description: Observation time                    }
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                          }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                         }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                            }
+# meta: !!omap
+# - {Filename: magic_2026c_fig4_sed_56395.ecsv}
+# - {Source: "Mrk 421"}
+# - {Figure: "Figure 4/5, daily-averaged MAGIC SED, night MJD 56395"}
+# - {Title: "Time-Dependent Modeling of the Sub-Hour Spectral Evolution During the 2013 Outburst of Mrk 421"}
+# - {Comments: "Daily-averaged MAGIC VHE spectrum (2013 outburst). MAGIC points only; the multiwavelength version is in from_authors. Energy converted from frequency (E=h*nu)."}
+# - {Provenance: "authors; MAGIC points extracted, energy Hz->TeV"}
+# - {Reference: "magic_2026c.yaml"}
+# - {Status: "In preparation"}
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+Mrk 421,1.21874e-01,,,6.0276e-10,1.3211e-11,1.3211e-11,56394.89122,56395.16797,6.0072,magic,detection,
+Mrk 421,1.70284e-01,,,6.7099e-10,1.2835e-11,1.2835e-11,56394.89122,56395.16797,6.0072,magic,detection,
+Mrk 421,2.39961e-01,,,7.2322e-10,1.2599e-11,1.2599e-11,56394.89122,56395.16797,6.0072,magic,detection,
+Mrk 421,3.35269e-01,,,7.6252e-10,1.2905e-11,1.2905e-11,56394.89122,56395.16797,6.0072,magic,detection,
+Mrk 421,4.74154e-01,,,8.0919e-10,1.3454e-11,1.3454e-11,56394.89122,56395.16797,6.0072,magic,detection,
+Mrk 421,6.61531e-01,,,8.0393e-10,1.4002e-11,1.4002e-11,56394.89122,56395.16797,6.0072,magic,detection,
+Mrk 421,9.25330e-01,,,8.0303e-10,1.6074e-11,1.6074e-11,56394.89122,56395.16797,6.0072,magic,detection,
+Mrk 421,1.30089e+00,,,7.2841e-10,1.6432e-11,1.6432e-11,56394.89122,56395.16797,6.0072,magic,detection,
+Mrk 421,1.81514e+00,,,6.4894e-10,1.7012e-11,1.7012e-11,56394.89122,56395.16797,6.0072,magic,detection,
+Mrk 421,2.52948e+00,,,5.8123e-10,1.8605e-11,1.8605e-11,56394.89122,56395.16797,6.0072,magic,detection,
+Mrk 421,3.47082e+00,,,4.5620e-10,1.8966e-11,1.8966e-11,56394.89122,56395.16797,6.0072,magic,detection,
+Mrk 421,4.66847e+00,,,3.4256e-10,1.9162e-11,1.9162e-11,56394.89122,56395.16797,6.0072,magic,detection,
+Mrk 421,6.22961e+00,,,2.5715e-10,2.0491e-11,2.0491e-11,56394.89122,56395.16797,6.0072,magic,detection,
+Mrk 421,7.96743e+00,,,1.4272e-10,2.0301e-11,2.0301e-11,56394.89122,56395.16797,6.0072,magic,detection,
+Mrk 421,9.39707e+00,,,1.2128e-10,3.0802e-11,3.0802e-11,56394.89122,56395.16797,6.0072,magic,detection,

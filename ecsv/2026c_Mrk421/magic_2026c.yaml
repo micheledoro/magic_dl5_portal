@@ -1,0 +1,33 @@
+File_info:
+ Fdate   = 20260722
+ Fvers   = 1.0
+ Fgen    = Michele Doro, michele.doro@unipd.it
+ Fmail   = magic_legacy@mpp.mpg.de
+ Flink   = <https://raw.githubusercontent.com/micheledoro/magic_dl5_portal/refs/heads/main/ecsv>
+ Fstatus = "Checked"
+Paper info:
+ Ptitle: "Time-Dependent Modeling of the Sub-Hour Spectral Evolution During the 2013 Outburst of Mrk 421"
+ Pref :  "The Astrophysical Journal, Volume 998, id.6 (2026)"
+ Pdoi:   "https://doi.org/10.3847/1538-4357/ae25f0"
+ Parxiv: "https://arxiv.org/abs/2509.08686"
+ Pcoll:  magic
+ Pcauthor: A. Arbet-Engels; M. Polkas; M. Petropoulou; D. Paneque
+ Pfauthor: Abe, K.; Abe, S.; Abhir, J.; Abhishek, A.; Aguasca-Cabot, A.; Agudo, I.; Aniello, T.; Ansoldi, S.; Antonelli, L.A.; Engels, A. Arbet; Arcaro, C.; Arnesen, T.T. H.; Babić, A.; Bakshi, C.; de Almeida, U. Barres; Barrio, J.A.; Barrios-Jiménez, L.; Batković, I.; Baxter, J.; Becerra González, J.; Bednarek, W.; Bernardini, E.; Bernete, J.; Berti, A.; Bigongiari, C.; Biland, A.; Blanch, O.; Bonnoli, G.; Bošnjak, Ž.; Bronzini, E.; Burelli, I.; Campoy-Ordaz, A.; Carosi, A.; Carosi, R.; Carretero-Castrillo, M.; Castro-Tirado, A.J.; Cerasole, D.; Ceribella, G.; Chai, Y.; Cifuentes, A.; Contreras, J.L.; Cortina, J.; Covino, S.; D'Ammando, F.; Da Vela, P.; Dazzi, F.; De Angelis, A.; De Lotto, B.; de Menezes, R.; Delgado, J.; Delgado Mendez, C.; Di Pierro, F.; Di Tria, R.; Di Venere, L.; Dinesh, A.; Dominis Prester, D.; Donini, A.; Dorner, D.; Doro, M.; Eisenberger, L.; Elsaesser, D.; Escudero, J.; Fariña, L.; Foffano, L.; Font, L.; Fröse, S.; Fukazawa, Y.; López, R.J. García; Soto, S. García; Garczarczyk, M.; Gasparyan, S.; Giesbrecht Paiva, J.G.; Giglietto, N.; Giordano, F.; Gliwny, P.; Gradetzke, T.; Grau, R.; Green, D.; Green, J.G.; Günther, P.; Hahn, A.; Hassan, T.; Heckmann, L.; Herrera Llorente, J.; Hrupec, D.; Israyelyan, D.; Jahanvi, J.; Martínez, I. Jiménez; Quiles, J. Jiménez; Jormanainen, J.; Kankkunen, S.; Kayanoki, T.; Konrad, J.; Kouch, P.M.; Koziol, G.; Kubo, H.; Kushida, J.; Láinez, M.; Lamastra, A.; Lindfors, E.; Lombardi, S.; Longo, F.; López-Moya, M.; López-Oramas, A.; Loporchio, S.; Lulić, L.; Lyard, E.; Majumdar, P.; Makariev, M.; Mallamaci, M.; Maneva, G.; Manganaro, M.; Mangano, S.; Mannheim, K.; Marchesi, S.; Mariotti, M.; Martínez, M.; Maruševec, P.; Menchiari, S.; Gallego, J. Méndez; Menon, S.; Miceli, D.; Miranda, J.M.; Mirzoyan, R.; Molero González, M.; Molina, E.; Mondal, H.A.; Moralejo, A.; Nanci, C.; Negro, A.; Neustroev, V.; Nickel, L.; Nievas Rosillo, M.; Nigro, C.; Nikolić, L.; Nozaki, S.; Okumura, A.; Otero-Santos, J.; Paiano, S.; Paneque, D.; Paoletti, R.; Paredes, J.M.; Peresano, M.; Persic, M.; Pihet, M.; Pirola, G.; Podobnik, F.; Prada Moroni, P.G.; Prandini, E.; Rhode, W.; Ribó, M.; Rico, J.; Roy, A.; Sahakyan, N.; Saturni, F.G.; Schmitz, K.; Schmuckermaier, F.; Schweizer, T.; Sciaccaluga, A.; Silvestri, G.; Simongini, A.; Sitarek, J.; Sliusar, V.; Sobczynska, D.; Stamerra, A.; Strišković, J.; Strom, D.; Strzys, M.; Suda, Y.; Tajima, H.; Takeishi, R.; Tavecchio, F.; Terzić, T.; Teshima, M.; Tutone, A.; Ubach, S.; van Scherpenberg, J.; Vazquez Acosta, M.; Ventura, S.; Verna, G.; Viale, I.; Vigliano, A.; Vigorito, C.F.; Visentin, E.; Vitale, V.; Vovk, I.; Walter, R.; Wersig, F.; Will, M.; Yamamoto, T.; Yeung, P.K. H.; Petropoulou, M.; Polkas, M.; Mastichiadis, A.
+ Pads:    2026ApJ...998....6A
+ Pinspire : MAGIC:2025om
+Sources in file:
+ Tpname01: Mrk 421
+ Tra01:  166.113809
+ Tdec01: 38.208833
+File list MAGIC:
+ magic_2026c_fig4_sed_56393.ecsv
+ magic_2026c_fig4_sed_56394.ecsv
+ magic_2026c_fig4_sed_56395.ecsv
+ magic_2026c_fig4_sed_56396.ecsv
+ magic_2026c_fig4_sed_56397.ecsv
+ magic_2026c_fig4_sed_56398.ecsv
+ magic_2026c_fig4_sed_56399.ecsv
+ magic_2026c_fig4_sed_56400.ecsv
+ magic_2026c_fig4_sed_56401.ecsv
+ magic_2026c_fig17_lc.ecsv
+Other files:
