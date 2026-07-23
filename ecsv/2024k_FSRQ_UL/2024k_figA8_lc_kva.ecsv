@@ -1,0 +1,85 @@
+# %ECSV 1.0
+# ---
+# schema: astropy-2.0
+# delimiter: ','
+# datatype:
+# - {name: srcname, datatype: string}
+# - {name: t, unit: mjd, datatype: float64, description: Time of measurement}
+# - {name: t_wlo, unit: d, datatype: float32, description: Lower width of time bin}
+# - {name: t_wup, unit: d, datatype: float32, description: Upper width of time bin}
+# - {name: texpo, unit: h, datatype: float32, description: Exposure time}
+# - {name: flux, unit: mJy, datatype: float32, description: Flux measured above the energy threshold}
+# - {name: flux_elo, unit: mJy, datatype: float32, description: Lower uncertainty of flux}
+# - {name: flux_eup, unit: mJy, datatype: float32, description: Upper uncertainty of flux}
+# - {name: eth_lo, unit: nm, datatype: float32, description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up, unit: nm, datatype: float32, description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, datatype: string}
+# - {name: dataformat, datatype: string, description: Data Format}
+# - {name: comments, datatype: string, description: Comments}
+# meta: !!omap
+# - {Filename: 2024k_figA8_lc_kva.ecsv}
+# - {Source: TXS_2241+406}
+# - {Figure: Fig. A8}
+# - {Title: Constraints on VHE gamma-ray emission of flat spectrum radio quasars with the MAGIC telescopes}
+# - {Comments: Multiwavelength light curve.}
+# - {Reference: magic_2024k.yaml}
+# - {Status: To be checked}
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+TXS2241+406,57935.2,0.0,0.0,nan,1.4593,3.7626e-05,3.7626e-05,nan,nan,kva,,
+TXS2241+406,57936.21,0.0,0.0,nan,1.4701,3.6551e-05,3.6551e-05,nan,nan,kva,,
+TXS2241+406,57937.19,0.0,0.0,nan,1.5267,3.7958e-05,3.7958e-05,nan,nan,kva,,
+TXS2241+406,57938.2,0.0,0.0,nan,1.584,3.7924e-05,3.7924e-05,nan,nan,kva,,
+TXS2241+406,57939.2,0.0,0.0,nan,1.5623,3.7404e-05,3.7404e-05,nan,nan,kva,,
+TXS2241+406,57940.19,0.0,0.0,nan,1.5551,3.7232e-05,3.7232e-05,nan,nan,kva,,
+TXS2241+406,57947.18,0.0,0.0,nan,1.206,3.4425e-05,3.4425e-05,nan,nan,kva,,
+TXS2241+406,57948.17,0.0,0.0,nan,1.3494,3.8519e-05,3.8519e-05,nan,nan,kva,,
+TXS2241+406,57949.21,0.0,0.0,nan,1.2828,3.7796e-05,3.7796e-05,nan,nan,kva,,
+TXS2241+406,57993.96,0.0,0.0,nan,1.8904,4.352e-05,4.352e-05,nan,nan,kva,,
+TXS2241+406,58010.94,0.0,0.0,nan,0.84596,2.8818e-05,2.8818e-05,nan,nan,kva,,
+TXS2241+406,58017.91,0.0,0.0,nan,0.95006,3.0616e-05,3.0616e-05,nan,nan,kva,,
+TXS2241+406,58037.89,0.0,0.0,nan,0.4049,2.6069e-05,2.6069e-05,nan,nan,kva,,
+TXS2241+406,58051.84,0.0,0.0,nan,0.34622,2.483e-05,2.483e-05,nan,nan,kva,,
+TXS2241+406,58057.88,0.0,0.0,nan,0.5397,2.8308e-05,2.8308e-05,nan,nan,kva,,
+TXS2241+406,58311.18,0.0,0.0,nan,1.4499,3.8719e-05,3.8719e-05,nan,nan,kva,,
+TXS2241+406,58331.16,0.0,0.0,nan,0.97668,3.1473e-05,3.1473e-05,nan,nan,kva,,
+TXS2241+406,58341.18,0.0,0.0,nan,1.5536,3.8628e-05,3.8628e-05,nan,nan,kva,,
+TXS2241+406,58353.2,0.0,0.0,nan,1.284,3.7831e-05,3.7831e-05,nan,nan,kva,,
+TXS2241+406,58367.17,0.0,0.0,nan,1.1245,3.5202e-05,3.5202e-05,nan,nan,kva,,
+TXS2241+406,58380.95,0.0,0.0,nan,1.0689,3.3463e-05,3.3463e-05,nan,nan,kva,,
+TXS2241+406,58425.87,0.0,0.0,nan,0.64707,2.8588e-05,2.8588e-05,nan,nan,kva,,
+TXS2241+406,58426.96,0.0,0.0,nan,0.6208,2.6857e-05,2.6857e-05,nan,nan,kva,,
+TXS2241+406,58477.83,0.0,0.0,nan,0.41319,2.6603e-05,2.6603e-05,nan,nan,kva,,
+TXS2241+406,58482.83,0.0,0.0,nan,0.5457,2.7118e-05,2.7118e-05,nan,nan,kva,,
+TXS2241+406,58667.2,0.0,0.0,nan,0.28116,2.6593e-05,2.6593e-05,nan,nan,kva,,
+TXS2241+406,58669.19,0.0,0.0,nan,0.27654,2.5651e-05,2.5651e-05,nan,nan,kva,,
+TXS2241+406,58672.21,0.0,0.0,nan,0.2885,2.3596e-05,2.3596e-05,nan,nan,kva,,
+TXS2241+406,58690.17,0.0,0.0,nan,0.45431,2.6332e-05,2.6332e-05,nan,nan,kva,,
+TXS2241+406,58715.17,0.0,0.0,nan,0.3273,2.9762e-05,2.9762e-05,nan,nan,kva,,
+TXS2241+406,58727.95,0.0,0.0,nan,0.27024,2.6547e-05,2.6547e-05,nan,nan,kva,,
+TXS2241+406,58742.91,0.0,0.0,nan,0.20406,4.5994e-05,4.5994e-05,nan,nan,kva,,
+TXS2241+406,58743.89,0.0,0.0,nan,0.17658,2.3763e-05,2.3763e-05,nan,nan,kva,,
+TXS2241+406,58745.92,0.0,0.0,nan,0.19044,2.2866e-05,2.2866e-05,nan,nan,kva,,
+TXS2241+406,58746.91,0.0,0.0,nan,0.20443,2.5845e-05,2.5845e-05,nan,nan,kva,,
+TXS2241+406,58749.9,0.0,0.0,nan,0.25666,2.6616e-05,2.6616e-05,nan,nan,kva,,
+TXS2241+406,58750.91,0.0,0.0,nan,0.22832,2.7001e-05,2.7001e-05,nan,nan,kva,,
+TXS2241+406,58755.87,0.0,0.0,nan,0.31721,2.5364e-05,2.5364e-05,nan,nan,kva,,
+TXS2241+406,58756.9,0.0,0.0,nan,0.36758,2.8382e-05,2.8382e-05,nan,nan,kva,,
+TXS2241+406,58757.88,0.0,0.0,nan,0.29768,2.598e-05,2.598e-05,nan,nan,kva,,
+TXS2241+406,58760.88,0.0,0.0,nan,0.33247,2.8409e-05,2.8409e-05,nan,nan,kva,,
+TXS2241+406,58762.86,0.0,0.0,nan,0.27124,2.8869e-05,2.8869e-05,nan,nan,kva,,
+TXS2241+406,58785.88,0.0,0.0,nan,0.23711,2.4373e-05,2.4373e-05,nan,nan,kva,,
+TXS2241+406,58791.89,0.0,0.0,nan,0.27476,2.699e-05,2.699e-05,nan,nan,kva,,
+TXS2241+406,58805.84,0.0,0.0,nan,0.14065,2.2603e-05,2.2603e-05,nan,nan,kva,,
+TXS2241+406,58809.83,0.0,0.0,nan,0.13358,2.6112e-05,2.6112e-05,nan,nan,kva,,
+TXS2241+406,58810.84,0.0,0.0,nan,0.16694,2.3521e-05,2.3521e-05,nan,nan,kva,,
+TXS2241+406,58818.82,0.0,0.0,nan,0.18956,2.4308e-05,2.4308e-05,nan,nan,kva,,
+TXS2241+406,58819.88,0.0,0.0,nan,0.10059,2.3024e-05,2.3024e-05,nan,nan,kva,,
+TXS2241+406,58820.81,0.0,0.0,nan,0.18355,2.3704e-05,2.3704e-05,nan,nan,kva,,
+TXS2241+406,58825.81,0.0,0.0,nan,0.23129,3.1543e-05,3.1543e-05,nan,nan,kva,,
+TXS2241+406,58826.85,0.0,0.0,nan,0.52354,2.8422e-05,2.8422e-05,nan,nan,kva,,
+TXS2241+406,58836.82,0.0,0.0,nan,0.2685,2.3925e-05,2.3925e-05,nan,nan,kva,,
+TXS2241+406,58837.81,0.0,0.0,nan,0.4151,2.8628e-05,2.8628e-05,nan,nan,kva,,
+TXS2241+406,58843.86,0.0,0.0,nan,0.23407,2.4061e-05,2.4061e-05,nan,nan,kva,,
+TXS2241+406,58844.8,0.0,0.0,nan,0.1938,6.2643e-05,6.2643e-05,nan,nan,kva,,
+TXS2241+406,58846.81,0.0,0.0,nan,0.35461,3.4834e-05,3.4834e-05,nan,nan,kva,,
+TXS2241+406,58853.81,0.0,0.0,nan,0.2685,3.9042e-05,3.9042e-05,nan,nan,kva,,

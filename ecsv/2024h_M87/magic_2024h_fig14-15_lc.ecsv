@@ -1,0 +1,56 @@
+# %ECSV 1.0
+# ---
+# schema: astropy-2.0
+# delimiter: ','
+# datatype:
+# - {name: srcname, datatype: string, description: Source name}
+# - {name: t, unit: mjd, datatype: float64, description: Time of measurement}
+# - {name: t_wlo, unit: d, datatype: float64, description: Lower width of time bin}
+# - {name: t_wup, unit: d, datatype: float64, description: Upper width of time bin}
+# - {name: texpo, unit: h, datatype: float64, description: Exposure time}
+# - {name: flux, unit: 1 / (s cm2), datatype: float64, description: Integral flux above the energy threshold}
+# - {name: flux_elo, unit: 1 / (s cm2), datatype: float64, description: Lower uncertainty of flux}
+# - {name: flux_eup, unit: 1 / (s cm2), datatype: float64, description: Upper uncertainty of flux}
+# - {name: eth_lo, unit: GeV, datatype: float64, description: Lower energy threshold}
+# - {name: eth_up, unit: GeV, datatype: float64, description: Upper energy threshold}
+# - {name: instrument, datatype: string, description: Instrument}
+# - {name: dataformat, datatype: string, description: Data format}
+# - {name: comments, datatype: string, description: Comments}
+# meta: !!omap
+# - {Filename: magic_2024h_fig14-15_lc.ecsv}
+# - {Source: M87}
+# - {Figure: 'Figures 14 and 15 (long-/mid-term MAGIC light curve above 350 GeV, 2018-2019)'}
+# - {Title: Broadband multi-wavelength properties of M87 during the 2018 EHT campaign including a very high energy flaring episode}
+# - {Provenance: authors (as provided)}
+# - {Reference: magic_2024h.yaml}
+# - {Status: In preparation}
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+M87,58220.1,0.0632735,0.0632735,2.84,1.89731e-12,1.0031e-12,1.0031e-12,350.0,inf,magic,data,
+M87,58223.1,0.0146263,0.0146263,0.68,2.08097e-13,1.31255e-12,1.31255e-12,350.0,inf,magic,data,
+M87,58224.1,0.0318704,0.0318704,1.45,1.14253e-12,1.06374e-12,1.06374e-12,350.0,inf,magic,data,
+M87,58225.1,0.0103842,0.0103842,0.48,8.15357e-13,1.87308e-12,1.87308e-12,350.0,inf,magic,data,
+M87,58226.1,0.0563684,0.0563684,2.6,3.79882e-13,8.33998e-13,8.33998e-13,350.0,inf,magic,data,
+M87,58227.1,0.0665647,0.0665647,3.06,2.34622e-12,8.34678e-13,8.34678e-13,350.0,inf,magic,data,
+M87,58233.1,0.0157757,0.0157757,0.69,4.64565e-12,3.0408e-12,3.0408e-12,350.0,inf,magic,data,
+M87,58502.2,0.00511545,0.00511545,0.1,-1.09448e-12,1.08269e-12,1.08269e-12,350.0,inf,magic,data,
+M87,58510.2,0.0371752,0.0371752,1.7,1.58669e-12,9.4013e-13,9.4013e-13,350.0,inf,magic,data,
+M87,58511.2,0.0352389,0.0352389,1.63,1.83872e-12,1.08818e-12,1.08818e-12,350.0,inf,magic,data,
+M87,58512.1,0.00685303,0.00685303,0.33,2.08975e-12,2.2888e-12,2.2888e-12,350.0,inf,magic,data,
+M87,58513.2,0.00684017,0.00684017,0.33,1.38394e-12,1.55974e-12,1.55974e-12,350.0,inf,magic,data,
+M87,58514.2,0.0494166,0.0494166,2.27,3.3778e-12,1.03627e-12,1.03627e-12,350.0,inf,magic,data,
+M87,58531.2,0.00613078,0.00613078,0.29,-2.47779e-12,1.72055e-12,1.72055e-12,350.0,inf,magic,data,
+M87,58539.2,0.0809802,0.0809802,3.35,1.91533e-12,9.91679e-13,9.91679e-13,350.0,inf,magic,data,
+M87,58541.1,0.015823,0.015823,0.73,4.06491e-28,1.3982e-12,1.3982e-12,350.0,inf,magic,data,
+M87,58558.1,0.0251499,0.0251499,0.04,2.72252e-12,1.32884e-12,1.32884e-12,350.0,inf,magic,data,
+M87,58559.1,0.0415456,0.0415456,1.04,4.21429e-13,8.73248e-13,8.73248e-13,350.0,inf,magic,data,
+M87,58580.1,0.0352413,0.0352413,1.93,9.73565e-13,8.90675e-13,8.90675e-13,350.0,inf,magic,data,
+M87,58581.0,0.0437019,0.0437019,1.63,0.0,8.20378e-13,8.20378e-13,350.0,inf,magic,data,
+M87,58582.1,0.0453414,0.0453414,1.91,1.41365e-12,9.18541e-13,9.18541e-13,350.0,inf,magic,data,
+M87,58583.1,0.0479047,0.0479047,2.03,1.78529e-12,8.45886e-13,8.45886e-13,350.0,inf,magic,data,
+M87,58585.1,0.0411302,0.0411302,2.18,1.18563e-12,1.03431e-12,1.03431e-12,350.0,inf,magic,data,
+M87,58586.1,0.0318257,0.0318257,1.78,1.03625e-12,1.24141e-12,1.24141e-12,350.0,inf,magic,data,
+M87,58598.1,0.0158082,0.0158082,1.38,-4.485e-12,4.35133e-12,4.35133e-12,350.0,inf,magic,data,
+M87,58611.9,0.0293189,0.0293189,0.74,6.15538e-13,1.11974e-12,1.11974e-12,350.0,inf,magic,data,
+M87,58615.0,0.0310508,0.0310508,1.25,3.29587e-12,1.48018e-12,1.48018e-12,350.0,inf,magic,data,
+M87,58625.0,0.0278896,0.0278896,1.36,4.48111e-12,1.72433e-12,1.72433e-12,350.0,inf,magic,data,
+M87,58642.9,0.045901,0.045901,1.15,1.22441e-12,1.58985e-12,1.58985e-12,350.0,inf,magic,data,

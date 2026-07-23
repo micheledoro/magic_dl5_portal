@@ -1,5 +1,6 @@
 # %ECSV 1.0
 # ---
+# schema: astropy-2.0
 # delimiter: ','
 # datatype:
 # - {name: srcname   , unit:    , datatype: string     , description: Source name                                          }
@@ -24,7 +25,6 @@
 # - {Reference: "magic_2024d.yaml"}
 # - {Status: "Validated"}
 
-# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
 PG1553+113,53476.29521,,,,0.0158464505598985,0.0003035524513183,0.0003035524513183,2.15,2.15,rem,,K filter
 PG1553+113,53476.29708,,,,0.0159783525757395,0.0002916378016591,0.0002916378016591,2.15,2.15,rem,,K filter

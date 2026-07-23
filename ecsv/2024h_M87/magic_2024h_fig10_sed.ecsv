@@ -1,0 +1,31 @@
+# %ECSV 1.0
+# ---
+# schema: astropy-2.0
+# delimiter: ','
+# datatype:
+# - {name: srcname, datatype: string, description: Source name}
+# - {name: en, unit: GeV, datatype: float64, description: Energy}
+# - {name: en_wlo, unit: GeV, datatype: float64, description: Energy bin width low}
+# - {name: en_wup, unit: GeV, datatype: float64, description: Energy bin width up}
+# - {name: nufnu, unit: erg / (s cm2), datatype: float64, description: nu F_nu}
+# - {name: nufnu_elo, unit: erg / (s cm2), datatype: float64, description: Lower uncertainty in nufnu}
+# - {name: nufnu_eup, unit: erg / (s cm2), datatype: float64, description: Upper uncertainty in nufnu}
+# - {name: tstart, unit: mjd, datatype: float64, description: MJD start}
+# - {name: tstop, unit: mjd, datatype: float64, description: MJD stop}
+# - {name: texpo, unit: h, datatype: float64, description: Observation time}
+# - {name: instrument, datatype: string, description: Instrument}
+# - {name: dataformat, datatype: string, description: Data format}
+# - {name: comments, datatype: string, description: Comments}
+# meta: !!omap
+# - {Filename: magic_2024h_fig10_sed.ecsv}
+# - {Source: M87}
+# - {Figure: 'Figure 10 (very-high-energy SED during the 2018 MWL campaign; Table C.15), MAGIC subset'}
+# - {Title: Broadband multi-wavelength properties of M87 during the 2018 EHT campaign including a very high energy flaring episode}
+# - {Provenance: digitized (WebPlotDigitizer) with Table C.15; MAGIC subset}
+# - {Reference: magic_2024h.yaml}
+# - {Status: In preparation}
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+M87,47.5,17.200000762939453,27.799999237060547,3.779999924180544e-11,0.0,0.0,58220.0,58233.0,11.300000190734863,magic,ul,
+M87,119.0,44.0,69.80000305175781,2.510000020328196e-12,1.6600000454086716e-12,1.6600000454086716e-12,58220.0,58233.0,11.300000190734863,magic,data,
+M87,300.0,111.0,175.0,1.67999999762386e-12,8.3999999881193e-13,8.3999999881193e-13,58220.0,58233.0,11.300000190734863,magic,data,
+M87,753.0,278.0,440.0,1.3199999903887316e-12,6.100000062361777e-13,6.100000062361777e-13,58220.0,58233.0,11.300000190734863,magic,data,

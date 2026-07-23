@@ -1,5 +1,6 @@
 # %ECSV 1.0
 # ---
+# schema: astropy-2.0
 # delimiter: ','
 # datatype:
 # - {name: srcname, datatype: string}
@@ -23,7 +24,6 @@
 # - {Comments: Radio data from the SMAPOL and QUIVER programs}
 # - {Reference: magic_2025e.yaml}
 # - {Status: Done}
-# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
 Mrk 421,60240.3446,0.0,0.0,0.0,0.545,0.01,0.01,4.85,4.85,effelsberg,Detection,None
 Mrk 421,60261.1711,0.0,0.0,0.0,0.543,0.007,0.007,4.85,4.85,effelsberg,Detection,None

@@ -1,0 +1,80 @@
+File_info:
+ Fdate   : 20260723
+ Fvers   : #version of files after publication
+ Fgen    : Ilaria Viale, iviale@to.infn.it
+ Fmail   : magic_legacy@mpp.mpg.de
+ Flink   : <link_to_thisfile_repository>
+ Fstatus : "Checked"
+Paper info:
+ Ptitle: "Constraints on VHE gamma-ray emission of flat spectrum radio quasars with the MAGIC telescopes"
+ Pref     : MNRAS 535, 1484-1506 (2024) 
+ Pdoi     : https://doi.org/10.1093/mnras/stae2313
+ Parxiv   : https://arxiv.org/abs/2403.13713
+ Pcoll    : magic
+ Pcauthor : P. Gliwny, H. A. Mondal, G. Principe
+ Pfauthor : Abe, S and Abhir, J and Abhishek, A and Acciari, V A and Aguasca-Cabot, A and Agudo, I and Aniello, T and Ansoldi, S and Antonelli, L A and Arbet Engels, A and Arcaro, C and Artero, M and Asano, K and Babić, A and Baquero, A and Barres de Almeida, U and Barrio, J A and Batković, I and Bautista, A and Baxter, J and Becerra González, J and Bednarek, W and Bernardini, E and Bernete, J and Berti, A and Besenrieder, J and Bigongiari, C and Biland, A and Blanch, O and Bonnoli, G and Bošnjak, Ž and Bronzini, E and Burelli, I and Busetto, G and Campoy-Ordaz, A and Carosi, A and Carosi, R and Carretero-Castrillo, M and Castro-Tirado, A J and Cerasole, D and Ceribella, G and Chai, Y and Cifuentes, A and Colombo, E and Contreras, J L and Cortina, J and Covino, S and D’Amico, G and D’Ammando, F and D’Elia, V and Da Vela, P and Dazzi, F and De Angelis, A and De Lotto, B and de Menezes, R and Del Popolo, A and Delfino, M and Delgado, J and Delgado Mendez, C and Di Pierro, F and Di Tria, R and Di Venere, L and Dominis Prester, D and Donini, A and Dorner, D and Doro, M and Elsaesser, D and Emery, G and Escudero, J and Fariña, L and Fattorini, A and Foffano, L and Font, L and Fröse, S and Fukami, S and Fukazawa, Y and García López, R J and Garczarczyk, M and Gasparyan, S and Gaug, M and Giesbrecht Paiva, J G and Giglietto, N and Giordano, F and Gliwny, P and Godinović, N and Gradetzke, T and Grau, R and Green, D and Green, J G and Günther, P and Hadasch, D and Hahn, A and Hassan, T and Heckmann, L and Herrera, J and Hrupec, D and Hütten, M and Imazawa, R and Ishio, K and Jiménez Martínez, I and Jormanainen, J and Kayanoki, T and Kerszberg, D and Kobayashi, Y and Kouch, P M and Kubo, H and Kushida, J and Láinez, M and Lamastra, A and Leone, F and Lindfors, E and Linhoff, L and Lombardi, S and Longo, F and López-Coto, R and López-Moya, M and López-Oramas, A and Loporchio, S and Lorini, A and Lyard, E and Machado de Oliveira Fraga, B and Majumdar, P and Makariev, M and Maneva, G and Mang, N and Manganaro, M and Mangano, S and Mannheim, K and Mariotti, M and Martínez, M and Martínez-Chicharro, M and Mas-Aguilar, A and Mazin, D and Menchiari, S and Mender, S and Miceli, D and Miener, T and Miranda, J M and Mirzoyan, R and Molero González, M and Molina, E and Mondal, H A and Moralejo, A and Morcuende, D and Nakamori, T and Nanci, C and Neustroev, V and Nickel, L and Nievas Rosillo, M and Nigro, C and Nikolić, L and Nilsson, K and Nishijima, K and Njoh Ekoume, T and Noda, K and Nozaki, S and Ohtani, Y and Okumura, A and Otero-Santos, J and Paiano, S and Palatiello, M and Paneque, D and Paoletti, R and Paredes, J M and Peresano, M and Persic, M and Pihet, M and Pirola, G and Podobnik, F and Prada Moroni, P G and Prandini, E and Principe, G and Priyadarshi, C and Rhode, W and Ribó, M and Rico, J and Righi, C and Sahakyan, N and Saito, T and Satalecka, K and Saturni, F G and Schleicher, B and Schmidt, K and Schmuckermaier, F and Schubert, J L and Schweizer, T and Sciaccaluga, A and Silvestri, G and Sitarek, J and Sliusar, V and Sobczynska, D and Spolon, A and Stamerra, A and Strišković, J and Strom, D and Strzys, M and Suda, Y and Suutarinen, S and Tajima, H and Takahashi, M and Takeishi, R and Temnikov, P and Terauchi, K and Terzić, T and Teshima, M and Truzzi, S and Tutone, A and Ubach, S and van Scherpenberg, J and Vazquez Acosta, M and Ventura, S and Viale, I and Vigorito, C F and Vitale, V and Vovk, I and Walter, R and Will, M and Wunderlich, C and Yamamoto, T and Zywucka, N and Ramazani, V F and Buson, S and Ciprini, S
+ Pads     : https://ui.adsabs.harvard.edu/abs/2024MNRAS.535.1484A/abstract
+ Pinspire : https://inspirehep.net/literature/2770628
+Targets in file: 
+ Tpname01: CTA 102
+ Tra01:  338.151704
+ Tdec01: 11.730807
+ Tpname02: 3C 454.3
+ Tra02:  343.490617
+ Tdec02: 16.148212
+ Tpname03: 4C +55.17
+ Tra03:  149.4091
+ Tdec03: 55.38271
+ Tpname04: AO 0235+164
+ Tra04:  39.662209
+ Tdec04: 16.616465
+ Tpname05: B2 0234+28
+ Tra05:  39.468357
+ Tdec05: 28.802497
+ Tpname06: B2 2234+28A
+ Tra06:  339.093629
+ Tdec06: 28.482615
+ Tpname07: OP 313
+ Tra07:  197.619433
+ Tdec07: 32.345495
+ Tpname08: TXS 0025+197
+ Tra08:  7.124244
+ Tdec08: 20.007429
+ Tpname09: TXS 2241+406
+ Tra09:  341.053047
+ Tdec09: 40.953783
+File list MAGIC:
+ magic_2024k_fig2_lc_magic.ecsv
+ magic_2024k_fig3_lc_magic.ecsv
+ magic_2024k_fig4_sed_3C454.3.ecsv
+ magic_2024k_fig4_sed_4C+55.17.ecsv
+ magic_2024k_fig4_sed_AO0235+164.ecsv
+ magic_2024k_fig4_sed_B20234+28.ecsv
+ magic_2024k_fig4_sed_B22234+28A.ecsv
+ magic_2024k_fig4_sed_CTA102.ecsv
+ magic_2024k_fig4_sed_OP313.ecsv
+ magic_2024k_fig4_sed_TXS0025+197.ecsv
+ magic_2024k_fig4_sed_TXS2241+406.ecsv
+ magic_2024k_figA2_lc_magic.ecsv
+ magic_2024k_figA3_lc_magic.ecsv
+ magic_2024k_figA4_lc_magic.ecsv
+ magic_2024k_figA5_lc_magic.ecsv
+ magic_2024k_figA6_lc_magic.ecsv
+ magic_2024k_figA7_lc_magic.ecsv
+ magic_2024k_figA8_lc_magic.ecsv
+
+Other Files:
+ 2024k_fig2_lc_kva.ecsv
+ 2024k_fig2_lc_uvot.ecsv
+ 2024k_fig2_lc_xrt.ecsv
+ 2024k_fig3_lc_kva.ecsv
+ 2024k_fig3_lc_uvot.ecsv
+ 2024k_fig3_lc_xrt.ecsv
+ 2024k_fig7_sed_mwl.ecsv
+ 2024k_figA1_lc_fermi.ecsv
+ 2024k_figA2_lc_kva.ecsv
+ 2024k_figA3_lc_kva.ecsv
+ 2024k_figA5_lc_kva.ecsv
+ 2024k_figA6_lc_kva.ecsv
+ 2024k_figA7_lc_kva.ecsv
+ 2024k_figA8_lc_kva.ecsv

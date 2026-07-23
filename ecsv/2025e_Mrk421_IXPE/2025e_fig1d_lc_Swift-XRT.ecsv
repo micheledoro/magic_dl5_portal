@@ -1,5 +1,6 @@
 # %ECSV 1.0
 # ---
+# schema: astropy-2.0
 # delimiter: ','
 # datatype:
 # - {name: srcname, datatype: string}
@@ -23,7 +24,6 @@
 # - {Comments: 'X-ray data from Swift-XRT'}
 # - {Reference: magic_2025e.yaml}
 # - {Status: Done}
-# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
 Mrk 421,60238.2249,0.0,0.0,0.0,1.1346e-09,6.2566e-12,6.2566e-12,0.3,2.0,swift-xrt,Detection,None
 Mrk 421,60239.2145,0.0,0.0,0.0,1.1519e-09,6.7109e-12,6.7109e-12,0.3,2.0,swift-xrt,Detection,None

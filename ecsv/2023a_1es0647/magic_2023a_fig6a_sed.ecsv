@@ -1,111 +1,110 @@
 # %ECSV 1.0
 # ---
+# schema: astropy-2.0
 # delimiter: ','
 # datatype:
-# - {name: srcname   , unit:    , datatype: string     , description: Source name                         }
-# - {name: en        , unit: Hz     , datatype: float32 , description: Energy                              }
-# - {name: en_wlo    , unit: Hz     , datatype: float32 , description: Energy bin width low                }
-# - {name: en_wup    , unit: Hz     , datatype: float32 , description: Energy bin width up                 }
-# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Differential photon flux at energy  }
-# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
-# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
-# - {name: tstart    , unit: mjd     , datatype: float64 , description: MJD start                           }
-# - {name: tstop     , unit: mjd     , datatype: float64 , description: MJD stop                            }
-# - {name: texpo     , unit: s       , datatype: float32 , description: Observation time                    }
-# - {name: instrument, unit:    , datatype: string     , description: Instrument                          }
-# - {name: dataformat, unit:    , datatype: string     , description: Data Format                         }
-# - {name: comments  , unit:    , datatype: string     , description: Comments                            }
+# - {name: srcname, datatype: string, description: Source name}
+# - {name: en, unit: Hz, datatype: float32, description: Energy}
+# - {name: en_wlo, unit: Hz, datatype: float32, description: Energy bin width low}
+# - {name: en_wup, unit: Hz, datatype: float32, description: Energy bin width up}
+# - {name: nufnu, unit: erg / (s cm2), datatype: float32, description: Differential photon flux at energy}
+# - {name: nufnu_elo, datatype: float64}
+# - {name: nufnu_eup, datatype: float64}
+# - {name: tstart, unit: mjd, datatype: float64, description: MJD start}
+# - {name: tstop, unit: mjd, datatype: float64, description: MJD stop}
+# - {name: texpo, unit: s, datatype: float32, description: Observation time}
+# - {name: instrument, datatype: string, description: Instrument}
+# - {name: dataformat, datatype: string, description: Data Format}
+# - {name: comments, datatype: string, description: Comments}
 # meta: !!omap
 # - {Filename: magic_2023a_fig6a_sed.ecsv}
-# - {Source: "1ES0647+250"}
-# - {Figure: "Figure 6, top-left panel in the paper."}
-# - {Title: "Long-term multi-wavelength study of 1ES 0647+250"}
-# - {Comments: "Multiwavelength spectral energy distribution for MAGIC epoch E1 (2009-2011)"}
-# - {Reference: "magic_2023a.yaml"}
-# - {Status: "Validated"}
-
-# schema: astropy-2.0
+# - {Source: 1ES0647+250}
+# - {Figure: 'Figure 6, top-left panel in the paper.'}
+# - {Title: Long-term multi-wavelength study of 1ES 0647+250}
+# - {Comments: Multiwavelength spectral energy distribution for MAGIC epoch E1 (2009-2011)}
+# - {Reference: magic_2023a.yaml}
+# - {Status: Validated}
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
-1ES0647+250,1.50e+10,0.00e+00,0.00e+00,9.606e-15,5.755e-16,5.755e-16,55131.0,55620.9,96120.0,ovro,Detection with 1sigma uncertainty,
-1ES0647+250,1.50e+10,0.00e+00,0.00e+00,8.469e-15,1.111e-15,1.111e-15,55131.0,55620.9,96120.0,ovro,Detection with 1sigma uncertainty,
-1ES0647+250,1.50e+10,0.00e+00,0.00e+00,9.111e-15,1.157e-15,1.157e-15,55131.0,55620.9,96120.0,ovro,Detection with 1sigma uncertainty,
-1ES0647+250,1.50e+10,0.00e+00,0.00e+00,9.029e-15,2.907e-16,2.907e-16,55131.0,55620.9,96120.0,ovro,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,8.133e-12,8.638e-14,8.638e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,8.133e-12,8.638e-14,8.638e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,7.409e-12,1.516e-13,1.516e-13,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,7.409e-12,1.516e-13,1.516e-13,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,7.175e-12,1.498e-13,1.498e-13,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,7.571e-12,9.602e-14,9.602e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,8.794e-12,7.532e-14,7.532e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,8.777e-12,7.876e-14,7.876e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,8.630e-12,7.394e-14,7.394e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,8.296e-12,7.452e-14,7.452e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,7.825e-12,7.039e-14,7.039e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,8.485e-12,7.619e-14,7.619e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,8.210e-12,7.377e-14,7.377e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,8.210e-12,7.377e-14,7.377e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,8.233e-12,7.397e-14,7.397e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,8.226e-12,7.391e-14,7.391e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,8.429e-12,8.258e-14,8.258e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,7.332e-12,7.806e-14,7.806e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,7.332e-12,7.806e-14,7.806e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,7.458e-12,7.326e-14,7.326e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,7.318e-12,6.893e-14,6.893e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,4.47e+14,0.00e+00,0.00e+00,7.061e-12,6.945e-14,6.945e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
-1ES0647+250,5.49e+14,0.00e+00,0.00e+00,9.437e-12,1.905e-13,1.905e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,5.49e+14,0.00e+00,0.00e+00,9.217e-12,1.905e-13,1.905e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,6.83e+14,0.00e+00,0.00e+00,9.495e-12,1.779e-13,1.779e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,6.83e+14,0.00e+00,0.00e+00,9.495e-12,1.482e-13,1.482e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,8.66e+14,0.00e+00,0.00e+00,1.013e-11,1.503e-13,1.503e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,8.66e+14,0.00e+00,0.00e+00,1.004e-11,1.503e-13,1.503e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.15e+15,0.00e+00,0.00e+00,9.115e-12,1.502e-13,1.502e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.15e+15,0.00e+00,0.00e+00,8.885e-12,1.502e-13,1.502e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.15e+15,0.00e+00,0.00e+00,8.769e-12,1.502e-13,1.502e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.15e+15,0.00e+00,0.00e+00,8.423e-12,1.502e-13,1.502e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.15e+15,0.00e+00,0.00e+00,9.577e-12,1.502e-13,1.502e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.15e+15,0.00e+00,0.00e+00,7.962e-12,1.502e-13,1.502e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.15e+15,0.00e+00,0.00e+00,8.885e-12,2.003e-13,2.003e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.15e+15,0.00e+00,0.00e+00,7.962e-12,1.502e-13,1.502e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.15e+15,0.00e+00,0.00e+00,8.423e-12,1.502e-13,1.502e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.15e+15,0.00e+00,0.00e+00,8.423e-12,1.502e-13,1.502e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.15e+15,0.00e+00,0.00e+00,8.077e-12,1.502e-13,1.502e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.15e+15,0.00e+00,0.00e+00,8.077e-12,1.502e-13,1.502e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.34e+15,0.00e+00,0.00e+00,9.884e-12,1.739e-13,1.739e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.34e+15,0.00e+00,0.00e+00,9.617e-12,1.739e-13,1.739e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.34e+15,0.00e+00,0.00e+00,8.949e-12,1.739e-13,1.739e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.34e+15,0.00e+00,0.00e+00,9.350e-12,1.739e-13,1.739e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.34e+15,0.00e+00,0.00e+00,9.751e-12,1.739e-13,1.739e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.34e+15,0.00e+00,0.00e+00,8.549e-12,1.739e-13,1.739e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.34e+15,0.00e+00,0.00e+00,9.350e-12,1.739e-13,1.739e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.34e+15,0.00e+00,0.00e+00,8.549e-12,1.739e-13,1.739e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.34e+15,0.00e+00,0.00e+00,8.816e-12,1.739e-13,1.739e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.34e+15,0.00e+00,0.00e+00,8.816e-12,1.739e-13,1.739e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.34e+15,0.00e+00,0.00e+00,8.549e-12,1.739e-13,1.739e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.34e+15,0.00e+00,0.00e+00,8.949e-12,1.739e-13,1.739e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.56e+15,0.00e+00,0.00e+00,9.959e-12,2.026e-13,2.026e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.56e+15,0.00e+00,0.00e+00,9.959e-12,1.351e-13,1.351e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.56e+15,0.00e+00,0.00e+00,9.336e-12,1.351e-13,1.351e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.56e+15,0.00e+00,0.00e+00,9.492e-12,1.351e-13,1.351e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.56e+15,0.00e+00,0.00e+00,1.074e-11,2.026e-13,2.026e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.56e+15,0.00e+00,0.00e+00,8.247e-12,1.351e-13,1.351e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.56e+15,0.00e+00,0.00e+00,9.803e-12,1.351e-13,1.351e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.56e+15,0.00e+00,0.00e+00,8.558e-12,1.351e-13,1.351e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.56e+15,0.00e+00,0.00e+00,9.025e-12,1.351e-13,1.351e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.56e+15,0.00e+00,0.00e+00,9.025e-12,1.351e-13,1.351e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.56e+15,0.00e+00,0.00e+00,9.025e-12,1.351e-13,1.351e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.56e+15,0.00e+00,0.00e+00,8.869e-12,1.351e-13,1.351e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
-1ES0647+250,1.18e+17,0.00e+00,0.00e+00,1.477e-11,2.093e-13,2.093e-13,55131.0,55620.9,96120.0,swift-xrt,Detection with 1sigma uncertainty,
-1ES0647+250,1.62e+17,0.00e+00,0.00e+00,1.620e-11,1.852e-13,1.852e-13,55131.0,55620.9,96120.0,swift-xrt,Detection with 1sigma uncertainty,
-1ES0647+250,2.22e+17,0.00e+00,0.00e+00,1.544e-11,1.337e-13,1.337e-13,55131.0,55620.9,96120.0,swift-xrt,Detection with 1sigma uncertainty,
-1ES0647+250,3.05e+17,0.00e+00,0.00e+00,1.530e-11,1.178e-13,1.178e-13,55131.0,55620.9,96120.0,swift-xrt,Detection with 1sigma uncertainty,
-1ES0647+250,4.19e+17,0.00e+00,0.00e+00,1.530e-11,1.317e-13,1.317e-13,55131.0,55620.9,96120.0,swift-xrt,Detection with 1sigma uncertainty,
-1ES0647+250,5.75e+17,0.00e+00,0.00e+00,1.471e-11,1.704e-13,1.704e-13,55131.0,55620.9,96120.0,swift-xrt,Detection with 1sigma uncertainty,
-1ES0647+250,7.90e+17,0.00e+00,0.00e+00,1.340e-11,1.814e-13,1.814e-13,55131.0,55620.9,96120.0,swift-xrt,Detection with 1sigma uncertainty,
-1ES0647+250,1.32e+23,0.00e+00,0.00e+00,1.729e-12,1.325e-13,1.325e-13,55131.0,55620.9,96120.0,lat,Detection with 1sigma uncertainty,
-1ES0647+250,7.43e+23,0.00e+00,0.00e+00,2.960e-12,2.187e-13,2.187e-13,55131.0,55620.9,96120.0,lat,Detection with 1sigma uncertainty,
-1ES0647+250,4.18e+24,0.00e+00,0.00e+00,5.698e-12,6.276e-13,6.276e-13,55131.0,55620.9,96120.0,lat,Detection with 1sigma uncertainty,
-1ES0647+250,2.34e+25,0.00e+00,0.00e+00,8.918e-12,1.479e-12,1.479e-12,55131.0,55620.9,96120.0,lat,Detection with 1sigma uncertainty,
-1ES0647+250,1.55e+25,0.00e+00,0.00e+00,4.010e-12,1.108e-12,1.108e-12,55131.0,55620.9,96120.0,magic,Detection with 1sigma uncertainty,
-1ES0647+250,2.99e+25,0.00e+00,0.00e+00,3.014e-12,5.209e-13,5.209e-13,55131.0,55620.9,96120.0,magic,Detection with 1sigma uncertainty,
-1ES0647+250,5.78e+25,0.00e+00,0.00e+00,2.945e-12,6.056e-13,6.056e-13,55131.0,55620.9,96120.0,magic,Detection with 1sigma uncertainty,
-1ES0647+250,1.11e+26,0.00e+00,0.00e+00,3.036e-12,1.310e-12,1.310e-12,55131.0,55620.9,96120.0,magic,Detection with 1sigma uncertainty,
+1ES0647+250,1.5e+10,0.0,0.0,9.606e-15,5.755000188694629e-16,5.755000188694629e-16,55131.0,55620.9,96120.0,ovro,Detection with 1sigma uncertainty,
+1ES0647+250,1.5e+10,0.0,0.0,8.469e-15,1.1109999655960255e-15,1.1109999655960255e-15,55131.0,55620.9,96120.0,ovro,Detection with 1sigma uncertainty,
+1ES0647+250,1.5e+10,0.0,0.0,9.111e-15,1.1569999956208016e-15,1.1569999956208016e-15,55131.0,55620.9,96120.0,ovro,Detection with 1sigma uncertainty,
+1ES0647+250,1.5e+10,0.0,0.0,9.029e-15,2.9069998696200177e-16,2.9069998696200177e-16,55131.0,55620.9,96120.0,ovro,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,8.133e-12,8.637999983265171e-14,8.637999983265171e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,8.133e-12,8.637999983265171e-14,8.637999983265171e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,7.409e-12,1.516000053356642e-13,1.516000053356642e-13,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,7.409e-12,1.516000053356642e-13,1.516000053356642e-13,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,7.175e-12,1.497999993363766e-13,1.497999993363766e-13,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,7.571e-12,9.602000049018997e-14,9.602000049018997e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,8.794e-12,7.531999926101846e-14,7.531999926101846e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,8.777e-12,7.876000334772551e-14,7.876000334772551e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,8.63e-12,7.393999963082459e-14,7.393999963082459e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,8.296e-12,7.452000035925929e-14,7.452000035925929e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,7.825e-12,7.039000323371888e-14,7.039000323371888e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,8.485e-12,7.618999696553871e-14,7.618999696553871e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,8.21e-12,7.376999673017887e-14,7.376999673017887e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,8.21e-12,7.376999673017887e-14,7.376999673017887e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,8.233e-12,7.396999814968455e-14,7.396999814968455e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,8.226e-12,7.391000111196463e-14,7.391000111196463e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,8.429e-12,8.2579999967098e-14,8.2579999967098e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,7.332e-12,7.80600017675874e-14,7.80600017675874e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,7.332e-12,7.80600017675874e-14,7.80600017675874e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,7.458e-12,7.326000158076884e-14,7.326000158076884e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,7.318e-12,6.893000303572275e-14,6.893000303572275e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,4.47e+14,0.0,0.0,7.061e-12,6.944999995017395e-14,6.944999995017395e-14,55131.0,55620.9,96120.0,kva,Detection with 1sigma uncertainty,
+1ES0647+250,5.49e+14,0.0,0.0,9.437e-12,1.9050000021458152e-13,1.9050000021458152e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,5.49e+14,0.0,0.0,9.217e-12,1.9050000021458152e-13,1.9050000021458152e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,6.83e+14,0.0,0.0,9.495e-12,1.7789999887714986e-13,1.7789999887714986e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,6.83e+14,0.0,0.0,9.495e-12,1.4820000153285828e-13,1.4820000153285828e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,8.66e+14,0.0,0.0,1.013e-11,1.5030000627327261e-13,1.5030000627327261e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,8.66e+14,0.0,0.0,1.004e-11,1.5030000627327261e-13,1.5030000627327261e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.15e+15,0.0,0.0,9.115e-12,1.5020000217538798e-13,1.5020000217538798e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.15e+15,0.0,0.0,8.885e-12,1.5020000217538798e-13,1.5020000217538798e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.15e+15,0.0,0.0,8.769e-12,1.5020000217538798e-13,1.5020000217538798e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.15e+15,0.0,0.0,8.423e-12,1.5020000217538798e-13,1.5020000217538798e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.15e+15,0.0,0.0,9.577e-12,1.5020000217538798e-13,1.5020000217538798e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.15e+15,0.0,0.0,7.962e-12,1.5020000217538798e-13,1.5020000217538798e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.15e+15,0.0,0.0,8.885e-12,2.0029999523146075e-13,2.0029999523146075e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.15e+15,0.0,0.0,7.962e-12,1.5020000217538798e-13,1.5020000217538798e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.15e+15,0.0,0.0,8.423e-12,1.5020000217538798e-13,1.5020000217538798e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.15e+15,0.0,0.0,8.423e-12,1.5020000217538798e-13,1.5020000217538798e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.15e+15,0.0,0.0,8.077e-12,1.5020000217538798e-13,1.5020000217538798e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.15e+15,0.0,0.0,8.077e-12,1.5020000217538798e-13,1.5020000217538798e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.34e+15,0.0,0.0,9.884e-12,1.7389999759209046e-13,1.7389999759209046e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.34e+15,0.0,0.0,9.617e-12,1.7389999759209046e-13,1.7389999759209046e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.34e+15,0.0,0.0,8.949e-12,1.7389999759209046e-13,1.7389999759209046e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.34e+15,0.0,0.0,9.35e-12,1.7389999759209046e-13,1.7389999759209046e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.34e+15,0.0,0.0,9.751e-12,1.7389999759209046e-13,1.7389999759209046e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.34e+15,0.0,0.0,8.549e-12,1.7389999759209046e-13,1.7389999759209046e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.34e+15,0.0,0.0,9.35e-12,1.7389999759209046e-13,1.7389999759209046e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.34e+15,0.0,0.0,8.549e-12,1.7389999759209046e-13,1.7389999759209046e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.34e+15,0.0,0.0,8.816e-12,1.7389999759209046e-13,1.7389999759209046e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.34e+15,0.0,0.0,8.816e-12,1.7389999759209046e-13,1.7389999759209046e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.34e+15,0.0,0.0,8.549e-12,1.7389999759209046e-13,1.7389999759209046e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.34e+15,0.0,0.0,8.949e-12,1.7389999759209046e-13,1.7389999759209046e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.56e+15,0.0,0.0,9.959e-12,2.0259999461511718e-13,2.0259999461511718e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.56e+15,0.0,0.0,9.959e-12,1.3509999325853062e-13,1.3509999325853062e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.56e+15,0.0,0.0,9.336e-12,1.3509999325853062e-13,1.3509999325853062e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.56e+15,0.0,0.0,9.492e-12,1.3509999325853062e-13,1.3509999325853062e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.56e+15,0.0,0.0,1.074e-11,2.0259999461511718e-13,2.0259999461511718e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.56e+15,0.0,0.0,8.247e-12,1.3509999325853062e-13,1.3509999325853062e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.56e+15,0.0,0.0,9.803e-12,1.3509999325853062e-13,1.3509999325853062e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.56e+15,0.0,0.0,8.558e-12,1.3509999325853062e-13,1.3509999325853062e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.56e+15,0.0,0.0,9.025e-12,1.3509999325853062e-13,1.3509999325853062e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.56e+15,0.0,0.0,9.025e-12,1.3509999325853062e-13,1.3509999325853062e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.56e+15,0.0,0.0,9.025e-12,1.3509999325853062e-13,1.3509999325853062e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.56e+15,0.0,0.0,8.869e-12,1.3509999325853062e-13,1.3509999325853062e-13,55131.0,55620.9,96120.0,swift-uvot,Detection with 1sigma uncertainty,
+1ES0647+250,1.18e+17,0.0,0.0,1.477e-11,2.092999981228444e-13,2.092999981228444e-13,55131.0,55620.9,96120.0,swift-xrt,Detection with 1sigma uncertainty,
+1ES0647+250,1.62e+17,0.0,0.0,1.62e-11,1.8519999986713054e-13,1.8519999986713054e-13,55131.0,55620.9,96120.0,swift-xrt,Detection with 1sigma uncertainty,
+1ES0647+250,2.22e+17,0.0,0.0,1.544e-11,1.3370000365078155e-13,1.3370000365078155e-13,55131.0,55620.9,96120.0,swift-xrt,Detection with 1sigma uncertainty,
+1ES0647+250,3.05e+17,0.0,0.0,1.53e-11,1.178000026084286e-13,1.178000026084286e-13,55131.0,55620.9,96120.0,swift-xrt,Detection with 1sigma uncertainty,
+1ES0647+250,4.19e+17,0.0,0.0,1.53e-11,1.3170000300825185e-13,1.3170000300825185e-13,55131.0,55620.9,96120.0,swift-xrt,Detection with 1sigma uncertainty,
+1ES0647+250,5.75e+17,0.0,0.0,1.471e-11,1.7040000324392707e-13,1.7040000324392707e-13,55131.0,55620.9,96120.0,swift-xrt,Detection with 1sigma uncertainty,
+1ES0647+250,7.9e+17,0.0,0.0,1.34e-11,1.8139999322531325e-13,1.8139999322531325e-13,55131.0,55620.9,96120.0,swift-xrt,Detection with 1sigma uncertainty,
+1ES0647+250,1.32e+23,0.0,0.0,1.729e-12,1.3249999513374744e-13,1.3249999513374744e-13,55131.0,55620.9,96120.0,lat,Detection with 1sigma uncertainty,
+1ES0647+250,7.43e+23,0.0,0.0,2.96e-12,2.187000038532394e-13,2.187000038532394e-13,55131.0,55620.9,96120.0,lat,Detection with 1sigma uncertainty,
+1ES0647+250,4.18e+24,0.0,0.0,5.698e-12,6.276000227324607e-13,6.276000227324607e-13,55131.0,55620.9,96120.0,lat,Detection with 1sigma uncertainty,
+1ES0647+250,2.34e+25,0.0,0.0,8.918e-12,1.4789999737072068e-12,1.4789999737072068e-12,55131.0,55620.9,96120.0,lat,Detection with 1sigma uncertainty,
+1ES0647+250,1.55e+25,0.0,0.0,4.01e-12,1.1079999764906923e-12,1.1079999764906923e-12,55131.0,55620.9,96120.0,magic,Detection with 1sigma uncertainty,
+1ES0647+250,2.99e+25,0.0,0.0,3.014e-12,5.209000006507758e-13,5.209000006507758e-13,55131.0,55620.9,96120.0,magic,Detection with 1sigma uncertainty,
+1ES0647+250,5.78e+25,0.0,0.0,2.945e-12,6.055999885595797e-13,6.055999885595797e-13,55131.0,55620.9,96120.0,magic,Detection with 1sigma uncertainty,
+1ES0647+250,1.11e+26,0.0,0.0,3.036e-12,1.3099999600710288e-12,1.3099999600710288e-12,55131.0,55620.9,96120.0,magic,Detection with 1sigma uncertainty,

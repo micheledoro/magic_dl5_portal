@@ -1,5 +1,6 @@
 # %ECSV 1.0
 # ---
+# schema: astropy-2.0
 # delimiter: ','
 # datatype:
 # - {name: srcname, datatype: string}
@@ -23,7 +24,6 @@
 # - {Comments: R-band polarization}
 # - {Reference: magic_2025e.yaml}
 # - {Status: Done}
-# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
 Mrk 421,60300.0134,0.0,0.0,0.0,5.72,0.83,0.83,630,630,optical,Detection,None
 Mrk 421,60300.0176,0.0,0.0,0.0,5.59,0.84,0.84,630,630,optical,Detection,None

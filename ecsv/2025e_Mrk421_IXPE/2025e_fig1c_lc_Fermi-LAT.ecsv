@@ -1,5 +1,6 @@
 # %ECSV 1.0
 # ---
+# schema: astropy-2.0
 # delimiter: ','
 # datatype:
 # - {name: srcname, datatype: string}
@@ -23,7 +24,6 @@
 # - {Comments: '0.3-300 GeV Fermi-LAT data'}
 # - {Reference: magic_2025e.yaml}
 # - {Status: Done}
-# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
 Mrk 421,60261.5001,0.0,0.0,0.0,7.6913e-8,1.9873e-8,1.9873e-8,0.3,300,lat,Detection,None
 Mrk 421,60243.5001,0.0,0.0,0.0,1.1984e-7,2.1746e-8,2.1746e-8,0.3,300,lat,Detection,None

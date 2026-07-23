@@ -1,127 +1,127 @@
 # %ECSV 1.0
 # ---
+# schema: astropy-2.0
 # delimiter: ','
 # datatype:
-# - {name: srcname   , unit:    , datatype: string     , description: Source name                                          }
-# - {name: t         , unit: mjd     , datatype: float64 , description: Time of measurement                                  }
-# - {name: t_wlo     , unit: d    , datatype: float32 , description: Lower width of time bin                                 }
-# - {name: t_wup     , unit: d    , datatype: float32 , description: Upper width of time bin                                 }
-# - {name: texpo     , unit: h    , datatype: float32 , description: Exposure time                                           }
-# - {name: flux     , unit: mJy, datatype: float32 , description: Flux measured above the energy threshold              }
-# - {name: flux_elo , unit: mJy, datatype: float32 , description: Lower uncertainty of flux                             }
-# - {name: flux_eup , unit: mJy, datatype: float32 , description: Upper uncertainty of flux                             }
-# - {name: eth_lo      , unit: GHz,      datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
-# - {name: eth_up      , unit: GHz,      datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
-# - {name: instrument, unit:    , datatype: string     , description: Instrument                                           }
-# - {name: dataformat, unit:    , datatype: string     , description: Data Format                                          }
-# - {name: comments  , unit:    , datatype: string     , description: Comments                                             }
+# - {name: srcname, datatype: string, description: Source name}
+# - {name: t, unit: mjd, datatype: float64, description: Time of measurement}
+# - {name: t_wlo, unit: d, datatype: float32, description: Lower width of time bin}
+# - {name: t_wup, unit: d, datatype: float32, description: Upper width of time bin}
+# - {name: texpo, unit: h, datatype: float32, description: Exposure time}
+# - {name: flux, unit: mJy, datatype: float32, description: Flux measured above the energy threshold}
+# - {name: flux_elo, datatype: float64}
+# - {name: flux_eup, datatype: float64}
+# - {name: eth_lo, unit: GHz, datatype: float32, description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up, unit: GHz, datatype: float32, description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, datatype: string, description: Instrument}
+# - {name: dataformat, datatype: string, description: Data Format}
+# - {name: comments, datatype: string, description: Comments}
 # meta: !!omap
 # - {Filename: 2022e_fig4a_lc_radio.ecsv}
-# - {Source: "MAXI J1820+070"}
-# - {Figure: "Figure 4, panel a (first from top) in the paper."}
-# - {Title: "Gamma-ray observations of MAXI J1820+070 during the 2018 outburst"}
-# - {Comments: "Datapoints from radio light curve of MAXI J1820+070 during its 2018 outburst, in the MJD 58,189 and 58,420 time range."}
-# - {Reference: "magic_2022e.yaml"}
-# - {Status: "To be checked"}
-
+# - {Source: MAXI J1820+070}
+# - {Figure: 'Figure 4, panel a (first from top) in the paper.'}
+# - {Title: Gamma-ray observations of MAXI J1820+070 during the 2018 outburst}
+# - {Comments: 'Datapoints from radio light curve of MAXI J1820+070 during its 2018 outburst, in the MJD 58,189 and 58,420 time range.'}
+# - {Reference: magic_2022e.yaml}
+# - {Status: To be checked}
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
-MAXI J1820+070,58192.300,0.500,0.500,0.0,3.1641e+01,3.0504e+01,3.2778e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58193.300,0.500,0.500,0.0,4.9104e+01,4.8398e+01,4.9810e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58194.300,0.500,0.500,0.0,5.0335e+01,4.9585e+01,5.1085e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58195.300,0.500,0.500,0.0,7.6424e+01,7.5698e+01,7.7150e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58196.300,0.500,0.500,0.0,7.8535e+01,7.7977e+01,7.9093e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58197.300,0.500,0.500,0.0,8.8078e+01,8.7330e+01,8.8826e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58198.300,0.500,0.500,0.0,9.2141e+01,9.1371e+01,9.2911e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58199.300,0.500,0.500,0.0,1.0278e+02,1.0195e+02,1.0362e+02,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58201.300,0.500,0.500,0.0,1.0009e+02,9.8241e+01,1.0195e+02,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58202.200,0.500,0.500,0.0,9.9851e+01,9.7723e+01,1.0198e+02,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58203.100,0.500,0.500,0.0,8.6508e+01,8.5664e+01,8.7352e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58204.400,0.500,0.500,0.0,7.8036e+01,7.5716e+01,8.0356e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58205.100,0.500,0.500,0.0,9.0862e+01,8.9916e+01,9.1808e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58206.200,0.500,0.500,0.0,7.7895e+01,7.7109e+01,7.8681e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58207.200,0.500,0.500,0.0,7.4621e+01,7.3756e+01,7.5486e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58209.400,0.500,0.500,0.0,7.5772e+01,7.4541e+01,7.7003e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58210.400,0.500,0.500,0.0,7.0606e+01,6.8253e+01,7.2959e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58211.400,0.500,0.500,0.0,7.9420e+01,7.8435e+01,8.0405e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58212.400,0.500,0.500,0.0,7.2198e+01,7.1095e+01,7.3301e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58213.400,0.500,0.500,0.0,6.8446e+01,6.6635e+01,7.0257e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58214.400,0.500,0.500,0.0,7.0004e+01,6.8943e+01,7.1065e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58219.400,0.500,0.500,0.0,7.1760e+01,7.0493e+01,7.3027e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58221.400,0.500,0.500,0.0,7.3870e+01,7.2360e+01,7.5380e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58223.400,0.500,0.500,0.0,7.5141e+01,7.2941e+01,7.7341e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58224.400,0.500,0.500,0.0,7.1709e+01,7.0593e+01,7.2825e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58225.400,0.500,0.500,0.0,7.1824e+01,7.0726e+01,7.2922e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58226.300,0.500,0.500,0.0,7.9670e+01,7.7717e+01,8.1623e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58227.400,0.500,0.500,0.0,7.4239e+01,7.2034e+01,7.6444e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58239.400,0.500,0.500,0.0,7.8736e+01,7.6522e+01,8.0950e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58240.200,0.500,0.500,0.0,7.9646e+01,7.9149e+01,8.0143e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58241.300,0.500,0.500,0.0,8.7192e+01,8.6071e+01,8.8313e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58242.300,0.500,0.500,0.0,8.9070e+01,8.7838e+01,9.0302e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58244.300,0.500,0.500,0.0,8.5715e+01,8.3570e+01,8.7860e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58248.300,0.500,0.500,0.0,7.7347e+01,7.5595e+01,7.9099e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58270.200,0.500,0.500,0.0,6.7337e+01,6.5882e+01,6.8792e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58272.200,0.500,0.500,0.0,6.2025e+01,6.1077e+01,6.2973e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58276.200,0.500,0.500,0.0,6.0191e+01,5.9686e+01,6.0696e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58280.200,0.500,0.500,0.0,5.7877e+01,5.5696e+01,6.0058e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58307.000,0.500,0.500,0.0,1.7530e+00,1.4990e+00,2.0070e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58308.000,0.500,0.500,0.0,1.9120e+00,1.7500e+00,2.0740e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58308.100,0.500,0.500,0.0,1.3490e+00,1.1190e+00,1.5790e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58308.900,0.500,0.500,0.0,1.2370e+00,8.7200e-01,1.6020e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58309.100,0.500,0.500,0.0,1.4060e+00,1.1400e+00,1.6720e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58310.000,0.500,0.500,0.0,1.7130e+00,1.4000e+00,2.0260e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58311.000,0.500,0.500,0.0,1.6690e+00,1.5350e+00,1.8030e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58312.000,0.500,0.500,0.0,2.2060e+00,1.8540e+00,2.5580e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58315.000,0.500,0.500,0.0,1.7350e+00,1.2650e+00,2.2050e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58317.900,0.500,0.500,0.0,8.2800e-01,6.4500e-01,1.0110e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58323.900,0.500,0.500,0.0,5.0760e+00,4.9100e+00,5.2420e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58324.900,0.500,0.500,0.0,2.7190e+00,2.5340e+00,2.9040e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58331.900,0.500,0.500,0.0,1.9580e+00,1.7390e+00,2.1770e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58333.800,0.500,0.500,0.0,2.0730e+00,1.8540e+00,2.2920e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58334.900,0.500,0.500,0.0,1.7380e+00,1.4910e+00,1.9850e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58349.300,0.500,0.500,0.0,1.5340e+00,1.4070e+00,1.6610e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58385.900,0.500,0.500,0.0,1.2260e+00,8.5700e-01,1.5950e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58387.900,0.500,0.500,0.0,1.8170e+00,1.6650e+00,1.9690e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58388.800,0.500,0.500,0.0,3.2100e+00,2.9070e+00,3.5130e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58390.200,0.500,0.500,0.0,5.8900e+00,5.7670e+00,6.0130e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58391.900,0.500,0.500,0.0,1.0727e+01,1.0422e+01,1.1032e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58392.600,0.500,0.500,0.0,9.3040e+00,9.1540e+00,9.4540e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58392.800,0.500,0.500,0.0,9.2320e+00,8.9970e+00,9.4670e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58393.700,0.500,0.500,0.0,1.1412e+01,1.1254e+01,1.1570e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58394.700,0.500,0.500,0.0,1.6185e+01,1.5918e+01,1.6452e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58395.600,0.500,0.500,0.0,1.5435e+01,1.5178e+01,1.5692e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58396.800,0.500,0.500,0.0,2.3282e+01,2.2923e+01,2.3641e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58399.800,0.500,0.500,0.0,1.8294e+01,1.8091e+01,1.8497e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58401.900,0.500,0.500,0.0,1.3297e+01,1.2586e+01,1.4008e+01,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58404.800,0.500,0.500,0.0,8.6820e+00,8.5200e+00,8.8440e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58407.900,0.500,0.500,0.0,7.1090e+00,6.6960e+00,7.5220e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58410.300,0.500,0.500,0.0,6.8830e+00,6.7800e+00,6.9860e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58411.800,0.500,0.500,0.0,6.8740e+00,6.6810e+00,7.0670e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58417.600,0.500,0.500,0.0,5.1470e+00,5.0570e+00,5.2370e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58419.800,0.500,0.500,0.0,5.0340e+00,4.7590e+00,5.3090e+00,15.5,15.5,ami-la,1 sigma detection,None
-MAXI J1820+070,58193.420,0.500,0.500,0.0,2.3200e+01,2.2800e+01,2.3600e+01,5.07,5.07,emerlin,1 sigma detection,None
-MAXI J1820+070,58194.400,0.500,0.500,0.0,2.6600e+01,2.6200e+01,2.7000e+01,5.07,5.07,emerlin,1 sigma detection,None
-MAXI J1820+070,58199.410,0.500,0.500,0.0,3.8000e+01,3.7000e+01,3.9000e+01,5.07,5.07,emerlin,1 sigma detection,None
-MAXI J1820+070,58201.270,0.500,0.500,0.0,5.6700e+01,5.5900e+01,5.7500e+01,5.07,5.07,emerlin,1 sigma detection,None
-MAXI J1820+070,58202.310,0.500,0.500,0.0,2.3000e+01,2.2000e+01,2.4000e+01,5.07,5.07,emerlin,1 sigma detection,None
-MAXI J1820+070,58203.260,0.500,0.500,0.0,2.6000e+01,2.5000e+01,2.7000e+01,5.07,5.07,emerlin,1 sigma detection,None
-MAXI J1820+070,58206.270,0.500,0.500,0.0,3.3500e+01,3.3100e+01,3.3900e+01,5.07,5.07,emerlin,1 sigma detection,None
-MAXI J1820+070,58308.980,0.500,0.500,0.0,2.4000e-01,2.2000e-01,2.6000e-01,5.07,5.07,emerlin,1 sigma detection,None
-MAXI J1820+070,58308.980,0.500,0.500,0.0,2.5000e-01,2.3000e-01,2.7000e-01,5.07,5.07,emerlin,1 sigma detection,None
-MAXI J1820+070,58310.020,0.500,0.500,0.0,5.2000e-01,4.8000e-01,5.6000e-01,5.07,5.07,emerlin,1 sigma detection,None
-MAXI J1820+070,58316.960,0.500,0.500,0.0,1.3000e-01,1.1000e-01,1.5000e-01,5.07,5.07,emerlin,1 sigma detection,None
-MAXI J1820+070,58329.000,0.500,0.500,0.0,3.5000e-01,3.1000e-01,3.9000e-01,5.07,5.07,emerlin,1 sigma detection,None
-MAXI J1820+070,58398.730,0.500,0.500,0.0,5.2600e+00,5.1800e+00,5.3400e+00,1.51,1.51,emerlin,1 sigma detection,None
-MAXI J1820+070,58417.790,0.500,0.500,0.0,9.3000e-01,8.9000e-01,9.7000e-01,1.51,1.51,emerlin,1 sigma detection,None
-MAXI J1820+070,58419.730,0.500,0.500,0.0,1.1500e+00,1.1200e+00,1.1800e+00,1.51,1.51,emerlin,1 sigma detection,None
-MAXI J1820+070,58389.750,0.500,0.500,0.0,3.4700e+00,3.4200e+00,3.5200e+00,1.28,1.28,meerkat,1 sigma detection,None
-MAXI J1820+070,58396.700,0.500,0.500,0.0,1.1800e+01,1.1700e+01,1.1900e+01,1.28,1.28,meerkat,1 sigma detection,None
-MAXI J1820+070,58403.660,0.500,0.500,0.0,2.6200e+00,2.5800e+00,2.6600e+00,1.28,1.28,meerkat,1 sigma detection,None
-MAXI J1820+070,58405.670,0.500,0.500,0.0,2.4100e+00,2.3800e+00,2.4400e+00,1.28,1.28,meerkat,1 sigma detection,None
-MAXI J1820+070,58410.620,0.500,0.500,0.0,1.5200e+00,1.4600e+00,1.5800e+00,1.28,1.28,meerkat,1 sigma detection,None
-MAXI J1820+070,58418.540,0.500,0.500,0.0,1.6100e+00,1.5600e+00,1.6600e+00,1.28,1.28,meerkat,1 sigma detection,None
-MAXI J1820+070,58398.040,0.500,0.500,0.0,1.6990e+01,1.6960e+01,1.7020e+01,5.87,5.87,vla,1 sigma detection,None
-MAXI J1820+070,58399.990,0.500,0.500,0.0,7.4600e+00,7.4100e+00,7.5100e+00,6.0,6.0,vla,1 sigma detection,None
-MAXI J1820+070,58402.850,0.500,0.500,0.0,5.1200e+00,5.0900e+00,5.1500e+00,6.0,6.0,vla,1 sigma detection,None
-MAXI J1820+070,58403.910,0.500,0.500,0.0,4.2000e+00,4.1600e+00,4.2400e+00,6.0,6.0,vla,1 sigma detection,None
-MAXI J1820+070,58405.900,0.500,0.500,0.0,3.5900e+00,3.5400e+00,3.6400e+00,6.0,6.0,vla,1 sigma detection,None
-MAXI J1820+070,58418.850,0.500,0.500,0.0,2.4900e+00,2.4600e+00,2.5200e+00,6.0,6.0,vla,1 sigma detection,None
+MAXI J1820+070,58192.3,0.5,0.5,0.0,31.641,1.1370010375976562,1.1369991302490234,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58193.3,0.5,0.5,0.0,49.104,0.7060012817382812,0.7060012817382812,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58194.3,0.5,0.5,0.0,50.335,0.75,0.75,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58195.3,0.5,0.5,0.0,76.424,0.7260055541992188,0.7259979248046875,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58196.3,0.5,0.5,0.0,78.535,0.5580062866210938,0.5579986572265625,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58197.3,0.5,0.5,0.0,88.078,0.7480010986328125,0.7479934692382812,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58198.3,0.5,0.5,0.0,92.141,0.7699966430664062,0.7700042724609375,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58199.3,0.5,0.5,0.0,102.78,0.8300018310546875,0.8400039672851562,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58201.3,0.5,0.5,0.0,100.09,1.8489990234375,1.8600006103515625,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58202.2,0.5,0.5,0.0,99.851,2.1279983520507812,2.1290054321289062,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58203.1,0.5,0.5,0.0,86.508,0.8440017700195312,0.843994140625,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58204.4,0.5,0.5,0.0,78.036,2.3199996948242188,2.3199996948242188,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58205.1,0.5,0.5,0.0,90.862,0.9459991455078125,0.9459991455078125,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58206.2,0.5,0.5,0.0,77.895,0.7859954833984375,0.7860031127929688,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58207.2,0.5,0.5,0.0,74.621,0.8650054931640625,0.8649978637695312,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58209.4,0.5,0.5,0.0,75.772,1.2310028076171875,1.2309951782226562,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58210.4,0.5,0.5,0.0,70.606,2.3530044555664062,2.352996826171875,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58211.4,0.5,0.5,0.0,79.42,0.9850006103515625,0.9850006103515625,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58212.4,0.5,0.5,0.0,72.198,1.102996826171875,1.1030044555664062,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58213.4,0.5,0.5,0.0,68.446,1.8109970092773438,1.811004638671875,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58214.4,0.5,0.5,0.0,70.004,1.0609970092773438,1.061004638671875,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58219.4,0.5,0.5,0.0,71.76,1.2670059204101562,1.266998291015625,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58221.4,0.5,0.5,0.0,73.87,1.5100021362304688,1.5099945068359375,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58223.4,0.5,0.5,0.0,75.141,2.1999969482421875,2.2000045776367188,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58224.4,0.5,0.5,0.0,71.709,1.115997314453125,1.115997314453125,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58225.4,0.5,0.5,0.0,71.824,1.0979995727539062,1.0979995727539062,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58226.3,0.5,0.5,0.0,79.67,1.9529953002929688,1.9530029296875,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58227.4,0.5,0.5,0.0,74.239,2.2050018310546875,2.2050018310546875,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58239.4,0.5,0.5,0.0,78.736,2.2139968872070312,2.2139968872070312,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58240.2,0.5,0.5,0.0,79.646,0.49700164794921875,0.4969940185546875,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58241.3,0.5,0.5,0.0,87.192,1.121002197265625,1.121002197265625,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58242.3,0.5,0.5,0.0,89.07,1.2320022583007812,1.2320022583007812,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58244.3,0.5,0.5,0.0,85.715,2.1449966430664062,2.1450042724609375,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58248.3,0.5,0.5,0.0,77.347,1.7519989013671875,1.7519989013671875,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58270.2,0.5,0.5,0.0,67.337,1.4549942016601562,1.4550018310546875,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58272.2,0.5,0.5,0.0,62.025,0.9480018615722656,0.947998046875,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58276.2,0.5,0.5,0.0,60.191,0.5050010681152344,0.5049972534179688,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58280.2,0.5,0.5,0.0,57.877,2.180999755859375,2.180999755859375,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58307.0,0.5,0.5,0.0,1.753,0.25400006771087646,0.2539999485015869,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58308.0,0.5,0.5,0.0,1.912,0.16199994087219238,0.16199994087219238,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58308.1,0.5,0.5,0.0,1.349,0.23000001907348633,0.23000001907348633,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58308.9,0.5,0.5,0.0,1.237,0.36500000953674316,0.36500000953674316,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58309.1,0.5,0.5,0.0,1.406,0.26600003242492676,0.26600003242492676,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58310.0,0.5,0.5,0.0,1.713,0.3130000829696655,0.312999963760376,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58311.0,0.5,0.5,0.0,1.669,0.13400006294250488,0.13399994373321533,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58312.0,0.5,0.5,0.0,2.206,0.3520001173019409,0.35199999809265137,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58315.0,0.5,0.5,0.0,1.735,0.4700000286102295,0.46999990940093994,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58317.9,0.5,0.5,0.0,0.828,0.18300002813339233,0.18300002813339233,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58323.9,0.5,0.5,0.0,5.076,0.1660003662109375,0.1659998893737793,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58324.9,0.5,0.5,0.0,2.719,0.18500018119812012,0.18499994277954102,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58331.9,0.5,0.5,0.0,1.958,0.218999981880188,0.21900010108947754,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58333.8,0.5,0.5,0.0,2.073,0.218999981880188,0.21900010108947754,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58334.9,0.5,0.5,0.0,1.738,0.24699997901916504,0.24699997901916504,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58349.3,0.5,0.5,0.0,1.534,0.127000093460083,0.12699997425079346,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58385.9,0.5,0.5,0.0,1.226,0.3689999580383301,0.36900007724761963,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58387.9,0.5,0.5,0.0,1.817,0.1520000696182251,0.15199995040893555,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58388.8,0.5,0.5,0.0,3.21,0.30299997329711914,0.30299997329711914,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58390.2,0.5,0.5,0.0,5.89,0.12299966812133789,0.1230001449584961,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58391.9,0.5,0.5,0.0,10.727,0.30500030517578125,0.30499935150146484,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58392.6,0.5,0.5,0.0,9.304,0.14999961853027344,0.15000057220458984,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58392.8,0.5,0.5,0.0,9.232,0.2350006103515625,0.2349996566772461,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58393.7,0.5,0.5,0.0,11.412,0.15799999237060547,0.15799999237060547,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58394.7,0.5,0.5,0.0,16.185,0.2669992446899414,0.2670001983642578,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58395.6,0.5,0.5,0.0,15.435,0.2569999694824219,0.2569999694824219,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58396.8,0.5,0.5,0.0,23.282,0.35899925231933594,0.35900115966796875,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58399.8,0.5,0.5,0.0,18.294,0.2030010223388672,0.20299911499023438,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58401.9,0.5,0.5,0.0,13.297,0.7109994888305664,0.7110004425048828,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58404.8,0.5,0.5,0.0,8.682,0.16199970245361328,0.16199970245361328,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58407.9,0.5,0.5,0.0,7.109,0.41300010681152344,0.41299962997436523,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58410.3,0.5,0.5,0.0,6.883,0.10299968719482422,0.10300016403198242,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58411.8,0.5,0.5,0.0,6.874,0.19299983978271484,0.19299983978271484,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58417.6,0.5,0.5,0.0,5.147,0.08999967575073242,0.09000015258789062,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58419.8,0.5,0.5,0.0,5.034,0.27500009536743164,0.27500009536743164,15.5,15.5,ami-la,1 sigma detection,None
+MAXI J1820+070,58193.42,0.5,0.5,0.0,23.2,0.40000152587890625,0.39999961853027344,5.07,5.07,emerlin,1 sigma detection,None
+MAXI J1820+070,58194.4,0.5,0.5,0.0,26.6,0.39999961853027344,0.39999961853027344,5.07,5.07,emerlin,1 sigma detection,None
+MAXI J1820+070,58199.41,0.5,0.5,0.0,38.0,1.0,1.0,5.07,5.07,emerlin,1 sigma detection,None
+MAXI J1820+070,58201.27,0.5,0.5,0.0,56.7,0.7999992370605469,0.7999992370605469,5.07,5.07,emerlin,1 sigma detection,None
+MAXI J1820+070,58202.31,0.5,0.5,0.0,23.0,1.0,1.0,5.07,5.07,emerlin,1 sigma detection,None
+MAXI J1820+070,58203.26,0.5,0.5,0.0,26.0,1.0,1.0,5.07,5.07,emerlin,1 sigma detection,None
+MAXI J1820+070,58206.27,0.5,0.5,0.0,33.5,0.40000152587890625,0.40000152587890625,5.07,5.07,emerlin,1 sigma detection,None
+MAXI J1820+070,58308.98,0.5,0.5,0.0,0.24,0.019999995827674866,0.019999995827674866,5.07,5.07,emerlin,1 sigma detection,None
+MAXI J1820+070,58308.98,0.5,0.5,0.0,0.25,0.019999995827674866,0.02000001072883606,5.07,5.07,emerlin,1 sigma detection,None
+MAXI J1820+070,58310.02,0.5,0.5,0.0,0.52,0.03999999165534973,0.04000002145767212,5.07,5.07,emerlin,1 sigma detection,None
+MAXI J1820+070,58316.96,0.5,0.5,0.0,0.13,0.019999995827674866,0.02000001072883606,5.07,5.07,emerlin,1 sigma detection,None
+MAXI J1820+070,58329.0,0.5,0.5,0.0,0.35,0.03999999165534973,0.03999999165534973,5.07,5.07,emerlin,1 sigma detection,None
+MAXI J1820+070,58398.73,0.5,0.5,0.0,5.26,0.08000040054321289,0.07999992370605469,1.51,1.51,emerlin,1 sigma detection,None
+MAXI J1820+070,58417.79,0.5,0.5,0.0,0.93,0.04000002145767212,0.04000002145767212,1.51,1.51,emerlin,1 sigma detection,None
+MAXI J1820+070,58419.73,0.5,0.5,0.0,1.15,0.029999971389770508,0.029999971389770508,1.51,1.51,emerlin,1 sigma detection,None
+MAXI J1820+070,58389.75,0.5,0.5,0.0,3.47,0.04999995231628418,0.04999995231628418,1.28,1.28,meerkat,1 sigma detection,None
+MAXI J1820+070,58396.7,0.5,0.5,0.0,11.8,0.10000038146972656,0.09999942779541016,1.28,1.28,meerkat,1 sigma detection,None
+MAXI J1820+070,58403.66,0.5,0.5,0.0,2.62,0.039999961853027344,0.040000200271606445,1.28,1.28,meerkat,1 sigma detection,None
+MAXI J1820+070,58405.67,0.5,0.5,0.0,2.41,0.029999971389770508,0.029999971389770508,1.28,1.28,meerkat,1 sigma detection,None
+MAXI J1820+070,58410.62,0.5,0.5,0.0,1.52,0.059999942779541016,0.060000061988830566,1.28,1.28,meerkat,1 sigma detection,None
+MAXI J1820+070,58418.54,0.5,0.5,0.0,1.61,0.05000007152557373,0.04999995231628418,1.28,1.28,meerkat,1 sigma detection,None
+MAXI J1820+070,58398.04,0.5,0.5,0.0,16.99,0.030000686645507812,0.030000686645507812,5.87,5.87,vla,1 sigma detection,None
+MAXI J1820+070,58399.99,0.5,0.5,0.0,7.46,0.05000019073486328,0.05000019073486328,6.0,6.0,vla,1 sigma detection,None
+MAXI J1820+070,58402.85,0.5,0.5,0.0,5.12,0.029999732971191406,0.03000020980834961,6.0,6.0,vla,1 sigma detection,None
+MAXI J1820+070,58403.91,0.5,0.5,0.0,4.2,0.039999961853027344,0.039999961853027344,6.0,6.0,vla,1 sigma detection,None
+MAXI J1820+070,58405.9,0.5,0.5,0.0,3.59,0.04999995231628418,0.05000019073486328,6.0,6.0,vla,1 sigma detection,None
+MAXI J1820+070,58418.85,0.5,0.5,0.0,2.49,0.029999971389770508,0.029999971389770508,6.0,6.0,vla,1 sigma detection,None

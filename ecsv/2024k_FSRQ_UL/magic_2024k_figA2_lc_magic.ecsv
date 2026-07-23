@@ -1,0 +1,56 @@
+# %ECSV 1.0
+# ---
+# schema: astropy-2.0
+# delimiter: ','
+# datatype:
+# - {name: srcname, datatype: string}
+# - {name: t, unit: mjd, datatype: float64, description: Time of measurement}
+# - {name: t_wlo, unit: d, datatype: float32, description: Lower width of time bin}
+# - {name: t_wup, unit: d, datatype: float32, description: Upper width of time bin}
+# - {name: texpo, unit: h, datatype: float32, description: Exposure time}
+# - {name: flux, unit: 1 / (s cm2), datatype: float32, description: Flux measured above the energy threshold}
+# - {name: flux_elo, unit: 1 / (s cm2), datatype: float32, description: Lower uncertainty of flux}
+# - {name: flux_eup, unit: 1 / (s cm2), datatype: float32, description: Upper uncertainty of flux}
+# - {name: eth_lo, unit: GeV, datatype: float32, description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up, unit: GeV, datatype: float32, description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, datatype: string}
+# - {name: dataformat, datatype: string, description: Data Format}
+# - {name: comments, datatype: string, description: Comments}
+# meta: !!omap
+# - {Filename: magic_2024k_figA2_lc_magic.ecsv}
+# - {Source: 3C454}
+# - {Figure: Fig. A2}
+# - {Title: Constraints on VHE gamma-ray emission of flat spectrum radio quasars with the MAGIC telescopes}
+# - {Comments: Multiwavelength light curve.}
+# - {Reference: magic_2024k.yaml}
+# - {Status: To be checked}
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+3C454.3,55508.92,0.0,0.0,34.6,5.0669e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,55509.92,0.0,0.0,34.6,6.2826e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,56561.94,0.0,0.0,34.6,5.6158e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,56562.96,0.0,0.0,34.6,2.5147e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,56563.96,0.0,0.0,34.6,1.6184e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,56564.91,0.0,0.0,34.6,1.4869e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,56565.91,0.0,0.0,34.6,4.1246e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,56568.9,0.0,0.0,34.6,3.5984e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,56569.88,0.0,0.0,34.6,4.2112e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,56571.88,0.0,0.0,34.6,3.8546e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,56572.89,0.0,0.0,34.6,7.1126e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,56573.88,0.0,0.0,34.6,2.0246e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,56587.86,0.0,0.0,34.6,3.2643e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,56588.88,0.0,0.0,34.6,2.5924e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,56591.89,0.0,0.0,34.6,4.5459e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,56592.86,0.0,0.0,34.6,3.1356e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,56594.86,0.0,0.0,34.6,1.5475e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,56600.85,0.0,0.0,34.6,2.0025e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,56602.86,0.0,0.0,34.6,2.1009e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,56603.85,0.0,0.0,34.6,4.9995e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,56815.2,0.0,0.0,34.6,1.312e-10,nan,nan,100.0,inf,magic,ul,
+3C454.3,56816.2,0.0,0.0,34.6,2.0037e-10,nan,nan,100.0,inf,magic,ul,
+3C454.3,56817.2,0.0,0.0,34.6,5.1788e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,56818.19,0.0,0.0,34.6,1.4409e-10,nan,nan,100.0,inf,magic,ul,
+3C454.3,56865.15,0.0,0.0,34.6,2.0558e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,57258.08,0.0,0.0,34.6,1.6357e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,57259.11,0.0,0.0,34.6,7.542e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,57260.14,0.0,0.0,34.6,6.0275e-11,nan,nan,100.0,inf,magic,ul,
+3C454.3,57261.2,0.0,0.0,34.6,5.899e-11,nan,nan,100.0,inf,magic,ul,

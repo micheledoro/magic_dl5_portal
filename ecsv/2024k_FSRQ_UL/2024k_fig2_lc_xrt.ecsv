@@ -1,0 +1,90 @@
+# %ECSV 1.0
+# ---
+# schema: astropy-2.0
+# delimiter: ','
+# datatype:
+# - {name: srcname, datatype: string}
+# - {name: t, unit: mjd, datatype: float64, description: Time of measurement}
+# - {name: t_wlo, unit: d, datatype: float32, description: Lower width of time bin}
+# - {name: t_wup, unit: d, datatype: float32, description: Upper width of time bin}
+# - {name: texpo, unit: h, datatype: float32, description: Exposure time}
+# - {name: flux, unit: erg / (s cm2), datatype: float32, description: Flux measured above the energy threshold}
+# - {name: flux_elo, unit: erg / (s cm2), datatype: float32, description: Lower uncertainty of flux}
+# - {name: flux_eup, unit: erg / (s cm2), datatype: float32, description: Upper uncertainty of flux}
+# - {name: eth_lo, unit: keV, datatype: float32, description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up, unit: keV, datatype: float32, description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, datatype: string}
+# - {name: dataformat, datatype: string, description: Data Format}
+# - {name: comments, datatype: string, description: Comments}
+# meta: !!omap
+# - {Filename: 2024k_fig2_lc_xrt.ecsv}
+# - {Source: CTA102}
+# - {Figure: Fig. 2}
+# - {Title: Constraints on VHE gamma-ray emission of flat spectrum radio quasars with the MAGIC telescopes}
+# - {Comments: Multiwavelength light curve.}
+# - {Reference: magic_2024k.yaml}
+# - {Status: To be checked}
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+CTA102,57624.88,0.0,0.0,nan,2.2029e-11,2.6e-13,2.6e-13,0.3,10.0,swift-xrt,,
+CTA102,57625.34,0.0,0.0,nan,1.9099e-11,2.6e-13,2.6e-13,0.3,10.0,swift-xrt,,
+CTA102,57626.94,0.0,0.0,nan,2.0184e-11,2.5e-13,2.5e-13,0.3,10.0,swift-xrt,,
+CTA102,57627.94,0.0,0.0,nan,2.3121e-11,2.8e-13,2.8e-13,0.3,10.0,swift-xrt,,
+CTA102,57628.01,0.0,0.0,nan,1.8493e-11,2.6e-13,2.6e-13,0.3,10.0,swift-xrt,,
+CTA102,57628.94,0.0,0.0,nan,2.0324e-11,2.1e-13,2.1e-13,0.3,10.0,swift-xrt,,
+CTA102,57630.93,0.0,0.0,nan,1.5776e-11,2.9e-13,2.9e-13,0.3,10.0,swift-xrt,,
+CTA102,57631.92,0.0,0.0,nan,1.8493e-11,3e-13,3e-13,0.3,10.0,swift-xrt,,
+CTA102,57633.06,0.0,0.0,nan,1.6904e-11,2.6e-13,2.6e-13,0.3,10.0,swift-xrt,,
+CTA102,57633.92,0.0,0.0,nan,1.7947e-11,2.5e-13,2.5e-13,0.3,10.0,swift-xrt,,
+CTA102,57634.79,0.0,0.0,nan,1.9498e-11,4e-13,4e-13,0.3,10.0,swift-xrt,,
+CTA102,57635.64,0.0,0.0,nan,1.6218e-11,4e-13,4e-13,0.3,10.0,swift-xrt,,
+CTA102,57639.89,0.0,0.0,nan,1.7378e-11,4e-13,4e-13,0.3,10.0,swift-xrt,,
+CTA102,57643.43,0.0,0.0,nan,1.4125e-11,4e-13,4e-13,0.3,10.0,swift-xrt,,
+CTA102,57645.36,0.0,0.0,nan,1.5849e-11,4e-13,4e-13,0.3,10.0,swift-xrt,,
+CTA102,57648.47,0.0,0.0,nan,2.1878e-11,4e-13,4e-13,0.3,10.0,swift-xrt,,
+CTA102,57651.32,0.0,0.0,nan,2.3442e-11,4e-13,4e-13,0.3,10.0,swift-xrt,,
+CTA102,57657.1,0.0,0.0,nan,2.0417e-11,4e-13,4e-13,0.3,10.0,swift-xrt,,
+CTA102,57663.42,0.0,0.0,nan,1.4125e-11,8e-13,8e-13,0.3,10.0,swift-xrt,,
+CTA102,57669.34,0.0,0.0,nan,1.6596e-11,6e-13,6e-13,0.3,10.0,swift-xrt,,
+CTA102,57675.33,0.0,0.0,nan,1.6218e-11,4e-13,4e-13,0.3,10.0,swift-xrt,,
+CTA102,57681.43,0.0,0.0,nan,1.7378e-11,4e-13,4e-13,0.3,10.0,swift-xrt,,
+CTA102,57688.54,0.0,0.0,nan,2.0893e-11,2.6e-13,2.6e-13,0.3,10.0,swift-xrt,,
+CTA102,57689.21,0.0,0.0,nan,1.7061e-11,2.9e-13,2.9e-13,0.3,10.0,swift-xrt,,
+CTA102,57690.59,0.0,0.0,nan,1.4125e-11,4e-13,4e-13,0.3,10.0,swift-xrt,,
+CTA102,57691.92,0.0,0.0,nan,1.4791e-11,4e-13,4e-13,0.3,10.0,swift-xrt,,
+CTA102,57692.79,0.0,0.0,nan,1.5453e-11,2.5e-13,2.5e-13,0.3,10.0,swift-xrt,,
+CTA102,57706.68,0.0,0.0,nan,2.6853e-11,1.9e-13,1.9e-13,0.3,10.0,swift-xrt,,
+CTA102,57708.53,0.0,0.0,nan,2.3121e-11,2e-13,2e-13,0.3,10.0,swift-xrt,,
+CTA102,57710.26,0.0,0.0,nan,1.9275e-11,2e-13,2e-13,0.3,10.0,swift-xrt,,
+CTA102,57712.58,0.0,0.0,nan,2.4491e-11,2.1e-13,2.1e-13,0.3,10.0,swift-xrt,,
+CTA102,57714.11,0.0,0.0,nan,3.0832e-11,2.1e-13,2.1e-13,0.3,10.0,swift-xrt,,
+CTA102,57715.9,0.0,0.0,nan,3.9084e-11,1.7e-13,1.7e-13,0.3,10.0,swift-xrt,,
+CTA102,57719.78,0.0,0.0,nan,2.4491e-11,2.3e-13,2.3e-13,0.3,10.0,swift-xrt,,
+CTA102,57722.02,0.0,0.0,nan,2.138e-11,6e-13,6e-13,0.3,10.0,swift-xrt,,
+CTA102,57723.08,0.0,0.0,nan,1.8197e-11,2.7e-13,2.7e-13,0.3,10.0,swift-xrt,,
+CTA102,57728.07,0.0,0.0,nan,3.2285e-11,1.8e-13,1.8e-13,0.3,10.0,swift-xrt,,
+CTA102,57735.06,0.0,0.0,nan,3.9537e-11,1.6e-13,1.6e-13,0.3,10.0,swift-xrt,,
+CTA102,57738.05,0.0,0.0,nan,4.9888e-11,1.6e-13,1.6e-13,0.3,10.0,swift-xrt,,
+CTA102,57745.07,0.0,0.0,nan,4.1495e-11,1.7e-13,1.7e-13,0.3,10.0,swift-xrt,,
+CTA102,57748.33,0.0,0.0,nan,3.9903e-11,2.1e-13,2.1e-13,0.3,10.0,swift-xrt,,
+CTA102,57751.8,0.0,0.0,nan,4.7424e-11,1.6e-13,1.6e-13,0.3,10.0,swift-xrt,,
+CTA102,57752.54,0.0,0.0,nan,6.0256e-11,1.8e-13,1.8e-13,0.3,10.0,swift-xrt,,
+CTA102,57753.06,0.0,0.0,nan,5.7677e-11,1.5e-13,1.5e-13,0.3,10.0,swift-xrt,,
+CTA102,57754.37,0.0,0.0,nan,6.0954e-11,1.8e-13,1.8e-13,0.3,10.0,swift-xrt,,
+CTA102,57755.05,0.0,0.0,nan,4.7753e-11,2e-13,2e-13,0.3,10.0,swift-xrt,,
+CTA102,57759.69,0.0,0.0,nan,6.223001e-11,1.4e-13,1.4e-13,0.3,10.0,swift-xrt,,
+CTA102,57761.68,0.0,0.0,nan,4.7098e-11,1.5e-13,1.5e-13,0.3,10.0,swift-xrt,,
+CTA102,57763.14,0.0,0.0,nan,4.6026e-11,1.6e-13,1.6e-13,0.3,10.0,swift-xrt,,
+CTA102,57765.07,0.0,0.0,nan,3.8019e-11,4e-13,4e-13,0.3,10.0,swift-xrt,,
+CTA102,57768.86,0.0,0.0,nan,3.4754e-11,2.8e-13,2.8e-13,0.3,10.0,swift-xrt,,
+CTA102,57771.38,0.0,0.0,nan,3.2961e-11,2.2e-13,2.2e-13,0.3,10.0,swift-xrt,,
+CTA102,57863.68,0.0,0.0,nan,3.1769e-11,1.9e-13,1.9e-13,0.3,10.0,swift-xrt,,
+CTA102,57866.86,0.0,0.0,nan,3.0269e-11,1.9e-13,1.9e-13,0.3,10.0,swift-xrt,,
+CTA102,57869.13,0.0,0.0,nan,4.3053e-11,1.9e-13,1.9e-13,0.3,10.0,swift-xrt,,
+CTA102,57873.83,0.0,0.0,nan,4.1115e-11,2.6e-13,2.6e-13,0.3,10.0,swift-xrt,,
+CTA102,57874.31,0.0,0.0,nan,4.2364e-11,2.8e-13,2.8e-13,0.3,10.0,swift-xrt,,
+CTA102,57878.23,0.0,0.0,nan,2.6303e-11,4e-13,4e-13,0.3,10.0,swift-xrt,,
+CTA102,57879.75,0.0,0.0,nan,2.884e-11,4e-13,4e-13,0.3,10.0,swift-xrt,,
+CTA102,57966.04,0.0,0.0,nan,2.1979e-11,2.3e-13,2.3e-13,0.3,10.0,swift-xrt,,
+CTA102,57968.64,0.0,0.0,nan,2.5004e-11,2.1e-13,2.1e-13,0.3,10.0,swift-xrt,,
+CTA102,58095.17,0.0,0.0,nan,2.7102e-11,2.1e-13,2.1e-13,0.3,10.0,swift-xrt,,
+CTA102,58123.69,0.0,0.0,nan,4.14e-11,1.9e-13,1.9e-13,0.3,10.0,swift-xrt,,

@@ -1,0 +1,33 @@
+# %ECSV 1.0
+# ---
+# schema: astropy-2.0
+# delimiter: ','
+# datatype:
+# - {name: srcname, datatype: string}
+# - {name: t, unit: mjd, datatype: float64, description: Time of measurement}
+# - {name: t_wlo, unit: d, datatype: float32, description: Lower width of time bin}
+# - {name: t_wup, unit: d, datatype: float32, description: Upper width of time bin}
+# - {name: texpo, unit: h, datatype: float32, description: Exposure time}
+# - {name: flux, unit: 1 / (s cm2), datatype: float32, description: Flux measured above the energy threshold}
+# - {name: flux_elo, unit: 1 / (s cm2), datatype: float32, description: Lower uncertainty of flux}
+# - {name: flux_eup, unit: 1 / (s cm2), datatype: float32, description: Upper uncertainty of flux}
+# - {name: eth_lo, unit: GeV, datatype: float32, description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up, unit: GeV, datatype: float32, description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, datatype: string}
+# - {name: dataformat, datatype: string, description: Data Format}
+# - {name: comments, datatype: string, description: Comments}
+# meta: !!omap
+# - {Filename: magic_2024k_fig2_lc_magic.ecsv}
+# - {Source: CTA102}
+# - {Figure: Fig. 2}
+# - {Title: Constraints on VHE gamma-ray emission of flat spectrum radio quasars with the MAGIC telescopes}
+# - {Comments: Multiwavelength light curve.}
+# - {Reference: magic_2024k.yaml}
+# - {Status: To be checked}
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+CTA102,57715.9,0.0,0.0,3.2,1.1703e-10,nan,nan,100.0,inf,magic,ul,
+CTA102,57716.84,0.0,0.0,3.2,1.8783e-11,nan,nan,100.0,inf,magic,ul,
+CTA102,57737.84,0.0,0.0,3.2,1.4096e-10,nan,nan,100.0,inf,magic,ul,
+CTA102,57738.85,0.0,0.0,3.2,5.3782e-11,nan,nan,100.0,inf,magic,ul,
+CTA102,57748.84,0.0,0.0,3.2,1.8199e-10,nan,nan,100.0,inf,magic,ul,
+CTA102,58105.84,0.0,0.0,3.2,1.1668e-10,nan,nan,100.0,inf,magic,ul,

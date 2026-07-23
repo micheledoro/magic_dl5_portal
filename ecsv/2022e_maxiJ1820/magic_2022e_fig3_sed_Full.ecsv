@@ -1,47 +1,49 @@
 # %ECSV 1.0
 # ---
+# schema: astropy-2.0
 # delimiter: ','
 # datatype:
-# - {name: srcname   , unit:    , datatype: string     , description: Source name                         }
-# - {name: en        , unit: TeV     , datatype: float32 , description: Energy                              }
-# - {name: en_wlo    , unit: TeV     , datatype: float32 , description: Energy bin width low                }
-# - {name: en_wup    , unit: TeV     , datatype: float32 , description: Energy bin width up                 }
-# - {name: nufnu     , unit: TeV-1 cm-2 s-1, datatype: float32 , description: Differential photon flux at energy  }
-# - {name: nufnu_elo , unit: TeV-1 cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
-# - {name: nufnu_eup , unit: TeV-1 cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
-# - {name: tstart    , unit: mjd     , datatype: float64 , description: MJD start                           }
-# - {name: tstop     , unit: mjd     , datatype: float64 , description: MJD stop                            }
-# - {name: texpo     , unit: s       , datatype: float32 , description: Observation time                    }
-# - {name: instrument, unit:    , datatype: string     , description: Instrument                          }
-# - {name: dataformat, unit:    , datatype: string     , description: Data Format                         }
-# - {name: comments  , unit:    , datatype: string     , description: Comments                            }
+# - {name: srcname, datatype: string, description: Source name}
+# - {name: en, unit: TeV, datatype: float32, description: Energy}
+# - {name: en_wlo, unit: TeV, datatype: float32, description: Energy bin width low}
+# - {name: en_wup, unit: TeV, datatype: float32, description: Energy bin width up}
+# - {name: nufnu, unit: 1 / (TeV s cm2), datatype: float32, description: Differential photon flux at energy}
+# - {name: nufnu_elo, datatype: float64}
+# - {name: nufnu_eup, datatype: float64}
+# - {name: tstart, unit: mjd, datatype: float64, description: MJD start}
+# - {name: tstop, unit: mjd, datatype: float64, description: MJD stop}
+# - {name: texpo, unit: s, datatype: float32, description: Observation time}
+# - {name: instrument, datatype: string, description: Instrument}
+# - {name: dataformat, datatype: string, description: Data Format}
+# - {name: comments, datatype: string, description: Comments}
 # meta: !!omap
 # - {Filename: magic_2022e_fig3_Full_sed.ecsv}
-# - {Source: "MAXI J1820+070"}
-# - {Figure: "Figure 3 (top left panel) in the paper."}
-# - {Title: "Gamma-ray observations of MAXI J1820+070 during the 2018 outburst"}
-# - {Comments: "Differential VHE flux upper limits of MAXI J1820+070 during the whole period covered by the paper, i.e., in the time range MJD=[58189.0-58420.0]. Note: the data for this file have been extracted from the plot using the WebPlotDigitizer tool. The overall exposure for each instrument is taken from Table 2 of the paper."}
-# - {Reference: "magic_2022e.yaml"}
-# - {Status: "To be checked"}
-
+# - {Source: MAXI J1820+070}
+# - {Figure: Figure 3 (top left panel) in the paper.}
+# - {Title: Gamma-ray observations of MAXI J1820+070 during the 2018 outburst}
+# - {Comments: 'Differential VHE flux upper limits of MAXI J1820+070 during the whole period covered by the paper, i.e., in the time range
+#     MJD=[58189.0-58420.0]. Note: the data for this file have been extracted from the plot using the WebPlotDigitizer tool. The overall
+#     exposure for each instrument is taken from Table 2 of the paper.'}
+# - {Reference: magic_2022e.yaml}
+# - {Status: To be checked}
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
-MAXI J1820+070,2.84e-01,8.25e-02,8.25e-02,3.070e-12,-9.900e+01,-9.900e+01,58189.0,58420.0,214200.0,magic+hess+veritas,95% confidence level upper limit,
-MAXI J1820+070,5.22e-01,1.55e-01,1.56e-01,1.200e-12,-9.900e+01,-9.900e+01,58189.0,58420.0,214200.0,magic+hess+veritas,95% confidence level upper limit,
-MAXI J1820+070,9.64e-01,2.86e-01,2.86e-01,1.030e-13,-9.900e+01,-9.900e+01,58189.0,58420.0,214200.0,magic+hess+veritas,95% confidence level upper limit,
-MAXI J1820+070,1.77e+00,5.25e-01,5.25e-01,6.400e-14,-9.900e+01,-9.900e+01,58189.0,58420.0,214200.0,magic+hess+veritas,95% confidence level upper limit,
-MAXI J1820+070,3.28e+00,9.85e-01,9.85e-01,8.330e-15,-9.900e+01,-9.900e+01,58189.0,58420.0,214200.0,magic+hess+veritas,95% confidence level upper limit,
-MAXI J1820+070,2.84e-01,8.25e-02,8.25e-02,6.850e-12,-9.900e+01,-9.900e+01,58189.0,58420.0,81000.0,magic,95% confidence level upper limit,
-MAXI J1820+070,5.22e-01,1.55e-01,1.56e-01,6.400e-12,-9.900e+01,-9.900e+01,58189.0,58420.0,81000.0,magic,95% confidence level upper limit,
-MAXI J1820+070,9.64e-01,2.86e-01,2.86e-01,1.560e-12,-9.900e+01,-9.900e+01,58189.0,58420.0,81000.0,magic,95% confidence level upper limit,
-MAXI J1820+070,1.77e+00,5.25e-01,5.25e-01,2.360e-13,-9.900e+01,-9.900e+01,58189.0,58420.0,81000.0,magic,95% confidence level upper limit,
-MAXI J1820+070,3.28e+00,9.85e-01,9.85e-01,2.770e-14,-9.900e+01,-9.900e+01,58189.0,58420.0,81000.0,magic,95% confidence level upper limit,
-MAXI J1820+070,2.84e-01,8.25e-02,8.25e-02,2.560e-12,-9.900e+01,-9.900e+01,58189.0,58420.0,94680.0,hess,95% confidence level upper limit,
-MAXI J1820+070,5.22e-01,1.55e-01,1.56e-01,6.400e-12,-9.900e+01,-9.900e+01,58189.0,58420.0,94680.0,hess,95% confidence level upper limit,
-MAXI J1820+070,9.64e-01,2.86e-01,2.86e-01,9.020e-14,-9.900e+01,-9.900e+01,58189.0,58420.0,94680.0,hess,95% confidence level upper limit,
-MAXI J1820+070,1.77e+00,5.25e-01,5.25e-01,7.170e-14,-9.900e+01,-9.900e+01,58189.0,58420.0,94680.0,hess,95% confidence level upper limit,
-MAXI J1820+070,3.28e+00,9.85e-01,9.85e-01,1.710e-14,-9.900e+01,-9.900e+01,58189.0,58420.0,94680.0,hess,95% confidence level upper limit,
-MAXI J1820+070,2.84e-01,8.25e-02,8.25e-02,2.440e-11,-9.900e+01,-9.900e+01,58189.0,58420.0,38520.0,veritas,95% confidence level upper limit,
-MAXI J1820+070,5.22e-01,1.55e-01,1.56e-01,1.990e-12,-9.900e+01,-9.900e+01,58189.0,58420.0,38520.0,veritas,95% confidence level upper limit,
-MAXI J1820+070,9.64e-01,2.86e-01,2.86e-01,3.650e-13,-9.900e+01,-9.900e+01,58189.0,58420.0,38520.0,veritas,95% confidence level upper limit,
-MAXI J1820+070,1.77e+00,5.25e-01,5.25e-01,1.270e-13,-9.900e+01,-9.900e+01,58189.0,58420.0,38520.0,veritas,95% confidence level upper limit,
-MAXI J1820+070,3.28e+00,9.85e-01,9.85e-01,2.330e-14,-9.900e+01,-9.900e+01,58189.0,58420.0,38520.0,veritas,95% confidence level upper limit,
+MAXI J1820+070,0.284,0.0825,0.0825,3.07e-12,nan,nan,58189.0,58420.0,214200.0,magic+hess+veritas,95% confidence level upper limit,
+MAXI J1820+070,0.522,0.155,0.156,1.2e-12,nan,nan,58189.0,58420.0,214200.0,magic+hess+veritas,95% confidence level upper limit,
+MAXI J1820+070,0.964,0.286,0.286,1.03e-13,nan,nan,58189.0,58420.0,214200.0,magic+hess+veritas,95% confidence level upper limit,
+MAXI J1820+070,1.77,0.525,0.525,6.4e-14,nan,nan,58189.0,58420.0,214200.0,magic+hess+veritas,95% confidence level upper limit,
+MAXI J1820+070,3.28,0.985,0.985,8.33e-15,nan,nan,58189.0,58420.0,214200.0,magic+hess+veritas,95% confidence level upper limit,
+MAXI J1820+070,0.284,0.0825,0.0825,6.85e-12,nan,nan,58189.0,58420.0,81000.0,magic,95% confidence level upper limit,
+MAXI J1820+070,0.522,0.155,0.156,6.4e-12,nan,nan,58189.0,58420.0,81000.0,magic,95% confidence level upper limit,
+MAXI J1820+070,0.964,0.286,0.286,1.56e-12,nan,nan,58189.0,58420.0,81000.0,magic,95% confidence level upper limit,
+MAXI J1820+070,1.77,0.525,0.525,2.36e-13,nan,nan,58189.0,58420.0,81000.0,magic,95% confidence level upper limit,
+MAXI J1820+070,3.28,0.985,0.985,2.77e-14,nan,nan,58189.0,58420.0,81000.0,magic,95% confidence level upper limit,
+MAXI J1820+070,0.284,0.0825,0.0825,2.56e-12,nan,nan,58189.0,58420.0,94680.0,hess,95% confidence level upper limit,
+MAXI J1820+070,0.522,0.155,0.156,6.4e-12,nan,nan,58189.0,58420.0,94680.0,hess,95% confidence level upper limit,
+MAXI J1820+070,0.964,0.286,0.286,9.02e-14,nan,nan,58189.0,58420.0,94680.0,hess,95% confidence level upper limit,
+MAXI J1820+070,1.77,0.525,0.525,7.17e-14,nan,nan,58189.0,58420.0,94680.0,hess,95% confidence level upper limit,
+MAXI J1820+070,3.28,0.985,0.985,1.71e-14,nan,nan,58189.0,58420.0,94680.0,hess,95% confidence level upper limit,
+MAXI J1820+070,0.284,0.0825,0.0825,2.44e-11,nan,nan,58189.0,58420.0,38520.0,veritas,95% confidence level upper limit,
+MAXI J1820+070,0.522,0.155,0.156,1.99e-12,nan,nan,58189.0,58420.0,38520.0,veritas,95% confidence level upper limit,
+MAXI J1820+070,0.964,0.286,0.286,3.65e-13,nan,nan,58189.0,58420.0,38520.0,veritas,95% confidence level upper limit,
+MAXI J1820+070,1.77,0.525,0.525,1.27e-13,nan,nan,58189.0,58420.0,38520.0,veritas,95% confidence level upper limit,
+MAXI J1820+070,3.28,0.985,0.985,2.33e-14,nan,nan,58189.0,58420.0,38520.0,veritas,95% confidence level upper limit,

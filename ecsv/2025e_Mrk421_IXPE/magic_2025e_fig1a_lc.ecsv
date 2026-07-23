@@ -1,5 +1,6 @@
 # %ECSV 1.0
 # ---
+# schema: astropy-2.0
 # delimiter: ','
 # datatype:
 # - {name: srcname, datatype: string}
@@ -23,7 +24,6 @@
 # - {Comments: 'VHE data from MAGIC, >1 TeV band'}
 # - {Reference: magic_2025e.yaml}
 # - {Status: Done}
-# schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
 Mrk 421,60259.2376,0.0,0.0,0.0,3.1621e-11,2.9875e-12,2.9875e-12,1,,magic,Detection,None
 Mrk 421,60261.2463,0.0,0.0,0.0,2.9484e-11,2.9787e-12,2.9787e-12,1,,magic,Detection,None

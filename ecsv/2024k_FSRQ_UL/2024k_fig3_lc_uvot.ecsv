@@ -1,0 +1,33 @@
+# %ECSV 1.0
+# ---
+# schema: astropy-2.0
+# delimiter: ','
+# datatype:
+# - {name: srcname, datatype: string}
+# - {name: t, unit: mjd, datatype: float64, description: Time of measurement}
+# - {name: t_wlo, unit: d, datatype: float32, description: Lower width of time bin}
+# - {name: t_wup, unit: d, datatype: float32, description: Upper width of time bin}
+# - {name: texpo, unit: h, datatype: float32, description: Exposure time}
+# - {name: flux, unit: erg / (s cm2), datatype: float32, description: Flux measured above the energy threshold}
+# - {name: flux_elo, unit: erg / (s cm2), datatype: float32, description: Lower uncertainty of flux}
+# - {name: flux_eup, unit: erg / (s cm2), datatype: float32, description: Upper uncertainty of flux}
+# - {name: eth_lo, unit: nm, datatype: float32, description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up, unit: nm, datatype: float32, description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, datatype: string}
+# - {name: dataformat, datatype: string, description: Data Format}
+# - {name: comments, datatype: string, description: Comments}
+# meta: !!omap
+# - {Filename: 2024k_fig3_lc_uvot.ecsv}
+# - {Source: B22234+28A}
+# - {Figure: Fig. 3}
+# - {Title: Constraints on VHE gamma-ray emission of flat spectrum radio quasars with the MAGIC telescopes}
+# - {Comments: Multiwavelength light curve.}
+# - {Reference: magic_2024k.yaml}
+# - {Status: To be checked}
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+B22234+28A,58668.3,0.0,0.0,nan,1.0534e-11,3.8091e-13,3.8091e-13,220.0,400.0,swift-uvot-w1,,
+B22234+28A,58642.1,0.0,0.0,nan,1.4509e-11,3.7471e-13,3.7471e-13,160.0,320.0,swift-uvot-m2,,
+B22234+28A,58668.3,0.0,0.0,nan,1.1938e-11,3.9254e-13,3.9254e-13,160.0,320.0,swift-uvot-m2,,
+B22234+28A,58641.1,0.0,0.0,nan,8.8046e-12,2.1913e-13,2.1913e-13,nan,nan,swift-uvot-w2,,
+B22234+28A,58668.3,0.0,0.0,nan,7.8295e-12,3.3207e-13,3.3207e-13,nan,nan,swift-uvot-w2,,
+B22234+28A,58668.3,0.0,0.0,nan,8.7955e-12,6.075e-13,6.075e-13,500.0,700.0,swift-uvot-v,,

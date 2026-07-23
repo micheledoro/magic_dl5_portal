@@ -1,43 +1,42 @@
 # %ECSV 1.0
 # ---
+# schema: astropy-2.0
 # delimiter: ','
 # datatype:
-# - {name: srcname   , unit:    , datatype: string     , description: Source name                                          }
-# - {name: t         , unit: mjd     , datatype: float64 , description: Time of measurement                                  }
-# - {name: t_wlo     , unit: d    , datatype: float32 , description: Lower width of time bin                                 }
-# - {name: t_wup     , unit: d    , datatype: float32 , description: Upper width of time bin                                 }
-# - {name: texpo     , unit: h    , datatype: float32 , description: Exposure time                                           }
-# - {name: flux     , unit: erg cm-2 s-1, datatype: float32 , description: Flux measured above the energy threshold              }
-# - {name: flux_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty of flux                             }
-# - {name: flux_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty of flux                             }
-# - {name: eth_lo      , unit: TeV,      datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
-# - {name: eth_up      , unit: TeV,      datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
-# - {name: instrument, unit:    , datatype: string     , description: Instrument                                           }
-# - {name: dataformat, unit:    , datatype: string     , description: Data Format                                          }
-# - {name: comments  , unit:    , datatype: string     , description: Comments                                             }
+# - {name: srcname, datatype: string, description: Source name}
+# - {name: t, unit: mjd, datatype: float64, description: Time of measurement}
+# - {name: t_wlo, unit: d, datatype: float32, description: Lower width of time bin}
+# - {name: t_wup, unit: d, datatype: float32, description: Upper width of time bin}
+# - {name: texpo, unit: h, datatype: float32, description: Exposure time}
+# - {name: flux, unit: erg / (s cm2), datatype: float32, description: Flux measured above the energy threshold}
+# - {name: flux_elo, datatype: float64}
+# - {name: flux_eup, datatype: float64}
+# - {name: eth_lo, unit: TeV, datatype: float32, description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up, unit: TeV, datatype: float32, description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, datatype: string, description: Instrument}
+# - {name: dataformat, datatype: string, description: Data Format}
+# - {name: comments, datatype: string, description: Comments}
 # meta: !!omap
 # - {Filename: magic_2023a_fig1a_lc.ecsv}
-# - {Source: "1ES0647+250"}
-# - {Figure: "Figure 1, panel a (first from top) in the paper."}
-# - {Title: "Long-term multi-wavelength study of 1ES 0647+250"}
-# - {Comments: "Datapoints from MAGIC light curves in the >100 GeV band. Four MAGIC Epochs: E1 (2009-2011),E2 (2014),E3 (2019),E4 (2020)."}
-# - {Reference: "magic_2023a.yaml"}
-# - {Status: "Validated"}
-
-# schema: astropy-2.0
+# - {Source: 1ES0647+250}
+# - {Figure: 'Figure 1, panel a (first from top) in the paper.'}
+# - {Title: Long-term multi-wavelength study of 1ES 0647+250}
+# - {Comments: 'Datapoints from MAGIC light curves in the >100 GeV band. Four MAGIC Epochs: E1 (2009-2011),E2 (2014),E3 (2019),E4 (2020).'}
+# - {Reference: magic_2023a.yaml}
+# - {Status: Validated}
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
-1ES0647+250,55146.7,15.0,15.0,26.7,1.4584e-11,6.9553e-12,2.2213e-11,0.1,nan,magic,Detection with 1sigma uncertainty,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
-1ES0647+250,55214.6,15.0,15.0,,3.0383e-12,-2.3114e-12,8.3880e-12,0.1,nan,magic,Detection with 1sigma uncertainty,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
-1ES0647+250,55486.2,15.0,15.0,,2.5311e-12,-5.7831e-12,1.0845e-11,0.1,nan,magic,Detection with 1sigma uncertainty,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
-1ES0647+250,55511.2,15.0,15.0,,5.9355e-12,4.2397e-13,1.1447e-11,0.1,nan,magic,Detection with 1sigma uncertainty,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
-1ES0647+250,55553.6,15.0,15.0,,3.2179e-12,-2.4794e-12,8.9152e-12,0.1,nan,magic,Detection with 1sigma uncertainty,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
-1ES0647+250,55579.6,15.0,15.0,,1.2031e-11,8.2895e-12,1.5773e-11,0.1,nan,magic,Detection with 1sigma uncertainty,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
-1ES0647+250,55609.0,15.0,15.0,,1.0295e-11,5.8805e-12,1.4710e-11,0.1,nan,magic,Detection with 1sigma uncertainty,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
-1ES0647+250,56986.7,0.5,0.5,2.2,1.6197e-11,8.3707e-12,2.4024e-11,0.1,nan,magic,Detection with 1sigma uncertainty,"MAGIC live time for epoch E2 2014 is 2.2 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
-1ES0647+250,58820.1,1.1,1.1,2.7,3.8193e-11,2.9386e-11,4.7000e-11,0.1,nan,magic,Detection with 1sigma uncertainty,"MAGIC live time for epoch E3 2019 is 2.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
-1ES0647+250,59203.2,5.1,5.1,13.5,6.7278e-11,6.3284e-11,7.1271e-11,0.1,nan,magic,Detection with 1sigma uncertainty,"MAGIC live time for epoch E4 2020 is 13.5 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
-1ES0647+250,55146.7,15.0,15.0,,4.4196e-11,-9.9000e+01,-9.9000e+01,0.1,nan,magic,95% confidence upper limit,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
-1ES0647+250,55214.6,15.0,15.0,,1.7989e-11,-9.9000e+01,-9.9000e+01,0.1,nan,magic,95% confidence upper limit,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
-1ES0647+250,55486.2,15.0,15.0,,2.3708e-11,-9.9000e+01,-9.9000e+01,0.1,nan,magic,95% confidence upper limit,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
-1ES0647+250,55511.2,15.0,15.0,,2.3548e-11,-9.9000e+01,-9.9000e+01,0.1,nan,magic,95% confidence upper limit,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
-1ES0647+250,55553.6,15.0,15.0,,1.9198e-11,-9.9000e+01,-9.9000e+01,0.1,nan,magic,95% confidence upper limit,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
+1ES0647+250,55146.7,15.0,15.0,26.7,1.4584e-11,7.62870062259724e-12,7.628999862396846e-12,0.1,nan,magic,Detection with 1sigma uncertainty,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
+1ES0647+250,55214.6,15.0,15.0,,3.0383e-12,5.349700066617502e-12,5.3497002834579366e-12,0.1,nan,magic,Detection with 1sigma uncertainty,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
+1ES0647+250,55486.2,15.0,15.0,,2.5311e-12,8.314200022896401e-12,8.313900349415926e-12,0.1,nan,magic,Detection with 1sigma uncertainty,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
+1ES0647+250,55511.2,15.0,15.0,,5.9355e-12,5.511529926026382e-12,5.511499676785769e-12,0.1,nan,magic,Detection with 1sigma uncertainty,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
+1ES0647+250,55553.6,15.0,15.0,,3.2179e-12,5.697299836765479e-12,5.697300270446348e-12,0.1,nan,magic,Detection with 1sigma uncertainty,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
+1ES0647+250,55579.6,15.0,15.0,,1.2031e-11,3.741500165244105e-12,3.741998898243448e-12,0.1,nan,magic,Detection with 1sigma uncertainty,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
+1ES0647+250,55609.0,15.0,15.0,,1.0295e-11,4.414500015537115e-12,4.415000483259934e-12,0.1,nan,magic,Detection with 1sigma uncertainty,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
+1ES0647+250,56986.7,0.5,0.5,2.2,1.6197e-11,7.826300371660544e-12,7.826999465221363e-12,0.1,nan,magic,Detection with 1sigma uncertainty,"MAGIC live time for epoch E2 2014 is 2.2 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
+1ES0647+250,58820.1,1.1,1.1,2.7,3.8193e-11,8.807000267951892e-12,8.807000267951892e-12,0.1,nan,magic,Detection with 1sigma uncertainty,"MAGIC live time for epoch E3 2019 is 2.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
+1ES0647+250,59203.2,5.1,5.1,13.5,6.7278e-11,3.993999575513385e-12,3.993000374791222e-12,0.1,nan,magic,Detection with 1sigma uncertainty,"MAGIC live time for epoch E4 2020 is 13.5 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
+1ES0647+250,55146.7,15.0,15.0,,4.4196e-11,nan,nan,0.1,nan,magic,95% confidence upper limit,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
+1ES0647+250,55214.6,15.0,15.0,,1.7989e-11,nan,nan,0.1,nan,magic,95% confidence upper limit,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
+1ES0647+250,55486.2,15.0,15.0,,2.3708e-11,nan,nan,0.1,nan,magic,95% confidence upper limit,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
+1ES0647+250,55511.2,15.0,15.0,,2.3548e-11,nan,nan,0.1,nan,magic,95% confidence upper limit,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"
+1ES0647+250,55553.6,15.0,15.0,,1.9198e-11,nan,nan,0.1,nan,magic,95% confidence upper limit,"MAGIC live time for epoch E1 2009-2011 is 26.7 h (A&A 670, A49 Table 1); it is the epoch total, not this point's exposure"

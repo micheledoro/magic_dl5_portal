@@ -1,0 +1,38 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: srcname, datatype: string}
+# - {name: en, unit: TeV, datatype: float64}
+# - {name: en_wlo, unit: TeV, datatype: float64}
+# - {name: en_wup, unit: TeV, datatype: float64}
+# - {name: nufnu, unit: erg / (s cm2), datatype: float64}
+# - {name: nufnu_elo, unit: erg / (s cm2), datatype: float64}
+# - {name: nufnu_eup, unit: erg / (s cm2), datatype: float64}
+# - {name: tstart, unit: mjd, datatype: float64}
+# - {name: tstop, unit: mjd, datatype: float64}
+# - {name: texpo, unit: h, datatype: float64}
+# - {name: instrument, datatype: string}
+# - {name: dataformat, datatype: string}
+# - {name: comments, datatype: string}
+# delimiter: ','
+# meta: !!omap
+# - {Filename: magic_2026g_fig7_sed_16.ecsv}
+# - {Source: Mrk 421}
+# - {Figure: 'Figure 7, MAGIC nightly SED #16'}
+# - {Title: 'The January 2010 flare of Mrk 421: Insights from a stochastic acceleration model'}
+# - {Provenance: authors; MAGIC points extracted; observation window and exposure from the paper's >200 GeV light curve (Fig. 1) for the same night}
+# - {Reference: magic_2026g.yaml}
+# - {Status: In preparation}
+# schema: astropy-2.0
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+Mrk421,0.23092774963378906,nan,,1.4860379042071956e-10,2.589394411713804e-11,2.589394411713804e-11,55222.283795,55222.290478,0.16038,magic,data,
+Mrk421,0.3076820373535156,nan,,1.316720805492734e-10,2.4381589676923726e-11,2.4381589676923726e-11,55222.283795,55222.290478,0.16038,magic,data,
+Mrk421,0.4224166564941406,nan,,1.240381663514471e-10,2.47130495134364e-11,2.47130495134364e-11,55222.283795,55222.290478,0.16038,magic,data,
+Mrk421,0.5850025024414063,nan,,1.1927914571512547e-10,2.6169864513749097e-11,2.6169864513749097e-11,55222.283795,55222.290478,0.16038,magic,data,
+Mrk421,0.7923163452148437,nan,,7.546945773117739e-11,2.187444159243142e-11,2.187444159243142e-11,55222.283795,55222.290478,0.16038,magic,data,
+Mrk421,1.0699539794921875,nan,,1.0943119311115238e-10,3.255317723112587e-11,3.255317723112587e-11,55222.283795,55222.290478,0.16038,magic,data,
+Mrk421,1.4530574951171875,nan,,1.3387357818770345e-10,4.3629277482370644e-11,4.3629277482370644e-11,55222.283795,55222.290478,0.16038,magic,data,
+Mrk421,1.9979295654296874,nan,,7.349422054543571e-11,3.332046715177435e-11,3.332046715177435e-11,55222.283795,55222.290478,0.16038,magic,data,
+Mrk421,2.646880615234375,nan,,5.1888223704467124e-11,3.4577880529705555e-11,3.4577880529705555e-11,55222.283795,55222.290478,0.16038,magic,data,
+Mrk421,3.70114599609375,nan,,2.8930286708170407e-11,2.904242513289069e-11,2.904242513289069e-11,55222.283795,55222.290478,0.16038,magic,data,
+Mrk421,4.90920947265625,nan,,4.053427989327571e-11,4.070738451932682e-11,4.070738451932682e-11,55222.283795,55222.290478,0.16038,magic,data,
