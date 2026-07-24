@@ -1,0 +1,33 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:             , datatype: string  , description: Source name}
+# - {name: t         , unit: mjd         , datatype: float64 , description: Time of measurement}
+# - {name: t_wlo     , unit: d           , datatype: float32 , description: Lower width of time bin}
+# - {name: t_wup     , unit: d           , datatype: float32 , description: Upper width of time bin}
+# - {name: texpo     , unit: h           , datatype: float32 , description: Exposure time}
+# - {name: flux      , unit: cm-2 s-1    , datatype: float32 , description: Flux measured above the energy threshold}
+# - {name: flux_elo  , unit: cm-2 s-1    , datatype: float32 , description: Lower uncertainty of flux}
+# - {name: flux_eup  , unit: cm-2 s-1    , datatype: float32 , description: Upper uncertainty of flux}
+# - {name: eth_lo    , unit: GeV         , datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up    , unit: GeV         , datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, unit:             , datatype: string  , description: Instrument}
+# - {name: dataformat, unit:             , datatype: string  , description: Data Format}
+# - {name: comments  , unit:             , datatype: string  , description: Comments}
+# meta: !!omap
+# - {Filename: magic_2023d_fig2_lc.ecsv}
+# - {Source: "1ES 0229+200"}
+# - {Figure: "Fig. 2"}
+# - {Title: "A lower bound on intergalactic magnetic fields from time variability of 1ES 0229+200 from MAGIC and Fermi/LAT observations"}
+# - {Comments: "Integral flux above 200 GeV. Per-bin exposure not provided by the authors; the paper quotes 145.5 h in total."}
+# - {Reference: "magic_2023d.yaml"}
+# - {Status: "In preparation"}
+# schema: astropy-2.0
+
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+1ES0229+200,56597.5,62.5,62.5,nan,3.6900e-12,5.0100e-13,5.0100e-13,200.0,nan,magic,detection,
+1ES0229+200,56974.0,71.0,71.0,nan,3.2400e-12,7.4900e-13,7.4900e-13,200.0,nan,magic,detection,
+1ES0229+200,57320.0,50.0,50.0,nan,1.3600e-12,6.1200e-13,6.1200e-13,200.0,nan,magic,detection,
+1ES0229+200,57720.0,70.0,70.0,nan,4.5800e-13,6.1500e-13,6.1500e-13,200.0,nan,magic,detection,
+1ES0229+200,58047.5,67.5,67.5,nan,2.1900e-12,7.4800e-13,7.4800e-13,200.0,nan,magic,detection,

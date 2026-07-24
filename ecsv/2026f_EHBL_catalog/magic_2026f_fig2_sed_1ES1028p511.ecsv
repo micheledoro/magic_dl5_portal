@@ -1,0 +1,30 @@
+# %ECSV 1.0
+# ---
+# schema: astropy-2.0
+# delimiter: ','
+# datatype:
+# - {name: srcname, datatype: string, description: Source name}
+# - {name: en, unit: TeV, datatype: float32, description: Energy}
+# - {name: en_wlo, unit: TeV, datatype: float32, description: Energy bin width low}
+# - {name: en_wup, unit: TeV, datatype: float32, description: Energy bin width up}
+# - {name: nufnu, unit: erg / (s cm2), datatype: float32, description: Differential photon flux at energy}
+# - {name: nufnu_elo, unit: erg / (s cm2), datatype: float32, description: Lower uncertainty in nufnu}
+# - {name: nufnu_eup, unit: erg / (s cm2), datatype: float32, description: Upper uncertainty in nufnu}
+# - {name: tstart, unit: mjd, datatype: float64}
+# - {name: tstop, unit: mjd, datatype: float64}
+# - {name: texpo, unit: h, datatype: float32, description: Observation time}
+# - {name: instrument, datatype: string}
+# - {name: dataformat, datatype: string, description: Data Format}
+# - {name: comments, datatype: string, description: Comments}
+# meta: !!omap
+# - {Filename: magic_2026f_fig2_sed_1ES1028p511.ecsv}
+# - {Source: 1ES 1028+511}
+# - {Figure: 'Figure 2, MAGIC+LST-1 SED (observed), 1ES1028p511'}
+# - {Title: 'Extreme Blazars Observed with MAGIC: Second Catalog Release'}
+# - {Comments: Add comments}
+# - {Reference: magic_2026f.yaml}
+# - {Status: In preparation}
+# - {Provenance: authors (as provided)}
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+1ES 1028+511,0.1452096,0.04343166,0.06196525,4.289323e-12,1.302969e-12,1.302969e-12,59632.971,60381.029,25.3,magic+lst1,sed,
+1ES 1028+511,0.2955825,0.08840767,0.1261339,1.141548e-12,5.415726e-13,5.415726e-13,59632.971,60381.029,25.3,magic+lst1,sed,

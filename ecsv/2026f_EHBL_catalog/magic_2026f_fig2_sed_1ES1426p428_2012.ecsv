@@ -1,0 +1,33 @@
+# %ECSV 1.0
+# ---
+# schema: astropy-2.0
+# delimiter: ','
+# datatype:
+# - {name: srcname, datatype: string, description: Source name}
+# - {name: en, unit: TeV, datatype: float32, description: Energy}
+# - {name: en_wlo, unit: TeV, datatype: float32, description: Energy bin width low}
+# - {name: en_wup, unit: TeV, datatype: float32, description: Energy bin width up}
+# - {name: nufnu, unit: erg / (s cm2), datatype: float32, description: Differential photon flux at energy}
+# - {name: nufnu_elo, unit: erg / (s cm2), datatype: float32, description: Lower uncertainty in nufnu}
+# - {name: nufnu_eup, unit: erg / (s cm2), datatype: float32, description: Upper uncertainty in nufnu}
+# - {name: tstart, unit: mjd, datatype: float64}
+# - {name: tstop, unit: mjd, datatype: float64}
+# - {name: texpo, unit: h, datatype: float32, description: Observation time}
+# - {name: instrument, datatype: string}
+# - {name: dataformat, datatype: string, description: Data Format}
+# - {name: comments, datatype: string, description: Comments}
+# meta: !!omap
+# - {Filename: magic_2026f_fig2_sed_1ES1426p428_2012.ecsv}
+# - {Source: 1ES 1426+428}
+# - {Figure: 'Figure 2, MAGIC+LST-1 SED (observed), 1ES1426p428_2012'}
+# - {Title: 'Extreme Blazars Observed with MAGIC: Second Catalog Release'}
+# - {Comments: Add comments}
+# - {Reference: magic_2026f.yaml}
+# - {Status: In preparation}
+# - {Provenance: authors (as provided)}
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+1ES 1426+428,0.1477,0.035,0.04,2.329565e-12,1.121524e-12,1.602177e-12,56035.114523,56066.067565,12.8,magic,sed,
+1ES 1426+428,0.2548,0.06,0.07,3.092201e-12,1.121524e-12,1.602177e-12,56035.114523,56066.067565,12.8,magic,sed,
+1ES 1426+428,0.4426,0.1,0.14,1.953053e-12,1.121524e-12,1.602177e-12,56035.114523,56066.067565,12.8,magic,sed,
+1ES 1426+428,0.7577,0.17,0.21,1.054713e-12,8.010883e-13,1.602177e-12,56035.114523,56066.067565,12.8,magic,sed,
+1ES 1426+428,1.271,0.32,0.4,1.031802e-12,8.010883e-13,1.602177e-12,56035.114523,56066.067565,12.8,magic,sed,

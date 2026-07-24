@@ -1,0 +1,32 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                         }
+# - {name: en        , unit: TeV     , datatype: float32 , description: Energy                              }
+# - {name: en_wlo    , unit: TeV     , datatype: float32 , description: Energy bin width low                }
+# - {name: en_wup    , unit: TeV     , datatype: float32 , description: Energy bin width up                 }
+# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Spectral energy distribution point (nuFnu) }
+# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
+# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
+# - {name: tstart    , unit: mjd     , datatype: float64 , description: MJD start                           }
+# - {name: tstop     , unit: mjd     , datatype: float64 , description: MJD stop                            }
+# - {name: texpo     , unit: h       , datatype: float32 , description: Observation time                    }
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                          }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                         }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                            }
+# meta: !!omap
+# - {Filename: magic_2023e_fig9_sed.ecsv}
+# - {Source: "MAGICJ2019+408 -- MAGIC J2019+408, Gaussian-shaped extended source"}
+# - {Figure: "Fig. 9"}
+# - {Title: "Study of the GeV to TeV morphology of the gamma-Cygni SNR (G 78.2+2.1) with MAGIC and Fermi-LAT: evidence for cosmic ray escape"}
+# - {Comments: "Digitised from the published figure with WebPlotDigitizer -- the paper tabulates only the fitted spectral parameters, not the points. The figure axis is E^2 dN/dE in eV cm-2 s-1, converted here to nuFnu in erg cm-2 s-1. Energy bins are 3 per decade, fitted to the horizontal bars of all three components; the point energy is the mean of the three readings per bin. Error bars are symmetric in linear flux, so the upper and lower readings are averaged. NOT supplied by the authors."}
+# - {Reference: "magic_2023e.yaml"}
+# - {Status: "In preparation"}
+# schema: astropy-2.0
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+MAGICJ2019+408,0.36630,0.11190,0.17670,1.7223e-12,2.7181e-13,2.7181e-13,57143.0,58026.0,87.0,magic,detection,
+MAGICJ2019+408,0.80090,0.25790,0.35810,8.9658e-13,2.6332e-13,2.6332e-13,57143.0,58026.0,87.0,magic,detection,
+MAGICJ2019+408,1.71090,0.55190,0.76280,2.4914e-13,7.7465e-14,7.7465e-14,57143.0,58026.0,87.0,magic,detection,
+MAGICJ2019+408,3.35570,0.88200,1.92440,1.6855e-13,nan,nan,57143.0,58026.0,87.0,magic,ul,upper limit

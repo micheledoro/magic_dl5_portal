@@ -1,0 +1,21 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# datatype:
+# - {name: lcoh      , unit: Mpc         , datatype: float32 , description: IGMF coherence length}
+# - {name: blim      , unit: G           , datatype: float32 , description: IGMF strength lower limit}
+# meta: !!omap
+# - {Filename: magic_2023d_fig5_igmf.ecsv}
+# - {Source: "1ES 0229+200"}
+# - {Figure: "Fig. 5"}
+# - {Title: "A lower bound on intergalactic magnetic fields from time variability of 1ES 0229+200 from MAGIC and Fermi/LAT observations"}
+# - {Comments: "Lower bound on the intergalactic magnetic field strength versus coherence length, from the combined Fermi-LAT and Cherenkov-telescope datasets. A derived limit, not an observation: it has no ObsCore representation and is not served to the VO."}
+# - {Reference: "magic_2023d.yaml"}
+# - {Status: "In preparation"}
+# schema: astropy-2.0
+
+lcoh,blim
+1,8.1e-18
+0.1,1.1e-17
+0.01,2.1e-17
+0.001,6.1e-17

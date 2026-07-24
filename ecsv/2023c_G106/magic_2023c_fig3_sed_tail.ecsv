@@ -1,0 +1,32 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                         }
+# - {name: en        , unit: TeV     , datatype: float32 , description: Energy                              }
+# - {name: en_wlo    , unit: TeV     , datatype: float32 , description: Energy bin width low                }
+# - {name: en_wup    , unit: TeV     , datatype: float32 , description: Energy bin width up                 }
+# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Spectral energy distribution point (nuFnu) }
+# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
+# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
+# - {name: tstart    , unit: mjd     , datatype: float64 , description: MJD start                           }
+# - {name: tstop     , unit: mjd     , datatype: float64 , description: MJD stop                            }
+# - {name: texpo     , unit: h       , datatype: float32 , description: Observation time                    }
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                          }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                         }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                            }
+# meta: !!omap
+# - {Filename: magic_2023c_fig3_sed_tail.ecsv}
+# - {Source: "SNR G106.3+2.7 (tail region)"}
+# - {Figure: "Fig. 3"}
+# - {Title: "MAGIC observations provide compelling evidence of the hadronic multi-TeV emission from the putative PeVatron SNR G106.3+2.7"}
+# - {Comments: "Converted from the legacy MAGIC FITS (MAGIC_2023_Boom.fits). Bin width from Denergy (full width, split symmetrically). Campaign May 2017-Aug 2019 (month precision)."}
+# - {Reference: "magic_2023c.yaml"}
+# - {Status: "In preparation"}
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+G106.3+2.7,0.3785,0.1743,0.1743,5.1184e-13,1.9150e-13,1.9150e-13,57874.0,58726.0,121.7,magic,detection,
+G106.3+2.7,0.9508,0.4379,0.4379,8.3058e-13,2.2883e-13,2.2883e-13,57874.0,58726.0,121.7,magic,detection,
+G106.3+2.7,2.3883,1.0998,1.0998,6.9490e-13,2.5472e-13,2.5472e-13,57874.0,58726.0,121.7,magic,detection,
+G106.3+2.7,5.9990,2.7626,2.7626,1.1062e-12,3.2528e-13,3.2528e-13,57874.0,58726.0,121.7,magic,detection,
+G106.3+2.7,15.0688,6.9394,6.9394,1.0583e-12,3.6588e-13,3.6588e-13,57874.0,58726.0,121.7,magic,detection,

@@ -1,0 +1,27 @@
+File_info:
+ Fdate   : 20260724
+ Fvers   : "v1.0"
+ Fgen    : Michele Doro michele.doro@unipd.it
+ Fmail   : magic_legacy@mpp.mpg.de
+ Flink   : <https://raw.githubusercontent.com/micheledoro/magic_dl5_portal/refs/heads/main/ecsv>
+ Fstatus : "Checked"
+Paper info:
+ Ptitle   : "A lower bound on intergalactic magnetic fields from time variability of 1ES 0229+200 from MAGIC and Fermi/LAT observations"
+ Pref     : A&A 670, A145 (2023)
+ Pdoi     : https://doi.org/10.1051/0004-6361/202244126
+ Parxiv   : https://arxiv.org/abs/2210.03321
+ Pcoll    : magic
+ Pcauthor : I. Vovk, P. Da Vela, A. Neronov
+ Pfauthor : V. A. Acciari, I. Agudo, T. Aniello, S. Ansoldi, L. A. Antonelli, A. Arbet Engels, M. Artero, K. Asano, D. Baack, A. Babić, A. Baquero, U. Barres de Almeida, J. A. Barrio, I. Batković, J. Becerra González, W. Bednarek, E. Bernardini, M. Bernardos, A. Berti, J. Besenrieder, W. Bhattacharyya, C. Bigongiari, A. Biland, O. Blanch, H. Bökenkamp, G. Bonnoli, Ž. Bošnjak, I. Burelli, G. Busetto, R. Carosi, G. Ceribella, M. Cerruti, Y. Chai, A. Chilingarian, S. Cikota, E. Colombo, J. L. Contreras, J. Cortina, S. Covino, G. D'Amico, V. D'Elia, P. Da Vela, F. Dazzi, A. De Angelis, B. De Lotto, A. Del Popolo, M. Delfino, J. Delgado, C. Delgado Mendez, D. Depaoli, F. Di Pierro, L. Di Venere, E. Do Souto Espiñeira, D. Dominis Prester, A. Donini, D. Dorner, M. Doro, D. Elsaesser, V. Fallah Ramazani, L. Fariña, A. Fattorini, L. Font, C. Fruck, S. Fukami, Y. Fukazawa, R. J. García López, M. Garczarczyk, S. Gasparyan, M. Gaug, N. Giglietto, F. Giordano, P. Gliwny, N. Godinović, J. G. Green, D. Green, D. Hadasch, A. Hahn, T. Hassan, L. Heckmann, J. Herrera, D. Hrupec, M. Hütten, T. Inada, R. Iotov, K. Ishio, Y. Iwamura, I. Jiménez Martínez, J. Jormanainen, L. Jouvin, D. Kerszberg, Y. Kobayashi, H. Kubo, J. Kushida, A. Lamastra, D. Lelas, F. Leone, E. Lindfors, L. Linhoff, I. Liodakis, S. Lombardi, F. Longo, R. López-Coto, M. López-Moya, A. López-Oramas, S. Loporchio, A. Lorini, B. Machado de Oliveira Fraga, C. Maggio, P. Majumdar, M. Makariev, M. Mallamaci, G. Maneva, M. Manganaro, K. Mannheim, M. Mariotti, M. Martínez, A. Mas Aguilar, D. Mazin, S. Menchiari, S. Mender, S. Mićanović, D. Miceli, T. Miener, J. M. Miranda, R. Mirzoyan, E. Molina, H. A. Mondal, A. Moralejo, D. Morcuende, V. Moreno, E. Moretti, T. Nakamori, C. Nanci, L. Nava, V. Neustroev, M. Nievas Rosillo, C. Nigro, K. Nilsson, K. Nishijima, K. Noda, S. Nozaki, Y. Ohtani, T. Oka, J. Otero-Santos, S. Paiano, M. Palatiello, D. Paneque, R. Paoletti, J. M. Paredes, L. Pavletić, P. Peñil, M. Persic, M. Pihet, P. G. Prada Moroni, E. Prandini, C. Priyadarshi, I. Puljak, W. Rhode, M. Ribó, J. Rico, C. Righi, A. Rugliancich, N. Sahakyan, T. Saito, S. Sakurai, K. Satalecka, F. G. Saturni, B. Schleicher, K. Schmidt, F. Schmuckermaier, J. L. Schubert, T. Schweizer, J. Sitarek, I. Šnidarić, D. Sobczynska, A. Spolon, A. Stamerra, J. Strišković, D. Strom, M. Strzys, Y. Suda, T. Surić, M. Takahashi, R. Takeishi, F. Tavecchio, P. Temnikov, T. Terzić, M. Teshima, L. Tosti, S. Truzzi, A. Tutone, S. Ubach, J. van Scherpenberg, G. Vanzo, M. Vazquez Acosta, S. Ventura, V. Verguilov, I. Viale, C. F. Vigorito, V. Vitale, I. Vovk, M. Will, C. Wunderlich, T. Yamamoto, D. Zarić, A. Neronov, D. Semikoz, A. Korochkin
+ Pads     : 2023A&A...670A.145A
+ Pinspire : MAGIC:2022piy
+Targets in file:
+ Tpname01 : 1ES0229+200
+ Taname01 : RX J0232.8+2017
+ Tra01    : 38.20256203
+ Tdec01   : 20.28819075
+File list MAGIC:
+ magic_2023d_fig1_sed.ecsv
+ magic_2023d_fig2_lc.ecsv
+Other Files:
+ magic_2023d_fig5_igmf.ecsv

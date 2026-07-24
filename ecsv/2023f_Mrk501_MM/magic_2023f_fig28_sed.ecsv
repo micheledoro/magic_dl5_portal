@@ -1,0 +1,32 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                         }
+# - {name: en        , unit: eV     , datatype: float32 , description: Energy                              }
+# - {name: en_wlo    , unit: eV     , datatype: float32 , description: Energy bin width low                }
+# - {name: en_wup    , unit: eV     , datatype: float32 , description: Energy bin width up                 }
+# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Differential photon flux at energy  }
+# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
+# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
+# - {name: tstart    , unit: mjd     , datatype: float64 , description: MJD start                           }
+# - {name: tstop     , unit: mjd     , datatype: float64 , description: MJD stop                            }
+# - {name: texpo     , unit: s       , datatype: float32 , description: Observation time                    }
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                          }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                         }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                            }
+# meta: !!omap
+# - {Filename: magic_2023f_fig28_sed.ecsv}
+# - {Source: "Mrk 501"}
+# - {Figure: "Figure 28 in the paper."}
+# - {Title: "Multimessenger Characterization of Markarian 501 during Historically Low X-Ray and Gamma-Ray Activity"}
+# - {Comments: "Broad-band SED around the third NuSTAR observation, taken on 2018-04-20 (MJD 58228); Fermi and MAGIC data are averaged on two weeks, centered on the NuSTAR observation. MAGIC points only. Fluxes digitised from the published figure -- this panel is not in the VizieR catalogue J/ApJS/266/37, which carries only Figs. 9a-c, and the authors did not answer. Energies and bin widths are taken from magic_2023f_fig9c_sed.ecsv, whose MAGIC points use the same analysis bins (the digitised energies agree with them to 0.4-3.8%)."}
+# - {Reference: "magic_2023f.yaml"}
+# - {Status: "Checked"}
+# schema: astropy-2.0
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+Mrk 501,7.84e+10,2.69e+10,2.69e+10,7.5540e-12,4.3020e-12,4.3020e-12,58221.0,58235.0,nan,magic,Detection with 1 sigma uncertainty,
+Mrk 501,1.56e+11,5.36e+10,5.36e+10,3.4520e-12,1.9075e-12,1.9075e-12,58221.0,58235.0,nan,magic,Detection with 1 sigma uncertainty,
+Mrk 501,3.12e+11,1.07e+11,1.07e+11,1.9930e-12,1.2503e-12,1.2503e-12,58221.0,58235.0,nan,magic,Detection with 1 sigma uncertainty,
+Mrk 501,6.21e+11,2.13e+11,2.13e+11,1.7730e-12,1.0328e-12,1.0328e-12,58221.0,58235.0,nan,magic,Detection with 1 sigma uncertainty,

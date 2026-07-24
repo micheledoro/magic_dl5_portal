@@ -1,0 +1,31 @@
+File_info:
+ Fdate   : 20260724
+ Fvers   : "v1.0"
+ Fgen    : Michele Doro michele.doro@unipd.it
+ Fmail   : magic_legacy@mpp.mpg.de
+ Flink   : <https://raw.githubusercontent.com/micheledoro/magic_dl5_portal/refs/heads/main/ecsv>
+ Fstatus : "Checked"
+Paper info:
+ Ptitle   : "Study of the GeV to TeV morphology of the gamma-Cygni SNR (G 78.2+2.1) with MAGIC and Fermi-LAT: evidence for cosmic ray escape"
+ Pref     : A&A 670, A8 (2023)
+ Pdoi     : https://doi.org/10.1051/0004-6361/202038748
+ Parxiv   : https://arxiv.org/abs/2010.15854
+ Pcoll    : magic
+ Pcauthor : M. Strzys, G. Morlino, S. Masuda, I. Vovk
+ Pfauthor : V. A. Acciari, S. Ansoldi, L. A. Antonelli, A. Arbet Engels, D. Baack, A. Babić, B. Banerjee, U. Barres de Almeida, J. A. Barrio, J. Becerra González, W. Bednarek, L. Bellizzi, E. Bernardini, A. Berti, J. Besenrieder, W. Bhattacharyya, C. Bigongiari, A. Biland, O. Blanch, G. Bonnoli, Ž. Bošnjak, G. Busetto, R. Carosi, G. Ceribella, M. Cerruti, Y. Chai, A. Chilingarian, S. Cikota, S. M. Colak, U. Colin, E. Colombo, J. L. Contreras, J. Cortina, S. Covino, V. D'Elia, P. Da Vela, F. Dazzi, A. De Angelis, B. De Lotto, M. Delfino, J. Delgado, D. Depaoli, F. Di Pierro, L. Di Venere, E. Do Souto Espiñeira, D. Dominis Prester, A. Donini, D. Dorner, M. Doro, D. Elsaesser, V. Fallah Ramazani, A. Fattorini, G. Ferrara, L. Foffano, M. V. Fonseca, L. Font, C. Fruck, S. Fukami, R. J. García López, M. Garczarczyk, S. Gasparyan, M. Gaug, N. Giglietto, F. Giordano, P. Gliwny, N. Godinović, D. Green, D. Hadasch, A. Hahn, J. Herrera, J. Hoang, D. Hrupec, M. Hütten, T. Inada, S. Inoue, K. Ishio, Y. Iwamura, L. Jouvin, Y. Kajiwara, M. Karjalainen, D. Kerszberg, Y. Kobayashi, H. Kubo, J. Kushida, A. Lamastra, D. Lelas, F. Leone, E. Lindfors, S. Lombardi, F. Longo, M. López, R. López-Coto, A. López-Oramas, S. Loporchio, B. Machado de Oliveira Fraga, S. Masuda, C. Maggio, P. Majumdar, M. Makariev, M. Mallamaci, G. Maneva, M. Manganaro, K. Mannheim, L. Maraschi, M. Mariotti, M. Martínez, D. Mazin, S. Mender, S. Mićanović, D. Miceli, T. Miener, M. Minev, J. M. Miranda, R. Mirzoyan, E. Molina, A. Moralejo, D. Morcuende, V. Moreno, E. Moretti, P. Munar-Adrover, V. Neustroev, C. Nigro, K. Nilsson, D. Ninci, K. Nishijima, K. Noda, L. Nogués, S. Nozaki, Y. Ohtani, T. Oka, J. Otero-Santos, M. Palatiello, D. Paneque, R. Paoletti, J. M. Paredes, L. Pavletić, P. Peñil, M. Peresano, M. Persic, P. G. Prada Moroni, E. Prandini, I. Puljak, W. Rhode, M. Ribó, J. Rico, C. Righi, A. Rugliancich, L. Saha, N. Sahakyan, T. Saito, S. Sakurai, K. Satalecka, B. Schleicher, K. Schmidt, T. Schweizer, J. Sitarek, I. Šnidarić, D. Sobczynska, A. Spolon, A. Stamerra, D. Strom, M. Strzys, Y. Suda, T. Surić, M. Takahashi, F. Tavecchio, P. Temnikov, T. Terzić, M. Teshima, N. Torres-Albà, L. Tosti, J. van Scherpenberg, G. Vanzo, M. Vazquez Acosta, S. Ventura, V. Verguilov, C. F. Vigorito, V. Vitale, I. Vovk, M. Will, D. Zarić, S. Celli, G. Morlino
+ Pads     : 2023A&A...670A...8M
+ Pinspire : MAGIC:2020bim
+Targets in file:
+ Tpname01 : G78.2+2.1
+ Taname01 : gamma-Cygni SNR
+ Tra01    : 305.07125
+ Tdec01   : 40.43583
+ Tpname02 : MAGICJ2019+408
+ Taname02 :
+ Tra02    : 304.93
+ Tdec02   : 40.87
+File list MAGIC:
+ magic_2023e_fig7_sed_shell.ecsv
+ magic_2023e_fig7_sed_arc.ecsv
+ magic_2023e_fig9_sed.ecsv
+Other Files:
