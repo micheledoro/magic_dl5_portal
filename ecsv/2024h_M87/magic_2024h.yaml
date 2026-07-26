@@ -3,7 +3,7 @@ File_info:
  Fvers   : #version of files after publication
  Fgen    : Ilaria Viale, iviale@to.infn.it
  Fmail   : magic_legacy@mpp.mpg.de
- Flink   : <link_to_thisfile_repository>
+ Flink   : <https://raw.githubusercontent.com/micheledoro/magic_dl5_portal/refs/heads/main/ecsv>
  Fstatus : "Checked"
 Paper info:
  Ptitle: "Broadband multi-wavelength properties of M87 during the 2018 EHT campaign including a very high energy flaring episode"

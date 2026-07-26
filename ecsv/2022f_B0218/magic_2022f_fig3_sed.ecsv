@@ -1,0 +1,34 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string  , description: Source name }
+# - {name: en        , unit: TeV , datatype: float32 , description: Energy }
+# - {name: en_wlo    , unit: TeV , datatype: float32 , description: Energy bin width low }
+# - {name: en_wup    , unit: TeV , datatype: float32 , description: Energy bin width up }
+# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Spectral energy distribution point (nuFnu) }
+# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu }
+# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu }
+# - {name: tstart    , unit: mjd , datatype: float64 , description: MJD start }
+# - {name: tstop     , unit: mjd , datatype: float64 , description: MJD stop }
+# - {name: texpo     , unit: h   , datatype: float32 , description: Observation time }
+# - {name: instrument, unit:    , datatype: string  , description: Instrument }
+# - {name: dataformat, unit:    , datatype: string  , description: Data Format }
+# - {name: comments  , unit:    , datatype: string  , description: Comments }
+# meta: !!omap
+# - {Filename: magic_2022f_fig3_sed.ecsv}
+# - {Source: "QSO B0218+357"}
+# - {Figure: "Figure 3 in the paper (MAGIC SED upper limits)."}
+# - {Title: "Multiwavelength study of the gravitationally lensed blazar QSO B0218+357 between 2016 and 2020"}
+# - {Arxiv: "https://arxiv.org/abs/2111.12926"}
+# - {Comments: "MAGIC VHE SED, 95% upper limits above 65 GeV over the 2016-2020 campaign. Recovered from the legacy MAGIC FITS."}
+# - {Reference: "magic_2022f.yaml"}
+# - {Status: "To be checked"}
+
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+QSO B0218+357,0.0500833,nan,nan,1.9945e-11,0.,0.,57396.87300,58874.86500,nan,magic,ul,
+QSO B0218+357,0.0792445,nan,nan,5.4578e-12,0.,0.,57396.87300,58874.86500,nan,magic,ul,
+QSO B0218+357,0.124437,nan,nan,1.6625e-12,0.,0.,57396.87300,58874.86500,nan,magic,ul,
+QSO B0218+357,0.194553,nan,nan,1.0809e-12,0.,0.,57396.87300,58874.86500,nan,magic,ul,
+QSO B0218+357,0.301545,nan,nan,3.0862e-13,0.,0.,57396.87300,58874.86500,nan,magic,ul,
+QSO B0218+357,0.471588,nan,nan,5.1048e-14,0.,0.,57396.87300,58874.86500,nan,magic,ul,

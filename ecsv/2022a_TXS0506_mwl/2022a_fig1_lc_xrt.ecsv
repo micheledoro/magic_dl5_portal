@@ -1,0 +1,81 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string  , description: Source name }
+# - {name: t         , unit: mjd , datatype: float64 , description: Time of measurement }
+# - {name: t_wlo     , unit: d   , datatype: float32 , description: Lower width of time bin }
+# - {name: t_wup     , unit: d   , datatype: float32 , description: Upper width of time bin }
+# - {name: texpo     , unit: h   , datatype: float32 , description: Exposure time }
+# - {name: flux      , unit: erg cm-2 s-1, datatype: float32 , description: Flux }
+# - {name: flux_elo  , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty of flux }
+# - {name: flux_eup  , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty of flux }
+# - {name: eth_lo    , unit: keV, datatype: float32 , description: Lower energy/frequency of the band }
+# - {name: eth_up    , unit: keV, datatype: float32 , description: Upper energy/frequency of the band }
+# - {name: instrument, unit:    , datatype: string  , description: Instrument }
+# - {name: dataformat, unit:    , datatype: string  , description: Data Format }
+# - {name: comments  , unit:    , datatype: string  , description: Comments }
+# meta: !!omap
+# - {Filename: 2022a_fig1_lc_xrt.ecsv}
+# - {Source: "TXS 0506+056"}
+# - {Figure: "Figure 1 (Swift-XRT panel) in the paper."}
+# - {Title: "Investigating the Blazar TXS 0506+056 through Sharp Multiwavelength Eyes During 2017-2019"}
+# - {Arxiv: "https://arxiv.org/abs/2202.02600"}
+# - {Comments: "Swift-XRT 0.3-10 keV flux (revised calibration). 2018-2019 plus 2017 archival."}
+# - {Reference: "magic_2022a.yaml"}
+# - {Status: "To be checked"}
+
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+TXS 0506+056,58019.00643,nan,nan,0.222222,2.9000e-12,8.1000e-13,8.1000e-13,0.3,10,swift-xrt,detection,"2017 archival"
+TXS 0506+056,58023.78845,nan,nan,1.36589,3.0591e-12,1.4110e-13,1.7150e-13,0.3,10,swift-xrt,detection,"2017 archival"
+TXS 0506+056,58026.18918,nan,nan,0.544556,1.3241e-12,2.1580e-13,2.4410e-13,0.3,10,swift-xrt,detection,"2017 archival"
+TXS 0506+056,58028.63146,nan,nan,0.549389,2.5370e-12,1.9590e-13,3.1940e-13,0.3,10,swift-xrt,detection,"2017 archival"
+TXS 0506+056,58029.57187,nan,nan,0.305222,4.9507e-12,4.6550e-13,4.4200e-13,0.3,10,swift-xrt,detection,"2017 archival"
+TXS 0506+056,58030.69938,nan,nan,0.325333,4.2085e-12,3.7670e-13,4.3580e-13,0.3,10,swift-xrt,detection,"2017 archival"
+TXS 0506+056,58031.69280,nan,nan,0.636806,6.2831e-12,2.8880e-13,4.4330e-13,0.3,10,swift-xrt,detection,"2017 archival"
+TXS 0506+056,58032.55662,nan,nan,0.586861,2.5538e-12,2.7350e-13,3.7000e-13,0.3,10,swift-xrt,detection,"2017 archival"
+TXS 0506+056,58034.41505,nan,nan,0.533444,2.9506e-12,3.0200e-13,4.0380e-13,0.3,10,swift-xrt,detection,"2017 archival"
+TXS 0506+056,58042.60085,nan,nan,0.607667,2.0534e-12,3.4280e-13,4.0980e-13,0.3,10,swift-xrt,detection,"2017 archival"
+TXS 0506+056,58046.57794,nan,nan,0.629861,1.4834e-12,2.7230e-13,3.7480e-13,0.3,10,swift-xrt,detection,"2017 archival"
+TXS 0506+056,58050.68496,nan,nan,0.803306,1.4862e-12,1.4930e-13,2.5090e-13,0.3,10,swift-xrt,detection,"2017 archival"
+TXS 0506+056,58059.59003,nan,nan,0.920528,1.6405e-12,1.7660e-13,1.3600e-13,0.3,10,swift-xrt,detection,"2017 archival"
+TXS 0506+056,58065.30285,nan,nan,nan,1.1740e-12,1.6500e-13,1.6500e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58068.29104,nan,nan,nan,7.5430e-13,1.3650e-13,1.3650e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58069.03367,nan,nan,nan,1.2980e-12,2.2100e-13,2.2100e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58071.02612,nan,nan,nan,1.3600e-12,1.9750e-13,1.9750e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58072.09200,nan,nan,nan,3.7520e-13,2.0340e-13,2.0340e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58073.08787,nan,nan,nan,1.2770e-12,4.2320e-13,4.2320e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58074.15309,nan,nan,nan,1.1320e-12,1.5700e-13,1.5700e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58075.07951,nan,nan,nan,7.8940e-13,2.3630e-13,2.3630e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58075.66072,nan,nan,nan,1.3050e-12,3.3280e-13,3.3280e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58076.07541,nan,nan,nan,1.7410e-12,4.8350e-13,4.8350e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58077.07112,nan,nan,nan,9.7360e-13,2.5590e-13,2.5590e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58078.06701,nan,nan,nan,5.0880e-13,1.7800e-13,1.7800e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58079.06278,nan,nan,nan,9.7950e-13,3.5140e-13,3.5140e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58080.12733,nan,nan,nan,7.5230e-13,2.3590e-13,2.3590e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58081.12317,nan,nan,nan,4.0550e-13,2.4330e-13,2.4330e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58083.11478,nan,nan,nan,6.6040e-13,3.4960e-13,3.4960e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58084.04501,nan,nan,nan,1.3990e-12,5.2200e-13,5.2200e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58086.10398,nan,nan,nan,7.2090e-13,3.4660e-13,3.4660e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58087.15160,nan,nan,nan,6.7010e-13,2.0500e-13,2.0500e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58115.97762,nan,nan,nan,1.8560e-12,8.0100e-13,8.0100e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58127.13844,nan,nan,nan,8.7380e-13,3.9620e-13,3.9620e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58129.20768,nan,nan,nan,6.1930e-13,2.2960e-13,2.2960e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58130.01186,nan,nan,nan,6.3740e-13,1.6300e-13,1.6300e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58131.25721,nan,nan,nan,3.8950e-13,1.7150e-13,1.7150e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58133.85628,nan,nan,nan,1.0880e-12,1.6950e-13,1.6950e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58135.18893,nan,nan,nan,9.7000e-13,3.3310e-13,3.3310e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58137.24331,nan,nan,nan,8.7880e-13,4.3780e-13,4.3780e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58137.90850,nan,nan,nan,7.9790e-13,1.9580e-13,1.9580e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58139.22571,nan,nan,nan,4.7440e-13,1.3810e-13,1.3810e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58192.89226,nan,nan,nan,1.4870e-12,4.6050e-13,4.6050e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58194.42300,nan,nan,nan,2.2770e-12,4.7500e-13,4.7500e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58211.69718,nan,nan,nan,1.6700e-12,5.2450e-13,5.2450e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58408.07400,nan,nan,nan,1.7690e-12,2.0300e-13,2.0300e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58437.42719,nan,nan,nan,1.3020e-12,3.7590e-13,3.7590e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58456.02376,nan,nan,nan,1.4990e-12,2.7300e-13,2.7300e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58457.01824,nan,nan,nan,1.7240e-12,3.3100e-13,3.3100e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58458.01471,nan,nan,nan,1.5180e-12,3.4500e-13,3.4500e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58459.09783,nan,nan,nan,1.6540e-12,3.2100e-13,3.2100e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58461.02161,nan,nan,nan,1.2410e-12,3.6060e-13,3.6060e-13,0.3,10,swift-xrt,detection,""
+TXS 0506+056,58463.53072,nan,nan,nan,1.3430e-12,3.1440e-13,3.1440e-13,0.3,10,swift-xrt,detection,""

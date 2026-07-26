@@ -1,0 +1,26 @@
+File_info:
+ Fdate   : 20260726
+ Fvers   : "v1.0"
+ Fgen    : Michele Doro, michele.doro@unipd.it
+ Fmail   : magic_legacy@mpp.mpg.de
+ Flink   : <https://raw.githubusercontent.com/micheledoro/magic_dl5_portal/refs/heads/main/ecsv>
+ Fstatus : "Checked"
+Paper info:
+ Ptitle: "Multiwavelength study of the gravitationally lensed blazar QSO B0218+357 between 2016 and 2020"
+ Pref     : "Monthly Notices of the Royal Astronomical Society, Volume 510, Issue 2, 2681-2703"
+ Pdoi     : https://doi.org/10.1093/mnras/stab3454
+ Parxiv   : https://arxiv.org/abs/2111.12926
+ Pcoll    : magic, externals
+ Pcauthor : J. Sitarek, A. Lamastra, E. Lindfors, M. Manganaro, F. de Palma
+ Pfauthor : Acciari, V. A.; Ansoldi, S.; Antonelli, L. A.; Arbet Engels, A.; Artero, M.; Asano, K.; Baack, D.; Babić, A.; Baquero, A.; Barres de Almeida, U.; Barrio, J. A.; Batković, I.; Becerra González, J.; Bednarek, W.; Bellizzi, L.; Bernardini, E.; Bernardos, M.; Berti, A.; Besenrieder, J.; Bhattacharyya, W.; Bigongiari, C.; Biland, A.; Blanch, O.; Bonnoli, G.; Bošnjak, Ž.; Busetto, G.; Carosi, R.; Ceribella, G.; Cerruti, M.; Chai, Y.; Chilingarian, A.; Cikota, S.; Colak, S. M.; Colombo, E.; Contreras, J. L.; Cortina, J.; Covino, S.; D'Amico, G.; D'Elia, V.; Da Vela, P.; Dazzi, F.; De Angelis, A.; De Lotto, B.; Delfino, M.; Delgado, J.; Delgado Mendez, C.; Depaoli, D.; Di Pierro, F.; Di Venere, L.; Do Souto Espiñeira, E.; Dominis Prester, D.; Donini, A.; Dorner, D.; Doro, M.; Elsaesser, D.; Fallah Ramazani, V.; Fattorini, A.; Ferrara, G.; Fonseca, M. V.; Font, L.; Fruck, C.; Fukami, S.; García López, R. J.; Garczarczyk, M.; Gasparyan, S.; Gaug, M.; Giglietto, N.; Giordano, F.; Gliwny, P.; Godinović, N.; Green, J. G.; Green, D.; Hadasch, D.; Hahn, A.; Heckmann, L.; Herrera, J.; Hoang, J.; Hrupec, D.; Hütten, M.; Inada, T.; Inoue, S.; Ishio, K.; Iwamura, Y.; Jiménez, I.; Jormanainen, J.; Jouvin, L.; Kajiwara, Y.; Karjalainen, M.; Kerszberg, D.; Kobayashi, Y.; Kubo, H.; Kushida, J.; Lamastra, A.; Lelas, D.; Leone, F.; Lindfors, E.; Lombardi, S.; Longo, F.; López-Coto, R.; López-Moya, M.; López-Oramas, A.; Loporchio, S.; Machado de Oliveira Fraga, B.; Maggio, C.; Majumdar, P.; Makariev, M.; Mallamaci, M.; Maneva, G.; Manganaro, M.; Mannheim, K.; Maraschi, L.; Mariotti, M.; Martínez, M.; Mazin, D.; Menchiari, S.; Mender, S.; Mićanović, S.; Miceli, D.; Miener, T.; Minev, M.; Miranda, J. M.; Mirzoyan, R.; Molina, E.; Moralejo, A.; Morcuende, D.; Moreno, V.; Moretti, E.; Neustroev, V.; Nigro, C.; Nilsson, K.; Nishijima, K.; Noda, K.; Nozaki, S.; Ohtani, Y.; Oka, T.; Otero-Santos, J.; Paiano, S.; Palatiello, M.; Paneque, D.; Paoletti, R.; Paredes, J. M.; Pavletić, L.; Peñil, P.; Perennes, C.; Persic, M.; Prada Moroni, P. G.; Prandini, E.; Priyadarshi, C.; Puljak, I.; Rhode, W.; Ribó, M.; Rico, J.; Righi, C.; Rugliancich, A.; Saha, L.; Sahakyan, N.; Saito, T.; Sakurai, S.; Satalecka, K.; Saturni, F. G.; Schleicher, B.; Schmidt, K.; Schweizer, T.; Sitarek, J.; Šnidarić, I.; Sobczynska, D.; Spolon, A.; Stamerra, A.; Strom, D.; Strzys, M.; Suda, Y.; Surić, T.; Takahashi, M.; Tavecchio, F.; Temnikov, P.; Terzić, T.; Teshima, M.; Tosti, L.; Truzzi, S.; Tutone, A.; Ubach, S.; van Scherpenberg, J.; Vanzo, G.; Vazquez Acosta, M.; Ventura, S.; Verguilov, V.; Vigorito, C. F.; Vitale, V.; Vovk, I.; Will, M.; Wunderlich, C.; Zarić, D.; de Palma, F.; D'Ammando, F.; Barnacka, A.; Sahu, D. K.; Hodges, M.; Hovatta, T.; Kiehlmann, S.; Max-Moerbeck, W.; Readhead, A. C. S.; Reeves, R.; Pearson, T. J.; Lähteenmäki, A.; Björklund, I.; Tornikoski, M.; Tammi, J.; Suutarinen, S.; Hada, K.; Niinuma, K.
+ Pads     : 2022MNRAS.510.2681A
+ Pinspire : MAGIC:2021vgu
+Targets in file:
+ Tpname01: QSO B0218+357
+ Tra01:  35.27275
+ Tdec01: 35.93725
+File list MAGIC:
+ magic_2022f_fig1_lc.ecsv
+ magic_2022f_fig3_sed.ecsv
+Other Files:
+ MAGIC_2021_B0218.fits

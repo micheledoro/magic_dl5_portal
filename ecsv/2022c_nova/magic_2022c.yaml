@@ -1,0 +1,30 @@
+File_info:
+ Fdate   : 20260726
+ Fvers   : "v1.0"
+ Fgen    : Michele Doro, michele.doro@unipd.it
+ Fmail   : magic_legacy@mpp.mpg.de
+ Flink   : <https://raw.githubusercontent.com/micheledoro/magic_dl5_portal/refs/heads/main/ecsv>
+ Fstatus : "Checked"
+Paper info:
+ Ptitle: "Proton acceleration in thermonuclear nova explosions revealed by gamma rays"
+ Pref     : Nat. Astron. 6, 689-697
+ Pdoi     : https://doi.org/10.1038/s41550-022-01640-z
+ Parxiv   : https://arxiv.org/abs/2202.07681
+ Pcoll    : magic, externals
+ Pcauthor : J. Sitarek, R. López-Coto, D. Green, A. López-Oramas
+ Pfauthor : Acciari, V. A.; Ansoldi, S.; Antonelli, L. A.; Arbet Engels, A.; Artero, M.; Asano, K.; Baack, D.; Babić, A.; Baquero, A.; Barres de Almeida, U.; Barrio, J. A.; Batković, I.; Becerra González, J.; Bednarek, W.; Bellizzi, L.; Bernardini, E.; Bernardos, M.; Berti, A.; Besenrieder, J.; Bhattacharyya, W.; Bigongiari, C.; Biland, A.; Blanch, O.; Bökenkamp, H.; Bonnoli, G.; Bošnjak, Ž.; Busetto, G.; Carosi, R.; Ceribella, G.; Cerruti, M.; Chai, Y.; Chilingarian, A.; Cikota, S.; Colak, S. M.; Colombo, E.; Contreras, J. L.; Cortina, J.; Covino, S.; D'Amico, G.; D'Elia, V.; Da Vela, P.; Dazzi, F.; De Angelis, A.; De Lotto, B.; Del Popolo, A.; Delfino, M.; Delgado, J.; Delgado Mendez, C.; Depaoli, D.; Di Pierro, F.; Di Venere, L.; Do Souto Espiñeira, E.; Dominis Prester, D.; Donini, A.; Dorner, D.; Doro, M.; Elsaesser, D.; Fallah Ramazani, V.; Fariña Alonso, L.; Fattorini, A.; Fonseca, M. V.; Font, L.; Fruck, C.; Fukami, S.; Fukazawa, Y.; García López, R. J.; Garczarczyk, M.; Gasparyan, S.; Gaug, M.; Giglietto, N.; Giordano, F.; Gliwny, P.; Godinović, N.; Green, J. G.; Green, D.; Hadasch, D.; Hahn, A.; Hassan, T.; Heckmann, L.; Herrera, J.; Hoang, J.; Hrupec, D.; Hütten, M.; Inada, T.; Ishio, K.; Iwamura, Y.; Jiménez Martínez, I.; Jormanainen, J.; Jouvin, L.; Kerszberg, D.; Kobayashi, Y.; Kubo, H.; Kushida, J.; Lamastra, A.; Lelas, D.; Leone, F.; Lindfors, E.; Linhoff, L.; Lombardi, S.; Longo, F.; López-Coto, R.; López-Moya, M.; López-Oramas, A.; Loporchio, S.; Machado de Oliveira Fraga, B.; Maggio, C.; Majumdar, P.; Makariev, M.; Mallamaci, M.; Maneva, G.; Manganaro, M.; Mannheim, K.; Maraschi, L.; Mariotti, M.; Martínez, M.; Mas Aguilar, A.; Mazin, D.; Menchiari, S.; Mender, S.; Mićanović, S.; Miceli, D.; Miener, T.; Miranda, J. M.; Mirzoyan, R.; Molina, E.; Moralejo, A.; Morcuende, D.; Moreno, V.; Moretti, E.; Nakamori, T.; Nava, L.; Neustroev, V.; Nievas Rosillo, M.; Nigro, C.; Nilsson, K.; Nishijima, K.; Noda, K.; Nozaki, S.; Ohtani, Y.; Oka, T.; Otero-Santos, J.; Paiano, S.; Palatiello, M.; Paneque, D.; Paoletti, R.; Paredes, J. M.; Pavletić, L.; Peñil, P.; Persic, M.; Pihet, M.; Prada Moroni, P. G.; Prandini, E.; Priyadarshi, C.; Puljak, I.; Rhode, W.; Ribó, M.; Rico, J.; Righi, C.; Rugliancich, A.; Sahakyan, N.; Saito, T.; Sakurai, S.; Satalecka, K.; Saturni, F. G.; Schleicher, B.; Schmidt, K.; Schweizer, T.; Sitarek, J.; Šnidarić, I.; Sobczynska, D.; Spolon, A.; Stamerra, A.; Strišković, J.; Strom, D.; Strzys, M.; Suda, Y.; Surić, T.; Takahashi, M.; Takeishi, R.; Tavecchio, F.; Temnikov, P.; Terzić, T.; Teshima, M.; Tosti, L.; Truzzi, S.; Tutone, A.; Ubach, S.; van Scherpenberg, J.; Vanzo, G.; Vazquez Acosta, M.; Ventura, S.; Verguilov, V.; Vigorito, C. F.; Vitale, V.; Vovk, I.; Will, M.; Wunderlich, C.; Yamamoto, T.; Zarić, D.; Ambrosino, F.; Cecconi, M.; Catanzaro, G.; Ferrara, C.; Frasca, A.; Munari, M.; Giustolisi, L.; Alonso-Santiago, J.; Giarrusso, M.; Munari, U.; Valisa, P.
+ Pads     : 2022NatAs...6..689A
+ Pinspire : MAGIC:2022rmr
+Targets in file: 
+ Tpname01: RS Ophiuchi
+ Taname01: 
+ Tra01:  267.55483
+ Tdec01: -6.707911
+File list MAGIC:
+ magic_2022c_fig12_sed_day1.ecsv
+ magic_2022c_fig12_sed_day2.ecsv
+ magic_2022c_fig12_sed_day3.ecsv
+ magic_2022c_fig12_sed_day4.ecsv
+ magic_2022c_fig1_lc.ecsv
+ magic_2022c_fig3_sed.ecsv
+Other Files:

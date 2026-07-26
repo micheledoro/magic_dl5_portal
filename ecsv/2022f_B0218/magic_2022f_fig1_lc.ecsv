@@ -1,0 +1,101 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string  , description: Source name }
+# - {name: t         , unit: mjd , datatype: float64 , description: Time of measurement }
+# - {name: t_wlo     , unit: d   , datatype: float32 , description: Lower width of time bin }
+# - {name: t_wup     , unit: d   , datatype: float32 , description: Upper width of time bin }
+# - {name: texpo     , unit: h   , datatype: float32 , description: Observation time }
+# - {name: flux      , unit: cm-2 s-1, datatype: float32 , description: Integral flux above the threshold }
+# - {name: flux_elo  , unit: cm-2 s-1, datatype: float32 , description: Lower uncertainty of flux }
+# - {name: flux_eup  , unit: cm-2 s-1, datatype: float32 , description: Upper uncertainty of flux }
+# - {name: eth_lo    , unit: GeV, datatype: float32 , description: Lower energy threshold }
+# - {name: eth_up    , unit: GeV, datatype: float32 , description: Upper energy threshold }
+# - {name: instrument, unit:    , datatype: string  , description: Instrument }
+# - {name: dataformat, unit:    , datatype: string  , description: Data Format }
+# - {name: comments  , unit:    , datatype: string  , description: Comments }
+# meta: !!omap
+# - {Filename: magic_2022f_fig1_lc.ecsv}
+# - {Source: "QSO B0218+357"}
+# - {Figure: "Figure 1 (MAGIC panel) in the paper."}
+# - {Title: "Multiwavelength study of the gravitationally lensed blazar QSO B0218+357 between 2016 and 2020"}
+# - {Arxiv: "https://arxiv.org/abs/2111.12926"}
+# - {Comments: "MAGIC nightly 95% upper limits on the integral flux above 100 GeV (2016-2020). The source was not significantly detected on any single night. Recovered from the legacy MAGIC FITS."}
+# - {Reference: "magic_2022f.yaml"}
+# - {Status: "To be checked"}
+
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+QSO B0218+357,57396.87300,0,0,nan,1.8918e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,57397.84400,0,0,nan,6.5594e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,57398.86100,0,0,nan,2.5745e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,57614.17200,0,0,nan,7.0436e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,57627.15800,0,0,nan,3.7697e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,57631.13700,0,0,nan,2.9694e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,57632.13200,0,0,nan,5.0944e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,57633.14800,0,0,nan,8.5468e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,57638.13400,0,0,nan,4.8036e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,57639.14900,0,0,nan,3.1239e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,57641.09100,0,0,nan,2.9144e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,57643.16000,0,0,nan,2.3829e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,57645.21800,0,0,nan,4.5398e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,57656.03500,0,0,nan,1.0698e-10,0.,0.,100,nan,magic,ul,
+QSO B0218+357,57661.03500,0,0,nan,1.0390e-10,0.,0.,100,nan,magic,ul,
+QSO B0218+357,57662.05300,0,0,nan,3.3599e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,57767.83900,0,0,nan,6.7452e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,57769.85300,0,0,nan,3.1007e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,57771.85100,0,0,nan,2.5027e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,57984.12900,0,0,nan,1.5128e-10,0.,0.,100,nan,magic,ul,
+QSO B0218+357,57985.16900,0,0,nan,6.9705e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58012.09500,0,0,nan,4.3237e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58017.10800,0,0,nan,5.8803e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58028.18300,0,0,nan,5.3707e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58045.02600,0,0,nan,3.5635e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58056.12100,0,0,nan,2.7564e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58068.00200,0,0,nan,1.0923e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58069.98300,0,0,nan,5.5039e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58072.00700,0,0,nan,1.9241e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58093.86000,0,0,nan,2.6086e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58095.94500,0,0,nan,3.1353e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58097.97900,0,0,nan,2.4631e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58122.85400,0,0,nan,3.0648e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58340.19500,0,0,nan,1.8983e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58368.12200,0,0,nan,4.3268e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58370.10600,0,0,nan,4.5711e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58372.10400,0,0,nan,2.3419e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58397.06500,0,0,nan,3.1350e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58423.95900,0,0,nan,1.2096e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58426.95500,0,0,nan,4.0673e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58448.89200,0,0,nan,4.5061e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58449.87300,0,0,nan,2.1775e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58450.92800,0,0,nan,1.5177e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58452.91400,0,0,nan,1.2870e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58477.85400,0,0,nan,2.7268e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58479.84800,0,0,nan,3.4916e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58481.84700,0,0,nan,2.2415e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58506.85600,0,0,nan,2.5643e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58508.85500,0,0,nan,1.4300e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58697.20300,0,0,nan,1.2577e-10,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58722.14200,0,0,nan,8.3760e-12,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58723.21200,0,0,nan,5.3896e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58724.20600,0,0,nan,1.2891e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58750.06900,0,0,nan,1.5986e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58752.09900,0,0,nan,3.2753e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58754.11400,0,0,nan,3.5148e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58766.18500,0,0,nan,2.3095e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58779.02000,0,0,nan,7.3749e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58781.08500,0,0,nan,6.8357e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58793.10100,0,0,nan,4.4807e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58804.92900,0,0,nan,3.4072e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58806.96600,0,0,nan,4.7416e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58818.96900,0,0,nan,1.9439e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58831.84500,0,0,nan,3.0696e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58834.94700,0,0,nan,2.7211e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58836.86100,0,0,nan,6.1996e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58860.84400,0,0,nan,3.2428e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58861.86200,0,0,nan,9.4392e-12,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58862.85700,0,0,nan,1.1827e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58863.87400,0,0,nan,2.7665e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58864.88900,0,0,nan,4.7085e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58867.85100,0,0,nan,1.3298e-11,0.,0.,100,nan,magic,ul,
+QSO B0218+357,58874.86500,0,0,nan,2.6382e-11,0.,0.,100,nan,magic,ul,

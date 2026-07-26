@@ -3,7 +3,7 @@ File_info:
  Fvers   : #version of files after publication
  Fgen    : Ilaria Viale, iviale@to.infn.it
  Fmail   : magic_legacy@mpp.mpg.de
- Flink   : <link_to_thisfile_repository>
+ Flink   : <https://raw.githubusercontent.com/micheledoro/magic_dl5_portal/refs/heads/main/ecsv>
  Fstatus : "Checked"
 Paper info:
  Ptitle: "Constraints on VHE gamma-ray emission of flat spectrum radio quasars with the MAGIC telescopes"

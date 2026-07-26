@@ -1,0 +1,35 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string  , description: Source name }
+# - {name: t         , unit: mjd , datatype: float64 , description: Time of measurement }
+# - {name: t_wlo     , unit: d   , datatype: float32 , description: Lower width of time bin }
+# - {name: t_wup     , unit: d   , datatype: float32 , description: Upper width of time bin }
+# - {name: texpo     , unit: h   , datatype: float32 , description: Exposure time }
+# - {name: flux      , unit: erg cm-2 s-1, datatype: float32 , description: Flux }
+# - {name: flux_elo  , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty of flux }
+# - {name: flux_eup  , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty of flux }
+# - {name: eth_lo    , unit: keV, datatype: float32 , description: Lower energy/frequency of the band }
+# - {name: eth_up    , unit: keV, datatype: float32 , description: Upper energy/frequency of the band }
+# - {name: instrument, unit:    , datatype: string  , description: Instrument }
+# - {name: dataformat, unit:    , datatype: string  , description: Data Format }
+# - {name: comments  , unit:    , datatype: string  , description: Comments }
+# meta: !!omap
+# - {Filename: 2022a_fig1_lc_nustar.ecsv}
+# - {Source: "TXS 0506+056"}
+# - {Figure: "Figure 1 (NuSTAR panel) in the paper."}
+# - {Title: "Investigating the Blazar TXS 0506+056 through Sharp Multiwavelength Eyes During 2017-2019"}
+# - {Arxiv: "https://arxiv.org/abs/2202.02600"}
+# - {Comments: "NuSTAR 3-78 keV flux, asymmetric errors."}
+# - {Reference: "magic_2022a.yaml"}
+# - {Status: "To be checked"}
+
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+TXS 0506+056,58025.00000,nan,nan,nan,4.0800e-12,2.4000e-13,2.8000e-13,3,78,nustar,detection,""
+TXS 0506+056,58045.00000,nan,nan,nan,3.5600e-12,2.9000e-13,3.3000e-13,3,78,nustar,detection,""
+TXS 0506+056,58211.00000,nan,nan,nan,5.8200e-12,3.3000e-13,3.9000e-13,3,78,nustar,detection,""
+TXS 0506+056,58407.00000,nan,nan,nan,6.2100e-12,3.9000e-13,3.5000e-13,3,78,nustar,detection,""
+TXS 0506+056,58437.00000,nan,nan,nan,4.2400e-12,2.6000e-13,2.8000e-13,3,78,nustar,detection,""
+TXS 0506+056,58460.00000,nan,nan,nan,4.5400e-12,3.4000e-13,3.4000e-13,3,78,nustar,detection,""
+TXS 0506+056,58490.00000,nan,nan,nan,7.1500e-12,3.8000e-13,4.0000e-13,3,78,nustar,detection,""
