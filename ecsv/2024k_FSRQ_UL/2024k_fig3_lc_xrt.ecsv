@@ -25,5 +25,5 @@
 # - {Reference: magic_2024k.yaml}
 # - {Status: To be checked}
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
-B22234+28A,58642.16,0.0,0.0,nan,1.3183e-12,7e-13,7e-13,0.3,10.0,swift-xrt,,
-B22234+28A,58668.39,0.0,0.0,nan,1.1481e-12,9e-13,9e-13,0.3,10.0,swift-xrt,,
+B22234+28A,58642.16,0.0,0.0,nan,1.3183e-12,7e-13,7e-13,0.3,10.0,swift-xrt,det,
+B22234+28A,58668.39,0.0,0.0,nan,1.1481e-12,9e-13,9e-13,0.3,10.0,swift-xrt,det,

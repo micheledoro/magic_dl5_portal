@@ -26,10 +26,10 @@
 # - {Status: "To be checked"}
 
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
-TXS 0506+056,58025.00000,nan,nan,nan,4.0800e-12,2.4000e-13,2.8000e-13,3,78,nustar,detection,""
-TXS 0506+056,58045.00000,nan,nan,nan,3.5600e-12,2.9000e-13,3.3000e-13,3,78,nustar,detection,""
-TXS 0506+056,58211.00000,nan,nan,nan,5.8200e-12,3.3000e-13,3.9000e-13,3,78,nustar,detection,""
-TXS 0506+056,58407.00000,nan,nan,nan,6.2100e-12,3.9000e-13,3.5000e-13,3,78,nustar,detection,""
-TXS 0506+056,58437.00000,nan,nan,nan,4.2400e-12,2.6000e-13,2.8000e-13,3,78,nustar,detection,""
-TXS 0506+056,58460.00000,nan,nan,nan,4.5400e-12,3.4000e-13,3.4000e-13,3,78,nustar,detection,""
-TXS 0506+056,58490.00000,nan,nan,nan,7.1500e-12,3.8000e-13,4.0000e-13,3,78,nustar,detection,""
+TXS 0506+056,58025.00000,nan,nan,nan,4.0800e-12,2.4000e-13,2.8000e-13,3,78,nustar,det,
+TXS 0506+056,58045.00000,nan,nan,nan,3.5600e-12,2.9000e-13,3.3000e-13,3,78,nustar,det,
+TXS 0506+056,58211.00000,nan,nan,nan,5.8200e-12,3.3000e-13,3.9000e-13,3,78,nustar,det,
+TXS 0506+056,58407.00000,nan,nan,nan,6.2100e-12,3.9000e-13,3.5000e-13,3,78,nustar,det,
+TXS 0506+056,58437.00000,nan,nan,nan,4.2400e-12,2.6000e-13,2.8000e-13,3,78,nustar,det,
+TXS 0506+056,58460.00000,nan,nan,nan,4.5400e-12,3.4000e-13,3.4000e-13,3,78,nustar,det,
+TXS 0506+056,58490.00000,nan,nan,nan,7.1500e-12,3.8000e-13,4.0000e-13,3,78,nustar,det,

@@ -26,9 +26,9 @@
 # - {Status: "To be checked"}
 
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
-QSO B0218+357,0.0500833,nan,nan,1.9945e-11,0.,0.,57396.87300,58874.86500,nan,magic,ul,
-QSO B0218+357,0.0792445,nan,nan,5.4578e-12,0.,0.,57396.87300,58874.86500,nan,magic,ul,
-QSO B0218+357,0.124437,nan,nan,1.6625e-12,0.,0.,57396.87300,58874.86500,nan,magic,ul,
-QSO B0218+357,0.194553,nan,nan,1.0809e-12,0.,0.,57396.87300,58874.86500,nan,magic,ul,
-QSO B0218+357,0.301545,nan,nan,3.0862e-13,0.,0.,57396.87300,58874.86500,nan,magic,ul,
-QSO B0218+357,0.471588,nan,nan,5.1048e-14,0.,0.,57396.87300,58874.86500,nan,magic,ul,
+QSO B0218+357,0.0500833,nan,nan,1.9945e-11,0.,0.,57396.87300,58874.86500,nan,magic,95ul,
+QSO B0218+357,0.0792445,nan,nan,5.4578e-12,0.,0.,57396.87300,58874.86500,nan,magic,95ul,
+QSO B0218+357,0.124437,nan,nan,1.6625e-12,0.,0.,57396.87300,58874.86500,nan,magic,95ul,
+QSO B0218+357,0.194553,nan,nan,1.0809e-12,0.,0.,57396.87300,58874.86500,nan,magic,95ul,
+QSO B0218+357,0.301545,nan,nan,3.0862e-13,0.,0.,57396.87300,58874.86500,nan,magic,95ul,
+QSO B0218+357,0.471588,nan,nan,5.1048e-14,0.,0.,57396.87300,58874.86500,nan,magic,95ul,

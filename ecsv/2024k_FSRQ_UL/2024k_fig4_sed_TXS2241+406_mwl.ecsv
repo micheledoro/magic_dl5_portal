@@ -1,0 +1,40 @@
+# %ECSV 1.0
+# ---
+# schema: astropy-2.0
+# delimiter: ','
+# datatype:
+# - {name: srcname, datatype: string}
+# - {name: en, unit: TeV, datatype: float32, description: Energy}
+# - {name: en_wlo, unit: TeV, datatype: float32, description: Energy bin width low}
+# - {name: en_wup, unit: TeV, datatype: float32, description: Energy bin width up}
+# - {name: nufnu, unit: erg / (s cm2), datatype: float32, description: Differential photon flux at energy}
+# - {name: nufnu_elo, unit: erg / (s cm2), datatype: float32, description: Lower uncertainty in nufnu}
+# - {name: nufnu_eup, unit: erg / (s cm2), datatype: float32, description: Upper uncertainty in nufnu}
+# - {name: tstart, datatype: float64}
+# - {name: tstop, datatype: float64}
+# - {name: texpo, datatype: float64}
+# - {name: instrument, datatype: string}
+# - {name: dataformat, datatype: string, description: Data Format}
+# - {name: comments, datatype: string, description: Comments}
+# meta: !!omap
+# - {Filename: "2024k_fig4_sed_TXS2241+406_mwl.ecsv"}
+# - {Source: TXS2241+406}
+# - {Figure: 'Figure 4 (SED of all studied sources), TXS2241+406'}
+# - {Title: Constraints on VHE gamma-ray emission of flat spectrum radio quasars with the MAGIC telescopes}
+# - {Comments: "Multi-wavelength companion to magic_2024k_fig4_sed_TXS2241+406.ecsv (non-MAGIC instruments)."}
+# - {Reference: magic_2024k.yaml}
+# - {Status: ''}
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+TXS2241+406,0.0001778279,7.782794e-05,0.0001383998,8.5193e-12,nan,nan,nan,nan,nan,lat,ul,
+TXS2241+406,0.0001778279,7.782794e-05,0.0001383998,6.1501e-12,6.1175e-13,6.1175e-13,nan,nan,nan,fermi-lat-12yr,det,
+TXS2241+406,0.0005623413,0.0002461136,0.0004376587,9.067e-12,nan,nan,nan,nan,nan,lat,ul,
+TXS2241+406,0.0005623413,0.0002461136,0.0004376587,1.071e-11,3.3713e-13,3.3713e-13,nan,nan,nan,fermi-lat-12yr,det,
+TXS2241+406,0.001778279,0.0007782794,0.001383998,5.6958e-12,2.3252e-12,2.3252e-12,nan,nan,nan,lat,det,
+TXS2241+406,0.001778279,0.0007782794,0.001383998,1.0631e-11,2.8476e-13,2.8476e-13,nan,nan,nan,fermi-lat-12yr,det,
+TXS2241+406,0.005623413,0.002461136,0.004376587,2.6807e-12,nan,nan,nan,nan,nan,lat,ul,
+TXS2241+406,0.005623413,0.002461136,0.004376587,8.9122e-12,3.8229e-13,3.8229e-13,nan,nan,nan,fermi-lat-12yr,det,
+TXS2241+406,0.01778279,0.007782794,0.01383998,7.2518e-12,nan,nan,nan,nan,nan,lat,ul,
+TXS2241+406,0.01778279,0.007782794,0.01383998,5.2542e-12,4.8805e-13,4.8805e-13,nan,nan,nan,fermi-lat-12yr,det,
+TXS2241+406,0.05623413,0.02461136,0.04376587,2.2635e-11,nan,nan,nan,nan,nan,lat,ul,
+TXS2241+406,0.05623413,0.02461136,0.04376587,1.5647e-12,4.7099e-13,4.7099e-13,nan,nan,nan,fermi-lat-12yr,det,
+TXS2241+406,0.3162278,0.2162278,0.6837722,5.5005e-11,nan,nan,nan,nan,nan,lat,ul,

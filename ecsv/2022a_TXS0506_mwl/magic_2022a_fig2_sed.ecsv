@@ -26,17 +26,17 @@
 # - {Status: "To be checked"}
 
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
-TXS 0506+056,0.0676739,0.0148981,0.0223261,2.1289e-11,0.0000e+00,0.0000e+00,58068.0,58536.0,72.2,magic,ul,""
-TXS 0506+056,0.0786125,0.0258367,0.0389169,8.8468e-12,1.9894e-12,1.9894e-12,nan,nan,nan,magic,detection,"2017 archival low state (Ansoldi et al. 2018, ApJL 863, L10)"
-TXS 0506+056,0.0791305,0.0263547,0.0383989,2.8781e-11,8.2197e-12,8.2197e-12,nan,nan,nan,magic,detection,"2017 flare (Ansoldi et al. 2018, ApJL 863, L10)"
-TXS 0506+056,0.0794543,0.0266785,0.0380752,2.4575e-11,6.1817e-12,6.1817e-12,nan,nan,nan,magic,detection,"2017 flare (Ansoldi et al. 2018, ApJL 863, L10)"
-TXS 0506+056,0.12175,0.03175,0.0317296,3.5946e-12,0.0000e+00,0.0000e+00,58068.0,58536.0,72.2,magic,ul,""
-TXS 0506+056,0.175067,0.0575373,0.0866664,2.8384e-12,7.1645e-13,7.1645e-13,nan,nan,nan,magic,detection,"2017 archival low state (Ansoldi et al. 2018, ApJL 863, L10)"
-TXS 0506+056,0.17622,0.0586909,0.0855128,6.5537e-12,2.7409e-12,2.7409e-12,nan,nan,nan,magic,detection,"2017 flare (Ansoldi et al. 2018, ApJL 863, L10)"
-TXS 0506+056,0.176941,0.0594119,0.0847918,1.2105e-11,2.9216e-12,2.9216e-12,nan,nan,nan,magic,detection,"2017 flare (Ansoldi et al. 2018, ApJL 863, L10)"
-TXS 0506+056,0.2076,0.0541204,0.0541331,3.7770e-12,0.0000e+00,0.0000e+00,58068.0,58536.0,72.2,magic,ul,""
-TXS 0506+056,0.330073,0.0683402,0.116268,6.6374e-13,0.0000e+00,0.0000e+00,58068.0,58536.0,72.2,magic,ul,""
-TXS 0506+056,0.389866,0.128133,0.193002,3.0451e-13,3.0759e-13,3.0759e-13,nan,nan,nan,magic,detection,"2017 archival low state (Ansoldi et al. 2018, ApJL 863, L10)"
-TXS 0506+056,0.392435,0.130702,0.190434,1.8485e-12,1.4399e-12,1.4399e-12,nan,nan,nan,magic,detection,"2017 flare (Ansoldi et al. 2018, ApJL 863, L10)"
-TXS 0506+056,0.394041,0.132308,0.188828,1.4039e-12,1.2396e-12,1.2396e-12,nan,nan,nan,magic,detection,"2017 flare (Ansoldi et al. 2018, ApJL 863, L10)"
-TXS 0506+056,0.555974,0.109633,0.205184,5.0529e-13,0.0000e+00,0.0000e+00,58068.0,58536.0,72.2,magic,ul,""
+TXS 0506+056,0.0676739,0.0148981,0.0223261,2.1289e-11,0.0000e+00,0.0000e+00,58068.0,58536.0,72.2,magic,95ul,
+TXS 0506+056,0.0786125,0.0258367,0.0389169,8.8468e-12,1.9894e-12,1.9894e-12,nan,nan,nan,magic,det,"2017 archival low state (Ansoldi et al. 2018, ApJL 863, L10)"
+TXS 0506+056,0.0791305,0.0263547,0.0383989,2.8781e-11,8.2197e-12,8.2197e-12,nan,nan,nan,magic,det,"2017 flare (Ansoldi et al. 2018, ApJL 863, L10)"
+TXS 0506+056,0.0794543,0.0266785,0.0380752,2.4575e-11,6.1817e-12,6.1817e-12,nan,nan,nan,magic,det,"2017 flare (Ansoldi et al. 2018, ApJL 863, L10)"
+TXS 0506+056,0.12175,0.03175,0.0317296,3.5946e-12,0.0000e+00,0.0000e+00,58068.0,58536.0,72.2,magic,95ul,
+TXS 0506+056,0.175067,0.0575373,0.0866664,2.8384e-12,7.1645e-13,7.1645e-13,nan,nan,nan,magic,det,"2017 archival low state (Ansoldi et al. 2018, ApJL 863, L10)"
+TXS 0506+056,0.17622,0.0586909,0.0855128,6.5537e-12,2.7409e-12,2.7409e-12,nan,nan,nan,magic,det,"2017 flare (Ansoldi et al. 2018, ApJL 863, L10)"
+TXS 0506+056,0.176941,0.0594119,0.0847918,1.2105e-11,2.9216e-12,2.9216e-12,nan,nan,nan,magic,det,"2017 flare (Ansoldi et al. 2018, ApJL 863, L10)"
+TXS 0506+056,0.2076,0.0541204,0.0541331,3.7770e-12,0.0000e+00,0.0000e+00,58068.0,58536.0,72.2,magic,95ul,
+TXS 0506+056,0.330073,0.0683402,0.116268,6.6374e-13,0.0000e+00,0.0000e+00,58068.0,58536.0,72.2,magic,95ul,
+TXS 0506+056,0.389866,0.128133,0.193002,3.0451e-13,3.0759e-13,3.0759e-13,nan,nan,nan,magic,det,"2017 archival low state (Ansoldi et al. 2018, ApJL 863, L10)"
+TXS 0506+056,0.392435,0.130702,0.190434,1.8485e-12,1.4399e-12,1.4399e-12,nan,nan,nan,magic,det,"2017 flare (Ansoldi et al. 2018, ApJL 863, L10)"
+TXS 0506+056,0.394041,0.132308,0.188828,1.4039e-12,1.2396e-12,1.2396e-12,nan,nan,nan,magic,det,"2017 flare (Ansoldi et al. 2018, ApJL 863, L10)"
+TXS 0506+056,0.555974,0.109633,0.205184,5.0529e-13,0.0000e+00,0.0000e+00,58068.0,58536.0,72.2,magic,95ul,

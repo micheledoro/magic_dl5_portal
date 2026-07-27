@@ -26,10 +26,10 @@
 
 # schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
-Mrk 421,55238.0,nan,nan,,3.9,0.7,0.7,43.0,43.0,vlba,,%(PolarizationDegree)
-Mrk 421,55262.0,nan,nan,,2.8,0.7,0.7,43.0,43.0,vlba,,%(PolarizationDegree)
-Mrk 421,55294.0,nan,nan,,2.3,0.7,0.7,43.0,43.0,vlba,,%(PolarizationDegree)
-Mrk 421,55297.0,nan,nan,,2.3,0.7,0.7,43.0,43.0,vlba,,%(PolarizationDegree)
-Mrk 421,55302.0,nan,nan,,2.3,0.7,0.7,43.0,43.0,vlba,,%(PolarizationDegree)
-Mrk 421,55335.0,nan,nan,,2.9,0.7,0.7,43.0,43.0,vlba,,%(PolarizationDegree)
-Mrk 421,55363.0,nan,nan,,3.1,0.7,0.7,43.0,43.0,vlba,,%(PolarizationDegree)
+Mrk 421,55238.0,nan,nan,,3.9,0.7,0.7,43.0,43.0,vlba,det,%(PolarizationDegree)
+Mrk 421,55262.0,nan,nan,,2.8,0.7,0.7,43.0,43.0,vlba,det,%(PolarizationDegree)
+Mrk 421,55294.0,nan,nan,,2.3,0.7,0.7,43.0,43.0,vlba,det,%(PolarizationDegree)
+Mrk 421,55297.0,nan,nan,,2.3,0.7,0.7,43.0,43.0,vlba,det,%(PolarizationDegree)
+Mrk 421,55302.0,nan,nan,,2.3,0.7,0.7,43.0,43.0,vlba,det,%(PolarizationDegree)
+Mrk 421,55335.0,nan,nan,,2.9,0.7,0.7,43.0,43.0,vlba,det,%(PolarizationDegree)
+Mrk 421,55363.0,nan,nan,,3.1,0.7,0.7,43.0,43.0,vlba,det,%(PolarizationDegree)

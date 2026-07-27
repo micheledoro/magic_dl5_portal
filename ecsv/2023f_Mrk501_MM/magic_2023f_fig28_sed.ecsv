@@ -26,7 +26,7 @@
 # schema: astropy-2.0
 
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
-Mrk 501,7.84e+10,2.69e+10,2.69e+10,7.5540e-12,4.3020e-12,4.3020e-12,58221.0,58235.0,nan,magic,Detection with 1 sigma uncertainty,
-Mrk 501,1.56e+11,5.36e+10,5.36e+10,3.4520e-12,1.9075e-12,1.9075e-12,58221.0,58235.0,nan,magic,Detection with 1 sigma uncertainty,
-Mrk 501,3.12e+11,1.07e+11,1.07e+11,1.9930e-12,1.2503e-12,1.2503e-12,58221.0,58235.0,nan,magic,Detection with 1 sigma uncertainty,
-Mrk 501,6.21e+11,2.13e+11,2.13e+11,1.7730e-12,1.0328e-12,1.0328e-12,58221.0,58235.0,nan,magic,Detection with 1 sigma uncertainty,
+Mrk 501,7.84e+10,2.69e+10,2.69e+10,7.5540e-12,4.3020e-12,4.3020e-12,58221.0,58235.0,nan,magic,det,
+Mrk 501,1.56e+11,5.36e+10,5.36e+10,3.4520e-12,1.9075e-12,1.9075e-12,58221.0,58235.0,nan,magic,det,
+Mrk 501,3.12e+11,1.07e+11,1.07e+11,1.9930e-12,1.2503e-12,1.2503e-12,58221.0,58235.0,nan,magic,det,
+Mrk 501,6.21e+11,2.13e+11,2.13e+11,1.7730e-12,1.0328e-12,1.0328e-12,58221.0,58235.0,nan,magic,det,
