@@ -25,7 +25,7 @@
 # - {Reference: "magic_2022c.yaml"}
 # - {Status: "To be checked"}
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
-RS Ophiuchi,0.0611126,nan,nan,4.1374e-11,1.7899e-11,1.7899e-11,59437.45,59438.45,nan,magic,det,
-RS Ophiuchi,0.0980562,nan,nan,2.4588e-11,5.6420e-12,5.6420e-12,59437.45,59438.45,nan,magic,det,
-RS Ophiuchi,0.156796,nan,nan,1.0512e-11,3.2161e-12,3.2161e-12,59437.45,59438.45,nan,magic,det,
-RS Ophiuchi,0.252185,nan,nan,3.7333e-12,2.1653e-12,2.1653e-12,59437.45,59438.45,nan,magic,det,
+RS Ophiuchi,0.0611126,nan,nan,4.1374e-11,1.7899e-11,1.7899e-11,59437.45,59438.45,3.1,magic,det,
+RS Ophiuchi,0.0980562,nan,nan,2.4588e-11,5.6420e-12,5.6420e-12,59437.45,59438.45,3.1,magic,det,
+RS Ophiuchi,0.156796,nan,nan,1.0512e-11,3.2161e-12,3.2161e-12,59437.45,59438.45,3.1,magic,det,
+RS Ophiuchi,0.252185,nan,nan,3.7333e-12,2.1653e-12,2.1653e-12,59437.45,59438.45,3.1,magic,det,
