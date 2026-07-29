@@ -26,37 +26,37 @@
 # - {Reference: magic_2023f.yaml}
 # - {Status: To be checked}
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
-Mrk 501,57767.0,0.5,0.5,0.0,122.2,8.200996398925781,8.201004028320312,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,57788.0,0.5,0.5,0.0,142.8,9.014007568359375,9.013992309570312,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,57831.0,0.5,0.5,0.0,134.8,7.359001159667969,7.3589935302734375,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,57859.0,0.5,0.5,0.0,152.3,8.042999267578125,8.042999267578125,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,57886.0,0.5,0.5,0.0,145.3,10.38299560546875,10.38299560546875,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,57912.0,0.5,0.5,0.0,144.1,11.449005126953125,11.448989868164062,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,57937.0,0.5,0.5,0.0,132.7,9.013999938964844,9.014007568359375,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,57971.0,0.5,0.5,0.0,140.7,7.3589935302734375,7.3590087890625,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58000.0,0.5,0.5,0.0,135.3,7.141998291015625,7.141998291015625,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58063.0,0.5,0.5,0.0,130.2,6.793998718261719,6.79400634765625,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58110.0,0.5,0.5,0.0,120.8,6.220001220703125,6.219993591308594,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58166.0,0.5,0.5,0.0,146.9,6.529998779296875,6.529998779296875,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58187.0,0.5,0.5,0.0,145.6,7.8870086669921875,7.886993408203125,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58227.0,0.5,0.5,0.0,124.1,7.000999450683594,7.000999450683594,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58249.0,0.5,0.5,0.0,143.3,7.141998291015625,7.141998291015625,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58285.0,0.5,0.5,0.0,145.2,7.2140045166015625,7.2140045166015625,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58315.0,0.5,0.5,0.0,144.2,7.0709991455078125,7.0709991455078125,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58356.0,0.5,0.5,0.0,121.7,7.141998291015625,7.141998291015625,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58406.0,0.5,0.5,0.0,104.1,7.4329986572265625,7.4329986572265625,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58460.0,0.5,0.5,0.0,135.3,7.810005187988281,7.80999755859375,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58493.0,0.5,0.5,0.0,141.0,6.86199951171875,6.86199951171875,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58517.0,0.5,0.5,0.0,128.5,7.582000732421875,7.582000732421875,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58522.0,0.5,0.5,0.0,127.4,7.359001159667969,7.359001159667969,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58573.0,0.5,0.5,0.0,104.7,10.120994567871094,10.121002197265625,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58615.0,0.5,0.5,0.0,92.0,7.734001159667969,7.734001159667969,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58652.0,0.5,0.5,0.0,93.8,11.811004638671875,11.810997009277344,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58665.0,0.5,0.5,0.0,80.8,11.270004272460938,11.269996643066406,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58698.0,0.5,0.5,0.0,94.7,11.360000610351562,11.360000610351562,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58762.0,0.5,0.5,0.0,127.6,10.735000610351562,10.735008239746094,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58775.0,0.5,0.5,0.0,114.4,8.521003723144531,8.52099609375,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58851.0,0.5,0.5,0.0,88.8,7.887001037597656,7.886993408203125,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,58946.0,0.5,0.5,0.0,133.8,8.684005737304688,8.683990478515625,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,59004.0,0.5,0.5,0.0,143.3,8.684005737304688,8.683990478515625,43.0,43.0,vlba,95det,Daily binned datapoint
-Mrk 501,59068.0,0.5,0.5,0.0,99.8,7.965003967285156,7.964996337890625,43.0,43.0,vlba,95det,Daily binned datapoint
+Mrk 501,57767.0,0.5,0.5,0.0,122.2,8.200996398925781,8.201004028320312,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,57788.0,0.5,0.5,0.0,142.8,9.014007568359375,9.013992309570312,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,57831.0,0.5,0.5,0.0,134.8,7.359001159667969,7.3589935302734375,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,57859.0,0.5,0.5,0.0,152.3,8.042999267578125,8.042999267578125,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,57886.0,0.5,0.5,0.0,145.3,10.38299560546875,10.38299560546875,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,57912.0,0.5,0.5,0.0,144.1,11.449005126953125,11.448989868164062,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,57937.0,0.5,0.5,0.0,132.7,9.013999938964844,9.014007568359375,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,57971.0,0.5,0.5,0.0,140.7,7.3589935302734375,7.3590087890625,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58000.0,0.5,0.5,0.0,135.3,7.141998291015625,7.141998291015625,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58063.0,0.5,0.5,0.0,130.2,6.793998718261719,6.79400634765625,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58110.0,0.5,0.5,0.0,120.8,6.220001220703125,6.219993591308594,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58166.0,0.5,0.5,0.0,146.9,6.529998779296875,6.529998779296875,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58187.0,0.5,0.5,0.0,145.6,7.8870086669921875,7.886993408203125,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58227.0,0.5,0.5,0.0,124.1,7.000999450683594,7.000999450683594,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58249.0,0.5,0.5,0.0,143.3,7.141998291015625,7.141998291015625,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58285.0,0.5,0.5,0.0,145.2,7.2140045166015625,7.2140045166015625,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58315.0,0.5,0.5,0.0,144.2,7.0709991455078125,7.0709991455078125,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58356.0,0.5,0.5,0.0,121.7,7.141998291015625,7.141998291015625,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58406.0,0.5,0.5,0.0,104.1,7.4329986572265625,7.4329986572265625,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58460.0,0.5,0.5,0.0,135.3,7.810005187988281,7.80999755859375,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58493.0,0.5,0.5,0.0,141.0,6.86199951171875,6.86199951171875,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58517.0,0.5,0.5,0.0,128.5,7.582000732421875,7.582000732421875,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58522.0,0.5,0.5,0.0,127.4,7.359001159667969,7.359001159667969,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58573.0,0.5,0.5,0.0,104.7,10.120994567871094,10.121002197265625,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58615.0,0.5,0.5,0.0,92.0,7.734001159667969,7.734001159667969,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58652.0,0.5,0.5,0.0,93.8,11.811004638671875,11.810997009277344,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58665.0,0.5,0.5,0.0,80.8,11.270004272460938,11.269996643066406,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58698.0,0.5,0.5,0.0,94.7,11.360000610351562,11.360000610351562,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58762.0,0.5,0.5,0.0,127.6,10.735000610351562,10.735008239746094,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58775.0,0.5,0.5,0.0,114.4,8.521003723144531,8.52099609375,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58851.0,0.5,0.5,0.0,88.8,7.887001037597656,7.886993408203125,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,58946.0,0.5,0.5,0.0,133.8,8.684005737304688,8.683990478515625,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,59004.0,0.5,0.5,0.0,143.3,8.684005737304688,8.683990478515625,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint
+Mrk 501,59068.0,0.5,0.5,0.0,99.8,7.965003967285156,7.964996337890625,43.0,43.0,vlba,Detection with 95% confidence uncertainty,Daily binned datapoint

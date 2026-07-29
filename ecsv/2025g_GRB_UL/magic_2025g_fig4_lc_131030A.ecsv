@@ -25,7 +25,7 @@
 # - {Status: "Done"}
 # schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
-131030A,56595.9063,0.033536,0.033536,1.6097,1.64E-10,0.0,0.0,120,654,magic,ul,EBL=Franceschini & Rodighiero (2018); Gamma=1.6
-131030A,56595.9063,0.033536,0.033536,1.6097,1.00E-10,0.0,0.0,120,654,magic,ul,EBL=Franceschini & Rodighiero (2018); Gamma=2.2
-131030A,56595.9063,0.033536,0.033536,1.6097,5.72E-10,0.0,0.0,120,654,magic,ul,EBL=Gilmore et al. (2012); Gamma=1.6
-131030A,56595.9063,0.033536,0.033536,1.6097,3.30E-10,0.0,0.0,120,654,magic,ul,EBL=Gilmore et al. (2012); Gamma=2.2
+131030A,56595.9063,0.033536,0.033536,1.6097,1.64E-10,0.0,0.0,120,654,magic,UL,EBL=Franceschini & Rodighiero (2018); Gamma=1.6
+131030A,56595.9063,0.033536,0.033536,1.6097,1.00E-10,0.0,0.0,120,654,magic,UL,EBL=Franceschini & Rodighiero (2018); Gamma=2.2
+131030A,56595.9063,0.033536,0.033536,1.6097,5.72E-10,0.0,0.0,120,654,magic,UL,EBL=Gilmore et al. (2012); Gamma=1.6
+131030A,56595.9063,0.033536,0.033536,1.6097,3.30E-10,0.0,0.0,120,654,magic,UL,EBL=Gilmore et al. (2012); Gamma=2.2

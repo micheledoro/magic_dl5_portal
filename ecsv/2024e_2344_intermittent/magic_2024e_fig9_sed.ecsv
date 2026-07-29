@@ -23,14 +23,57 @@
 # - {Comments: "Multiwavelength SED of 1ES 2344+514 during August 2019 flare."}
 # - {Reference: "magic_2024e.yaml"}
 # - {Status: "Validated"}
+
 # schema: astropy-2.0
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
-1ES 2344+514,4.88e+25,0.00e+00,0.00e+00,1.083e-11,4.693e-12,4.693e-12,58701.0,58702.0,nan,magic,det,VHE flare event - August 6th 2019
-1ES 2344+514,1.04e+26,0.00e+00,0.00e+00,2.066e-11,4.058e-12,4.058e-12,58701.0,58702.0,nan,magic,det,VHE flare event - August 6th 2019
-1ES 2344+514,2.31e+26,0.00e+00,0.00e+00,1.523e-11,5.032e-12,5.032e-12,58701.0,58702.0,nan,magic,det,VHE flare event - August 6th 2019
-1ES 2344+514,5.31e+26,0.00e+00,0.00e+00,8.472e-12,4.897e-12,4.897e-12,58701.0,58702.0,nan,magic,det,VHE flare event - August 6th 2019
-1ES 2344+514,2.86e+25,0.00e+00,0.00e+00,1.775e-11,8.022e-12,8.022e-12,58702.0,58703.0,nan,magic,det,VHE flare event - August 7th 2019
-1ES 2344+514,5.15e+25,0.00e+00,0.00e+00,1.044e-11,4.015e-12,4.015e-12,58702.0,58703.0,nan,magic,det,VHE flare event - August 7th 2019
-1ES 2344+514,9.19e+25,0.00e+00,0.00e+00,1.464e-11,3.989e-12,3.989e-12,58702.0,58703.0,nan,magic,det,VHE flare event - August 7th 2019
-1ES 2344+514,1.64e+26,0.00e+00,0.00e+00,1.333e-11,4.847e-12,4.847e-12,58702.0,58703.0,nan,magic,det,VHE flare event - August 7th 2019
-1ES 2344+514,1.12e+26,0.00e+00,0.00e+00,4.591e-12,2.188e-12,2.188e-12,58703.0,58704.0,nan,magic,det,VHE flare event - August 8th 2019
+1ES 2344+514,1.15e+15,0.00e+00,0.00e+00,6.468e-12,4.497e-13,4.497e-13,58701.0,58702.0,nan,swift-uvot,Detection,VHE flare event - August 6th 2019
+1ES 2344+514,1.34e+15,0.00e+00,0.00e+00,8.210e-12,7.876e-13,7.876e-13,58701.0,58702.0,nan,swift-uvot,Detection,VHE flare event - August 6th 2019
+1ES 2344+514,1.56e+15,0.00e+00,0.00e+00,8.366e-12,5.131e-13,5.131e-13,58701.0,58702.0,nan,swift-uvot,Detection,VHE flare event - August 6th 2019
+1ES 2344+514,1.49e+17,4.96e+16,4.96e+16,8.467e-12,1.319e-12,1.319e-12,58701.0,58702.0,nan,swift-xrt,Detection,VHE flare event - August 6th 2019
+1ES 2344+514,2.27e+17,2.90e+16,2.90e+16,1.051e-11,1.649e-12,1.649e-12,58701.0,58702.0,nan,swift-xrt,Detection,VHE flare event - August 6th 2019
+1ES 2344+514,2.88e+17,3.14e+16,3.14e+16,9.345e-12,1.501e-12,1.501e-12,58701.0,58702.0,nan,swift-xrt,Detection,VHE flare event - August 6th 2019
+1ES 2344+514,3.45e+17,2.54e+16,2.54e+16,1.455e-11,2.296e-12,2.296e-12,58701.0,58702.0,nan,swift-xrt,Detection,VHE flare event - August 6th 2019
+1ES 2344+514,4.07e+17,3.75e+16,3.75e+16,1.439e-11,2.270e-12,2.270e-12,58701.0,58702.0,nan,swift-xrt,Detection,VHE flare event - August 6th 2019
+1ES 2344+514,5.28e+17,8.34e+16,8.34e+16,1.261e-11,2.005e-12,2.005e-12,58701.0,58702.0,nan,swift-xrt,Detection,VHE flare event - August 6th 2019
+1ES 2344+514,7.25e+17,1.14e+17,1.14e+17,1.752e-11,2.785e-12,2.785e-12,58701.0,58702.0,nan,swift-xrt,Detection,VHE flare event - August 6th 2019
+1ES 2344+514,1.36e+18,5.22e+17,5.22e+17,1.323e-11,2.147e-12,2.147e-12,58701.0,58702.0,nan,swift-xrt,Detection,VHE flare event - August 6th 2019
+1ES 2344+514,1.48e+23,7.58e+22,1.40e+23,1.959e-11,1.364e-11,1.364e-11,58701.0,58702.0,nan,lat,Detection,VHE flare event - August 6th 2019
+1ES 2344+514,5.90e+23,3.02e+23,5.59e+23,3.790e-11,2.550e-11,2.550e-11,58701.0,58702.0,nan,lat,Detection,VHE flare event - August 6th 2019
+1ES 2344+514,2.35e+24,1.20e+24,2.23e+24,1.267e-10,0.000e+00,0.000e+00,58701.0,58702.0,nan,lat,Detection,VHE flare event - August 6th 2019
+1ES 2344+514,9.36e+24,4.78e+24,8.86e+24,8.021e-10,0.000e+00,0.000e+00,58701.0,58702.0,nan,lat,UL,VHE flare event - August 6th 2019
+1ES 2344+514,3.73e+25,1.90e+25,3.53e+25,3.211e-09,0.000e+00,0.000e+00,58701.0,58702.0,nan,lat,UL,VHE flare event - August 6th 2019
+1ES 2344+514,4.88e+25,0.00e+00,0.00e+00,1.083e-11,4.693e-12,4.693e-12,58701.0,58702.0,nan,magic,Detection,VHE flare event - August 6th 2019
+1ES 2344+514,1.04e+26,0.00e+00,0.00e+00,2.066e-11,4.058e-12,4.058e-12,58701.0,58702.0,nan,magic,Detection,VHE flare event - August 6th 2019
+1ES 2344+514,2.31e+26,0.00e+00,0.00e+00,1.523e-11,5.032e-12,5.032e-12,58701.0,58702.0,nan,magic,Detection,VHE flare event - August 6th 2019
+1ES 2344+514,5.31e+26,0.00e+00,0.00e+00,8.472e-12,4.897e-12,4.897e-12,58701.0,58702.0,nan,magic,Detection,VHE flare event - August 6th 2019
+1ES 2344+514,1.15e+15,0.00e+00,0.00e+00,6.122e-12,4.266e-13,4.266e-13,58702.0,58703.0,nan,swift-uvot,Detection,VHE flare event - August 7th 2019
+1ES 2344+514,1.34e+15,0.00e+00,0.00e+00,6.648e-12,6.942e-13,6.942e-13,58702.0,58703.0,nan,swift-uvot,Detection,VHE flare event - August 7th 2019
+1ES 2344+514,1.56e+15,0.00e+00,0.00e+00,6.951e-12,4.820e-13,4.820e-13,58702.0,58703.0,nan,swift-uvot,Detection,VHE flare event - August 7th 2019
+1ES 2344+514,1.39e+17,3.99e+16,3.99e+16,1.178e-11,1.540e-12,1.540e-12,58702.0,58703.0,nan,swift-xrt,Detection,VHE flare event - August 7th 2019
+1ES 2344+514,2.15e+17,3.63e+16,3.63e+16,9.329e-12,1.168e-12,1.168e-12,58702.0,58703.0,nan,swift-xrt,Detection,VHE flare event - August 7th 2019
+1ES 2344+514,2.83e+17,3.14e+16,3.14e+16,9.482e-12,1.235e-12,1.235e-12,58702.0,58703.0,nan,swift-xrt,Detection,VHE flare event - August 7th 2019
+1ES 2344+514,3.49e+17,3.51e+16,3.51e+16,1.150e-11,1.440e-12,1.440e-12,58702.0,58703.0,nan,swift-xrt,Detection,VHE flare event - August 7th 2019
+1ES 2344+514,4.46e+17,6.17e+16,6.17e+16,1.148e-11,1.444e-12,1.444e-12,58702.0,58703.0,nan,swift-xrt,Detection,VHE flare event - August 7th 2019
+1ES 2344+514,6.25e+17,1.17e+17,1.17e+17,1.327e-11,1.717e-12,1.717e-12,58702.0,58703.0,nan,swift-xrt,Detection,VHE flare event - August 7th 2019
+1ES 2344+514,9.95e+17,2.53e+17,2.53e+17,1.367e-11,1.756e-12,1.756e-12,58702.0,58703.0,nan,swift-xrt,Detection,VHE flare event - August 7th 2019
+1ES 2344+514,3.99e+23,3.27e+23,1.89e+24,1.589e-11,1.177e-11,1.177e-11,58702.0,58703.0,nan,lat,Detection,VHE flare event - August 7th 2019
+1ES 2344+514,1.26e+25,1.03e+25,5.99e+25,4.073e-10,0.000e+00,0.000e+00,58702.0,58703.0,nan,lat,UL,VHE flare event - August 7th 2019
+1ES 2344+514,2.86e+25,0.00e+00,0.00e+00,1.775e-11,8.022e-12,8.022e-12,58702.0,58703.0,nan,magic,Detection,VHE flare event - August 7th 2019
+1ES 2344+514,5.15e+25,0.00e+00,0.00e+00,1.044e-11,4.015e-12,4.015e-12,58702.0,58703.0,nan,magic,Detection,VHE flare event - August 7th 2019
+1ES 2344+514,9.19e+25,0.00e+00,0.00e+00,1.464e-11,3.989e-12,3.989e-12,58702.0,58703.0,nan,magic,Detection,VHE flare event - August 7th 2019
+1ES 2344+514,1.64e+26,0.00e+00,0.00e+00,1.333e-11,4.847e-12,4.847e-12,58702.0,58703.0,nan,magic,Detection,VHE flare event - August 7th 2019
+1ES 2344+514,1.15e+15,0.00e+00,0.00e+00,5.039e-12,4.381e-13,4.381e-13,58703.0,58704.0,nan,swift-uvot,Detection,VHE flare event - August 8th 2019
+1ES 2344+514,1.34e+15,0.00e+00,0.00e+00,6.889e-12,6.675e-13,6.675e-13,58703.0,58704.0,nan,swift-uvot,Detection,VHE flare event - August 8th 2019
+1ES 2344+514,1.34e+17,3.51e+16,3.51e+16,1.070e-11,1.710e-12,1.710e-12,58703.0,58704.0,nan,swift-xrt,Detection,VHE flare event - August 8th 2019
+1ES 2344+514,1.96e+17,2.66e+16,2.66e+16,1.108e-11,1.714e-12,1.714e-12,58703.0,58704.0,nan,swift-xrt,Detection,VHE flare event - August 8th 2019
+1ES 2344+514,2.41e+17,1.81e+16,1.81e+16,1.434e-11,2.208e-12,2.208e-12,58703.0,58704.0,nan,swift-xrt,Detection,VHE flare event - August 8th 2019
+1ES 2344+514,2.80e+17,2.18e+16,2.18e+16,1.176e-11,1.823e-12,1.823e-12,58703.0,58704.0,nan,swift-xrt,Detection,VHE flare event - August 8th 2019
+1ES 2344+514,3.25e+17,2.30e+16,2.30e+16,1.238e-11,1.944e-12,1.944e-12,58703.0,58704.0,nan,swift-xrt,Detection,VHE flare event - August 8th 2019
+1ES 2344+514,3.74e+17,2.54e+16,2.54e+16,1.511e-11,2.304e-12,2.304e-12,58703.0,58704.0,nan,swift-xrt,Detection,VHE flare event - August 8th 2019
+1ES 2344+514,4.46e+17,4.72e+16,4.72e+16,1.228e-11,1.918e-12,1.918e-12,58703.0,58704.0,nan,swift-xrt,Detection,VHE flare event - August 8th 2019
+1ES 2344+514,5.69e+17,7.62e+16,7.62e+16,1.405e-11,2.233e-12,2.233e-12,58703.0,58704.0,nan,swift-xrt,Detection,VHE flare event - August 8th 2019
+1ES 2344+514,7.87e+17,1.41e+17,1.41e+17,1.312e-11,2.107e-12,2.107e-12,58703.0,58704.0,nan,swift-xrt,Detection,VHE flare event - August 8th 2019
+1ES 2344+514,1.29e+18,3.57e+17,3.57e+17,7.402e-12,1.708e-12,1.708e-12,58703.0,58704.0,nan,swift-xrt,Detection,VHE flare event - August 8th 2019
+1ES 2344+514,4.09e+23,3.37e+23,1.88e+24,8.053e-12,2.988e-12,2.988e-12,58703.0,58704.0,nan,lat,Detection,VHE flare event - August 8th 2019
+1ES 2344+514,1.29e+25,1.07e+25,5.96e+25,2.997e-11,2.127e-11,2.127e-11,58703.0,58704.0,nan,lat,Detection,VHE flare event - August 8th 2019
+1ES 2344+514,1.12e+26,0.00e+00,0.00e+00,4.591e-12,2.188e-12,2.188e-12,58703.0,58704.0,nan,magic,Detection,VHE flare event - August 8th 2019

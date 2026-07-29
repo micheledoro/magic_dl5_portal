@@ -23,124 +23,124 @@
 # - {Status: "In preparation"}
 
 srcname,t,t_wlo,t_wup,flux,flux_elo,flux_eup,instrument,dataformat,comments
-TON 0599,58109.43570,0,0,2.3390e+00,5.3000e-02,5.3000e-02,noto,det,4.8 GHz; Noto
-TON 0599,58109.94311,0,0,2.8840e+00,6.8000e-02,6.8000e-02,noto,det,4.8 GHz; Noto
-TON 0599,58110.05855,0,0,3.0800e+00,5.8000e-02,5.8000e-02,noto,det,4.8 GHz; Noto
-TON 0599,58110.17493,0,0,3.1470e+00,7.5000e-02,7.5000e-02,noto,det,4.8 GHz; Noto
-TON 0599,58110.27350,0,0,3.1060e+00,5.6000e-02,5.6000e-02,noto,det,4.8 GHz; Noto
-TON 0599,58110.38789,0,0,3.0180e+00,5.9000e-02,5.9000e-02,noto,det,4.8 GHz; Noto
-TON 0599,58143.86125,0,0,3.1860e+00,9.6000e-02,9.6000e-02,noto,det,4.8 GHz; Noto
-TON 0599,58144.07063,0,0,2.2850e+00,5.9000e-02,5.9000e-02,noto,det,4.8 GHz; Noto
-TON 0599,58144.17061,0,0,2.4230e+00,5.1000e-02,5.1000e-02,noto,det,4.8 GHz; Noto
-TON 0599,58144.27986,0,0,2.5030e+00,5.3000e-02,5.3000e-02,noto,det,4.8 GHz; Noto
-TON 0599,58075.23027,0,0,3.1360e+00,2.0000e-02,2.0000e-02,medicina,det,8.5 GHz; Medicina
-TON 0599,58110.07955,0,0,3.3410e+00,4.6000e-02,4.6000e-02,medicina,det,8.5 GHz; Medicina
-TON 0599,58110.18736,0,0,3.2870e+00,4.7000e-02,4.7000e-02,medicina,det,8.5 GHz; Medicina
-TON 0599,58137.00306,0,0,3.1240e+00,3.6000e-02,3.6000e-02,medicina,det,8.5 GHz; Medicina
-TON 0599,58159.94218,0,0,3.4240e+00,2.8000e-02,2.8000e-02,medicina,det,8.5 GHz; Medicina
-TON 0599,58075.96906,0,0,2.5990e+00,9.4000e-02,9.4000e-02,medicina,det,24 GHz; Medicina
-TON 0599,58109.90136,0,0,3.4020e+00,2.1800e-01,2.1800e-01,medicina,det,24 GHz; Medicina
-TON 0599,58136.85709,0,0,3.3110e+00,1.2800e-01,1.2800e-01,medicina,det,24 GHz; Medicina
-TON 0599,58159.79462,0,0,3.4800e+00,9.2000e-02,9.2000e-02,medicina,det,24 GHz; Medicina
-TON 0599,58059.17843,0,0,2.6570e+00,1.1600e-01,1.1600e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58060.28435,0,0,3.0100e+00,1.4900e-01,1.4900e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58062.16802,0,0,2.5690e+00,1.5500e-01,1.5500e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58064.21716,0,0,2.7850e+00,1.0200e-01,1.0200e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58064.44541,0,0,3.3710e+00,1.4200e-01,1.4200e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58065.17221,0,0,3.1290e+00,1.5300e-01,1.5300e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58066.15441,0,0,2.9770e+00,1.4700e-01,1.4700e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58067.41675,0,0,2.9040e+00,1.3800e-01,1.3800e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58070.41499,0,0,3.1540e+00,1.6200e-01,1.6200e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58071.24171,0,0,2.9220e+00,1.1600e-01,1.1600e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58072.16667,0,0,3.1300e+00,1.2700e-01,1.2700e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58073.36929,0,0,3.1030e+00,2.4800e-01,2.4800e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58074.36642,0,0,2.8890e+00,1.4500e-01,1.4500e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58079.16530,0,0,3.5550e+00,1.4400e-01,1.4400e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58082.37237,0,0,3.2970e+00,2.0200e-01,2.0200e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58089.10303,0,0,2.7770e+00,2.2100e-01,2.2100e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58089.15052,0,0,3.0340e+00,1.5900e-01,1.5900e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58091.13884,0,0,3.4810e+00,1.2400e-01,1.2400e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58092.14646,0,0,3.1460e+00,1.1400e-01,1.1400e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58096.09341,0,0,3.0730e+00,2.2200e-01,2.2200e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58097.11846,0,0,3.3690e+00,1.6000e-01,1.6000e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58098.10241,0,0,3.2240e+00,1.8100e-01,1.8100e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58100.09539,0,0,3.2700e+00,2.7000e-01,2.7000e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58104.05446,0,0,3.2520e+00,1.2800e-01,1.2800e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58105.07543,0,0,3.2580e+00,1.1100e-01,1.1100e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58107.09248,0,0,3.0120e+00,1.2500e-01,1.2500e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58107.23465,0,0,3.0160e+00,1.4700e-01,1.4700e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58110.16220,0,0,3.4220e+00,1.1100e-01,1.1100e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58111.03787,0,0,3.4540e+00,1.5300e-01,1.5300e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58111.13512,0,0,3.0400e+00,2.1900e-01,2.1900e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58112.09321,0,0,3.4400e+00,2.1500e-01,2.1500e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58113.10036,0,0,3.3470e+00,1.8100e-01,1.8100e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58115.05557,0,0,3.7170e+00,1.4600e-01,1.4600e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58118.04442,0,0,3.3940e+00,1.1600e-01,1.1600e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58125.03404,0,0,3.1270e+00,1.3100e-01,1.3100e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58126.01882,0,0,2.9660e+00,1.5000e-01,1.5000e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58127.00144,0,0,2.8690e+00,1.2600e-01,1.2600e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58127.99557,0,0,2.8860e+00,1.1200e-01,1.1200e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58128.99749,0,0,3.0320e+00,1.0900e-01,1.0900e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58129.07406,0,0,3.2400e+00,1.1000e-01,1.1000e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58129.97573,0,0,3.1590e+00,1.1300e-01,1.1300e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58130.02355,0,0,3.0950e+00,1.2100e-01,1.2100e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58130.10229,0,0,3.1940e+00,1.0500e-01,1.0500e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58135.04326,0,0,3.0270e+00,1.9400e-01,1.9400e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58138.05259,0,0,3.4140e+00,1.8800e-01,1.8800e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58139.02333,0,0,3.3850e+00,1.1200e-01,1.1200e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58143.97926,0,0,3.1440e+00,1.3900e-01,1.3900e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58145.96339,0,0,3.0590e+00,1.7100e-01,1.7100e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58156.90044,0,0,3.8760e+00,1.3500e-01,1.3500e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58157.93286,0,0,3.9590e+00,1.4400e-01,1.4400e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58158.90929,0,0,3.9140e+00,1.2900e-01,1.2900e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58159.90388,0,0,3.5280e+00,1.8400e-01,1.8400e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58160.00304,0,0,3.9390e+00,1.6900e-01,1.6900e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58161.00164,0,0,3.5920e+00,1.2600e-01,1.2600e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58165.95244,0,0,3.9900e+00,1.4200e-01,1.4200e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58166.96727,0,0,3.7360e+00,1.2600e-01,1.2600e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58167.97538,0,0,3.7110e+00,1.2200e-01,1.2200e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58169.93677,0,0,3.5870e+00,1.2300e-01,1.2300e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58172.98502,0,0,3.4920e+00,1.2000e-01,1.2000e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58174.01624,0,0,3.4610e+00,1.1900e-01,1.1900e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58175.01000,0,0,3.3640e+00,1.2500e-01,1.2500e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58176.89052,0,0,3.4240e+00,1.2400e-01,1.2400e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58177.14567,0,0,3.3930e+00,1.2700e-01,1.2700e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58177.89100,0,0,3.3860e+00,1.1800e-01,1.1800e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58178.93707,0,0,3.3330e+00,1.1500e-01,1.1500e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58179.87463,0,0,3.4890e+00,1.2800e-01,1.2800e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58179.96149,0,0,3.3720e+00,1.1400e-01,1.1400e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58180.90647,0,0,3.3820e+00,1.1700e-01,1.1700e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58181.00287,0,0,3.4780e+00,1.1500e-01,1.1500e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58181.14214,0,0,3.2370e+00,1.2000e-01,1.2000e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58181.91661,0,0,3.4950e+00,1.2900e-01,1.2900e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58182.09133,0,0,3.2390e+00,1.2100e-01,1.2100e-01,metsahovi,det,37 GHz; Metsahovi
-TON 0599,58066.56750,0,0,2.7080e+00,1.3500e-01,1.3500e-01,iram,det,86 GHz; Pico Veleta
-TON 0599,58074.42870,0,0,2.8120e+00,1.4100e-01,1.4100e-01,iram,det,86 GHz; Pico Veleta
-TON 0599,58078.28000,0,0,3.0340e+00,1.5200e-01,1.5200e-01,iram,det,86 GHz; Pico Veleta
-TON 0599,58154.20710,0,0,2.7080e+00,1.3500e-01,1.3500e-01,iram,det,86 GHz; Pico Veleta
-TON 0599,58066.56750,0,0,1.6980e+00,8.7000e-02,8.7000e-02,iram,det,230 GHz; Pico Veleta
-TON 0599,58074.42870,0,0,2.0920e+00,1.0500e-01,1.0500e-01,iram,det,230 GHz; Pico Veleta
-TON 0599,58078.28000,0,0,2.3140e+00,1.1700e-01,1.1700e-01,iram,det,230 GHz; Pico Veleta
-TON 0599,58154.20710,0,0,1.0490e+00,5.3000e-02,5.3000e-02,iram,det,230 GHz; Pico Veleta
-TON 0599,58059.61300,0,0,1.6810e+00,8.9000e-02,8.9000e-02,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58065.71500,0,0,1.8130e+00,9.1000e-02,9.1000e-02,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58074.74200,0,0,1.9130e+00,9.8000e-02,9.8000e-02,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58099.60200,0,0,2.2020e+00,1.1100e-01,1.1100e-01,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58117.60500,0,0,2.1160e+00,1.0800e-01,1.0800e-01,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58121.78500,0,0,2.0540e+00,1.0500e-01,1.0500e-01,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58122.61300,0,0,1.9440e+00,9.8000e-02,9.8000e-02,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58124.60500,0,0,2.0030e+00,1.0200e-01,1.0200e-01,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58126.64100,0,0,1.9340e+00,1.0100e-01,1.0100e-01,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58126.64100,0,0,1.6730e+00,8.7000e-02,8.7000e-02,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58131.62100,0,0,1.7900e+00,9.1000e-02,9.1000e-02,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58131.62100,0,0,1.5920e+00,8.2000e-02,8.2000e-02,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58133.59400,0,0,1.7710e+00,9.0000e-02,9.0000e-02,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58135.62100,0,0,1.6780e+00,8.4000e-02,8.4000e-02,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58135.73400,0,0,1.7000e+00,8.6000e-02,8.6000e-02,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58136.53900,0,0,1.7420e+00,9.0000e-02,9.0000e-02,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58136.73800,0,0,1.6320e+00,8.2000e-02,8.2000e-02,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58143.67200,0,0,1.6800e+00,8.5000e-02,8.5000e-02,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58161.62900,0,0,2.0720e+00,1.0400e-01,1.0400e-01,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58164.61300,0,0,2.2470e+00,1.2100e-01,1.2100e-01,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58167.59800,0,0,1.9610e+00,1.0200e-01,1.0200e-01,sma,det,230 GHz; Mauna Kea (SMA)
-TON 0599,58182.56200,0,0,1.8270e+00,1.1700e-01,1.1700e-01,sma,det,230 GHz; Mauna Kea (SMA)
+TON 0599,58109.43570,0,0,2.3390e+00,5.3000e-02,5.3000e-02,noto,detection,4.8 GHz; Noto
+TON 0599,58109.94311,0,0,2.8840e+00,6.8000e-02,6.8000e-02,noto,detection,4.8 GHz; Noto
+TON 0599,58110.05855,0,0,3.0800e+00,5.8000e-02,5.8000e-02,noto,detection,4.8 GHz; Noto
+TON 0599,58110.17493,0,0,3.1470e+00,7.5000e-02,7.5000e-02,noto,detection,4.8 GHz; Noto
+TON 0599,58110.27350,0,0,3.1060e+00,5.6000e-02,5.6000e-02,noto,detection,4.8 GHz; Noto
+TON 0599,58110.38789,0,0,3.0180e+00,5.9000e-02,5.9000e-02,noto,detection,4.8 GHz; Noto
+TON 0599,58143.86125,0,0,3.1860e+00,9.6000e-02,9.6000e-02,noto,detection,4.8 GHz; Noto
+TON 0599,58144.07063,0,0,2.2850e+00,5.9000e-02,5.9000e-02,noto,detection,4.8 GHz; Noto
+TON 0599,58144.17061,0,0,2.4230e+00,5.1000e-02,5.1000e-02,noto,detection,4.8 GHz; Noto
+TON 0599,58144.27986,0,0,2.5030e+00,5.3000e-02,5.3000e-02,noto,detection,4.8 GHz; Noto
+TON 0599,58075.23027,0,0,3.1360e+00,2.0000e-02,2.0000e-02,medicina,detection,8.5 GHz; Medicina
+TON 0599,58110.07955,0,0,3.3410e+00,4.6000e-02,4.6000e-02,medicina,detection,8.5 GHz; Medicina
+TON 0599,58110.18736,0,0,3.2870e+00,4.7000e-02,4.7000e-02,medicina,detection,8.5 GHz; Medicina
+TON 0599,58137.00306,0,0,3.1240e+00,3.6000e-02,3.6000e-02,medicina,detection,8.5 GHz; Medicina
+TON 0599,58159.94218,0,0,3.4240e+00,2.8000e-02,2.8000e-02,medicina,detection,8.5 GHz; Medicina
+TON 0599,58075.96906,0,0,2.5990e+00,9.4000e-02,9.4000e-02,medicina,detection,24 GHz; Medicina
+TON 0599,58109.90136,0,0,3.4020e+00,2.1800e-01,2.1800e-01,medicina,detection,24 GHz; Medicina
+TON 0599,58136.85709,0,0,3.3110e+00,1.2800e-01,1.2800e-01,medicina,detection,24 GHz; Medicina
+TON 0599,58159.79462,0,0,3.4800e+00,9.2000e-02,9.2000e-02,medicina,detection,24 GHz; Medicina
+TON 0599,58059.17843,0,0,2.6570e+00,1.1600e-01,1.1600e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58060.28435,0,0,3.0100e+00,1.4900e-01,1.4900e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58062.16802,0,0,2.5690e+00,1.5500e-01,1.5500e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58064.21716,0,0,2.7850e+00,1.0200e-01,1.0200e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58064.44541,0,0,3.3710e+00,1.4200e-01,1.4200e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58065.17221,0,0,3.1290e+00,1.5300e-01,1.5300e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58066.15441,0,0,2.9770e+00,1.4700e-01,1.4700e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58067.41675,0,0,2.9040e+00,1.3800e-01,1.3800e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58070.41499,0,0,3.1540e+00,1.6200e-01,1.6200e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58071.24171,0,0,2.9220e+00,1.1600e-01,1.1600e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58072.16667,0,0,3.1300e+00,1.2700e-01,1.2700e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58073.36929,0,0,3.1030e+00,2.4800e-01,2.4800e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58074.36642,0,0,2.8890e+00,1.4500e-01,1.4500e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58079.16530,0,0,3.5550e+00,1.4400e-01,1.4400e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58082.37237,0,0,3.2970e+00,2.0200e-01,2.0200e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58089.10303,0,0,2.7770e+00,2.2100e-01,2.2100e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58089.15052,0,0,3.0340e+00,1.5900e-01,1.5900e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58091.13884,0,0,3.4810e+00,1.2400e-01,1.2400e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58092.14646,0,0,3.1460e+00,1.1400e-01,1.1400e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58096.09341,0,0,3.0730e+00,2.2200e-01,2.2200e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58097.11846,0,0,3.3690e+00,1.6000e-01,1.6000e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58098.10241,0,0,3.2240e+00,1.8100e-01,1.8100e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58100.09539,0,0,3.2700e+00,2.7000e-01,2.7000e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58104.05446,0,0,3.2520e+00,1.2800e-01,1.2800e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58105.07543,0,0,3.2580e+00,1.1100e-01,1.1100e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58107.09248,0,0,3.0120e+00,1.2500e-01,1.2500e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58107.23465,0,0,3.0160e+00,1.4700e-01,1.4700e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58110.16220,0,0,3.4220e+00,1.1100e-01,1.1100e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58111.03787,0,0,3.4540e+00,1.5300e-01,1.5300e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58111.13512,0,0,3.0400e+00,2.1900e-01,2.1900e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58112.09321,0,0,3.4400e+00,2.1500e-01,2.1500e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58113.10036,0,0,3.3470e+00,1.8100e-01,1.8100e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58115.05557,0,0,3.7170e+00,1.4600e-01,1.4600e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58118.04442,0,0,3.3940e+00,1.1600e-01,1.1600e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58125.03404,0,0,3.1270e+00,1.3100e-01,1.3100e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58126.01882,0,0,2.9660e+00,1.5000e-01,1.5000e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58127.00144,0,0,2.8690e+00,1.2600e-01,1.2600e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58127.99557,0,0,2.8860e+00,1.1200e-01,1.1200e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58128.99749,0,0,3.0320e+00,1.0900e-01,1.0900e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58129.07406,0,0,3.2400e+00,1.1000e-01,1.1000e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58129.97573,0,0,3.1590e+00,1.1300e-01,1.1300e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58130.02355,0,0,3.0950e+00,1.2100e-01,1.2100e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58130.10229,0,0,3.1940e+00,1.0500e-01,1.0500e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58135.04326,0,0,3.0270e+00,1.9400e-01,1.9400e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58138.05259,0,0,3.4140e+00,1.8800e-01,1.8800e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58139.02333,0,0,3.3850e+00,1.1200e-01,1.1200e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58143.97926,0,0,3.1440e+00,1.3900e-01,1.3900e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58145.96339,0,0,3.0590e+00,1.7100e-01,1.7100e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58156.90044,0,0,3.8760e+00,1.3500e-01,1.3500e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58157.93286,0,0,3.9590e+00,1.4400e-01,1.4400e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58158.90929,0,0,3.9140e+00,1.2900e-01,1.2900e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58159.90388,0,0,3.5280e+00,1.8400e-01,1.8400e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58160.00304,0,0,3.9390e+00,1.6900e-01,1.6900e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58161.00164,0,0,3.5920e+00,1.2600e-01,1.2600e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58165.95244,0,0,3.9900e+00,1.4200e-01,1.4200e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58166.96727,0,0,3.7360e+00,1.2600e-01,1.2600e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58167.97538,0,0,3.7110e+00,1.2200e-01,1.2200e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58169.93677,0,0,3.5870e+00,1.2300e-01,1.2300e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58172.98502,0,0,3.4920e+00,1.2000e-01,1.2000e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58174.01624,0,0,3.4610e+00,1.1900e-01,1.1900e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58175.01000,0,0,3.3640e+00,1.2500e-01,1.2500e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58176.89052,0,0,3.4240e+00,1.2400e-01,1.2400e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58177.14567,0,0,3.3930e+00,1.2700e-01,1.2700e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58177.89100,0,0,3.3860e+00,1.1800e-01,1.1800e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58178.93707,0,0,3.3330e+00,1.1500e-01,1.1500e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58179.87463,0,0,3.4890e+00,1.2800e-01,1.2800e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58179.96149,0,0,3.3720e+00,1.1400e-01,1.1400e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58180.90647,0,0,3.3820e+00,1.1700e-01,1.1700e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58181.00287,0,0,3.4780e+00,1.1500e-01,1.1500e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58181.14214,0,0,3.2370e+00,1.2000e-01,1.2000e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58181.91661,0,0,3.4950e+00,1.2900e-01,1.2900e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58182.09133,0,0,3.2390e+00,1.2100e-01,1.2100e-01,metsahovi,detection,37 GHz; Metsahovi
+TON 0599,58066.56750,0,0,2.7080e+00,1.3500e-01,1.3500e-01,iram,detection,86 GHz; Pico Veleta
+TON 0599,58074.42870,0,0,2.8120e+00,1.4100e-01,1.4100e-01,iram,detection,86 GHz; Pico Veleta
+TON 0599,58078.28000,0,0,3.0340e+00,1.5200e-01,1.5200e-01,iram,detection,86 GHz; Pico Veleta
+TON 0599,58154.20710,0,0,2.7080e+00,1.3500e-01,1.3500e-01,iram,detection,86 GHz; Pico Veleta
+TON 0599,58066.56750,0,0,1.6980e+00,8.7000e-02,8.7000e-02,iram,detection,230 GHz; Pico Veleta
+TON 0599,58074.42870,0,0,2.0920e+00,1.0500e-01,1.0500e-01,iram,detection,230 GHz; Pico Veleta
+TON 0599,58078.28000,0,0,2.3140e+00,1.1700e-01,1.1700e-01,iram,detection,230 GHz; Pico Veleta
+TON 0599,58154.20710,0,0,1.0490e+00,5.3000e-02,5.3000e-02,iram,detection,230 GHz; Pico Veleta
+TON 0599,58059.61300,0,0,1.6810e+00,8.9000e-02,8.9000e-02,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58065.71500,0,0,1.8130e+00,9.1000e-02,9.1000e-02,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58074.74200,0,0,1.9130e+00,9.8000e-02,9.8000e-02,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58099.60200,0,0,2.2020e+00,1.1100e-01,1.1100e-01,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58117.60500,0,0,2.1160e+00,1.0800e-01,1.0800e-01,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58121.78500,0,0,2.0540e+00,1.0500e-01,1.0500e-01,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58122.61300,0,0,1.9440e+00,9.8000e-02,9.8000e-02,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58124.60500,0,0,2.0030e+00,1.0200e-01,1.0200e-01,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58126.64100,0,0,1.9340e+00,1.0100e-01,1.0100e-01,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58126.64100,0,0,1.6730e+00,8.7000e-02,8.7000e-02,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58131.62100,0,0,1.7900e+00,9.1000e-02,9.1000e-02,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58131.62100,0,0,1.5920e+00,8.2000e-02,8.2000e-02,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58133.59400,0,0,1.7710e+00,9.0000e-02,9.0000e-02,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58135.62100,0,0,1.6780e+00,8.4000e-02,8.4000e-02,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58135.73400,0,0,1.7000e+00,8.6000e-02,8.6000e-02,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58136.53900,0,0,1.7420e+00,9.0000e-02,9.0000e-02,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58136.73800,0,0,1.6320e+00,8.2000e-02,8.2000e-02,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58143.67200,0,0,1.6800e+00,8.5000e-02,8.5000e-02,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58161.62900,0,0,2.0720e+00,1.0400e-01,1.0400e-01,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58164.61300,0,0,2.2470e+00,1.2100e-01,1.2100e-01,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58167.59800,0,0,1.9610e+00,1.0200e-01,1.0200e-01,sma,detection,230 GHz; Mauna Kea (SMA)
+TON 0599,58182.56200,0,0,1.8270e+00,1.1700e-01,1.1700e-01,sma,detection,230 GHz; Mauna Kea (SMA)

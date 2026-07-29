@@ -2,6 +2,7 @@
 # ---
 # delimiter: ','
 # delimiter: ','
+
 # datatype:
 # - {name: srcname   , unit:    , datatype: string     , description: Source name                         }
 # - {name: en        , unit: eV     , datatype: float32 , description: Energy                              }
@@ -25,6 +26,7 @@
 # - {Reference: "magic_2026a.yaml"}
 # - {Status: "Validated"}
 # schema: astropy-2.0
+
 srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
 IceCube-190922B,9.458330e+10,7.100000e+10,1.260000e+11,4.549140e-12,,,58748.0,58749.0,2.2,magic+fact,ul,
 IceCube-190922B,1.680000e+11,1.260000e+11,2.240000e+11,7.220080e-12,,,58748.0,58749.0,2.2,magic+fact,ul,
@@ -36,3 +38,8 @@ IceCube-190922B,2.985540e+12,2.239000e+12,3.981000e+12,2.037410e-12,,,58748.0,58
 IceCube-190922B,5.308620e+12,3.981000e+12,7.079000e+12,1.103500e-12,,,58748.0,58749.0,2.2,magic+fact,ul,
 IceCube-190922B,9.439830e+12,7.079000e+12,1.258800e+13,2.317980e-10,,,58748.0,58749.0,2.2,magic+fact,ul,
 IceCube-190922B,1.678670e+13,1.258800e+13,2.238600e+13,4.918330e-10,,,58748.0,58749.0,2.2,magic+fact,ul,
+IceCube-190922B,3.163152e+08,1.000000e+08,1.000553e+09,4.294753e-12,,,,,,lat,ul,
+IceCube-190922B,3.164900e+09,1.000553e+09,1.001106e+10,5.130279e-12,,,,,,lat,ul,
+IceCube-190922B,3.166650e+10,1.001106e+10,1.001659e+11,1.379019e-11,,,,,,lat,ul,
+IceCube-190922B,3.168400e+11,1.001659e+11,1.002213e+12,1.369386e-10,,,,,,lat,ul,
+

@@ -25,11 +25,11 @@
 # - {Status: "Done"}
 # schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
-160623A,57563.1411,0.053958,0.053958,2.5900,5.60E-11,0.0,0.0,165,1097,magic,ul,EBL=Franceschini & Rodighiero (2018); Gamma=1.6
-160623A,57563.1411,0.053958,0.053958,2.5900,4.00E-11,0.0,0.0,165,1097,magic,ul,EBL=Franceschini & Rodighiero (2018); Gamma=2.2
-160623A,57563.1411,0.053958,0.053958,2.5900,7.10E-11,0.0,0.0,165,1097,magic,ul,EBL=Gilmore et al. (2012); Gamma=1.6
-160623A,57563.1411,0.053958,0.053958,2.5900,5.00E-11,0.0,0.0,165,1097,magic,ul,EBL=Gilmore et al. (2012); Gamma=2.2
-160623A,57563.1357,0.048542,0.048542,2.3300,1.40E-11,0.0,0.0,140,1097,magic,ul,EBL=Franceschini & Rodighiero (2018); Gamma=1.6
-160623A,57563.1357,0.048542,0.048542,2.3300,1.00E-11,0.0,0.0,140,1097,magic,ul,EBL=Franceschini & Rodighiero (2018); Gamma=2.2
-160623A,57563.1357,0.048542,0.048542,2.3300,2.20E-11,0.0,0.0,140,1097,magic,ul,EBL=Gilmore et al. (2012); Gamma=1.6
-160623A,57563.1357,0.048542,0.048542,2.3300,1.20E-11,0.0,0.0,140,1097,magic,ul,EBL=Gilmore et al. (2012); Gamma=2.2
+160623A,57563.1411,0.053958,0.053958,2.5900,5.60E-11,0.0,0.0,165,1097,magic,UL,EBL=Franceschini & Rodighiero (2018); Gamma=1.6
+160623A,57563.1411,0.053958,0.053958,2.5900,4.00E-11,0.0,0.0,165,1097,magic,UL,EBL=Franceschini & Rodighiero (2018); Gamma=2.2
+160623A,57563.1411,0.053958,0.053958,2.5900,7.10E-11,0.0,0.0,165,1097,magic,UL,EBL=Gilmore et al. (2012); Gamma=1.6
+160623A,57563.1411,0.053958,0.053958,2.5900,5.00E-11,0.0,0.0,165,1097,magic,UL,EBL=Gilmore et al. (2012); Gamma=2.2
+160623A,57563.1357,0.048542,0.048542,2.3300,1.40E-11,0.0,0.0,140,1097,magic,UL,EBL=Franceschini & Rodighiero (2018); Gamma=1.6
+160623A,57563.1357,0.048542,0.048542,2.3300,1.00E-11,0.0,0.0,140,1097,magic,UL,EBL=Franceschini & Rodighiero (2018); Gamma=2.2
+160623A,57563.1357,0.048542,0.048542,2.3300,2.20E-11,0.0,0.0,140,1097,magic,UL,EBL=Gilmore et al. (2012); Gamma=1.6
+160623A,57563.1357,0.048542,0.048542,2.3300,1.20E-11,0.0,0.0,140,1097,magic,UL,EBL=Gilmore et al. (2012); Gamma=2.2
