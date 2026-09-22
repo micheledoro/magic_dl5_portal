@@ -26,800 +26,800 @@
 # - {Status: "To be checked"}
 
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
-TXS 0506+056,58019.00685,nan,nan,nan,3.6850e-11,1.4950e-12,1.4950e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58023.79532,nan,nan,nan,3.7910e-11,1.0750e-12,1.0750e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58023.79532,nan,nan,nan,3.5750e-11,8.5530e-13,8.5530e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58023.79532,nan,nan,nan,3.7280e-11,1.1220e-12,1.1220e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58023.79532,nan,nan,nan,3.8310e-11,1.4020e-12,1.4020e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58023.79532,nan,nan,nan,3.1190e-11,9.4840e-13,9.4840e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58023.79532,nan,nan,nan,3.0420e-11,8.3640e-13,8.3640e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58023.85557,nan,nan,nan,3.6250e-11,1.1000e-12,1.1000e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58023.85557,nan,nan,nan,3.3760e-11,7.8070e-13,7.8070e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58023.85557,nan,nan,nan,3.5940e-11,1.0890e-12,1.0890e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58023.85557,nan,nan,nan,3.6480e-11,1.3520e-12,1.3520e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58023.85557,nan,nan,nan,3.0540e-11,9.3440e-13,9.3440e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58023.85557,nan,nan,nan,2.9930e-11,8.2410e-13,8.2410e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58026.18841,nan,nan,nan,2.6060e-11,6.5140e-13,6.5140e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58026.31175,nan,nan,nan,2.5860e-11,6.8620e-13,6.8620e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58028.63071,nan,nan,nan,2.7720e-11,6.0880e-13,6.0880e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58029.57111,nan,nan,nan,2.8370e-11,6.8880e-13,6.8880e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58029.77285,nan,nan,nan,2.8330e-11,7.2160e-13,7.2160e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58030.69861,nan,nan,nan,3.1630e-11,1.1040e-12,1.1040e-12,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58030.70998,nan,nan,nan,3.1280e-11,1.5270e-12,1.5270e-12,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58030.76562,nan,nan,nan,2.9740e-11,7.6080e-13,7.6080e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58031.75716,nan,nan,nan,3.6630e-11,8.9720e-13,8.9720e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58031.89192,nan,nan,nan,3.0680e-11,6.9730e-13,6.9730e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58032.55586,nan,nan,nan,3.0490e-11,7.2100e-13,7.2100e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58032.55586,nan,nan,nan,2.1030e-11,5.8630e-13,5.8630e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58033.22755,nan,nan,nan,1.9150e-11,4.4690e-13,4.4690e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58034.41428,nan,nan,nan,2.7800e-11,6.6140e-13,6.6140e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58034.47774,nan,nan,nan,2.7450e-11,8.7520e-13,8.7520e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58042.60009,nan,nan,nan,2.8590e-11,7.9560e-13,7.9560e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58042.86454,nan,nan,nan,2.9290e-11,7.9560e-13,7.9560e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58042.93392,nan,nan,nan,3.0080e-11,9.7960e-13,9.7960e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58044.06059,nan,nan,nan,3.2680e-11,5.5540e-13,5.5540e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58044.12730,nan,nan,nan,3.2740e-11,5.5540e-13,5.5540e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58044.19391,nan,nan,nan,3.2260e-11,5.5540e-13,5.5540e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58047.77547,nan,nan,nan,1.9890e-11,6.0170e-13,6.0170e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58047.77547,nan,nan,nan,2.1290e-11,4.9740e-13,4.9740e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58047.83802,nan,nan,nan,2.0730e-11,4.6490e-13,4.6490e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58050.69419,nan,nan,nan,2.3660e-11,7.5580e-13,7.5580e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58050.69419,nan,nan,nan,1.7800e-11,5.3210e-13,5.3210e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58050.69419,nan,nan,nan,2.2800e-11,7.5840e-13,7.5840e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58050.69419,nan,nan,nan,2.5210e-11,1.0490e-12,1.0490e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58050.69419,nan,nan,nan,1.7110e-11,5.3930e-13,5.3930e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58050.69419,nan,nan,nan,1.5660e-11,4.7560e-13,4.7560e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58050.76659,nan,nan,nan,2.2860e-11,8.1720e-13,8.1720e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58050.76659,nan,nan,nan,1.7010e-11,5.5200e-13,5.5200e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58050.76659,nan,nan,nan,2.1040e-11,7.8510e-13,7.8510e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58050.76659,nan,nan,nan,2.5070e-11,1.1690e-12,1.1690e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58050.76659,nan,nan,nan,1.7200e-11,5.9510e-13,5.9510e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58050.76659,nan,nan,nan,1.4020e-11,4.8380e-13,4.8380e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58053.28465,nan,nan,nan,2.6730e-11,1.1180e-12,1.1180e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58053.28465,nan,nan,nan,2.1930e-11,8.1050e-13,8.1050e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58053.28465,nan,nan,nan,2.3610e-11,1.0360e-12,1.0360e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58053.28465,nan,nan,nan,2.8950e-11,1.5920e-12,1.5920e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58053.28465,nan,nan,nan,1.9940e-11,8.0430e-13,8.0430e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58053.28465,nan,nan,nan,1.9230e-11,6.8470e-12,6.8470e-12,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58053.34937,nan,nan,nan,2.6670e-11,9.6470e-13,9.6470e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58053.34937,nan,nan,nan,2.2590e-11,8.7590e-13,8.7590e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58059.59510,nan,nan,nan,3.2010e-11,1.1240e-12,1.1240e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58059.59510,nan,nan,nan,2.5410e-11,8.2050e-13,8.2050e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58059.59510,nan,nan,nan,2.9430e-11,1.0840e-12,1.0840e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58059.59510,nan,nan,nan,3.2610e-11,1.5210e-12,1.5210e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58059.59510,nan,nan,nan,2.3620e-11,8.0430e-12,8.0430e-12,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58059.59510,nan,nan,nan,2.2350e-11,7.2160e-13,7.2160e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58059.66529,nan,nan,nan,3.1830e-11,9.2780e-13,9.2780e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58059.66529,nan,nan,nan,2.5210e-11,8.4540e-13,8.4540e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58059.66529,nan,nan,nan,2.8040e-11,9.3460e-13,9.3460e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58059.66529,nan,nan,nan,3.1480e-11,1.1970e-12,1.1970e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58059.66529,nan,nan,nan,2.4640e-11,7.0200e-12,7.0200e-12,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58059.66529,nan,nan,nan,2.1160e-11,5.9040e-13,5.9040e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58059.72978,nan,nan,nan,2.9060e-11,9.4630e-13,9.4630e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58059.72978,nan,nan,nan,2.4470e-11,7.7080e-12,7.7080e-12,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58059.72978,nan,nan,nan,2.6860e-11,9.2390e-13,9.2390e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58059.72978,nan,nan,nan,3.0920e-11,1.3100e-12,1.3100e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58059.72978,nan,nan,nan,2.3900e-11,7.4380e-12,7.4380e-12,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58059.72978,nan,nan,nan,2.0620e-11,6.3140e-13,6.3140e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58065.30531,nan,nan,nan,2.9490e-11,1.3580e-12,1.3580e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58065.30531,nan,nan,nan,2.9490e-11,1.3580e-12,1.3580e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58065.30531,nan,nan,nan,2.4270e-11,9.2990e-13,9.2990e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58065.30531,nan,nan,nan,2.4270e-11,9.2990e-13,9.2990e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58065.30531,nan,nan,nan,2.8570e-11,1.3080e-12,1.3080e-12,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58065.30531,nan,nan,nan,2.8570e-11,1.3080e-12,1.3080e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58065.30531,nan,nan,nan,3.5990e-11,2.0710e-12,2.0710e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58065.30531,nan,nan,nan,3.5990e-11,2.0710e-12,2.0710e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58065.30531,nan,nan,nan,2.2500e-11,9.8560e-13,9.8560e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58065.30531,nan,nan,nan,2.2500e-11,9.8560e-13,9.8560e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58065.30531,nan,nan,nan,2.1160e-11,8.7330e-13,8.7330e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58065.30531,nan,nan,nan,2.1160e-11,8.7330e-13,8.7330e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58065.37223,nan,nan,nan,3.0050e-11,9.7700e-13,9.7700e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58065.37223,nan,nan,nan,3.0050e-11,9.7700e-13,9.7700e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58065.37223,nan,nan,nan,2.4760e-11,7.3100e-13,7.3100e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58065.37223,nan,nan,nan,2.4760e-11,7.3100e-13,7.3100e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58065.37223,nan,nan,nan,2.8630e-11,9.6660e-13,9.6660e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58065.37223,nan,nan,nan,2.8630e-11,9.6660e-13,9.6660e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58065.37223,nan,nan,nan,3.1130e-11,1.3170e-12,1.3170e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58065.37223,nan,nan,nan,3.1130e-11,1.3170e-12,1.3170e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58065.37223,nan,nan,nan,2.4170e-11,7.4850e-13,7.4850e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58065.37223,nan,nan,nan,2.4170e-11,7.4850e-13,7.4850e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58065.37223,nan,nan,nan,2.2060e-11,6.6010e-13,6.6010e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58065.37223,nan,nan,nan,2.2060e-11,6.6010e-13,6.6010e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58065.84090,nan,nan,nan,2.7530e-11,1.0750e-12,1.0750e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58065.84090,nan,nan,nan,2.7530e-11,1.0750e-12,1.0750e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58065.84090,nan,nan,nan,2.1030e-11,7.1610e-13,7.1610e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58065.84090,nan,nan,nan,2.1030e-11,7.1610e-13,7.1610e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58065.84090,nan,nan,nan,2.4300e-11,1.0040e-12,1.0040e-12,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58065.84090,nan,nan,nan,2.4300e-11,1.0040e-12,1.0040e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58065.84090,nan,nan,nan,2.7820e-11,1.4720e-12,1.4720e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58065.84090,nan,nan,nan,2.7820e-11,1.4720e-12,1.4720e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58065.84090,nan,nan,nan,2.0830e-11,7.8570e-13,7.8570e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58065.84090,nan,nan,nan,2.0830e-11,7.8570e-13,7.8570e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58065.84090,nan,nan,nan,1.8610e-11,6.7650e-13,6.7650e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58065.84090,nan,nan,nan,1.8610e-11,6.7650e-13,6.7650e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58065.97394,nan,nan,nan,2.5620e-11,1.3150e-12,1.3150e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58065.97394,nan,nan,nan,2.5620e-11,1.3150e-12,1.3150e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58065.97394,nan,nan,nan,2.0930e-11,1.1430e-12,1.1430e-12,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58065.97394,nan,nan,nan,2.0930e-11,1.1430e-12,1.1430e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58065.97394,nan,nan,nan,2.4860e-11,1.7820e-12,1.7820e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58065.97394,nan,nan,nan,2.4860e-11,1.7820e-12,1.7820e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58065.97394,nan,nan,nan,1.7530e-11,8.8800e-13,8.8800e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58065.97394,nan,nan,nan,1.7530e-11,8.8800e-13,8.8800e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58068.29443,nan,nan,nan,2.1200e-11,1.0320e-12,1.0320e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58068.29443,nan,nan,nan,2.1200e-11,1.0320e-12,1.0320e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58068.29443,nan,nan,nan,1.6210e-11,7.1610e-13,7.1610e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58068.29443,nan,nan,nan,1.6210e-11,7.1610e-13,7.1610e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58068.29443,nan,nan,nan,1.9070e-11,9.5600e-13,9.5600e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58068.29443,nan,nan,nan,1.9070e-11,9.5600e-13,9.5600e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58068.29443,nan,nan,nan,2.2190e-11,1.4650e-12,1.4650e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58068.29443,nan,nan,nan,2.2190e-11,1.4650e-12,1.4650e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58068.29443,nan,nan,nan,1.6600e-11,7.6240e-13,7.6240e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58068.29443,nan,nan,nan,1.6600e-11,7.6240e-13,7.6240e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58068.29443,nan,nan,nan,1.3570e-11,6.1910e-13,6.1910e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58068.29443,nan,nan,nan,1.3570e-11,6.1910e-13,6.1910e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58068.36073,nan,nan,nan,2.1140e-11,7.3730e-13,7.3730e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58068.36073,nan,nan,nan,2.1140e-11,7.3730e-13,7.3730e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58068.36073,nan,nan,nan,1.7060e-11,5.4700e-13,5.4700e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58068.36073,nan,nan,nan,1.7060e-11,5.4700e-13,5.4700e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58068.36073,nan,nan,nan,1.9330e-11,7.1030e-13,7.1030e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58068.36073,nan,nan,nan,1.9330e-11,7.1030e-13,7.1030e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58068.36073,nan,nan,nan,2.4020e-11,1.0850e-12,1.0850e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58068.36073,nan,nan,nan,2.4020e-11,1.0850e-12,1.0850e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58068.36073,nan,nan,nan,1.5950e-11,5.4390e-13,5.4390e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58068.36073,nan,nan,nan,1.5950e-11,5.4390e-13,5.4390e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58068.36073,nan,nan,nan,1.4640e-11,4.7970e-13,4.7970e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58068.36073,nan,nan,nan,1.4640e-11,4.7970e-13,4.7970e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58068.43339,nan,nan,nan,2.2180e-11,8.6020e-13,8.6020e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58068.43339,nan,nan,nan,2.2180e-11,8.6020e-13,8.6020e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58068.43339,nan,nan,nan,1.7210e-11,6.0170e-13,6.0170e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58068.43339,nan,nan,nan,1.7210e-11,6.0170e-13,6.0170e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58068.43339,nan,nan,nan,2.0670e-11,8.2240e-13,8.2240e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58068.43339,nan,nan,nan,2.0670e-11,8.2240e-13,8.2240e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58068.43339,nan,nan,nan,2.4510e-11,1.2400e-12,1.2400e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58068.43339,nan,nan,nan,2.4510e-11,1.2400e-12,1.2400e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58068.43339,nan,nan,nan,1.7390e-11,6.4160e-13,6.4160e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58068.43339,nan,nan,nan,1.7390e-11,6.4160e-13,6.4160e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58068.43339,nan,nan,nan,1.5170e-11,5.4530e-13,5.4530e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58068.43339,nan,nan,nan,1.5170e-11,5.4530e-13,5.4530e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58069.03810,nan,nan,nan,2.1200e-11,9.0320e-13,9.0320e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58069.03810,nan,nan,nan,2.1200e-11,9.0320e-13,9.0320e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58069.03810,nan,nan,nan,1.7550e-11,6.3150e-13,6.3150e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58069.03810,nan,nan,nan,1.7550e-11,6.3150e-13,6.3150e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58069.03810,nan,nan,nan,2.0400e-11,8.7590e-13,8.7590e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58069.03810,nan,nan,nan,2.0400e-11,8.7590e-13,8.7590e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58069.03810,nan,nan,nan,2.4650e-11,1.3450e-12,1.3450e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58069.03810,nan,nan,nan,2.4650e-11,1.3450e-12,1.3450e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58069.03810,nan,nan,nan,1.6270e-11,6.6480e-13,6.6480e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58069.03810,nan,nan,nan,1.6270e-11,6.6480e-13,6.6480e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58069.03810,nan,nan,nan,1.5170e-11,5.8630e-13,5.8630e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58069.03810,nan,nan,nan,1.5170e-11,5.8630e-13,5.8630e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58070.03462,nan,nan,nan,2.2120e-11,9.0940e-13,9.0940e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58070.03462,nan,nan,nan,2.2120e-11,9.0940e-13,9.0940e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58070.03462,nan,nan,nan,1.8000e-11,6.4150e-13,6.4150e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58070.03462,nan,nan,nan,1.8000e-11,6.4150e-13,6.4150e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58070.03462,nan,nan,nan,1.9010e-11,8.2240e-13,8.2240e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58070.03462,nan,nan,nan,1.9010e-11,8.2240e-13,8.2240e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58070.03462,nan,nan,nan,2.4790e-11,1.3310e-12,1.3310e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58070.03462,nan,nan,nan,2.4790e-11,1.3310e-12,1.3310e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58070.03462,nan,nan,nan,1.6920e-11,6.6480e-13,6.6480e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58070.03462,nan,nan,nan,1.6920e-11,6.6480e-13,6.6480e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58070.03462,nan,nan,nan,1.6970e-11,6.1500e-13,6.1500e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58070.03462,nan,nan,nan,1.6970e-11,6.1500e-13,6.1500e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58071.03081,nan,nan,nan,2.4580e-11,9.6470e-13,9.6470e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58071.03081,nan,nan,nan,2.4580e-11,9.6470e-13,9.6470e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58071.03081,nan,nan,nan,2.0490e-11,6.8620e-13,6.8620e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58071.03081,nan,nan,nan,2.0490e-11,6.8620e-13,6.8620e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58071.03081,nan,nan,nan,2.3230e-11,9.3990e-13,9.3990e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58071.03081,nan,nan,nan,2.3230e-11,9.3990e-13,9.3990e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58071.03081,nan,nan,nan,2.5640e-11,1.3520e-12,1.3520e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58071.03081,nan,nan,nan,2.5640e-11,1.3520e-12,1.3520e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58071.03081,nan,nan,nan,1.9060e-11,7.1590e-13,7.1590e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58071.03081,nan,nan,nan,1.9060e-11,7.1590e-13,7.1590e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58071.03081,nan,nan,nan,1.6650e-11,6.1090e-13,6.1090e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58071.03081,nan,nan,nan,1.6650e-11,6.1090e-13,6.1090e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58071.09910,nan,nan,nan,2.5130e-11,1.1610e-12,1.1610e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58071.09910,nan,nan,nan,2.5130e-11,1.1610e-12,1.1610e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58071.09910,nan,nan,nan,2.0440e-11,7.7080e-13,7.7080e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58071.09910,nan,nan,nan,2.0440e-11,7.7080e-13,7.7080e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58071.09910,nan,nan,nan,2.4670e-11,1.1380e-12,1.1380e-12,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58071.09910,nan,nan,nan,2.4670e-11,1.1380e-12,1.1380e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58071.09910,nan,nan,nan,2.8380e-11,1.7040e-12,1.7040e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58071.09910,nan,nan,nan,2.8380e-11,1.7040e-12,1.7040e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58071.09910,nan,nan,nan,1.8690e-11,8.2750e-13,8.2750e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58071.09910,nan,nan,nan,1.8690e-11,8.2750e-13,8.2750e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58071.09910,nan,nan,nan,1.6850e-11,7.1340e-13,7.1340e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58071.09910,nan,nan,nan,1.6850e-11,7.1340e-13,7.1340e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58071.21176,nan,nan,nan,2.7340e-11,1.4560e-12,1.4560e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58071.21176,nan,nan,nan,2.7340e-11,1.4560e-12,1.4560e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58071.21176,nan,nan,nan,2.6060e-11,1.3940e-12,1.3940e-12,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58071.21176,nan,nan,nan,2.6060e-11,1.3940e-12,1.3940e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58071.21176,nan,nan,nan,2.5780e-11,1.9440e-12,1.9440e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58071.21176,nan,nan,nan,2.5780e-11,1.9440e-12,1.9440e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58071.28029,nan,nan,nan,2.6610e-11,1.0510e-12,1.0510e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58071.28029,nan,nan,nan,2.6610e-11,1.0510e-12,1.0510e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58071.28029,nan,nan,nan,2.0240e-11,6.8620e-13,6.8620e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58071.28029,nan,nan,nan,2.0240e-11,6.8620e-13,6.8620e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58071.28029,nan,nan,nan,2.4780e-11,1.0090e-12,1.0090e-12,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58071.28029,nan,nan,nan,2.4780e-11,1.0090e-12,1.0090e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58071.28029,nan,nan,nan,2.7400e-11,1.4440e-12,1.4440e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58071.28029,nan,nan,nan,2.7400e-11,1.4440e-12,1.4440e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58071.28029,nan,nan,nan,2.0730e-11,7.8100e-13,7.8100e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58071.28029,nan,nan,nan,2.0730e-11,7.8100e-13,7.8100e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58071.28029,nan,nan,nan,1.8290e-11,6.6420e-13,6.6420e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58071.28029,nan,nan,nan,1.8290e-11,6.6420e-13,6.6420e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58072.09529,nan,nan,nan,2.6910e-11,1.1610e-12,1.1610e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58072.09529,nan,nan,nan,2.6910e-11,1.1610e-12,1.1610e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58072.09529,nan,nan,nan,2.0240e-11,7.4590e-13,7.4590e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58072.09529,nan,nan,nan,2.0240e-11,7.4590e-13,7.4590e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58072.09529,nan,nan,nan,2.4030e-11,1.0790e-12,1.0790e-12,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58072.09529,nan,nan,nan,2.4030e-11,1.0790e-12,1.0790e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58072.09529,nan,nan,nan,2.3810e-11,1.4790e-12,1.4790e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58072.09529,nan,nan,nan,2.3810e-11,1.4790e-12,1.4790e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58072.09529,nan,nan,nan,1.9990e-11,8.5540e-13,8.5540e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58072.09529,nan,nan,nan,1.9990e-11,8.5540e-13,8.5540e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58072.09529,nan,nan,nan,1.8740e-11,7.3390e-13,7.3390e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58072.09529,nan,nan,nan,1.8740e-11,7.3390e-13,7.3390e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58073.09153,nan,nan,nan,2.6790e-11,1.1180e-12,1.1180e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58073.09153,nan,nan,nan,2.6790e-11,1.1180e-12,1.1180e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58073.09153,nan,nan,nan,2.1480e-11,7.5580e-13,7.5580e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58073.09153,nan,nan,nan,2.1480e-11,7.5580e-13,7.5580e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58073.09153,nan,nan,nan,2.4990e-11,1.0730e-12,1.0730e-12,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58073.09153,nan,nan,nan,2.4990e-11,1.0730e-12,1.0730e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58073.09153,nan,nan,nan,2.7190e-11,1.5420e-12,1.5420e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58073.09153,nan,nan,nan,2.7190e-11,1.5420e-12,1.5420e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58073.09153,nan,nan,nan,1.8870e-11,7.7640e-13,7.7640e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58073.09153,nan,nan,nan,1.8870e-11,7.7640e-13,7.7640e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58073.09153,nan,nan,nan,1.7380e-11,6.8060e-13,6.8060e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58073.09153,nan,nan,nan,1.7380e-11,6.8060e-13,6.8060e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58074.15530,nan,nan,nan,2.9250e-11,1.3950e-12,1.3950e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58074.15530,nan,nan,nan,2.9250e-11,1.3950e-12,1.3950e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58074.15530,nan,nan,nan,2.3520e-11,9.1000e-13,9.1000e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58074.15530,nan,nan,nan,2.3520e-11,9.1000e-13,9.1000e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58074.15530,nan,nan,nan,2.7560e-11,1.3400e-12,1.3400e-12,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58074.15530,nan,nan,nan,2.7560e-11,1.3400e-12,1.3400e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58074.15530,nan,nan,nan,2.5640e-11,1.7890e-12,1.7890e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58074.15530,nan,nan,nan,2.5640e-11,1.7890e-12,1.7890e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58074.15530,nan,nan,nan,2.3200e-11,1.0410e-12,1.0410e-12,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58074.15530,nan,nan,nan,2.3200e-11,1.0410e-12,1.0410e-12,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58074.15530,nan,nan,nan,1.9890e-11,8.6920e-13,8.6920e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58074.15530,nan,nan,nan,1.9890e-11,8.6920e-13,8.6920e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58074.20109,nan,nan,nan,2.7040e-11,1.3580e-12,1.3580e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58074.20109,nan,nan,nan,2.7040e-11,1.3580e-12,1.3580e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58074.20109,nan,nan,nan,2.5310e-11,1.0490e-12,1.0490e-12,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58074.20109,nan,nan,nan,2.5310e-11,1.0490e-12,1.0490e-12,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58074.20109,nan,nan,nan,2.6440e-11,1.3300e-12,1.3300e-12,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58074.20109,nan,nan,nan,2.6440e-11,1.3300e-12,1.3300e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58074.20109,nan,nan,nan,2.7470e-11,1.8950e-12,1.8950e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58074.20109,nan,nan,nan,2.7470e-11,1.8950e-12,1.8950e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58074.20109,nan,nan,nan,2.0970e-11,9.8560e-13,9.8560e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58074.20109,nan,nan,nan,2.0970e-11,9.8560e-13,9.8560e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58074.20109,nan,nan,nan,2.1280e-11,9.1020e-13,9.1020e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58074.20109,nan,nan,nan,2.1280e-11,9.1020e-13,9.1020e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58074.26959,nan,nan,nan,2.5380e-11,1.0380e-12,1.0380e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58074.26959,nan,nan,nan,2.5380e-11,1.0380e-12,1.0380e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58074.26959,nan,nan,nan,2.4470e-11,8.0560e-13,8.0560e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58074.26959,nan,nan,nan,2.4470e-11,8.0560e-13,8.0560e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58074.26959,nan,nan,nan,2.6540e-11,1.0790e-12,1.0790e-12,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58074.26959,nan,nan,nan,2.6540e-11,1.0790e-12,1.0790e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58074.26959,nan,nan,nan,2.8450e-11,1.5140e-12,1.5140e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58074.26959,nan,nan,nan,2.8450e-11,1.5140e-12,1.5140e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58074.26959,nan,nan,nan,2.1850e-11,8.1820e-13,8.1820e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58074.26959,nan,nan,nan,2.1850e-11,8.1820e-13,8.1820e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58074.26959,nan,nan,nan,2.0300e-11,7.2160e-13,7.2160e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58074.26959,nan,nan,nan,2.0300e-11,7.2160e-13,7.2160e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58074.33843,nan,nan,nan,2.8080e-11,9.5850e-13,9.5850e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58074.33843,nan,nan,nan,2.8080e-11,9.5850e-13,9.5850e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58074.33843,nan,nan,nan,2.3520e-11,7.1110e-13,7.1110e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58074.33843,nan,nan,nan,2.3520e-11,7.1110e-13,7.1110e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58074.33843,nan,nan,nan,2.7500e-11,9.6660e-13,9.6660e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58074.33843,nan,nan,nan,2.7500e-11,9.6660e-13,9.6660e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58074.33843,nan,nan,nan,2.8240e-11,1.2890e-12,1.2890e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58074.33843,nan,nan,nan,2.8240e-11,1.2890e-12,1.2890e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58074.33843,nan,nan,nan,2.2040e-11,7.2060e-13,7.2060e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58074.33843,nan,nan,nan,2.2040e-11,7.2060e-13,7.2060e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58074.33843,nan,nan,nan,1.9430e-11,6.1910e-13,6.1910e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58074.33843,nan,nan,nan,1.9430e-11,6.1910e-13,6.1910e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58075.08355,nan,nan,nan,2.8940e-11,1.1240e-12,1.1240e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58075.08355,nan,nan,nan,2.8940e-11,1.1240e-12,1.1240e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58075.08355,nan,nan,nan,2.4470e-11,8.1050e-13,8.1050e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58075.08355,nan,nan,nan,2.4470e-11,8.1050e-13,8.1050e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58075.08355,nan,nan,nan,2.7610e-11,1.1050e-12,1.1050e-12,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58075.08355,nan,nan,nan,2.7610e-11,1.1050e-12,1.1050e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58075.08355,nan,nan,nan,3.0920e-11,1.5780e-12,1.5780e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58075.08355,nan,nan,nan,3.0920e-11,1.5780e-12,1.5780e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58075.08355,nan,nan,nan,2.2920e-11,8.4610e-13,8.4610e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58075.08355,nan,nan,nan,2.2920e-11,8.4610e-13,8.4610e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58075.08355,nan,nan,nan,2.0420e-11,7.2980e-13,7.2980e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58075.08355,nan,nan,nan,2.0420e-11,7.2980e-13,7.2980e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58075.66609,nan,nan,nan,2.7100e-11,9.8310e-13,9.8310e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58075.66609,nan,nan,nan,2.7100e-11,9.8310e-13,9.8310e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58075.66609,nan,nan,nan,2.2280e-11,7.2600e-13,7.2600e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58075.66609,nan,nan,nan,2.2280e-11,7.2600e-13,7.2600e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58075.66609,nan,nan,nan,2.6220e-11,9.7730e-13,9.7730e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58075.66609,nan,nan,nan,2.6220e-11,9.7730e-13,9.7730e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58075.66609,nan,nan,nan,2.8740e-11,1.3730e-12,1.3730e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58075.66609,nan,nan,nan,2.8740e-11,1.3730e-12,1.3730e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58075.66609,nan,nan,nan,2.0460e-11,7.2060e-13,7.2060e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58075.66609,nan,nan,nan,2.0460e-11,7.2060e-13,7.2060e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58075.66609,nan,nan,nan,1.8660e-11,6.3140e-13,6.3140e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58075.66609,nan,nan,nan,1.8660e-11,6.3140e-13,6.3140e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58076.07988,nan,nan,nan,2.5930e-11,1.0200e-12,1.0200e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58076.07988,nan,nan,nan,2.5930e-11,1.0200e-12,1.0200e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58076.07988,nan,nan,nan,2.3270e-11,7.7570e-13,7.7570e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58076.07988,nan,nan,nan,2.3270e-11,7.7570e-13,7.7570e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58076.07988,nan,nan,nan,2.3980e-11,9.7730e-13,9.7730e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58076.07988,nan,nan,nan,2.3980e-11,9.7730e-13,9.7730e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58076.07988,nan,nan,nan,2.5000e-11,1.3590e-12,1.3590e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58076.07988,nan,nan,nan,2.5000e-11,1.3590e-12,1.3590e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58076.07988,nan,nan,nan,2.0780e-11,7.7170e-13,7.7170e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58076.07988,nan,nan,nan,2.0780e-11,7.7170e-13,7.7170e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58076.07988,nan,nan,nan,1.9520e-11,6.8470e-13,6.8470e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58076.07988,nan,nan,nan,1.9520e-11,6.8470e-13,6.8470e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58077.07590,nan,nan,nan,2.7900e-11,1.0450e-12,1.0450e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58077.07590,nan,nan,nan,2.7900e-11,1.0450e-12,1.0450e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58077.07590,nan,nan,nan,2.1280e-11,7.0110e-13,7.0110e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58077.07590,nan,nan,nan,2.1280e-11,7.0110e-13,7.0110e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58077.07590,nan,nan,nan,2.5260e-11,9.8270e-13,9.8270e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58077.07590,nan,nan,nan,2.5260e-11,9.8270e-13,9.8270e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58077.07590,nan,nan,nan,3.1270e-11,1.5070e-12,1.5070e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58077.07590,nan,nan,nan,3.1270e-11,1.5070e-12,1.5070e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58077.07590,nan,nan,nan,2.0920e-11,7.5780e-13,7.5780e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58077.07590,nan,nan,nan,2.0920e-11,7.5780e-13,7.5780e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58077.07590,nan,nan,nan,1.8700e-11,6.5190e-13,6.5190e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58077.07590,nan,nan,nan,1.8700e-11,6.5190e-13,6.5190e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58078.07213,nan,nan,nan,2.8450e-11,1.0260e-12,1.0260e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58078.07213,nan,nan,nan,2.8450e-11,1.0260e-12,1.0260e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58078.07213,nan,nan,nan,2.5360e-11,7.8570e-13,7.8570e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58078.07213,nan,nan,nan,2.5360e-11,7.8570e-13,7.8570e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58078.07213,nan,nan,nan,2.7980e-11,1.0360e-12,1.0360e-12,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58078.07213,nan,nan,nan,2.7980e-11,1.0360e-12,1.0360e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58078.07213,nan,nan,nan,3.1480e-11,1.4790e-12,1.4790e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58078.07213,nan,nan,nan,3.1480e-11,1.4790e-12,1.4790e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58078.07213,nan,nan,nan,2.3340e-11,7.9500e-13,7.9500e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58078.07213,nan,nan,nan,2.3340e-11,7.9500e-13,7.9500e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58078.07213,nan,nan,nan,2.1480e-11,7.0110e-13,7.0110e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58078.07213,nan,nan,nan,2.1480e-11,7.0110e-13,7.0110e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58079.06793,nan,nan,nan,2.8080e-11,1.0200e-12,1.0200e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58079.06793,nan,nan,nan,2.8080e-11,1.0200e-12,1.0200e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58079.06793,nan,nan,nan,2.2770e-11,7.2600e-13,7.2600e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58079.06793,nan,nan,nan,2.2770e-11,7.2600e-13,7.2600e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58079.06793,nan,nan,nan,2.6600e-11,9.9870e-13,9.9870e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58079.06793,nan,nan,nan,2.6600e-11,9.9870e-13,9.9870e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58079.06793,nan,nan,nan,3.0290e-11,1.4370e-12,1.4370e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58079.06793,nan,nan,nan,3.0290e-11,1.4370e-12,1.4370e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58079.06793,nan,nan,nan,2.1620e-11,7.5310e-13,7.5310e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58079.06793,nan,nan,nan,2.1620e-11,7.5310e-13,7.5310e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58079.06793,nan,nan,nan,1.9970e-11,6.6830e-13,6.6830e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58079.06793,nan,nan,nan,1.9970e-11,6.6830e-13,6.6830e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58080.13250,nan,nan,nan,2.8630e-11,1.0380e-12,1.0380e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58080.13250,nan,nan,nan,2.8630e-11,1.0380e-12,1.0380e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58080.13250,nan,nan,nan,2.3520e-11,7.4090e-13,7.4090e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58080.13250,nan,nan,nan,2.3520e-11,7.4090e-13,7.4090e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58080.13250,nan,nan,nan,2.6860e-11,1.0090e-12,1.0090e-12,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58080.13250,nan,nan,nan,2.6860e-11,1.0090e-12,1.0090e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58080.13250,nan,nan,nan,3.1340e-11,1.4720e-12,1.4720e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58080.13250,nan,nan,nan,3.1340e-11,1.4720e-12,1.4720e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58080.13250,nan,nan,nan,2.2410e-11,7.7170e-13,7.7170e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58080.13250,nan,nan,nan,2.2410e-11,7.7170e-13,7.7170e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58080.13250,nan,nan,nan,1.9840e-11,6.6420e-13,6.6420e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58080.13250,nan,nan,nan,1.9840e-11,6.6420e-13,6.6420e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58081.12832,nan,nan,nan,2.7960e-11,1.0200e-12,1.0200e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58081.12832,nan,nan,nan,2.7960e-11,1.0200e-12,1.0200e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58081.12832,nan,nan,nan,2.1380e-11,6.9120e-13,6.9120e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58081.12832,nan,nan,nan,2.1380e-11,6.9120e-13,6.9120e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58081.12832,nan,nan,nan,2.6060e-11,9.8800e-13,9.8800e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58081.12832,nan,nan,nan,2.6060e-11,9.8800e-13,9.8800e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58081.12832,nan,nan,nan,3.0780e-11,1.4580e-12,1.4580e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58081.12832,nan,nan,nan,3.0780e-11,1.4580e-12,1.4580e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58081.12832,nan,nan,nan,2.1250e-11,7.4850e-13,7.4850e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58081.12832,nan,nan,nan,2.1250e-11,7.4850e-13,7.4850e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58081.12832,nan,nan,nan,1.9680e-11,6.6010e-13,6.6010e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58081.12832,nan,nan,nan,1.9680e-11,6.6010e-13,6.6010e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58082.05543,nan,nan,nan,2.7340e-11,1.0080e-12,1.0080e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58082.05543,nan,nan,nan,2.7340e-11,1.0080e-12,1.0080e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58082.05543,nan,nan,nan,2.2770e-11,7.2600e-13,7.2600e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58082.05543,nan,nan,nan,2.2770e-11,7.2600e-13,7.2600e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58082.05543,nan,nan,nan,2.6330e-11,9.9330e-13,9.9330e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58082.05543,nan,nan,nan,2.6330e-11,9.9330e-13,9.9330e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58082.05543,nan,nan,nan,2.8740e-11,1.4020e-12,1.4020e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58082.05543,nan,nan,nan,2.8740e-11,1.4020e-12,1.4020e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58082.05543,nan,nan,nan,2.0410e-11,7.2990e-13,7.2990e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58082.05543,nan,nan,nan,2.0410e-11,7.2990e-13,7.2990e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58082.05543,nan,nan,nan,2.0420e-11,6.8060e-13,6.8060e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58082.05543,nan,nan,nan,2.0420e-11,6.8060e-13,6.8060e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58083.12000,nan,nan,nan,2.3720e-11,9.1550e-13,9.1550e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58083.12000,nan,nan,nan,2.3720e-11,9.1550e-13,9.1550e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58083.12000,nan,nan,nan,2.3070e-11,9.0260e-13,9.0260e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58083.12000,nan,nan,nan,2.3070e-11,9.0260e-13,9.0260e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58083.12000,nan,nan,nan,2.7050e-11,1.3450e-12,1.3450e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58083.12000,nan,nan,nan,2.7050e-11,1.3450e-12,1.3450e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58087.15659,nan,nan,nan,3.0350e-11,1.0880e-12,1.0880e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58087.15659,nan,nan,nan,3.0350e-11,1.0880e-12,1.0880e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58087.15659,nan,nan,nan,3.0330e-11,9.1500e-13,9.1500e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58087.15659,nan,nan,nan,3.0330e-11,9.1500e-13,9.1500e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58087.15659,nan,nan,nan,3.1940e-11,1.1480e-12,1.1480e-12,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58087.15659,nan,nan,nan,3.1940e-11,1.1480e-12,1.1480e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58087.15659,nan,nan,nan,3.1620e-11,1.4790e-12,1.4790e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58087.15659,nan,nan,nan,3.1620e-11,1.4790e-12,1.4790e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58087.15659,nan,nan,nan,2.7660e-11,9.0190e-13,9.0190e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58087.15659,nan,nan,nan,2.7660e-11,9.0190e-13,9.0190e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58087.15659,nan,nan,nan,2.5910e-11,8.0770e-13,8.0770e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58087.15659,nan,nan,nan,2.5910e-11,8.0770e-13,8.0770e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58094.35506,nan,nan,nan,2.4580e-11,9.0320e-13,9.0320e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58094.35506,nan,nan,nan,2.4580e-11,9.0320e-13,9.0320e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58094.35506,nan,nan,nan,2.1080e-11,6.9620e-13,6.9620e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58094.35506,nan,nan,nan,2.1080e-11,6.9620e-13,6.9620e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58094.35506,nan,nan,nan,2.2640e-11,8.7050e-13,8.7050e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58094.35506,nan,nan,nan,2.2640e-11,8.7050e-13,8.7050e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58094.35506,nan,nan,nan,2.3380e-11,1.1900e-12,1.1900e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58094.35506,nan,nan,nan,2.3380e-11,1.1900e-12,1.1900e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58094.35506,nan,nan,nan,1.9200e-11,6.7410e-13,6.7410e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58094.35506,nan,nan,nan,1.9200e-11,6.7410e-13,6.7410e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58094.35506,nan,nan,nan,1.7340e-11,5.9040e-13,5.9040e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58094.35506,nan,nan,nan,1.7340e-11,5.9040e-13,5.9040e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58096.26484,nan,nan,nan,2.8940e-11,1.0260e-12,1.0260e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58096.26484,nan,nan,nan,2.8940e-11,1.0260e-12,1.0260e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58096.26484,nan,nan,nan,2.6650e-11,8.0560e-13,8.0560e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58096.26484,nan,nan,nan,2.6650e-11,8.0560e-13,8.0560e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58096.26484,nan,nan,nan,2.7720e-11,1.0090e-12,1.0090e-12,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58096.26484,nan,nan,nan,2.7720e-11,1.0090e-12,1.0090e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58096.26484,nan,nan,nan,3.0000e-11,1.4020e-12,1.4020e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58096.26484,nan,nan,nan,3.0000e-11,1.4020e-12,1.4020e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58096.26484,nan,nan,nan,2.4920e-11,8.1360e-13,8.1360e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58096.26484,nan,nan,nan,2.4920e-11,8.1360e-13,8.1360e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58096.26484,nan,nan,nan,2.3700e-11,7.3800e-13,7.3800e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58096.26484,nan,nan,nan,2.3700e-11,7.3800e-13,7.3800e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58116.44582,nan,nan,nan,2.8520e-11,6.6760e-13,6.6760e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58116.44582,nan,nan,nan,2.8520e-11,6.6760e-13,6.6760e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58116.44582,nan,nan,nan,2.1710e-11,5.7650e-13,5.7650e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58116.44582,nan,nan,nan,2.1710e-11,5.7650e-13,5.7650e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58127.14352,nan,nan,nan,2.7770e-11,9.4010e-13,9.4010e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58127.14352,nan,nan,nan,2.7770e-11,9.4010e-13,9.4010e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58127.14352,nan,nan,nan,2.4120e-11,9.8460e-13,9.8460e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58127.14352,nan,nan,nan,2.4120e-11,9.8460e-13,9.8460e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58127.14352,nan,nan,nan,2.6700e-11,9.3460e-13,9.3460e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58127.14352,nan,nan,nan,2.6700e-11,9.3460e-13,9.3460e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58127.14352,nan,nan,nan,2.8380e-11,1.2680e-12,1.2680e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58127.14352,nan,nan,nan,2.8380e-11,1.2680e-12,1.2680e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58127.14352,nan,nan,nan,2.2450e-11,8.4150e-13,8.4150e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58127.14352,nan,nan,nan,2.2450e-11,8.4150e-13,8.4150e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58127.14352,nan,nan,nan,1.9840e-11,6.6830e-13,6.6830e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58127.14352,nan,nan,nan,1.9840e-11,6.6830e-13,6.6830e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58129.21473,nan,nan,nan,2.7040e-11,8.2950e-13,8.2950e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58129.21473,nan,nan,nan,2.7040e-11,8.2950e-13,8.2950e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58129.21473,nan,nan,nan,2.2430e-11,8.4540e-13,8.4540e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58129.21473,nan,nan,nan,2.2430e-11,8.4540e-13,8.4540e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58129.21473,nan,nan,nan,2.7400e-11,8.7590e-13,8.7590e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58129.21473,nan,nan,nan,2.7400e-11,8.7590e-13,8.7590e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58129.21473,nan,nan,nan,2.9650e-11,1.1690e-12,1.1690e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58129.21473,nan,nan,nan,2.9650e-11,1.1690e-12,1.1690e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58129.21473,nan,nan,nan,2.1990e-11,7.3450e-13,7.3450e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58129.21473,nan,nan,nan,2.1990e-11,7.3450e-13,7.3450e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58129.21473,nan,nan,nan,1.9680e-11,6.0270e-13,6.0270e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58129.21473,nan,nan,nan,1.9680e-11,6.0270e-13,6.0270e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58130.01689,nan,nan,nan,2.6110e-11,9.0320e-13,9.0320e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58130.01689,nan,nan,nan,2.6110e-11,9.0320e-13,9.0320e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58130.01689,nan,nan,nan,1.9100e-11,8.1550e-13,8.1550e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58130.01689,nan,nan,nan,1.9100e-11,8.1550e-13,8.1550e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58130.01689,nan,nan,nan,2.4300e-11,8.7590e-13,8.7590e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58130.01689,nan,nan,nan,2.4300e-11,8.7590e-13,8.7590e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58130.01689,nan,nan,nan,2.4720e-11,1.1760e-12,1.1760e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58130.01689,nan,nan,nan,2.4720e-11,1.1760e-12,1.1760e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58130.01689,nan,nan,nan,1.8970e-11,7.4850e-13,7.4850e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58130.01689,nan,nan,nan,1.8970e-11,7.4850e-13,7.4850e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58130.01689,nan,nan,nan,1.7220e-11,6.1090e-13,6.1090e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58130.01689,nan,nan,nan,1.7220e-11,6.1090e-13,6.1090e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58130.13300,nan,nan,nan,2.4820e-11,8.4180e-13,8.4180e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58130.13300,nan,nan,nan,2.4820e-11,8.4180e-13,8.4180e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58130.13300,nan,nan,nan,1.9890e-11,8.7020e-13,8.7020e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58130.13300,nan,nan,nan,1.9890e-11,8.7020e-13,8.7020e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58130.13300,nan,nan,nan,2.3500e-11,8.2780e-13,8.2780e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58130.13300,nan,nan,nan,2.3500e-11,8.2780e-13,8.2780e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58130.13300,nan,nan,nan,2.6480e-11,1.1690e-12,1.1690e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58130.13300,nan,nan,nan,2.6480e-11,1.1690e-12,1.1690e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58130.13300,nan,nan,nan,1.9390e-11,7.2990e-13,7.2990e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58130.13300,nan,nan,nan,1.9390e-11,7.2990e-13,7.2990e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58130.13300,nan,nan,nan,1.6610e-11,5.7400e-13,5.7400e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58130.13300,nan,nan,nan,1.6610e-11,5.7400e-13,5.7400e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58131.26494,nan,nan,nan,2.2610e-11,7.1890e-13,7.1890e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58131.26494,nan,nan,nan,2.2610e-11,7.1890e-13,7.1890e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58131.26494,nan,nan,nan,1.7700e-11,7.5580e-13,7.5580e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58131.26494,nan,nan,nan,1.7700e-11,7.5580e-13,7.5580e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58131.26494,nan,nan,nan,2.1630e-11,7.1560e-13,7.1560e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58131.26494,nan,nan,nan,2.1630e-11,7.1560e-13,7.1560e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58131.26494,nan,nan,nan,2.4020e-11,9.9310e-13,9.9310e-13,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58131.26494,nan,nan,nan,2.4020e-11,9.9310e-13,9.9310e-13,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58131.26494,nan,nan,nan,1.6320e-11,5.9040e-13,5.9040e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58131.26494,nan,nan,nan,1.6320e-11,5.9040e-13,5.9040e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58131.26494,nan,nan,nan,1.5380e-11,4.9610e-13,4.9610e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58131.26494,nan,nan,nan,1.5380e-11,4.9610e-13,4.9610e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58133.86708,nan,nan,nan,2.5500e-11,7.0660e-13,7.0660e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58133.86708,nan,nan,nan,2.5500e-11,7.0660e-13,7.0660e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58133.86708,nan,nan,nan,2.1130e-11,7.1610e-13,7.1610e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58133.86708,nan,nan,nan,2.1130e-11,7.1610e-13,7.1610e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58133.86708,nan,nan,nan,2.3180e-11,6.9430e-13,6.9430e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58133.86708,nan,nan,nan,2.3180e-11,6.9430e-13,6.9430e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58133.86708,nan,nan,nan,2.6760e-11,9.5080e-13,9.5080e-13,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58133.86708,nan,nan,nan,2.6760e-11,9.5080e-13,9.5080e-13,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58133.86708,nan,nan,nan,1.9150e-11,5.9040e-13,5.9040e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58133.86708,nan,nan,nan,1.9150e-11,5.9040e-13,5.9040e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58133.86708,nan,nan,nan,1.7590e-11,4.9610e-13,4.9610e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58133.86708,nan,nan,nan,1.7590e-11,4.9610e-13,4.9610e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58133.92435,nan,nan,nan,1.8040e-11,4.2230e-13,4.2230e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58133.92435,nan,nan,nan,1.8040e-11,4.2230e-13,4.2230e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58133.99368,nan,nan,nan,1.8000e-11,4.9610e-13,4.9610e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58133.99368,nan,nan,nan,1.8000e-11,4.9610e-13,4.9610e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58135.19600,nan,nan,nan,2.6180e-11,8.1110e-13,8.1110e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58135.19600,nan,nan,nan,2.6180e-11,8.1110e-13,8.1110e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58135.19600,nan,nan,nan,2.0980e-11,8.1050e-13,8.1050e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58135.19600,nan,nan,nan,2.0980e-11,8.1050e-13,8.1050e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58135.19600,nan,nan,nan,2.4670e-11,8.0640e-13,8.0640e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58135.19600,nan,nan,nan,2.4670e-11,8.0640e-13,8.0640e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58135.19600,nan,nan,nan,2.7190e-11,1.1060e-12,1.1060e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58135.19600,nan,nan,nan,2.7190e-11,1.1060e-12,1.1060e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58135.19600,nan,nan,nan,2.0080e-11,6.9270e-13,6.9270e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58135.19600,nan,nan,nan,2.0080e-11,6.9270e-13,6.9270e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58135.19600,nan,nan,nan,1.9800e-11,6.0680e-13,6.0680e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58135.19600,nan,nan,nan,1.9800e-11,6.0680e-13,6.0680e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58137.24595,nan,nan,nan,2.3900e-11,1.0630e-12,1.0630e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58137.24595,nan,nan,nan,2.3900e-11,1.0630e-12,1.0630e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58137.24595,nan,nan,nan,1.9940e-11,1.0290e-12,1.0290e-12,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58137.24595,nan,nan,nan,1.9940e-11,1.0290e-12,1.0290e-12,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58137.24595,nan,nan,nan,2.3710e-11,1.0570e-12,1.0570e-12,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58137.24595,nan,nan,nan,2.3710e-11,1.0570e-12,1.0570e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58137.24595,nan,nan,nan,2.6690e-11,1.5570e-12,1.5570e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58137.24595,nan,nan,nan,2.6690e-11,1.5570e-12,1.5570e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58137.24595,nan,nan,nan,1.8740e-11,9.2980e-13,9.2980e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58137.24595,nan,nan,nan,1.8740e-11,9.2980e-13,9.2980e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58137.24595,nan,nan,nan,1.6690e-11,7.3800e-13,7.3800e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58137.24595,nan,nan,nan,1.6690e-11,7.3800e-13,7.3800e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58137.98492,nan,nan,nan,2.5010e-11,7.0660e-13,7.0660e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58137.98492,nan,nan,nan,2.5010e-11,7.0660e-13,7.0660e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58137.98492,nan,nan,nan,1.8350e-11,6.7630e-13,6.7630e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58137.98492,nan,nan,nan,1.8350e-11,6.7630e-13,6.7630e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58137.98492,nan,nan,nan,2.2430e-11,6.8360e-13,6.8360e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58137.98492,nan,nan,nan,2.2430e-11,6.8360e-13,6.8360e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58137.98492,nan,nan,nan,2.5140e-11,9.2970e-13,9.2970e-13,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58137.98492,nan,nan,nan,2.5140e-11,9.2970e-13,9.2970e-13,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58137.98492,nan,nan,nan,1.8320e-11,5.7650e-13,5.7650e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58137.98492,nan,nan,nan,1.8320e-11,5.7650e-13,5.7650e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58137.98492,nan,nan,nan,1.6930e-11,3.9770e-13,3.9770e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58137.98492,nan,nan,nan,1.6930e-11,3.9770e-13,3.9770e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58138.10205,nan,nan,nan,1.9790e-11,6.9620e-13,6.9620e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58138.10205,nan,nan,nan,1.9790e-11,6.9620e-13,6.9620e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58138.10205,nan,nan,nan,1.6200e-11,4.7150e-13,4.7150e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58138.10205,nan,nan,nan,1.6200e-11,4.7150e-13,4.7150e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58139.23051,nan,nan,nan,2.5250e-11,9.0320e-13,9.0320e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58139.23051,nan,nan,nan,2.5250e-11,9.0320e-13,9.0320e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58139.23051,nan,nan,nan,2.3220e-11,9.8960e-13,9.8960e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58139.23051,nan,nan,nan,2.3220e-11,9.8960e-13,9.8960e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58139.23051,nan,nan,nan,2.3610e-11,8.7590e-13,8.7590e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58139.23051,nan,nan,nan,2.3610e-11,8.7590e-13,8.7590e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58139.23051,nan,nan,nan,2.8030e-11,1.2820e-12,1.2820e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58139.23051,nan,nan,nan,2.8030e-11,1.2820e-12,1.2820e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58139.23051,nan,nan,nan,1.9480e-11,7.8100e-13,7.8100e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58139.23051,nan,nan,nan,1.9480e-11,7.8100e-13,7.8100e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58139.23051,nan,nan,nan,1.8860e-11,6.5600e-13,6.5600e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58139.23051,nan,nan,nan,1.8860e-11,6.5600e-13,6.5600e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58140.82954,nan,nan,nan,2.8630e-11,1.1550e-12,1.1550e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58140.82954,nan,nan,nan,2.8630e-11,1.1550e-12,1.1550e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58140.82954,nan,nan,nan,2.8690e-11,1.3970e-12,1.3970e-12,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58140.82954,nan,nan,nan,2.8690e-11,1.3970e-12,1.3970e-12,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58140.82954,nan,nan,nan,2.9690e-11,1.1910e-12,1.1910e-12,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58140.82954,nan,nan,nan,2.9690e-11,1.1910e-12,1.1910e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58140.82954,nan,nan,nan,3.1910e-11,1.6620e-12,1.6620e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58140.82954,nan,nan,nan,3.1910e-11,1.6620e-12,1.6620e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58140.82954,nan,nan,nan,2.5710e-11,1.0880e-12,1.0880e-12,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58140.82954,nan,nan,nan,2.5710e-11,1.0880e-12,1.0880e-12,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58140.82954,nan,nan,nan,2.2550e-11,8.6100e-13,8.6100e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58140.82954,nan,nan,nan,2.2550e-11,8.6100e-13,8.6100e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58140.90014,nan,nan,nan,3.1580e-11,9.6470e-13,9.6470e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58140.90014,nan,nan,nan,3.1580e-11,9.6470e-13,9.6470e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58140.90014,nan,nan,nan,2.6500e-11,1.0140e-12,1.0140e-12,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58140.90014,nan,nan,nan,2.6500e-11,1.0140e-12,1.0140e-12,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58140.90014,nan,nan,nan,3.0810e-11,9.8800e-13,9.8800e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58140.90014,nan,nan,nan,3.0810e-11,9.8800e-13,9.8800e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58140.90014,nan,nan,nan,3.0640e-11,1.2540e-12,1.2540e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58140.90014,nan,nan,nan,3.0640e-11,1.2540e-12,1.2540e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58140.90014,nan,nan,nan,2.4130e-11,8.1820e-13,8.1820e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58140.90014,nan,nan,nan,2.4130e-11,8.1820e-13,8.1820e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58140.90014,nan,nan,nan,2.2710e-11,6.9290e-13,6.9290e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58140.90014,nan,nan,nan,2.2710e-11,6.9290e-13,6.9290e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58192.89150,nan,nan,nan,2.9800e-11,6.7290e-13,6.7290e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58192.89150,nan,nan,nan,2.9800e-11,6.7290e-13,6.7290e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58194.42225,nan,nan,nan,2.1180e-11,5.5200e-13,5.5200e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58194.42225,nan,nan,nan,2.1180e-11,5.5200e-13,5.5200e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58211.70828,nan,nan,nan,4.3010e-11,1.0630e-12,1.0630e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58211.70828,nan,nan,nan,4.3010e-11,1.0630e-12,1.0630e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58211.70828,nan,nan,nan,3.6100e-11,1.0390e-12,1.0390e-12,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58211.70828,nan,nan,nan,3.6100e-11,1.0390e-12,1.0390e-12,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58211.70828,nan,nan,nan,4.1230e-11,1.1050e-12,1.1050e-12,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58211.70828,nan,nan,nan,4.1230e-11,1.1050e-12,1.1050e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58211.70828,nan,nan,nan,4.7260e-11,1.4370e-12,1.4370e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58211.70828,nan,nan,nan,4.7260e-11,1.4370e-12,1.4370e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58211.70828,nan,nan,nan,3.3570e-11,8.8800e-13,8.8800e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58211.70828,nan,nan,nan,3.3570e-11,8.8800e-13,8.8800e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58211.70828,nan,nan,nan,3.0670e-11,7.6260e-13,7.6260e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58211.70828,nan,nan,nan,3.0670e-11,7.6260e-13,7.6260e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58211.89531,nan,nan,nan,3.0500e-11,7.2990e-13,7.2990e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58211.89531,nan,nan,nan,3.0500e-11,7.2990e-13,7.2990e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58408.08476,nan,nan,nan,3.2320e-11,8.4790e-13,8.4790e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58408.08476,nan,nan,nan,3.2320e-11,8.4790e-13,8.4790e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58408.08476,nan,nan,nan,2.4420e-11,8.1550e-13,8.1550e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58408.08476,nan,nan,nan,2.4420e-11,8.1550e-13,8.1550e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58408.08476,nan,nan,nan,3.0010e-11,8.5450e-13,8.5450e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58408.08476,nan,nan,nan,3.0010e-11,8.5450e-13,8.5450e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58408.08476,nan,nan,nan,3.3460e-11,1.1130e-12,1.1130e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58408.08476,nan,nan,nan,3.3460e-11,1.1130e-12,1.1130e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58408.08476,nan,nan,nan,2.4080e-11,6.9730e-13,6.9730e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58408.08476,nan,nan,nan,2.4080e-11,6.9730e-13,6.9730e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58408.08476,nan,nan,nan,2.1850e-11,5.9040e-13,5.9040e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58408.08476,nan,nan,nan,2.1850e-11,5.9040e-13,5.9040e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58408.15118,nan,nan,nan,3.1030e-11,8.2340e-13,8.2340e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58408.15118,nan,nan,nan,3.1030e-11,8.2340e-13,8.2340e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58408.15118,nan,nan,nan,2.5310e-11,8.2050e-13,8.2050e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58408.15118,nan,nan,nan,2.5310e-11,8.2050e-13,8.2050e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58408.15118,nan,nan,nan,2.8890e-11,8.2780e-13,8.2780e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58408.15118,nan,nan,nan,2.8890e-11,8.2780e-13,8.2780e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58408.15118,nan,nan,nan,3.4580e-11,1.1480e-12,1.1480e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58408.15118,nan,nan,nan,3.4580e-11,1.1480e-12,1.1480e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58408.15118,nan,nan,nan,2.4730e-11,7.1130e-13,7.1130e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58408.15118,nan,nan,nan,2.4730e-11,7.1130e-13,7.1130e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58408.15118,nan,nan,nan,2.1200e-11,5.7400e-13,5.7400e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58408.15118,nan,nan,nan,2.1200e-11,5.7400e-13,5.7400e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58408.21252,nan,nan,nan,3.1520e-11,9.7080e-13,9.7080e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58408.21252,nan,nan,nan,3.1520e-11,9.7080e-13,9.7080e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58408.21252,nan,nan,nan,2.3820e-11,9.2990e-13,9.2990e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58408.21252,nan,nan,nan,2.3820e-11,9.2990e-13,9.2990e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58408.21252,nan,nan,nan,2.7560e-11,9.1320e-13,9.1320e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58408.21252,nan,nan,nan,2.7560e-11,9.1320e-13,9.1320e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58408.21252,nan,nan,nan,3.2680e-11,1.3100e-12,1.3100e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58408.21252,nan,nan,nan,3.2680e-11,1.3100e-12,1.3100e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58408.21252,nan,nan,nan,2.2690e-11,7.9030e-13,7.9030e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58408.21252,nan,nan,nan,2.2690e-11,7.9030e-13,7.9030e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58408.21252,nan,nan,nan,2.0250e-11,6.4370e-13,6.4370e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58408.21252,nan,nan,nan,2.0250e-11,6.4370e-13,6.4370e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58437.42640,nan,nan,nan,1.5790e-11,3.6080e-13,3.6080e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58437.42640,nan,nan,nan,1.5790e-11,3.6080e-13,3.6080e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58437.49319,nan,nan,nan,1.5580e-11,5.8630e-13,5.8630e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58437.49319,nan,nan,nan,1.5580e-11,5.8630e-13,5.8630e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58456.02963,nan,nan,nan,2.5070e-11,8.4180e-13,8.4180e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58456.02963,nan,nan,nan,2.5070e-11,8.4180e-13,8.4180e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58456.02963,nan,nan,nan,1.8900e-11,7.7570e-13,7.7570e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58456.02963,nan,nan,nan,1.8900e-11,7.7570e-13,7.7570e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58456.02963,nan,nan,nan,2.3180e-11,8.1710e-13,8.1710e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58456.02963,nan,nan,nan,2.3180e-11,8.1710e-13,8.1710e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58456.02963,nan,nan,nan,2.8740e-11,1.2260e-12,1.2260e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58456.02963,nan,nan,nan,2.8740e-11,1.2260e-12,1.2260e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58456.02963,nan,nan,nan,1.8460e-11,8.0430e-13,8.0430e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58456.02963,nan,nan,nan,1.8460e-11,8.0430e-13,8.0430e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58456.02963,nan,nan,nan,1.6810e-11,5.7400e-13,5.7400e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58456.02963,nan,nan,nan,1.6810e-11,5.7400e-13,5.7400e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58456.09640,nan,nan,nan,2.4460e-11,8.3570e-13,8.3570e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58456.09640,nan,nan,nan,2.4460e-11,8.3570e-13,8.3570e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58456.09640,nan,nan,nan,1.8100e-11,7.6080e-13,7.6080e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58456.09640,nan,nan,nan,1.8100e-11,7.6080e-13,7.6080e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58456.09640,nan,nan,nan,2.2700e-11,8.1180e-13,8.1180e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58456.09640,nan,nan,nan,2.2700e-11,8.1180e-13,8.1180e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58456.09640,nan,nan,nan,2.6270e-11,1.1760e-12,1.1760e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58456.09640,nan,nan,nan,2.6270e-11,1.1760e-12,1.1760e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58456.09640,nan,nan,nan,1.9010e-11,8.3220e-13,8.3220e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58456.09640,nan,nan,nan,1.9010e-11,8.3220e-13,8.3220e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58456.09640,nan,nan,nan,1.6560e-11,5.7400e-13,5.7400e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58456.09640,nan,nan,nan,1.6560e-11,5.7400e-13,5.7400e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58457.03006,nan,nan,nan,2.6790e-11,7.2510e-13,7.2510e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58457.03006,nan,nan,nan,2.6790e-11,7.2510e-13,7.2510e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58457.03006,nan,nan,nan,2.0690e-11,7.0610e-13,7.0610e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58457.03006,nan,nan,nan,2.0690e-11,7.0610e-13,7.0610e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58457.03006,nan,nan,nan,2.3870e-11,6.9960e-13,6.9960e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58457.03006,nan,nan,nan,2.3870e-11,6.9960e-13,6.9960e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58457.03006,nan,nan,nan,2.7960e-11,9.5790e-13,9.5790e-13,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58457.03006,nan,nan,nan,2.7960e-11,9.5790e-13,9.5790e-13,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58457.03006,nan,nan,nan,1.9800e-11,5.9040e-13,5.9040e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58457.03006,nan,nan,nan,1.9800e-11,5.9040e-13,5.9040e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58457.03006,nan,nan,nan,1.7960e-11,5.3710e-13,5.3710e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58457.03006,nan,nan,nan,1.7960e-11,5.3710e-13,5.3710e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58457.08718,nan,nan,nan,2.8020e-11,1.1430e-12,1.1430e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58457.08718,nan,nan,nan,2.8020e-11,1.1430e-12,1.1430e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58457.08718,nan,nan,nan,2.2820e-11,1.2230e-12,1.2230e-12,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58457.08718,nan,nan,nan,2.2820e-11,1.2230e-12,1.2230e-12,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58457.08718,nan,nan,nan,2.5210e-11,1.0730e-12,1.0730e-12,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58457.08718,nan,nan,nan,2.5210e-11,1.0730e-12,1.0730e-12,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58457.08718,nan,nan,nan,2.7960e-11,1.5350e-12,1.5350e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58457.08718,nan,nan,nan,2.7960e-11,1.5350e-12,1.5350e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58457.08718,nan,nan,nan,2.0780e-11,9.6230e-13,9.6230e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58457.08718,nan,nan,nan,2.0780e-11,9.6230e-13,9.6230e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58457.08718,nan,nan,nan,1.7550e-11,7.3800e-13,7.3800e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58457.08718,nan,nan,nan,1.7550e-11,7.3800e-13,7.3800e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58458.02641,nan,nan,nan,2.8760e-11,7.6190e-13,7.6190e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58458.02641,nan,nan,nan,2.8760e-11,7.6190e-13,7.6190e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58458.02641,nan,nan,nan,2.1780e-11,7.2100e-13,7.2100e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58458.02641,nan,nan,nan,2.1780e-11,7.2100e-13,7.2100e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58458.02641,nan,nan,nan,2.5100e-11,7.2630e-13,7.2630e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58458.02641,nan,nan,nan,2.5100e-11,7.2630e-13,7.2630e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58458.02641,nan,nan,nan,2.8950e-11,9.8600e-13,9.8600e-13,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58458.02641,nan,nan,nan,2.8950e-11,9.8600e-13,9.8600e-13,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58458.02641,nan,nan,nan,2.0460e-11,6.0440e-13,6.0440e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58458.02641,nan,nan,nan,2.0460e-11,6.0440e-13,6.0440e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58458.02641,nan,nan,nan,1.8370e-11,5.0430e-13,5.0430e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58458.02641,nan,nan,nan,1.8370e-11,5.0430e-13,5.0430e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58459.09994,nan,nan,nan,2.7280e-11,8.4790e-13,8.4790e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58459.09994,nan,nan,nan,2.7280e-11,8.4790e-13,8.4790e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58459.09994,nan,nan,nan,2.1180e-11,6.2160e-13,6.2160e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58459.09994,nan,nan,nan,2.1180e-11,6.2160e-13,6.2160e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58459.09994,nan,nan,nan,2.4410e-11,8.1180e-13,8.1180e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58459.09994,nan,nan,nan,2.4410e-11,8.1180e-13,8.1180e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58459.09994,nan,nan,nan,1.8600e-11,6.6940e-13,6.6940e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58459.09994,nan,nan,nan,1.8600e-11,6.6940e-13,6.6940e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58459.09994,nan,nan,nan,1.5090e-11,5.4120e-13,5.4120e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58459.09994,nan,nan,nan,1.5090e-11,5.4120e-13,5.4120e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58459.15271,nan,nan,nan,2.6420e-11,8.2950e-13,8.2950e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58459.15271,nan,nan,nan,2.6420e-11,8.2950e-13,8.2950e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58459.15271,nan,nan,nan,2.4940e-11,8.2240e-13,8.2240e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58459.15271,nan,nan,nan,2.4940e-11,8.2240e-13,8.2240e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58459.15271,nan,nan,nan,2.7820e-11,1.1410e-12,1.1410e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58459.15271,nan,nan,nan,2.7820e-11,1.1410e-12,1.1410e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58459.15271,nan,nan,nan,1.9710e-11,6.9270e-13,6.9270e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58459.15271,nan,nan,nan,1.9710e-11,6.9270e-13,6.9270e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58459.15271,nan,nan,nan,1.8080e-11,5.7400e-13,5.7400e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58459.15271,nan,nan,nan,1.8080e-11,5.7400e-13,5.7400e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58461.02678,nan,nan,nan,2.4640e-11,8.6640e-13,8.6640e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58461.02678,nan,nan,nan,2.4640e-11,8.6640e-13,8.6640e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58461.02678,nan,nan,nan,1.7060e-11,9.1990e-13,9.1990e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58461.02678,nan,nan,nan,1.7060e-11,9.1990e-13,9.1990e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58461.02678,nan,nan,nan,2.2800e-11,8.3310e-13,8.3310e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58461.02678,nan,nan,nan,2.2800e-11,8.3310e-13,8.3310e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58461.02678,nan,nan,nan,2.4300e-11,1.1550e-12,1.1550e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58461.02678,nan,nan,nan,2.4300e-11,1.1550e-12,1.1550e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58461.02678,nan,nan,nan,1.7480e-11,7.0200e-13,7.0200e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58461.02678,nan,nan,nan,1.7480e-11,7.0200e-13,7.0200e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58461.02678,nan,nan,nan,1.5290e-11,5.6170e-13,5.6170e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58461.02678,nan,nan,nan,1.5290e-11,5.6170e-13,5.6170e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58461.15347,nan,nan,nan,2.4270e-11,7.6190e-13,7.6190e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58461.15347,nan,nan,nan,2.4270e-11,7.6190e-13,7.6190e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58461.15347,nan,nan,nan,1.6310e-11,6.8130e-13,6.8130e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58461.15347,nan,nan,nan,1.6310e-11,6.8130e-13,6.8130e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58461.15347,nan,nan,nan,2.1360e-11,7.1030e-13,7.1030e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58461.15347,nan,nan,nan,2.1360e-11,7.1030e-13,7.1030e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58461.15347,nan,nan,nan,2.6200e-11,1.0640e-12,1.0640e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58461.15347,nan,nan,nan,2.6200e-11,1.0640e-12,1.0640e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58461.15347,nan,nan,nan,1.7340e-11,6.0900e-13,6.0900e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58461.15347,nan,nan,nan,1.7340e-11,6.0900e-13,6.0900e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58461.15347,nan,nan,nan,1.4760e-11,4.8790e-13,4.8790e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58461.15347,nan,nan,nan,1.4760e-11,4.8790e-13,4.8790e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58463.53397,nan,nan,nan,2.3900e-11,9.9540e-13,9.9540e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58463.53397,nan,nan,nan,2.3900e-11,9.9540e-13,9.9540e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58463.53397,nan,nan,nan,1.7010e-11,9.1500e-13,9.1500e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58463.53397,nan,nan,nan,1.7010e-11,9.1500e-13,9.1500e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58463.53397,nan,nan,nan,2.1310e-11,9.2390e-13,9.2390e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58463.53397,nan,nan,nan,2.1310e-11,9.2390e-13,9.2390e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58463.53397,nan,nan,nan,2.6760e-11,1.4510e-12,1.4510e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58463.53397,nan,nan,nan,2.6760e-11,1.4510e-12,1.4510e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58463.53397,nan,nan,nan,1.7020e-11,8.1820e-13,8.1820e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58463.53397,nan,nan,nan,1.7020e-11,8.1820e-13,8.1820e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58463.53397,nan,nan,nan,1.5540e-11,6.6010e-13,6.6010e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58463.53397,nan,nan,nan,1.5540e-11,6.6010e-13,6.6010e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58463.68163,nan,nan,nan,2.4090e-11,7.8650e-13,7.8650e-13,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58463.68163,nan,nan,nan,2.4090e-11,7.8650e-13,7.8650e-13,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58463.68163,nan,nan,nan,1.6910e-11,7.2100e-13,7.2100e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58463.68163,nan,nan,nan,1.6910e-11,7.2100e-13,7.2100e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58463.68163,nan,nan,nan,2.0450e-11,7.2100e-13,7.2100e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58463.68163,nan,nan,nan,2.0450e-11,7.2100e-13,7.2100e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58463.68163,nan,nan,nan,2.5990e-11,1.1060e-12,1.1060e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58463.68163,nan,nan,nan,2.5990e-11,1.1060e-12,1.1060e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58463.68163,nan,nan,nan,1.7060e-11,6.4160e-13,6.4160e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58463.68163,nan,nan,nan,1.7060e-11,6.4160e-13,6.4160e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58463.68163,nan,nan,nan,1.5170e-11,5.1660e-13,5.1660e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58463.68163,nan,nan,nan,1.5170e-11,5.1660e-13,5.1660e-13,193,193,swift-uvot-w2,detection,"2017 archival"
-TXS 0506+056,58463.74505,nan,nan,nan,2.5070e-11,1.0140e-12,1.0140e-12,439,439,swift-uvot-b,detection,""
-TXS 0506+056,58463.74505,nan,nan,nan,2.5070e-11,1.0140e-12,1.0140e-12,439,439,swift-uvot-b,detection,"2017 archival"
-TXS 0506+056,58463.74505,nan,nan,nan,1.6860e-11,9.8460e-13,9.8460e-13,225,225,swift-uvot-m2,detection,""
-TXS 0506+056,58463.74505,nan,nan,nan,1.6860e-11,9.8460e-13,9.8460e-13,225,225,swift-uvot-m2,detection,"2017 archival"
-TXS 0506+056,58463.74505,nan,nan,nan,2.4250e-11,9.9870e-13,9.9870e-13,345,345,swift-uvot-u,detection,""
-TXS 0506+056,58463.74505,nan,nan,nan,2.4250e-11,9.9870e-13,9.9870e-13,345,345,swift-uvot-u,detection,"2017 archival"
-TXS 0506+056,58463.74505,nan,nan,nan,2.5500e-11,1.4020e-12,1.4020e-12,544,544,swift-uvot-v,detection,""
-TXS 0506+056,58463.74505,nan,nan,nan,2.5500e-11,1.4020e-12,1.4020e-12,544,544,swift-uvot-v,detection,"2017 archival"
-TXS 0506+056,58463.74505,nan,nan,nan,1.7810e-11,8.3220e-13,8.3220e-13,260,260,swift-uvot-w1,detection,""
-TXS 0506+056,58463.74505,nan,nan,nan,1.7810e-11,8.3220e-13,8.3220e-13,260,260,swift-uvot-w1,detection,"2017 archival"
-TXS 0506+056,58463.74505,nan,nan,nan,1.5620e-11,6.6010e-13,6.6010e-13,193,193,swift-uvot-w2,detection,""
-TXS 0506+056,58463.74505,nan,nan,nan,1.5620e-11,6.6010e-13,6.6010e-13,193,193,swift-uvot-w2,detection,"2017 archival"
+TXS 0506+056,58019.00685,nan,nan,nan,3.6850e-11,1.4950e-12,1.4950e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58023.79532,nan,nan,nan,3.7910e-11,1.0750e-12,1.0750e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58023.79532,nan,nan,nan,3.5750e-11,8.5530e-13,8.5530e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58023.79532,nan,nan,nan,3.7280e-11,1.1220e-12,1.1220e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58023.79532,nan,nan,nan,3.8310e-11,1.4020e-12,1.4020e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58023.79532,nan,nan,nan,3.1190e-11,9.4840e-13,9.4840e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58023.79532,nan,nan,nan,3.0420e-11,8.3640e-13,8.3640e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58023.85557,nan,nan,nan,3.6250e-11,1.1000e-12,1.1000e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58023.85557,nan,nan,nan,3.3760e-11,7.8070e-13,7.8070e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58023.85557,nan,nan,nan,3.5940e-11,1.0890e-12,1.0890e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58023.85557,nan,nan,nan,3.6480e-11,1.3520e-12,1.3520e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58023.85557,nan,nan,nan,3.0540e-11,9.3440e-13,9.3440e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58023.85557,nan,nan,nan,2.9930e-11,8.2410e-13,8.2410e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58026.18841,nan,nan,nan,2.6060e-11,6.5140e-13,6.5140e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58026.31175,nan,nan,nan,2.5860e-11,6.8620e-13,6.8620e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58028.63071,nan,nan,nan,2.7720e-11,6.0880e-13,6.0880e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58029.57111,nan,nan,nan,2.8370e-11,6.8880e-13,6.8880e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58029.77285,nan,nan,nan,2.8330e-11,7.2160e-13,7.2160e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58030.69861,nan,nan,nan,3.1630e-11,1.1040e-12,1.1040e-12,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58030.70998,nan,nan,nan,3.1280e-11,1.5270e-12,1.5270e-12,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58030.76562,nan,nan,nan,2.9740e-11,7.6080e-13,7.6080e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58031.75716,nan,nan,nan,3.6630e-11,8.9720e-13,8.9720e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58031.89192,nan,nan,nan,3.0680e-11,6.9730e-13,6.9730e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58032.55586,nan,nan,nan,3.0490e-11,7.2100e-13,7.2100e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58032.55586,nan,nan,nan,2.1030e-11,5.8630e-13,5.8630e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58033.22755,nan,nan,nan,1.9150e-11,4.4690e-13,4.4690e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58034.41428,nan,nan,nan,2.7800e-11,6.6140e-13,6.6140e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58034.47774,nan,nan,nan,2.7450e-11,8.7520e-13,8.7520e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58042.60009,nan,nan,nan,2.8590e-11,7.9560e-13,7.9560e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58042.86454,nan,nan,nan,2.9290e-11,7.9560e-13,7.9560e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58042.93392,nan,nan,nan,3.0080e-11,9.7960e-13,9.7960e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58044.06059,nan,nan,nan,3.2680e-11,5.5540e-13,5.5540e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58044.12730,nan,nan,nan,3.2740e-11,5.5540e-13,5.5540e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58044.19391,nan,nan,nan,3.2260e-11,5.5540e-13,5.5540e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58047.77547,nan,nan,nan,1.9890e-11,6.0170e-13,6.0170e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58047.77547,nan,nan,nan,2.1290e-11,4.9740e-13,4.9740e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58047.83802,nan,nan,nan,2.0730e-11,4.6490e-13,4.6490e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58050.69419,nan,nan,nan,2.3660e-11,7.5580e-13,7.5580e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58050.69419,nan,nan,nan,1.7800e-11,5.3210e-13,5.3210e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58050.69419,nan,nan,nan,2.2800e-11,7.5840e-13,7.5840e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58050.69419,nan,nan,nan,2.5210e-11,1.0490e-12,1.0490e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58050.69419,nan,nan,nan,1.7110e-11,5.3930e-13,5.3930e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58050.69419,nan,nan,nan,1.5660e-11,4.7560e-13,4.7560e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58050.76659,nan,nan,nan,2.2860e-11,8.1720e-13,8.1720e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58050.76659,nan,nan,nan,1.7010e-11,5.5200e-13,5.5200e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58050.76659,nan,nan,nan,2.1040e-11,7.8510e-13,7.8510e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58050.76659,nan,nan,nan,2.5070e-11,1.1690e-12,1.1690e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58050.76659,nan,nan,nan,1.7200e-11,5.9510e-13,5.9510e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58050.76659,nan,nan,nan,1.4020e-11,4.8380e-13,4.8380e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58053.28465,nan,nan,nan,2.6730e-11,1.1180e-12,1.1180e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58053.28465,nan,nan,nan,2.1930e-11,8.1050e-13,8.1050e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58053.28465,nan,nan,nan,2.3610e-11,1.0360e-12,1.0360e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58053.28465,nan,nan,nan,2.8950e-11,1.5920e-12,1.5920e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58053.28465,nan,nan,nan,1.9940e-11,8.0430e-13,8.0430e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58053.28465,nan,nan,nan,1.9230e-11,6.8470e-12,6.8470e-12,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58053.34937,nan,nan,nan,2.6670e-11,9.6470e-13,9.6470e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58053.34937,nan,nan,nan,2.2590e-11,8.7590e-13,8.7590e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58059.59510,nan,nan,nan,3.2010e-11,1.1240e-12,1.1240e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58059.59510,nan,nan,nan,2.5410e-11,8.2050e-13,8.2050e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58059.59510,nan,nan,nan,2.9430e-11,1.0840e-12,1.0840e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58059.59510,nan,nan,nan,3.2610e-11,1.5210e-12,1.5210e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58059.59510,nan,nan,nan,2.3620e-11,8.0430e-12,8.0430e-12,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58059.59510,nan,nan,nan,2.2350e-11,7.2160e-13,7.2160e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58059.66529,nan,nan,nan,3.1830e-11,9.2780e-13,9.2780e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58059.66529,nan,nan,nan,2.5210e-11,8.4540e-13,8.4540e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58059.66529,nan,nan,nan,2.8040e-11,9.3460e-13,9.3460e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58059.66529,nan,nan,nan,3.1480e-11,1.1970e-12,1.1970e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58059.66529,nan,nan,nan,2.4640e-11,7.0200e-12,7.0200e-12,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58059.66529,nan,nan,nan,2.1160e-11,5.9040e-13,5.9040e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58059.72978,nan,nan,nan,2.9060e-11,9.4630e-13,9.4630e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58059.72978,nan,nan,nan,2.4470e-11,7.7080e-12,7.7080e-12,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58059.72978,nan,nan,nan,2.6860e-11,9.2390e-13,9.2390e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58059.72978,nan,nan,nan,3.0920e-11,1.3100e-12,1.3100e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58059.72978,nan,nan,nan,2.3900e-11,7.4380e-12,7.4380e-12,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58059.72978,nan,nan,nan,2.0620e-11,6.3140e-13,6.3140e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58065.30531,nan,nan,nan,2.9490e-11,1.3580e-12,1.3580e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58065.30531,nan,nan,nan,2.9490e-11,1.3580e-12,1.3580e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58065.30531,nan,nan,nan,2.4270e-11,9.2990e-13,9.2990e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58065.30531,nan,nan,nan,2.4270e-11,9.2990e-13,9.2990e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58065.30531,nan,nan,nan,2.8570e-11,1.3080e-12,1.3080e-12,345,345,swift-uvot-u,det,
+TXS 0506+056,58065.30531,nan,nan,nan,2.8570e-11,1.3080e-12,1.3080e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58065.30531,nan,nan,nan,3.5990e-11,2.0710e-12,2.0710e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58065.30531,nan,nan,nan,3.5990e-11,2.0710e-12,2.0710e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58065.30531,nan,nan,nan,2.2500e-11,9.8560e-13,9.8560e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58065.30531,nan,nan,nan,2.2500e-11,9.8560e-13,9.8560e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58065.30531,nan,nan,nan,2.1160e-11,8.7330e-13,8.7330e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58065.30531,nan,nan,nan,2.1160e-11,8.7330e-13,8.7330e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58065.37223,nan,nan,nan,3.0050e-11,9.7700e-13,9.7700e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58065.37223,nan,nan,nan,3.0050e-11,9.7700e-13,9.7700e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58065.37223,nan,nan,nan,2.4760e-11,7.3100e-13,7.3100e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58065.37223,nan,nan,nan,2.4760e-11,7.3100e-13,7.3100e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58065.37223,nan,nan,nan,2.8630e-11,9.6660e-13,9.6660e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58065.37223,nan,nan,nan,2.8630e-11,9.6660e-13,9.6660e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58065.37223,nan,nan,nan,3.1130e-11,1.3170e-12,1.3170e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58065.37223,nan,nan,nan,3.1130e-11,1.3170e-12,1.3170e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58065.37223,nan,nan,nan,2.4170e-11,7.4850e-13,7.4850e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58065.37223,nan,nan,nan,2.4170e-11,7.4850e-13,7.4850e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58065.37223,nan,nan,nan,2.2060e-11,6.6010e-13,6.6010e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58065.37223,nan,nan,nan,2.2060e-11,6.6010e-13,6.6010e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58065.84090,nan,nan,nan,2.7530e-11,1.0750e-12,1.0750e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58065.84090,nan,nan,nan,2.7530e-11,1.0750e-12,1.0750e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58065.84090,nan,nan,nan,2.1030e-11,7.1610e-13,7.1610e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58065.84090,nan,nan,nan,2.1030e-11,7.1610e-13,7.1610e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58065.84090,nan,nan,nan,2.4300e-11,1.0040e-12,1.0040e-12,345,345,swift-uvot-u,det,
+TXS 0506+056,58065.84090,nan,nan,nan,2.4300e-11,1.0040e-12,1.0040e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58065.84090,nan,nan,nan,2.7820e-11,1.4720e-12,1.4720e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58065.84090,nan,nan,nan,2.7820e-11,1.4720e-12,1.4720e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58065.84090,nan,nan,nan,2.0830e-11,7.8570e-13,7.8570e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58065.84090,nan,nan,nan,2.0830e-11,7.8570e-13,7.8570e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58065.84090,nan,nan,nan,1.8610e-11,6.7650e-13,6.7650e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58065.84090,nan,nan,nan,1.8610e-11,6.7650e-13,6.7650e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58065.97394,nan,nan,nan,2.5620e-11,1.3150e-12,1.3150e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58065.97394,nan,nan,nan,2.5620e-11,1.3150e-12,1.3150e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58065.97394,nan,nan,nan,2.0930e-11,1.1430e-12,1.1430e-12,345,345,swift-uvot-u,det,
+TXS 0506+056,58065.97394,nan,nan,nan,2.0930e-11,1.1430e-12,1.1430e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58065.97394,nan,nan,nan,2.4860e-11,1.7820e-12,1.7820e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58065.97394,nan,nan,nan,2.4860e-11,1.7820e-12,1.7820e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58065.97394,nan,nan,nan,1.7530e-11,8.8800e-13,8.8800e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58065.97394,nan,nan,nan,1.7530e-11,8.8800e-13,8.8800e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58068.29443,nan,nan,nan,2.1200e-11,1.0320e-12,1.0320e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58068.29443,nan,nan,nan,2.1200e-11,1.0320e-12,1.0320e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58068.29443,nan,nan,nan,1.6210e-11,7.1610e-13,7.1610e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58068.29443,nan,nan,nan,1.6210e-11,7.1610e-13,7.1610e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58068.29443,nan,nan,nan,1.9070e-11,9.5600e-13,9.5600e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58068.29443,nan,nan,nan,1.9070e-11,9.5600e-13,9.5600e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58068.29443,nan,nan,nan,2.2190e-11,1.4650e-12,1.4650e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58068.29443,nan,nan,nan,2.2190e-11,1.4650e-12,1.4650e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58068.29443,nan,nan,nan,1.6600e-11,7.6240e-13,7.6240e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58068.29443,nan,nan,nan,1.6600e-11,7.6240e-13,7.6240e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58068.29443,nan,nan,nan,1.3570e-11,6.1910e-13,6.1910e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58068.29443,nan,nan,nan,1.3570e-11,6.1910e-13,6.1910e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58068.36073,nan,nan,nan,2.1140e-11,7.3730e-13,7.3730e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58068.36073,nan,nan,nan,2.1140e-11,7.3730e-13,7.3730e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58068.36073,nan,nan,nan,1.7060e-11,5.4700e-13,5.4700e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58068.36073,nan,nan,nan,1.7060e-11,5.4700e-13,5.4700e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58068.36073,nan,nan,nan,1.9330e-11,7.1030e-13,7.1030e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58068.36073,nan,nan,nan,1.9330e-11,7.1030e-13,7.1030e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58068.36073,nan,nan,nan,2.4020e-11,1.0850e-12,1.0850e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58068.36073,nan,nan,nan,2.4020e-11,1.0850e-12,1.0850e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58068.36073,nan,nan,nan,1.5950e-11,5.4390e-13,5.4390e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58068.36073,nan,nan,nan,1.5950e-11,5.4390e-13,5.4390e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58068.36073,nan,nan,nan,1.4640e-11,4.7970e-13,4.7970e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58068.36073,nan,nan,nan,1.4640e-11,4.7970e-13,4.7970e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58068.43339,nan,nan,nan,2.2180e-11,8.6020e-13,8.6020e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58068.43339,nan,nan,nan,2.2180e-11,8.6020e-13,8.6020e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58068.43339,nan,nan,nan,1.7210e-11,6.0170e-13,6.0170e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58068.43339,nan,nan,nan,1.7210e-11,6.0170e-13,6.0170e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58068.43339,nan,nan,nan,2.0670e-11,8.2240e-13,8.2240e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58068.43339,nan,nan,nan,2.0670e-11,8.2240e-13,8.2240e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58068.43339,nan,nan,nan,2.4510e-11,1.2400e-12,1.2400e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58068.43339,nan,nan,nan,2.4510e-11,1.2400e-12,1.2400e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58068.43339,nan,nan,nan,1.7390e-11,6.4160e-13,6.4160e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58068.43339,nan,nan,nan,1.7390e-11,6.4160e-13,6.4160e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58068.43339,nan,nan,nan,1.5170e-11,5.4530e-13,5.4530e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58068.43339,nan,nan,nan,1.5170e-11,5.4530e-13,5.4530e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58069.03810,nan,nan,nan,2.1200e-11,9.0320e-13,9.0320e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58069.03810,nan,nan,nan,2.1200e-11,9.0320e-13,9.0320e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58069.03810,nan,nan,nan,1.7550e-11,6.3150e-13,6.3150e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58069.03810,nan,nan,nan,1.7550e-11,6.3150e-13,6.3150e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58069.03810,nan,nan,nan,2.0400e-11,8.7590e-13,8.7590e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58069.03810,nan,nan,nan,2.0400e-11,8.7590e-13,8.7590e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58069.03810,nan,nan,nan,2.4650e-11,1.3450e-12,1.3450e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58069.03810,nan,nan,nan,2.4650e-11,1.3450e-12,1.3450e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58069.03810,nan,nan,nan,1.6270e-11,6.6480e-13,6.6480e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58069.03810,nan,nan,nan,1.6270e-11,6.6480e-13,6.6480e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58069.03810,nan,nan,nan,1.5170e-11,5.8630e-13,5.8630e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58069.03810,nan,nan,nan,1.5170e-11,5.8630e-13,5.8630e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58070.03462,nan,nan,nan,2.2120e-11,9.0940e-13,9.0940e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58070.03462,nan,nan,nan,2.2120e-11,9.0940e-13,9.0940e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58070.03462,nan,nan,nan,1.8000e-11,6.4150e-13,6.4150e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58070.03462,nan,nan,nan,1.8000e-11,6.4150e-13,6.4150e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58070.03462,nan,nan,nan,1.9010e-11,8.2240e-13,8.2240e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58070.03462,nan,nan,nan,1.9010e-11,8.2240e-13,8.2240e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58070.03462,nan,nan,nan,2.4790e-11,1.3310e-12,1.3310e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58070.03462,nan,nan,nan,2.4790e-11,1.3310e-12,1.3310e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58070.03462,nan,nan,nan,1.6920e-11,6.6480e-13,6.6480e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58070.03462,nan,nan,nan,1.6920e-11,6.6480e-13,6.6480e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58070.03462,nan,nan,nan,1.6970e-11,6.1500e-13,6.1500e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58070.03462,nan,nan,nan,1.6970e-11,6.1500e-13,6.1500e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58071.03081,nan,nan,nan,2.4580e-11,9.6470e-13,9.6470e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58071.03081,nan,nan,nan,2.4580e-11,9.6470e-13,9.6470e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58071.03081,nan,nan,nan,2.0490e-11,6.8620e-13,6.8620e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58071.03081,nan,nan,nan,2.0490e-11,6.8620e-13,6.8620e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58071.03081,nan,nan,nan,2.3230e-11,9.3990e-13,9.3990e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58071.03081,nan,nan,nan,2.3230e-11,9.3990e-13,9.3990e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58071.03081,nan,nan,nan,2.5640e-11,1.3520e-12,1.3520e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58071.03081,nan,nan,nan,2.5640e-11,1.3520e-12,1.3520e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58071.03081,nan,nan,nan,1.9060e-11,7.1590e-13,7.1590e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58071.03081,nan,nan,nan,1.9060e-11,7.1590e-13,7.1590e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58071.03081,nan,nan,nan,1.6650e-11,6.1090e-13,6.1090e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58071.03081,nan,nan,nan,1.6650e-11,6.1090e-13,6.1090e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58071.09910,nan,nan,nan,2.5130e-11,1.1610e-12,1.1610e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58071.09910,nan,nan,nan,2.5130e-11,1.1610e-12,1.1610e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58071.09910,nan,nan,nan,2.0440e-11,7.7080e-13,7.7080e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58071.09910,nan,nan,nan,2.0440e-11,7.7080e-13,7.7080e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58071.09910,nan,nan,nan,2.4670e-11,1.1380e-12,1.1380e-12,345,345,swift-uvot-u,det,
+TXS 0506+056,58071.09910,nan,nan,nan,2.4670e-11,1.1380e-12,1.1380e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58071.09910,nan,nan,nan,2.8380e-11,1.7040e-12,1.7040e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58071.09910,nan,nan,nan,2.8380e-11,1.7040e-12,1.7040e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58071.09910,nan,nan,nan,1.8690e-11,8.2750e-13,8.2750e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58071.09910,nan,nan,nan,1.8690e-11,8.2750e-13,8.2750e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58071.09910,nan,nan,nan,1.6850e-11,7.1340e-13,7.1340e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58071.09910,nan,nan,nan,1.6850e-11,7.1340e-13,7.1340e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58071.21176,nan,nan,nan,2.7340e-11,1.4560e-12,1.4560e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58071.21176,nan,nan,nan,2.7340e-11,1.4560e-12,1.4560e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58071.21176,nan,nan,nan,2.6060e-11,1.3940e-12,1.3940e-12,345,345,swift-uvot-u,det,
+TXS 0506+056,58071.21176,nan,nan,nan,2.6060e-11,1.3940e-12,1.3940e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58071.21176,nan,nan,nan,2.5780e-11,1.9440e-12,1.9440e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58071.21176,nan,nan,nan,2.5780e-11,1.9440e-12,1.9440e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58071.28029,nan,nan,nan,2.6610e-11,1.0510e-12,1.0510e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58071.28029,nan,nan,nan,2.6610e-11,1.0510e-12,1.0510e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58071.28029,nan,nan,nan,2.0240e-11,6.8620e-13,6.8620e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58071.28029,nan,nan,nan,2.0240e-11,6.8620e-13,6.8620e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58071.28029,nan,nan,nan,2.4780e-11,1.0090e-12,1.0090e-12,345,345,swift-uvot-u,det,
+TXS 0506+056,58071.28029,nan,nan,nan,2.4780e-11,1.0090e-12,1.0090e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58071.28029,nan,nan,nan,2.7400e-11,1.4440e-12,1.4440e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58071.28029,nan,nan,nan,2.7400e-11,1.4440e-12,1.4440e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58071.28029,nan,nan,nan,2.0730e-11,7.8100e-13,7.8100e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58071.28029,nan,nan,nan,2.0730e-11,7.8100e-13,7.8100e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58071.28029,nan,nan,nan,1.8290e-11,6.6420e-13,6.6420e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58071.28029,nan,nan,nan,1.8290e-11,6.6420e-13,6.6420e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58072.09529,nan,nan,nan,2.6910e-11,1.1610e-12,1.1610e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58072.09529,nan,nan,nan,2.6910e-11,1.1610e-12,1.1610e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58072.09529,nan,nan,nan,2.0240e-11,7.4590e-13,7.4590e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58072.09529,nan,nan,nan,2.0240e-11,7.4590e-13,7.4590e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58072.09529,nan,nan,nan,2.4030e-11,1.0790e-12,1.0790e-12,345,345,swift-uvot-u,det,
+TXS 0506+056,58072.09529,nan,nan,nan,2.4030e-11,1.0790e-12,1.0790e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58072.09529,nan,nan,nan,2.3810e-11,1.4790e-12,1.4790e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58072.09529,nan,nan,nan,2.3810e-11,1.4790e-12,1.4790e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58072.09529,nan,nan,nan,1.9990e-11,8.5540e-13,8.5540e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58072.09529,nan,nan,nan,1.9990e-11,8.5540e-13,8.5540e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58072.09529,nan,nan,nan,1.8740e-11,7.3390e-13,7.3390e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58072.09529,nan,nan,nan,1.8740e-11,7.3390e-13,7.3390e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58073.09153,nan,nan,nan,2.6790e-11,1.1180e-12,1.1180e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58073.09153,nan,nan,nan,2.6790e-11,1.1180e-12,1.1180e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58073.09153,nan,nan,nan,2.1480e-11,7.5580e-13,7.5580e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58073.09153,nan,nan,nan,2.1480e-11,7.5580e-13,7.5580e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58073.09153,nan,nan,nan,2.4990e-11,1.0730e-12,1.0730e-12,345,345,swift-uvot-u,det,
+TXS 0506+056,58073.09153,nan,nan,nan,2.4990e-11,1.0730e-12,1.0730e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58073.09153,nan,nan,nan,2.7190e-11,1.5420e-12,1.5420e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58073.09153,nan,nan,nan,2.7190e-11,1.5420e-12,1.5420e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58073.09153,nan,nan,nan,1.8870e-11,7.7640e-13,7.7640e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58073.09153,nan,nan,nan,1.8870e-11,7.7640e-13,7.7640e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58073.09153,nan,nan,nan,1.7380e-11,6.8060e-13,6.8060e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58073.09153,nan,nan,nan,1.7380e-11,6.8060e-13,6.8060e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58074.15530,nan,nan,nan,2.9250e-11,1.3950e-12,1.3950e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58074.15530,nan,nan,nan,2.9250e-11,1.3950e-12,1.3950e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58074.15530,nan,nan,nan,2.3520e-11,9.1000e-13,9.1000e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58074.15530,nan,nan,nan,2.3520e-11,9.1000e-13,9.1000e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58074.15530,nan,nan,nan,2.7560e-11,1.3400e-12,1.3400e-12,345,345,swift-uvot-u,det,
+TXS 0506+056,58074.15530,nan,nan,nan,2.7560e-11,1.3400e-12,1.3400e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58074.15530,nan,nan,nan,2.5640e-11,1.7890e-12,1.7890e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58074.15530,nan,nan,nan,2.5640e-11,1.7890e-12,1.7890e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58074.15530,nan,nan,nan,2.3200e-11,1.0410e-12,1.0410e-12,260,260,swift-uvot-w1,det,
+TXS 0506+056,58074.15530,nan,nan,nan,2.3200e-11,1.0410e-12,1.0410e-12,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58074.15530,nan,nan,nan,1.9890e-11,8.6920e-13,8.6920e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58074.15530,nan,nan,nan,1.9890e-11,8.6920e-13,8.6920e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58074.20109,nan,nan,nan,2.7040e-11,1.3580e-12,1.3580e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58074.20109,nan,nan,nan,2.7040e-11,1.3580e-12,1.3580e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58074.20109,nan,nan,nan,2.5310e-11,1.0490e-12,1.0490e-12,225,225,swift-uvot-m2,det,
+TXS 0506+056,58074.20109,nan,nan,nan,2.5310e-11,1.0490e-12,1.0490e-12,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58074.20109,nan,nan,nan,2.6440e-11,1.3300e-12,1.3300e-12,345,345,swift-uvot-u,det,
+TXS 0506+056,58074.20109,nan,nan,nan,2.6440e-11,1.3300e-12,1.3300e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58074.20109,nan,nan,nan,2.7470e-11,1.8950e-12,1.8950e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58074.20109,nan,nan,nan,2.7470e-11,1.8950e-12,1.8950e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58074.20109,nan,nan,nan,2.0970e-11,9.8560e-13,9.8560e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58074.20109,nan,nan,nan,2.0970e-11,9.8560e-13,9.8560e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58074.20109,nan,nan,nan,2.1280e-11,9.1020e-13,9.1020e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58074.20109,nan,nan,nan,2.1280e-11,9.1020e-13,9.1020e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58074.26959,nan,nan,nan,2.5380e-11,1.0380e-12,1.0380e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58074.26959,nan,nan,nan,2.5380e-11,1.0380e-12,1.0380e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58074.26959,nan,nan,nan,2.4470e-11,8.0560e-13,8.0560e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58074.26959,nan,nan,nan,2.4470e-11,8.0560e-13,8.0560e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58074.26959,nan,nan,nan,2.6540e-11,1.0790e-12,1.0790e-12,345,345,swift-uvot-u,det,
+TXS 0506+056,58074.26959,nan,nan,nan,2.6540e-11,1.0790e-12,1.0790e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58074.26959,nan,nan,nan,2.8450e-11,1.5140e-12,1.5140e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58074.26959,nan,nan,nan,2.8450e-11,1.5140e-12,1.5140e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58074.26959,nan,nan,nan,2.1850e-11,8.1820e-13,8.1820e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58074.26959,nan,nan,nan,2.1850e-11,8.1820e-13,8.1820e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58074.26959,nan,nan,nan,2.0300e-11,7.2160e-13,7.2160e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58074.26959,nan,nan,nan,2.0300e-11,7.2160e-13,7.2160e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58074.33843,nan,nan,nan,2.8080e-11,9.5850e-13,9.5850e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58074.33843,nan,nan,nan,2.8080e-11,9.5850e-13,9.5850e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58074.33843,nan,nan,nan,2.3520e-11,7.1110e-13,7.1110e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58074.33843,nan,nan,nan,2.3520e-11,7.1110e-13,7.1110e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58074.33843,nan,nan,nan,2.7500e-11,9.6660e-13,9.6660e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58074.33843,nan,nan,nan,2.7500e-11,9.6660e-13,9.6660e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58074.33843,nan,nan,nan,2.8240e-11,1.2890e-12,1.2890e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58074.33843,nan,nan,nan,2.8240e-11,1.2890e-12,1.2890e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58074.33843,nan,nan,nan,2.2040e-11,7.2060e-13,7.2060e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58074.33843,nan,nan,nan,2.2040e-11,7.2060e-13,7.2060e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58074.33843,nan,nan,nan,1.9430e-11,6.1910e-13,6.1910e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58074.33843,nan,nan,nan,1.9430e-11,6.1910e-13,6.1910e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58075.08355,nan,nan,nan,2.8940e-11,1.1240e-12,1.1240e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58075.08355,nan,nan,nan,2.8940e-11,1.1240e-12,1.1240e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58075.08355,nan,nan,nan,2.4470e-11,8.1050e-13,8.1050e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58075.08355,nan,nan,nan,2.4470e-11,8.1050e-13,8.1050e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58075.08355,nan,nan,nan,2.7610e-11,1.1050e-12,1.1050e-12,345,345,swift-uvot-u,det,
+TXS 0506+056,58075.08355,nan,nan,nan,2.7610e-11,1.1050e-12,1.1050e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58075.08355,nan,nan,nan,3.0920e-11,1.5780e-12,1.5780e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58075.08355,nan,nan,nan,3.0920e-11,1.5780e-12,1.5780e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58075.08355,nan,nan,nan,2.2920e-11,8.4610e-13,8.4610e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58075.08355,nan,nan,nan,2.2920e-11,8.4610e-13,8.4610e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58075.08355,nan,nan,nan,2.0420e-11,7.2980e-13,7.2980e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58075.08355,nan,nan,nan,2.0420e-11,7.2980e-13,7.2980e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58075.66609,nan,nan,nan,2.7100e-11,9.8310e-13,9.8310e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58075.66609,nan,nan,nan,2.7100e-11,9.8310e-13,9.8310e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58075.66609,nan,nan,nan,2.2280e-11,7.2600e-13,7.2600e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58075.66609,nan,nan,nan,2.2280e-11,7.2600e-13,7.2600e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58075.66609,nan,nan,nan,2.6220e-11,9.7730e-13,9.7730e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58075.66609,nan,nan,nan,2.6220e-11,9.7730e-13,9.7730e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58075.66609,nan,nan,nan,2.8740e-11,1.3730e-12,1.3730e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58075.66609,nan,nan,nan,2.8740e-11,1.3730e-12,1.3730e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58075.66609,nan,nan,nan,2.0460e-11,7.2060e-13,7.2060e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58075.66609,nan,nan,nan,2.0460e-11,7.2060e-13,7.2060e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58075.66609,nan,nan,nan,1.8660e-11,6.3140e-13,6.3140e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58075.66609,nan,nan,nan,1.8660e-11,6.3140e-13,6.3140e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58076.07988,nan,nan,nan,2.5930e-11,1.0200e-12,1.0200e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58076.07988,nan,nan,nan,2.5930e-11,1.0200e-12,1.0200e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58076.07988,nan,nan,nan,2.3270e-11,7.7570e-13,7.7570e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58076.07988,nan,nan,nan,2.3270e-11,7.7570e-13,7.7570e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58076.07988,nan,nan,nan,2.3980e-11,9.7730e-13,9.7730e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58076.07988,nan,nan,nan,2.3980e-11,9.7730e-13,9.7730e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58076.07988,nan,nan,nan,2.5000e-11,1.3590e-12,1.3590e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58076.07988,nan,nan,nan,2.5000e-11,1.3590e-12,1.3590e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58076.07988,nan,nan,nan,2.0780e-11,7.7170e-13,7.7170e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58076.07988,nan,nan,nan,2.0780e-11,7.7170e-13,7.7170e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58076.07988,nan,nan,nan,1.9520e-11,6.8470e-13,6.8470e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58076.07988,nan,nan,nan,1.9520e-11,6.8470e-13,6.8470e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58077.07590,nan,nan,nan,2.7900e-11,1.0450e-12,1.0450e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58077.07590,nan,nan,nan,2.7900e-11,1.0450e-12,1.0450e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58077.07590,nan,nan,nan,2.1280e-11,7.0110e-13,7.0110e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58077.07590,nan,nan,nan,2.1280e-11,7.0110e-13,7.0110e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58077.07590,nan,nan,nan,2.5260e-11,9.8270e-13,9.8270e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58077.07590,nan,nan,nan,2.5260e-11,9.8270e-13,9.8270e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58077.07590,nan,nan,nan,3.1270e-11,1.5070e-12,1.5070e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58077.07590,nan,nan,nan,3.1270e-11,1.5070e-12,1.5070e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58077.07590,nan,nan,nan,2.0920e-11,7.5780e-13,7.5780e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58077.07590,nan,nan,nan,2.0920e-11,7.5780e-13,7.5780e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58077.07590,nan,nan,nan,1.8700e-11,6.5190e-13,6.5190e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58077.07590,nan,nan,nan,1.8700e-11,6.5190e-13,6.5190e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58078.07213,nan,nan,nan,2.8450e-11,1.0260e-12,1.0260e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58078.07213,nan,nan,nan,2.8450e-11,1.0260e-12,1.0260e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58078.07213,nan,nan,nan,2.5360e-11,7.8570e-13,7.8570e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58078.07213,nan,nan,nan,2.5360e-11,7.8570e-13,7.8570e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58078.07213,nan,nan,nan,2.7980e-11,1.0360e-12,1.0360e-12,345,345,swift-uvot-u,det,
+TXS 0506+056,58078.07213,nan,nan,nan,2.7980e-11,1.0360e-12,1.0360e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58078.07213,nan,nan,nan,3.1480e-11,1.4790e-12,1.4790e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58078.07213,nan,nan,nan,3.1480e-11,1.4790e-12,1.4790e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58078.07213,nan,nan,nan,2.3340e-11,7.9500e-13,7.9500e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58078.07213,nan,nan,nan,2.3340e-11,7.9500e-13,7.9500e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58078.07213,nan,nan,nan,2.1480e-11,7.0110e-13,7.0110e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58078.07213,nan,nan,nan,2.1480e-11,7.0110e-13,7.0110e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58079.06793,nan,nan,nan,2.8080e-11,1.0200e-12,1.0200e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58079.06793,nan,nan,nan,2.8080e-11,1.0200e-12,1.0200e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58079.06793,nan,nan,nan,2.2770e-11,7.2600e-13,7.2600e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58079.06793,nan,nan,nan,2.2770e-11,7.2600e-13,7.2600e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58079.06793,nan,nan,nan,2.6600e-11,9.9870e-13,9.9870e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58079.06793,nan,nan,nan,2.6600e-11,9.9870e-13,9.9870e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58079.06793,nan,nan,nan,3.0290e-11,1.4370e-12,1.4370e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58079.06793,nan,nan,nan,3.0290e-11,1.4370e-12,1.4370e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58079.06793,nan,nan,nan,2.1620e-11,7.5310e-13,7.5310e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58079.06793,nan,nan,nan,2.1620e-11,7.5310e-13,7.5310e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58079.06793,nan,nan,nan,1.9970e-11,6.6830e-13,6.6830e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58079.06793,nan,nan,nan,1.9970e-11,6.6830e-13,6.6830e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58080.13250,nan,nan,nan,2.8630e-11,1.0380e-12,1.0380e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58080.13250,nan,nan,nan,2.8630e-11,1.0380e-12,1.0380e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58080.13250,nan,nan,nan,2.3520e-11,7.4090e-13,7.4090e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58080.13250,nan,nan,nan,2.3520e-11,7.4090e-13,7.4090e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58080.13250,nan,nan,nan,2.6860e-11,1.0090e-12,1.0090e-12,345,345,swift-uvot-u,det,
+TXS 0506+056,58080.13250,nan,nan,nan,2.6860e-11,1.0090e-12,1.0090e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58080.13250,nan,nan,nan,3.1340e-11,1.4720e-12,1.4720e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58080.13250,nan,nan,nan,3.1340e-11,1.4720e-12,1.4720e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58080.13250,nan,nan,nan,2.2410e-11,7.7170e-13,7.7170e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58080.13250,nan,nan,nan,2.2410e-11,7.7170e-13,7.7170e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58080.13250,nan,nan,nan,1.9840e-11,6.6420e-13,6.6420e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58080.13250,nan,nan,nan,1.9840e-11,6.6420e-13,6.6420e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58081.12832,nan,nan,nan,2.7960e-11,1.0200e-12,1.0200e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58081.12832,nan,nan,nan,2.7960e-11,1.0200e-12,1.0200e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58081.12832,nan,nan,nan,2.1380e-11,6.9120e-13,6.9120e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58081.12832,nan,nan,nan,2.1380e-11,6.9120e-13,6.9120e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58081.12832,nan,nan,nan,2.6060e-11,9.8800e-13,9.8800e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58081.12832,nan,nan,nan,2.6060e-11,9.8800e-13,9.8800e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58081.12832,nan,nan,nan,3.0780e-11,1.4580e-12,1.4580e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58081.12832,nan,nan,nan,3.0780e-11,1.4580e-12,1.4580e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58081.12832,nan,nan,nan,2.1250e-11,7.4850e-13,7.4850e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58081.12832,nan,nan,nan,2.1250e-11,7.4850e-13,7.4850e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58081.12832,nan,nan,nan,1.9680e-11,6.6010e-13,6.6010e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58081.12832,nan,nan,nan,1.9680e-11,6.6010e-13,6.6010e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58082.05543,nan,nan,nan,2.7340e-11,1.0080e-12,1.0080e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58082.05543,nan,nan,nan,2.7340e-11,1.0080e-12,1.0080e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58082.05543,nan,nan,nan,2.2770e-11,7.2600e-13,7.2600e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58082.05543,nan,nan,nan,2.2770e-11,7.2600e-13,7.2600e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58082.05543,nan,nan,nan,2.6330e-11,9.9330e-13,9.9330e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58082.05543,nan,nan,nan,2.6330e-11,9.9330e-13,9.9330e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58082.05543,nan,nan,nan,2.8740e-11,1.4020e-12,1.4020e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58082.05543,nan,nan,nan,2.8740e-11,1.4020e-12,1.4020e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58082.05543,nan,nan,nan,2.0410e-11,7.2990e-13,7.2990e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58082.05543,nan,nan,nan,2.0410e-11,7.2990e-13,7.2990e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58082.05543,nan,nan,nan,2.0420e-11,6.8060e-13,6.8060e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58082.05543,nan,nan,nan,2.0420e-11,6.8060e-13,6.8060e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58083.12000,nan,nan,nan,2.3720e-11,9.1550e-13,9.1550e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58083.12000,nan,nan,nan,2.3720e-11,9.1550e-13,9.1550e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58083.12000,nan,nan,nan,2.3070e-11,9.0260e-13,9.0260e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58083.12000,nan,nan,nan,2.3070e-11,9.0260e-13,9.0260e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58083.12000,nan,nan,nan,2.7050e-11,1.3450e-12,1.3450e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58083.12000,nan,nan,nan,2.7050e-11,1.3450e-12,1.3450e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58087.15659,nan,nan,nan,3.0350e-11,1.0880e-12,1.0880e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58087.15659,nan,nan,nan,3.0350e-11,1.0880e-12,1.0880e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58087.15659,nan,nan,nan,3.0330e-11,9.1500e-13,9.1500e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58087.15659,nan,nan,nan,3.0330e-11,9.1500e-13,9.1500e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58087.15659,nan,nan,nan,3.1940e-11,1.1480e-12,1.1480e-12,345,345,swift-uvot-u,det,
+TXS 0506+056,58087.15659,nan,nan,nan,3.1940e-11,1.1480e-12,1.1480e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58087.15659,nan,nan,nan,3.1620e-11,1.4790e-12,1.4790e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58087.15659,nan,nan,nan,3.1620e-11,1.4790e-12,1.4790e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58087.15659,nan,nan,nan,2.7660e-11,9.0190e-13,9.0190e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58087.15659,nan,nan,nan,2.7660e-11,9.0190e-13,9.0190e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58087.15659,nan,nan,nan,2.5910e-11,8.0770e-13,8.0770e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58087.15659,nan,nan,nan,2.5910e-11,8.0770e-13,8.0770e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58094.35506,nan,nan,nan,2.4580e-11,9.0320e-13,9.0320e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58094.35506,nan,nan,nan,2.4580e-11,9.0320e-13,9.0320e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58094.35506,nan,nan,nan,2.1080e-11,6.9620e-13,6.9620e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58094.35506,nan,nan,nan,2.1080e-11,6.9620e-13,6.9620e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58094.35506,nan,nan,nan,2.2640e-11,8.7050e-13,8.7050e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58094.35506,nan,nan,nan,2.2640e-11,8.7050e-13,8.7050e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58094.35506,nan,nan,nan,2.3380e-11,1.1900e-12,1.1900e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58094.35506,nan,nan,nan,2.3380e-11,1.1900e-12,1.1900e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58094.35506,nan,nan,nan,1.9200e-11,6.7410e-13,6.7410e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58094.35506,nan,nan,nan,1.9200e-11,6.7410e-13,6.7410e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58094.35506,nan,nan,nan,1.7340e-11,5.9040e-13,5.9040e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58094.35506,nan,nan,nan,1.7340e-11,5.9040e-13,5.9040e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58096.26484,nan,nan,nan,2.8940e-11,1.0260e-12,1.0260e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58096.26484,nan,nan,nan,2.8940e-11,1.0260e-12,1.0260e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58096.26484,nan,nan,nan,2.6650e-11,8.0560e-13,8.0560e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58096.26484,nan,nan,nan,2.6650e-11,8.0560e-13,8.0560e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58096.26484,nan,nan,nan,2.7720e-11,1.0090e-12,1.0090e-12,345,345,swift-uvot-u,det,
+TXS 0506+056,58096.26484,nan,nan,nan,2.7720e-11,1.0090e-12,1.0090e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58096.26484,nan,nan,nan,3.0000e-11,1.4020e-12,1.4020e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58096.26484,nan,nan,nan,3.0000e-11,1.4020e-12,1.4020e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58096.26484,nan,nan,nan,2.4920e-11,8.1360e-13,8.1360e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58096.26484,nan,nan,nan,2.4920e-11,8.1360e-13,8.1360e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58096.26484,nan,nan,nan,2.3700e-11,7.3800e-13,7.3800e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58096.26484,nan,nan,nan,2.3700e-11,7.3800e-13,7.3800e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58116.44582,nan,nan,nan,2.8520e-11,6.6760e-13,6.6760e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58116.44582,nan,nan,nan,2.8520e-11,6.6760e-13,6.6760e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58116.44582,nan,nan,nan,2.1710e-11,5.7650e-13,5.7650e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58116.44582,nan,nan,nan,2.1710e-11,5.7650e-13,5.7650e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58127.14352,nan,nan,nan,2.7770e-11,9.4010e-13,9.4010e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58127.14352,nan,nan,nan,2.7770e-11,9.4010e-13,9.4010e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58127.14352,nan,nan,nan,2.4120e-11,9.8460e-13,9.8460e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58127.14352,nan,nan,nan,2.4120e-11,9.8460e-13,9.8460e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58127.14352,nan,nan,nan,2.6700e-11,9.3460e-13,9.3460e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58127.14352,nan,nan,nan,2.6700e-11,9.3460e-13,9.3460e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58127.14352,nan,nan,nan,2.8380e-11,1.2680e-12,1.2680e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58127.14352,nan,nan,nan,2.8380e-11,1.2680e-12,1.2680e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58127.14352,nan,nan,nan,2.2450e-11,8.4150e-13,8.4150e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58127.14352,nan,nan,nan,2.2450e-11,8.4150e-13,8.4150e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58127.14352,nan,nan,nan,1.9840e-11,6.6830e-13,6.6830e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58127.14352,nan,nan,nan,1.9840e-11,6.6830e-13,6.6830e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58129.21473,nan,nan,nan,2.7040e-11,8.2950e-13,8.2950e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58129.21473,nan,nan,nan,2.7040e-11,8.2950e-13,8.2950e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58129.21473,nan,nan,nan,2.2430e-11,8.4540e-13,8.4540e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58129.21473,nan,nan,nan,2.2430e-11,8.4540e-13,8.4540e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58129.21473,nan,nan,nan,2.7400e-11,8.7590e-13,8.7590e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58129.21473,nan,nan,nan,2.7400e-11,8.7590e-13,8.7590e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58129.21473,nan,nan,nan,2.9650e-11,1.1690e-12,1.1690e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58129.21473,nan,nan,nan,2.9650e-11,1.1690e-12,1.1690e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58129.21473,nan,nan,nan,2.1990e-11,7.3450e-13,7.3450e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58129.21473,nan,nan,nan,2.1990e-11,7.3450e-13,7.3450e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58129.21473,nan,nan,nan,1.9680e-11,6.0270e-13,6.0270e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58129.21473,nan,nan,nan,1.9680e-11,6.0270e-13,6.0270e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58130.01689,nan,nan,nan,2.6110e-11,9.0320e-13,9.0320e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58130.01689,nan,nan,nan,2.6110e-11,9.0320e-13,9.0320e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58130.01689,nan,nan,nan,1.9100e-11,8.1550e-13,8.1550e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58130.01689,nan,nan,nan,1.9100e-11,8.1550e-13,8.1550e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58130.01689,nan,nan,nan,2.4300e-11,8.7590e-13,8.7590e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58130.01689,nan,nan,nan,2.4300e-11,8.7590e-13,8.7590e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58130.01689,nan,nan,nan,2.4720e-11,1.1760e-12,1.1760e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58130.01689,nan,nan,nan,2.4720e-11,1.1760e-12,1.1760e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58130.01689,nan,nan,nan,1.8970e-11,7.4850e-13,7.4850e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58130.01689,nan,nan,nan,1.8970e-11,7.4850e-13,7.4850e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58130.01689,nan,nan,nan,1.7220e-11,6.1090e-13,6.1090e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58130.01689,nan,nan,nan,1.7220e-11,6.1090e-13,6.1090e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58130.13300,nan,nan,nan,2.4820e-11,8.4180e-13,8.4180e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58130.13300,nan,nan,nan,2.4820e-11,8.4180e-13,8.4180e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58130.13300,nan,nan,nan,1.9890e-11,8.7020e-13,8.7020e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58130.13300,nan,nan,nan,1.9890e-11,8.7020e-13,8.7020e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58130.13300,nan,nan,nan,2.3500e-11,8.2780e-13,8.2780e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58130.13300,nan,nan,nan,2.3500e-11,8.2780e-13,8.2780e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58130.13300,nan,nan,nan,2.6480e-11,1.1690e-12,1.1690e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58130.13300,nan,nan,nan,2.6480e-11,1.1690e-12,1.1690e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58130.13300,nan,nan,nan,1.9390e-11,7.2990e-13,7.2990e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58130.13300,nan,nan,nan,1.9390e-11,7.2990e-13,7.2990e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58130.13300,nan,nan,nan,1.6610e-11,5.7400e-13,5.7400e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58130.13300,nan,nan,nan,1.6610e-11,5.7400e-13,5.7400e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58131.26494,nan,nan,nan,2.2610e-11,7.1890e-13,7.1890e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58131.26494,nan,nan,nan,2.2610e-11,7.1890e-13,7.1890e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58131.26494,nan,nan,nan,1.7700e-11,7.5580e-13,7.5580e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58131.26494,nan,nan,nan,1.7700e-11,7.5580e-13,7.5580e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58131.26494,nan,nan,nan,2.1630e-11,7.1560e-13,7.1560e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58131.26494,nan,nan,nan,2.1630e-11,7.1560e-13,7.1560e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58131.26494,nan,nan,nan,2.4020e-11,9.9310e-13,9.9310e-13,544,544,swift-uvot-v,det,
+TXS 0506+056,58131.26494,nan,nan,nan,2.4020e-11,9.9310e-13,9.9310e-13,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58131.26494,nan,nan,nan,1.6320e-11,5.9040e-13,5.9040e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58131.26494,nan,nan,nan,1.6320e-11,5.9040e-13,5.9040e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58131.26494,nan,nan,nan,1.5380e-11,4.9610e-13,4.9610e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58131.26494,nan,nan,nan,1.5380e-11,4.9610e-13,4.9610e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58133.86708,nan,nan,nan,2.5500e-11,7.0660e-13,7.0660e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58133.86708,nan,nan,nan,2.5500e-11,7.0660e-13,7.0660e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58133.86708,nan,nan,nan,2.1130e-11,7.1610e-13,7.1610e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58133.86708,nan,nan,nan,2.1130e-11,7.1610e-13,7.1610e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58133.86708,nan,nan,nan,2.3180e-11,6.9430e-13,6.9430e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58133.86708,nan,nan,nan,2.3180e-11,6.9430e-13,6.9430e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58133.86708,nan,nan,nan,2.6760e-11,9.5080e-13,9.5080e-13,544,544,swift-uvot-v,det,
+TXS 0506+056,58133.86708,nan,nan,nan,2.6760e-11,9.5080e-13,9.5080e-13,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58133.86708,nan,nan,nan,1.9150e-11,5.9040e-13,5.9040e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58133.86708,nan,nan,nan,1.9150e-11,5.9040e-13,5.9040e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58133.86708,nan,nan,nan,1.7590e-11,4.9610e-13,4.9610e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58133.86708,nan,nan,nan,1.7590e-11,4.9610e-13,4.9610e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58133.92435,nan,nan,nan,1.8040e-11,4.2230e-13,4.2230e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58133.92435,nan,nan,nan,1.8040e-11,4.2230e-13,4.2230e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58133.99368,nan,nan,nan,1.8000e-11,4.9610e-13,4.9610e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58133.99368,nan,nan,nan,1.8000e-11,4.9610e-13,4.9610e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58135.19600,nan,nan,nan,2.6180e-11,8.1110e-13,8.1110e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58135.19600,nan,nan,nan,2.6180e-11,8.1110e-13,8.1110e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58135.19600,nan,nan,nan,2.0980e-11,8.1050e-13,8.1050e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58135.19600,nan,nan,nan,2.0980e-11,8.1050e-13,8.1050e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58135.19600,nan,nan,nan,2.4670e-11,8.0640e-13,8.0640e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58135.19600,nan,nan,nan,2.4670e-11,8.0640e-13,8.0640e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58135.19600,nan,nan,nan,2.7190e-11,1.1060e-12,1.1060e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58135.19600,nan,nan,nan,2.7190e-11,1.1060e-12,1.1060e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58135.19600,nan,nan,nan,2.0080e-11,6.9270e-13,6.9270e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58135.19600,nan,nan,nan,2.0080e-11,6.9270e-13,6.9270e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58135.19600,nan,nan,nan,1.9800e-11,6.0680e-13,6.0680e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58135.19600,nan,nan,nan,1.9800e-11,6.0680e-13,6.0680e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58137.24595,nan,nan,nan,2.3900e-11,1.0630e-12,1.0630e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58137.24595,nan,nan,nan,2.3900e-11,1.0630e-12,1.0630e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58137.24595,nan,nan,nan,1.9940e-11,1.0290e-12,1.0290e-12,225,225,swift-uvot-m2,det,
+TXS 0506+056,58137.24595,nan,nan,nan,1.9940e-11,1.0290e-12,1.0290e-12,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58137.24595,nan,nan,nan,2.3710e-11,1.0570e-12,1.0570e-12,345,345,swift-uvot-u,det,
+TXS 0506+056,58137.24595,nan,nan,nan,2.3710e-11,1.0570e-12,1.0570e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58137.24595,nan,nan,nan,2.6690e-11,1.5570e-12,1.5570e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58137.24595,nan,nan,nan,2.6690e-11,1.5570e-12,1.5570e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58137.24595,nan,nan,nan,1.8740e-11,9.2980e-13,9.2980e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58137.24595,nan,nan,nan,1.8740e-11,9.2980e-13,9.2980e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58137.24595,nan,nan,nan,1.6690e-11,7.3800e-13,7.3800e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58137.24595,nan,nan,nan,1.6690e-11,7.3800e-13,7.3800e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58137.98492,nan,nan,nan,2.5010e-11,7.0660e-13,7.0660e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58137.98492,nan,nan,nan,2.5010e-11,7.0660e-13,7.0660e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58137.98492,nan,nan,nan,1.8350e-11,6.7630e-13,6.7630e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58137.98492,nan,nan,nan,1.8350e-11,6.7630e-13,6.7630e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58137.98492,nan,nan,nan,2.2430e-11,6.8360e-13,6.8360e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58137.98492,nan,nan,nan,2.2430e-11,6.8360e-13,6.8360e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58137.98492,nan,nan,nan,2.5140e-11,9.2970e-13,9.2970e-13,544,544,swift-uvot-v,det,
+TXS 0506+056,58137.98492,nan,nan,nan,2.5140e-11,9.2970e-13,9.2970e-13,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58137.98492,nan,nan,nan,1.8320e-11,5.7650e-13,5.7650e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58137.98492,nan,nan,nan,1.8320e-11,5.7650e-13,5.7650e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58137.98492,nan,nan,nan,1.6930e-11,3.9770e-13,3.9770e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58137.98492,nan,nan,nan,1.6930e-11,3.9770e-13,3.9770e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58138.10205,nan,nan,nan,1.9790e-11,6.9620e-13,6.9620e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58138.10205,nan,nan,nan,1.9790e-11,6.9620e-13,6.9620e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58138.10205,nan,nan,nan,1.6200e-11,4.7150e-13,4.7150e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58138.10205,nan,nan,nan,1.6200e-11,4.7150e-13,4.7150e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58139.23051,nan,nan,nan,2.5250e-11,9.0320e-13,9.0320e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58139.23051,nan,nan,nan,2.5250e-11,9.0320e-13,9.0320e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58139.23051,nan,nan,nan,2.3220e-11,9.8960e-13,9.8960e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58139.23051,nan,nan,nan,2.3220e-11,9.8960e-13,9.8960e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58139.23051,nan,nan,nan,2.3610e-11,8.7590e-13,8.7590e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58139.23051,nan,nan,nan,2.3610e-11,8.7590e-13,8.7590e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58139.23051,nan,nan,nan,2.8030e-11,1.2820e-12,1.2820e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58139.23051,nan,nan,nan,2.8030e-11,1.2820e-12,1.2820e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58139.23051,nan,nan,nan,1.9480e-11,7.8100e-13,7.8100e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58139.23051,nan,nan,nan,1.9480e-11,7.8100e-13,7.8100e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58139.23051,nan,nan,nan,1.8860e-11,6.5600e-13,6.5600e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58139.23051,nan,nan,nan,1.8860e-11,6.5600e-13,6.5600e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58140.82954,nan,nan,nan,2.8630e-11,1.1550e-12,1.1550e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58140.82954,nan,nan,nan,2.8630e-11,1.1550e-12,1.1550e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58140.82954,nan,nan,nan,2.8690e-11,1.3970e-12,1.3970e-12,225,225,swift-uvot-m2,det,
+TXS 0506+056,58140.82954,nan,nan,nan,2.8690e-11,1.3970e-12,1.3970e-12,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58140.82954,nan,nan,nan,2.9690e-11,1.1910e-12,1.1910e-12,345,345,swift-uvot-u,det,
+TXS 0506+056,58140.82954,nan,nan,nan,2.9690e-11,1.1910e-12,1.1910e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58140.82954,nan,nan,nan,3.1910e-11,1.6620e-12,1.6620e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58140.82954,nan,nan,nan,3.1910e-11,1.6620e-12,1.6620e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58140.82954,nan,nan,nan,2.5710e-11,1.0880e-12,1.0880e-12,260,260,swift-uvot-w1,det,
+TXS 0506+056,58140.82954,nan,nan,nan,2.5710e-11,1.0880e-12,1.0880e-12,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58140.82954,nan,nan,nan,2.2550e-11,8.6100e-13,8.6100e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58140.82954,nan,nan,nan,2.2550e-11,8.6100e-13,8.6100e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58140.90014,nan,nan,nan,3.1580e-11,9.6470e-13,9.6470e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58140.90014,nan,nan,nan,3.1580e-11,9.6470e-13,9.6470e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58140.90014,nan,nan,nan,2.6500e-11,1.0140e-12,1.0140e-12,225,225,swift-uvot-m2,det,
+TXS 0506+056,58140.90014,nan,nan,nan,2.6500e-11,1.0140e-12,1.0140e-12,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58140.90014,nan,nan,nan,3.0810e-11,9.8800e-13,9.8800e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58140.90014,nan,nan,nan,3.0810e-11,9.8800e-13,9.8800e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58140.90014,nan,nan,nan,3.0640e-11,1.2540e-12,1.2540e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58140.90014,nan,nan,nan,3.0640e-11,1.2540e-12,1.2540e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58140.90014,nan,nan,nan,2.4130e-11,8.1820e-13,8.1820e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58140.90014,nan,nan,nan,2.4130e-11,8.1820e-13,8.1820e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58140.90014,nan,nan,nan,2.2710e-11,6.9290e-13,6.9290e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58140.90014,nan,nan,nan,2.2710e-11,6.9290e-13,6.9290e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58192.89150,nan,nan,nan,2.9800e-11,6.7290e-13,6.7290e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58192.89150,nan,nan,nan,2.9800e-11,6.7290e-13,6.7290e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58194.42225,nan,nan,nan,2.1180e-11,5.5200e-13,5.5200e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58194.42225,nan,nan,nan,2.1180e-11,5.5200e-13,5.5200e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58211.70828,nan,nan,nan,4.3010e-11,1.0630e-12,1.0630e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58211.70828,nan,nan,nan,4.3010e-11,1.0630e-12,1.0630e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58211.70828,nan,nan,nan,3.6100e-11,1.0390e-12,1.0390e-12,225,225,swift-uvot-m2,det,
+TXS 0506+056,58211.70828,nan,nan,nan,3.6100e-11,1.0390e-12,1.0390e-12,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58211.70828,nan,nan,nan,4.1230e-11,1.1050e-12,1.1050e-12,345,345,swift-uvot-u,det,
+TXS 0506+056,58211.70828,nan,nan,nan,4.1230e-11,1.1050e-12,1.1050e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58211.70828,nan,nan,nan,4.7260e-11,1.4370e-12,1.4370e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58211.70828,nan,nan,nan,4.7260e-11,1.4370e-12,1.4370e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58211.70828,nan,nan,nan,3.3570e-11,8.8800e-13,8.8800e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58211.70828,nan,nan,nan,3.3570e-11,8.8800e-13,8.8800e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58211.70828,nan,nan,nan,3.0670e-11,7.6260e-13,7.6260e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58211.70828,nan,nan,nan,3.0670e-11,7.6260e-13,7.6260e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58211.89531,nan,nan,nan,3.0500e-11,7.2990e-13,7.2990e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58211.89531,nan,nan,nan,3.0500e-11,7.2990e-13,7.2990e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58408.08476,nan,nan,nan,3.2320e-11,8.4790e-13,8.4790e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58408.08476,nan,nan,nan,3.2320e-11,8.4790e-13,8.4790e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58408.08476,nan,nan,nan,2.4420e-11,8.1550e-13,8.1550e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58408.08476,nan,nan,nan,2.4420e-11,8.1550e-13,8.1550e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58408.08476,nan,nan,nan,3.0010e-11,8.5450e-13,8.5450e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58408.08476,nan,nan,nan,3.0010e-11,8.5450e-13,8.5450e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58408.08476,nan,nan,nan,3.3460e-11,1.1130e-12,1.1130e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58408.08476,nan,nan,nan,3.3460e-11,1.1130e-12,1.1130e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58408.08476,nan,nan,nan,2.4080e-11,6.9730e-13,6.9730e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58408.08476,nan,nan,nan,2.4080e-11,6.9730e-13,6.9730e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58408.08476,nan,nan,nan,2.1850e-11,5.9040e-13,5.9040e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58408.08476,nan,nan,nan,2.1850e-11,5.9040e-13,5.9040e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58408.15118,nan,nan,nan,3.1030e-11,8.2340e-13,8.2340e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58408.15118,nan,nan,nan,3.1030e-11,8.2340e-13,8.2340e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58408.15118,nan,nan,nan,2.5310e-11,8.2050e-13,8.2050e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58408.15118,nan,nan,nan,2.5310e-11,8.2050e-13,8.2050e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58408.15118,nan,nan,nan,2.8890e-11,8.2780e-13,8.2780e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58408.15118,nan,nan,nan,2.8890e-11,8.2780e-13,8.2780e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58408.15118,nan,nan,nan,3.4580e-11,1.1480e-12,1.1480e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58408.15118,nan,nan,nan,3.4580e-11,1.1480e-12,1.1480e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58408.15118,nan,nan,nan,2.4730e-11,7.1130e-13,7.1130e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58408.15118,nan,nan,nan,2.4730e-11,7.1130e-13,7.1130e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58408.15118,nan,nan,nan,2.1200e-11,5.7400e-13,5.7400e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58408.15118,nan,nan,nan,2.1200e-11,5.7400e-13,5.7400e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58408.21252,nan,nan,nan,3.1520e-11,9.7080e-13,9.7080e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58408.21252,nan,nan,nan,3.1520e-11,9.7080e-13,9.7080e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58408.21252,nan,nan,nan,2.3820e-11,9.2990e-13,9.2990e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58408.21252,nan,nan,nan,2.3820e-11,9.2990e-13,9.2990e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58408.21252,nan,nan,nan,2.7560e-11,9.1320e-13,9.1320e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58408.21252,nan,nan,nan,2.7560e-11,9.1320e-13,9.1320e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58408.21252,nan,nan,nan,3.2680e-11,1.3100e-12,1.3100e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58408.21252,nan,nan,nan,3.2680e-11,1.3100e-12,1.3100e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58408.21252,nan,nan,nan,2.2690e-11,7.9030e-13,7.9030e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58408.21252,nan,nan,nan,2.2690e-11,7.9030e-13,7.9030e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58408.21252,nan,nan,nan,2.0250e-11,6.4370e-13,6.4370e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58408.21252,nan,nan,nan,2.0250e-11,6.4370e-13,6.4370e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58437.42640,nan,nan,nan,1.5790e-11,3.6080e-13,3.6080e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58437.42640,nan,nan,nan,1.5790e-11,3.6080e-13,3.6080e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58437.49319,nan,nan,nan,1.5580e-11,5.8630e-13,5.8630e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58437.49319,nan,nan,nan,1.5580e-11,5.8630e-13,5.8630e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58456.02963,nan,nan,nan,2.5070e-11,8.4180e-13,8.4180e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58456.02963,nan,nan,nan,2.5070e-11,8.4180e-13,8.4180e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58456.02963,nan,nan,nan,1.8900e-11,7.7570e-13,7.7570e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58456.02963,nan,nan,nan,1.8900e-11,7.7570e-13,7.7570e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58456.02963,nan,nan,nan,2.3180e-11,8.1710e-13,8.1710e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58456.02963,nan,nan,nan,2.3180e-11,8.1710e-13,8.1710e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58456.02963,nan,nan,nan,2.8740e-11,1.2260e-12,1.2260e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58456.02963,nan,nan,nan,2.8740e-11,1.2260e-12,1.2260e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58456.02963,nan,nan,nan,1.8460e-11,8.0430e-13,8.0430e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58456.02963,nan,nan,nan,1.8460e-11,8.0430e-13,8.0430e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58456.02963,nan,nan,nan,1.6810e-11,5.7400e-13,5.7400e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58456.02963,nan,nan,nan,1.6810e-11,5.7400e-13,5.7400e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58456.09640,nan,nan,nan,2.4460e-11,8.3570e-13,8.3570e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58456.09640,nan,nan,nan,2.4460e-11,8.3570e-13,8.3570e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58456.09640,nan,nan,nan,1.8100e-11,7.6080e-13,7.6080e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58456.09640,nan,nan,nan,1.8100e-11,7.6080e-13,7.6080e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58456.09640,nan,nan,nan,2.2700e-11,8.1180e-13,8.1180e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58456.09640,nan,nan,nan,2.2700e-11,8.1180e-13,8.1180e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58456.09640,nan,nan,nan,2.6270e-11,1.1760e-12,1.1760e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58456.09640,nan,nan,nan,2.6270e-11,1.1760e-12,1.1760e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58456.09640,nan,nan,nan,1.9010e-11,8.3220e-13,8.3220e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58456.09640,nan,nan,nan,1.9010e-11,8.3220e-13,8.3220e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58456.09640,nan,nan,nan,1.6560e-11,5.7400e-13,5.7400e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58456.09640,nan,nan,nan,1.6560e-11,5.7400e-13,5.7400e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58457.03006,nan,nan,nan,2.6790e-11,7.2510e-13,7.2510e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58457.03006,nan,nan,nan,2.6790e-11,7.2510e-13,7.2510e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58457.03006,nan,nan,nan,2.0690e-11,7.0610e-13,7.0610e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58457.03006,nan,nan,nan,2.0690e-11,7.0610e-13,7.0610e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58457.03006,nan,nan,nan,2.3870e-11,6.9960e-13,6.9960e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58457.03006,nan,nan,nan,2.3870e-11,6.9960e-13,6.9960e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58457.03006,nan,nan,nan,2.7960e-11,9.5790e-13,9.5790e-13,544,544,swift-uvot-v,det,
+TXS 0506+056,58457.03006,nan,nan,nan,2.7960e-11,9.5790e-13,9.5790e-13,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58457.03006,nan,nan,nan,1.9800e-11,5.9040e-13,5.9040e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58457.03006,nan,nan,nan,1.9800e-11,5.9040e-13,5.9040e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58457.03006,nan,nan,nan,1.7960e-11,5.3710e-13,5.3710e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58457.03006,nan,nan,nan,1.7960e-11,5.3710e-13,5.3710e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58457.08718,nan,nan,nan,2.8020e-11,1.1430e-12,1.1430e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58457.08718,nan,nan,nan,2.8020e-11,1.1430e-12,1.1430e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58457.08718,nan,nan,nan,2.2820e-11,1.2230e-12,1.2230e-12,225,225,swift-uvot-m2,det,
+TXS 0506+056,58457.08718,nan,nan,nan,2.2820e-11,1.2230e-12,1.2230e-12,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58457.08718,nan,nan,nan,2.5210e-11,1.0730e-12,1.0730e-12,345,345,swift-uvot-u,det,
+TXS 0506+056,58457.08718,nan,nan,nan,2.5210e-11,1.0730e-12,1.0730e-12,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58457.08718,nan,nan,nan,2.7960e-11,1.5350e-12,1.5350e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58457.08718,nan,nan,nan,2.7960e-11,1.5350e-12,1.5350e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58457.08718,nan,nan,nan,2.0780e-11,9.6230e-13,9.6230e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58457.08718,nan,nan,nan,2.0780e-11,9.6230e-13,9.6230e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58457.08718,nan,nan,nan,1.7550e-11,7.3800e-13,7.3800e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58457.08718,nan,nan,nan,1.7550e-11,7.3800e-13,7.3800e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58458.02641,nan,nan,nan,2.8760e-11,7.6190e-13,7.6190e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58458.02641,nan,nan,nan,2.8760e-11,7.6190e-13,7.6190e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58458.02641,nan,nan,nan,2.1780e-11,7.2100e-13,7.2100e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58458.02641,nan,nan,nan,2.1780e-11,7.2100e-13,7.2100e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58458.02641,nan,nan,nan,2.5100e-11,7.2630e-13,7.2630e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58458.02641,nan,nan,nan,2.5100e-11,7.2630e-13,7.2630e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58458.02641,nan,nan,nan,2.8950e-11,9.8600e-13,9.8600e-13,544,544,swift-uvot-v,det,
+TXS 0506+056,58458.02641,nan,nan,nan,2.8950e-11,9.8600e-13,9.8600e-13,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58458.02641,nan,nan,nan,2.0460e-11,6.0440e-13,6.0440e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58458.02641,nan,nan,nan,2.0460e-11,6.0440e-13,6.0440e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58458.02641,nan,nan,nan,1.8370e-11,5.0430e-13,5.0430e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58458.02641,nan,nan,nan,1.8370e-11,5.0430e-13,5.0430e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58459.09994,nan,nan,nan,2.7280e-11,8.4790e-13,8.4790e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58459.09994,nan,nan,nan,2.7280e-11,8.4790e-13,8.4790e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58459.09994,nan,nan,nan,2.1180e-11,6.2160e-13,6.2160e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58459.09994,nan,nan,nan,2.1180e-11,6.2160e-13,6.2160e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58459.09994,nan,nan,nan,2.4410e-11,8.1180e-13,8.1180e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58459.09994,nan,nan,nan,2.4410e-11,8.1180e-13,8.1180e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58459.09994,nan,nan,nan,1.8600e-11,6.6940e-13,6.6940e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58459.09994,nan,nan,nan,1.8600e-11,6.6940e-13,6.6940e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58459.09994,nan,nan,nan,1.5090e-11,5.4120e-13,5.4120e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58459.09994,nan,nan,nan,1.5090e-11,5.4120e-13,5.4120e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58459.15271,nan,nan,nan,2.6420e-11,8.2950e-13,8.2950e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58459.15271,nan,nan,nan,2.6420e-11,8.2950e-13,8.2950e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58459.15271,nan,nan,nan,2.4940e-11,8.2240e-13,8.2240e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58459.15271,nan,nan,nan,2.4940e-11,8.2240e-13,8.2240e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58459.15271,nan,nan,nan,2.7820e-11,1.1410e-12,1.1410e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58459.15271,nan,nan,nan,2.7820e-11,1.1410e-12,1.1410e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58459.15271,nan,nan,nan,1.9710e-11,6.9270e-13,6.9270e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58459.15271,nan,nan,nan,1.9710e-11,6.9270e-13,6.9270e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58459.15271,nan,nan,nan,1.8080e-11,5.7400e-13,5.7400e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58459.15271,nan,nan,nan,1.8080e-11,5.7400e-13,5.7400e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58461.02678,nan,nan,nan,2.4640e-11,8.6640e-13,8.6640e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58461.02678,nan,nan,nan,2.4640e-11,8.6640e-13,8.6640e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58461.02678,nan,nan,nan,1.7060e-11,9.1990e-13,9.1990e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58461.02678,nan,nan,nan,1.7060e-11,9.1990e-13,9.1990e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58461.02678,nan,nan,nan,2.2800e-11,8.3310e-13,8.3310e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58461.02678,nan,nan,nan,2.2800e-11,8.3310e-13,8.3310e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58461.02678,nan,nan,nan,2.4300e-11,1.1550e-12,1.1550e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58461.02678,nan,nan,nan,2.4300e-11,1.1550e-12,1.1550e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58461.02678,nan,nan,nan,1.7480e-11,7.0200e-13,7.0200e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58461.02678,nan,nan,nan,1.7480e-11,7.0200e-13,7.0200e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58461.02678,nan,nan,nan,1.5290e-11,5.6170e-13,5.6170e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58461.02678,nan,nan,nan,1.5290e-11,5.6170e-13,5.6170e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58461.15347,nan,nan,nan,2.4270e-11,7.6190e-13,7.6190e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58461.15347,nan,nan,nan,2.4270e-11,7.6190e-13,7.6190e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58461.15347,nan,nan,nan,1.6310e-11,6.8130e-13,6.8130e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58461.15347,nan,nan,nan,1.6310e-11,6.8130e-13,6.8130e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58461.15347,nan,nan,nan,2.1360e-11,7.1030e-13,7.1030e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58461.15347,nan,nan,nan,2.1360e-11,7.1030e-13,7.1030e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58461.15347,nan,nan,nan,2.6200e-11,1.0640e-12,1.0640e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58461.15347,nan,nan,nan,2.6200e-11,1.0640e-12,1.0640e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58461.15347,nan,nan,nan,1.7340e-11,6.0900e-13,6.0900e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58461.15347,nan,nan,nan,1.7340e-11,6.0900e-13,6.0900e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58461.15347,nan,nan,nan,1.4760e-11,4.8790e-13,4.8790e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58461.15347,nan,nan,nan,1.4760e-11,4.8790e-13,4.8790e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58463.53397,nan,nan,nan,2.3900e-11,9.9540e-13,9.9540e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58463.53397,nan,nan,nan,2.3900e-11,9.9540e-13,9.9540e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58463.53397,nan,nan,nan,1.7010e-11,9.1500e-13,9.1500e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58463.53397,nan,nan,nan,1.7010e-11,9.1500e-13,9.1500e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58463.53397,nan,nan,nan,2.1310e-11,9.2390e-13,9.2390e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58463.53397,nan,nan,nan,2.1310e-11,9.2390e-13,9.2390e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58463.53397,nan,nan,nan,2.6760e-11,1.4510e-12,1.4510e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58463.53397,nan,nan,nan,2.6760e-11,1.4510e-12,1.4510e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58463.53397,nan,nan,nan,1.7020e-11,8.1820e-13,8.1820e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58463.53397,nan,nan,nan,1.7020e-11,8.1820e-13,8.1820e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58463.53397,nan,nan,nan,1.5540e-11,6.6010e-13,6.6010e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58463.53397,nan,nan,nan,1.5540e-11,6.6010e-13,6.6010e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58463.68163,nan,nan,nan,2.4090e-11,7.8650e-13,7.8650e-13,439,439,swift-uvot-b,det,
+TXS 0506+056,58463.68163,nan,nan,nan,2.4090e-11,7.8650e-13,7.8650e-13,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58463.68163,nan,nan,nan,1.6910e-11,7.2100e-13,7.2100e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58463.68163,nan,nan,nan,1.6910e-11,7.2100e-13,7.2100e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58463.68163,nan,nan,nan,2.0450e-11,7.2100e-13,7.2100e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58463.68163,nan,nan,nan,2.0450e-11,7.2100e-13,7.2100e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58463.68163,nan,nan,nan,2.5990e-11,1.1060e-12,1.1060e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58463.68163,nan,nan,nan,2.5990e-11,1.1060e-12,1.1060e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58463.68163,nan,nan,nan,1.7060e-11,6.4160e-13,6.4160e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58463.68163,nan,nan,nan,1.7060e-11,6.4160e-13,6.4160e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58463.68163,nan,nan,nan,1.5170e-11,5.1660e-13,5.1660e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58463.68163,nan,nan,nan,1.5170e-11,5.1660e-13,5.1660e-13,193,193,swift-uvot-w2,det,2017 archival
+TXS 0506+056,58463.74505,nan,nan,nan,2.5070e-11,1.0140e-12,1.0140e-12,439,439,swift-uvot-b,det,
+TXS 0506+056,58463.74505,nan,nan,nan,2.5070e-11,1.0140e-12,1.0140e-12,439,439,swift-uvot-b,det,2017 archival
+TXS 0506+056,58463.74505,nan,nan,nan,1.6860e-11,9.8460e-13,9.8460e-13,225,225,swift-uvot-m2,det,
+TXS 0506+056,58463.74505,nan,nan,nan,1.6860e-11,9.8460e-13,9.8460e-13,225,225,swift-uvot-m2,det,2017 archival
+TXS 0506+056,58463.74505,nan,nan,nan,2.4250e-11,9.9870e-13,9.9870e-13,345,345,swift-uvot-u,det,
+TXS 0506+056,58463.74505,nan,nan,nan,2.4250e-11,9.9870e-13,9.9870e-13,345,345,swift-uvot-u,det,2017 archival
+TXS 0506+056,58463.74505,nan,nan,nan,2.5500e-11,1.4020e-12,1.4020e-12,544,544,swift-uvot-v,det,
+TXS 0506+056,58463.74505,nan,nan,nan,2.5500e-11,1.4020e-12,1.4020e-12,544,544,swift-uvot-v,det,2017 archival
+TXS 0506+056,58463.74505,nan,nan,nan,1.7810e-11,8.3220e-13,8.3220e-13,260,260,swift-uvot-w1,det,
+TXS 0506+056,58463.74505,nan,nan,nan,1.7810e-11,8.3220e-13,8.3220e-13,260,260,swift-uvot-w1,det,2017 archival
+TXS 0506+056,58463.74505,nan,nan,nan,1.5620e-11,6.6010e-13,6.6010e-13,193,193,swift-uvot-w2,det,
+TXS 0506+056,58463.74505,nan,nan,nan,1.5620e-11,6.6010e-13,6.6010e-13,193,193,swift-uvot-w2,det,2017 archival

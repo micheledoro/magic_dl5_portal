@@ -1,0 +1,36 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname, unit: , datatype: string, description: Source name}
+# - {name: en, unit: GeV, datatype: float32, description: Energy}
+# - {name: en_wlo, unit: GeV, datatype: float32, description: Lower edge of the energy bin}
+# - {name: en_wup, unit: GeV, datatype: float32, description: Upper edge of the energy bin}
+# - {name: nufnu, unit: erg cm-2 s-1, datatype: float32, description: Spectral energy distribution point (nuFnu)}
+# - {name: nufnu_elo, unit: erg cm-2 s-1, datatype: float32, description: Lower uncertainty in nufnu}
+# - {name: nufnu_eup, unit: erg cm-2 s-1, datatype: float32, description: Upper uncertainty in nufnu}
+# - {name: tstart, unit: mjd, datatype: float64, description: MJD start}
+# - {name: tstop, unit: mjd, datatype: float64, description: MJD stop}
+# - {name: texpo, unit: h, datatype: float32, description: Observation time}
+# - {name: instrument, unit: , datatype: string, description: Instrument}
+# - {name: dataformat, unit: , datatype: string, description: Data Format}
+# - {name: comments, unit: , datatype: string, description: Comments}
+# meta: !!omap
+# - {Filename: "magic_2021a_fig4_sed.ecsv"}
+# - {Source: "PSR J0218+4232"}
+# - {Figure: "Figure 4 in the paper (MAGIC VHE upper limits)"}
+# - {Title: "Search for Very High-Energy Emission from the millisecond pulsar PSR J0218+4232"}
+# - {Arxiv: "https://arxiv.org/abs/2108.11373"}
+# - {Comments: "MAGIC integral upper limits on the VHE emission of PSR J0218+4232."}
+# - {Reference: "magic_2021a.yaml"}
+# - {Status: "To be checked"}
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+PSR J0218+4232,25.8251786965,nan,nan,1.4617751948695588e-10,nan,nan,nan,nan,nan,magic,ul,""
+PSR J0218+4232,45.9289089261,nan,nan,1.3336478286397673e-11,nan,nan,nan,nan,nan,magic,ul,""
+PSR J0218+4232,81.6789584578,nan,nan,3.777994862554492e-12,nan,nan,nan,nan,nan,magic,ul,""
+PSR J0218+4232,145.252535446,nan,nan,1.0525949738585613e-12,nan,nan,nan,nan,nan,magic,ul,""
+PSR J0218+4232,258.304118424,nan,nan,5.610731635574128e-13,nan,nan,nan,nan,nan,magic,ul,""
+PSR J0218+4232,459.34142075,nan,nan,3.1108907798515873e-13,nan,nan,nan,nan,nan,magic,ul,""
+PSR J0218+4232,816.841916073,nan,nan,5.294552632714873e-13,nan,nan,nan,nan,nan,magic,ul,""
+PSR J0218+4232,1452.57768598,nan,nan,1.7015950892481182e-13,nan,nan,nan,nan,nan,magic,ul,""
+PSR J0218+4232,2583.09351578,nan,nan,1.6899855820383157e-13,nan,nan,nan,nan,nan,magic,ul,""

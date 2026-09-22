@@ -1,0 +1,40 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                         }
+# - {name: en        , unit: eV     , datatype: float32 , description: Energy                              }
+# - {name: en_wlo    , unit: eV     , datatype: float32 , description: Energy bin width low                }
+# - {name: en_wup    , unit: eV     , datatype: float32 , description: Energy bin width up                 }
+# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Differential photon flux at energy  }
+# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
+# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
+# - {name: tstart    , unit: mjd     , datatype: float64 , description: MJD start                           }
+# - {name: tstop     , unit: mjd     , datatype: float64 , description: MJD stop                            }
+# - {name: texpo     , unit: h       , datatype: float32 , description: Observation time                    }
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                          }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                         }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                            }
+# meta: !!omap
+# - {Filename: "2026a_fig5c_sed_mwl.ecsv"}
+# - {Source: 'IceCube-190922B'}
+# - {Figure: 'IACT NuToO SED'}
+# - {Title: "Prompt Searches for Very-High-Energy -Ray Counterparts to IceCube Astrophysical Neutrino Alerts"}
+# - {Comments: "Multi-wavelength companion to magic_2026a_fig5c_sed.ecsv (non-MAGIC instruments)."}
+# - {Reference: "magic_2026a.yaml"}
+# - {Status: "Validated"}
+# schema: astropy-2.0
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+IceCube-190922B,9.45833e+10,7.1e+10,1.26e+11,0,,,,,,fact,ul,
+IceCube-190922B,1.68e+11,1.26e+11,2.24e+11,0,,,,,,fact,ul,
+IceCube-190922B,2.98583e+11,2.24e+11,3.98e+11,0,,,,,,fact,ul,
+IceCube-190922B,5.30833e+11,3.98e+11,7.08e+11,3.1131e-10,,,,,,fact,ul,
+IceCube-190922B,9.44125e+11,7.08e+11,1.259e+12,1.6807e-10,,,,,,fact,ul,
+IceCube-190922B,1.67896e+12,1.259e+12,2.239e+12,5.9835e-11,,,,,,fact,ul,
+IceCube-190922B,2.98554e+12,2.239e+12,3.981e+12,1.3513e-10,,,,,,fact,ul,
+IceCube-190922B,5.30862e+12,3.981e+12,7.079e+12,8.8386e-11,,,,,,fact,ul,
+IceCube-190922B,9.43983e+12,7.079e+12,1.2588e+13,2.2787e-10,,,,,,fact,ul,
+IceCube-190922B,1.67867e+13,1.2588e+13,2.2386e+13,4.8349e-10,,,,,,fact,ul,
+IceCube-190922B,2.9852e+13,2.2386e+13,3.9808e+13,0,,,,,,fact,ul,
+IceCube-190922B,5.30849e+13,3.9808e+13,7.079e+13,0,,,,,,fact,ul,

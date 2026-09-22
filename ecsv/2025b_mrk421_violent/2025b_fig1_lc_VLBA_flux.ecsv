@@ -26,10 +26,10 @@
 
 # schema: astropy-2.0
 srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
-Mrk 421,55238.0,nan,nan,,0.225,0.01,0.01,43.0,43.0,vlba,,
-Mrk 421,55262.0,nan,nan,,0.235,0.02,0.02,43.0,43.0,vlba,,
-Mrk 421,55294.0,nan,nan,,0.247,0.015,0.015,43.0,43.0,vlba,,
-Mrk 421,55297.0,nan,nan,,0.195,0.01,0.01,43.0,43.0,vlba,,
-Mrk 421,55302.0,nan,nan,,0.349,0.015,0.015,43.0,43.0,vlba,,
-Mrk 421,55335.0,nan,nan,,0.254,0.02,0.02,43.0,43.0,vlba,,
-Mrk 421,55363.0,nan,nan,,0.255,0.02,0.02,43.0,43.0,vlba,,
+Mrk 421,55238.0,nan,nan,,0.225,0.01,0.01,43.0,43.0,vlba,det,
+Mrk 421,55262.0,nan,nan,,0.235,0.02,0.02,43.0,43.0,vlba,det,
+Mrk 421,55294.0,nan,nan,,0.247,0.015,0.015,43.0,43.0,vlba,det,
+Mrk 421,55297.0,nan,nan,,0.195,0.01,0.01,43.0,43.0,vlba,det,
+Mrk 421,55302.0,nan,nan,,0.349,0.015,0.015,43.0,43.0,vlba,det,
+Mrk 421,55335.0,nan,nan,,0.254,0.02,0.02,43.0,43.0,vlba,det,
+Mrk 421,55363.0,nan,nan,,0.255,0.02,0.02,43.0,43.0,vlba,det,

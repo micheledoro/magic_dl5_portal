@@ -22,7 +22,7 @@ Sources in file:
 File list MAGIC:
  magic_2022d_fig1a_lc.ecsv
  magic_2022d_fig5_sed.ecsv
-Other files:
+Other Files:
  2022d_fig1b_lc_fermi.ecsv
  2022d_fig1c_lc_xrt.ecsv
  2022d_fig1d_lc_uvot.ecsv
@@ -30,3 +30,4 @@ Other files:
  2022d_fig1e_lc_EVPA.ecsv
  2022d_fig4_sed.ecsv
  2022d_fig9_sed_BB1.ecsv
+ 2022d_fig1a_lc_mwl.ecsv

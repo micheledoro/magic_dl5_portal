@@ -1,0 +1,35 @@
+# %ECSV 1.0
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit: , datatype: string  , description: Source name                       }
+# - {name: en        , unit: TeV   , datatype: float32 , description: Energy                            }
+# - {name: en_wlo    , unit: TeV   , datatype: float32 , description: Energy bin width low              }
+# - {name: en_wup    , unit: TeV   , datatype: float32 , description: Energy bin width up               }
+# - {name: nufnu     , unit: erg cm-2 s-1   , datatype: float32 , description: Differential photon flux at energy}
+# - {name: nufnu_elo , unit: erg cm-2 s-1   , datatype: float32 , description: Lower uncertainty in nufnu        }
+# - {name: nufnu_eup , unit: erg cm-2 s-1   , datatype: float32 , description: Upper uncertainty in nufnu        }
+# - {name: tstart    , unit: mjd  , datatype: float64 , description: MJD start                         }
+# - {name: tstop     , unit: mjd  , datatype: float64 , description: MJD stop                          }
+# - {name: texpo     , unit: h    , datatype: float32 , description: Observation time                  }
+# - {name: instrument, unit: , datatype: string  , description: Instrument                        }
+# - {name: dataformat, unit: , datatype: string  , description: Data Format                       }
+# - {name: comments  , unit: , datatype: string  , description: Comments                          }
+# meta: !!omap
+# - {Filename: "2025f_fig10_sed_mwl.ecsv"}
+# - {Source:    "B2-1811+31"}
+# - {Figure:    "Fig. 10. Spectral energy distribution at HE and VHE gamma rays in Periods A and B"}
+# - {Title:     "Very-high-energy gamma-ray detection and long-term multi-wavelength view of the flaring blazar B2 1811+31"}
+# - {Comments: "Multi-wavelength companion to magic_2025f_fig10_sed.ecsv (non-MAGIC instruments)."}
+# - {Reference: "magic_2025f.yaml"}
+# - {Status:    "checked"}
+# schema: astropy-2.0
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+B2-1811+31,0.000316228,0.000216228,0.000683772,3.120392e-11,8.212562e-12,9.389288e-12,59126.39,59128.39,0.0,lat,det,
+B2-1811+31,0.00316228,0.00216228,0.00683772,1.9065147e-11,6.6728016e-12,6.6728016e-12,59126.39,59128.39,0.0,lat,det,UL
+B2-1811+31,0.0316228,0.0216228,0.0683772,6.678899e-11,2.3376147e-11,2.3376147e-11,59126.39,59128.39,0.0,lat,det,UL
+B2-1811+31,1e-06,1e-06,1e-06,1.6021767e-06,1.6021767e-06,1.6021767e-06,59126.39,59128.39,0.0,lat,det,UL
+B2-1811+31,0.000316228,0.000216228,0.000683772,6.958403e-12,4.9585986e-12,6.4568225e-12,59130.39,59133.39,0.0,lat,det,
+B2-1811+31,0.00316228,0.00216228,0.00683772,4.0160257e-11,1.4593396e-11,1.7739152e-11,59130.39,59133.39,0.0,lat,det,
+B2-1811+31,0.0316228,0.0216228,0.0683772,4.903034e-11,3.7052264e-11,6.2226e-11,59130.39,59133.39,0.0,lat,det,
+B2-1811+31,1e-06,1e-06,1e-06,1.6021767e-06,1.6021767e-06,1.6021767e-06,59130.39,59133.39,0.0,lat,det,UL

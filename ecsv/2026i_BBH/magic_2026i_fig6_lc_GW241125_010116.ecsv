@@ -1,0 +1,29 @@
+# %ECSV 1.0
+# ---
+# schema: astropy-2.0
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string  , description: Source name}
+# - {name: t         , unit: mjd, datatype: float64 , description: Time of measurement}
+# - {name: t_wlo     , unit: d  , datatype: float32 , description: Lower width of time bin}
+# - {name: t_wup     , unit: d  , datatype: float32 , description: Upper width of time bin}
+# - {name: texpo     , unit: h  , datatype: float32 , description: Exposure time}
+# - {name: flux      , unit: cm-2 s-1, datatype: float32 , description: Flux measured above the energy threshold}
+# - {name: flux_elo  , unit: cm-2 s-1, datatype: float32 , description: Lower uncertainty of flux}
+# - {name: flux_eup  , unit: cm-2 s-1, datatype: float32 , description: Upper uncertainty of flux}
+# - {name: eth_lo    , unit: GeV, datatype: float32 , description: Assumed lower energy threshold for integral flux calculation}
+# - {name: eth_up    , unit: GeV, datatype: float32 , description: Assumed upper energy threshold for integral flux calculation}
+# - {name: instrument, unit:    , datatype: string  , description: Instrument}
+# - {name: dataformat, unit:    , datatype: string  , description: Data Format}
+# - {name: comments  , unit:    , datatype: string  , description: Comments}
+# meta: !!omap
+# - {Filename: magic_2026i_fig6_lc_GW241125_010116.ecsv}
+# - {Source: "GW241125_010116"}
+# - {Figure: "Figure 6, light curve of GW241125 above 0.5 TeV"}
+# - {Title: "Constraints on the VHE counterpart of two binary black hole mergers observed by the MAGIC and CTAO LST-1 telescopes"}
+# - {Comments: "95% CL upper limits, power-law spectral model with fixed index -2. The LST-1 mono run of Fig. 6 is not published here. Per-point exposures were not provided."}
+# - {Reference: "magic_2026i.yaml"}
+# - {Status: "Checked"}
+srcname,t,t_wlo,t_wup,texpo,flux,flux_elo,flux_eup,eth_lo,eth_up,instrument,dataformat,comments
+GW241125_010116,60639.868656,0.0133823,0.0133823,0.60,1.29066e-11,nan,nan,500,nan,magic+lst1,ul,"Two stereo MAGIC+LST-1 runs, shown as a single limit in Fig. 6"
+GW241125_010116,60639.858601,0.0234371,0.0234371,0.92,1.19286e-11,nan,nan,500,nan,magic+lst1,ul,"Global upper limit on stacked data (includes the LST-1 mono run)"

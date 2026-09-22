@@ -26,7 +26,7 @@ File list MAGIC:
  magic_2023f_fig9b_sed.ecsv
  magic_2023f_fig9c_sed.ecsv
  magic_2023f_fig28_sed.ecsv
-Other files:
+Other Files:
  2023f_fig1b_lc_xrt.ecsv
  2023f_fig1c_lc_fermi.ecsv
  2023f_fig1d_lc_ovro.ecsv
@@ -41,3 +41,7 @@ Other files:
  2023f_fig15_lc_iact.ecsv
  2023f_fig16_lc_ratan.ecsv
  2023f_fig17_lc_nustar.ecsv
+ 2023f_fig1a_lc_mwl.ecsv
+ 2023f_fig9a_sed_mwl.ecsv
+ 2023f_fig9b_sed_mwl.ecsv
+ 2023f_fig9c_sed_mwl.ecsv

@@ -1,0 +1,38 @@
+# %ECSV 0.9
+# ---
+# delimiter: ','
+# datatype:
+# - {name: srcname   , unit:    , datatype: string     , description: Source name                         }
+# - {name: en        , unit: eV     , datatype: float32 , description: Energy                              }
+# - {name: en_wlo    , unit: eV     , datatype: float32 , description: Energy bin width low                }
+# - {name: en_wup    , unit: eV     , datatype: float32 , description: Energy bin width up                 }
+# - {name: nufnu     , unit: erg cm-2 s-1, datatype: float32 , description: Differential photon flux at energy  }
+# - {name: nufnu_elo , unit: erg cm-2 s-1, datatype: float32 , description: Lower uncertainty in nufnu          }
+# - {name: nufnu_eup , unit: erg cm-2 s-1, datatype: float32 , description: Upper uncertainty in nufnu          }
+# - {name: tstart    , unit: mjd     , datatype: float64 , description: MJD start                           }
+# - {name: tstop     , unit: mjd     , datatype: float64 , description: MJD stop                            }
+# - {name: texpo     , unit: h       , datatype: float32 , description: Observation time                    }
+# - {name: instrument, unit:    , datatype: string     , description: Instrument                          }
+# - {name: dataformat, unit:    , datatype: string     , description: Data Format                         }
+# - {name: comments  , unit:    , datatype: string     , description: Comments                            }
+# meta: !!omap
+# - {Filename: "2026a_fig4a_sed_mwl.ecsv"}
+# - {Source: "MG1J181841+0903"}
+# - {Figure: "Combined IACT SED upper limits"}
+# - {Title: "Prompt Searches for Very-High-Energy -Ray Counterparts to IceCube Astrophysical Neutrino Alerts"}
+# - {Comments: "Multi-wavelength companion to magic_2026a_fig4a_sed.ecsv (non-MAGIC instruments)."}
+# - {Reference: "magic_2026a.yaml"}
+# - {Status: "Validated"}
+# schema: astropy-2.0
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+MG1J181841+0903,6.100110e+00,6.100110e+00,6.100110e+00,1.078206e-12,1.002983e-13,1.002983e-13,,,,swift-xrt,det,
+MG1J181841+0903,5.999940e+02,2.999970e+02,8.999910e+02,1.312793e-13,2.760726e-14,2.760726e-14,,,,swift-xrt,det,
+MG1J181841+0903,1.179988e+03,8.999909e+02,1.459985e+03,1.804116e-13,4.178924e-14,4.178924e-14,,,,swift-xrt,det,
+MG1J181841+0903,1.819982e+03,1.459985e+03,2.179978e+03,2.563696e-13,7.819957e-14,7.819957e-14,,,,swift-xrt,det,
+MG1J181841+0903,2.914971e+03,2.179978e+03,3.649964e+03,3.814008e-13,1.203288e-13,1.203288e-13,,,,swift-xrt,det,
+MG1J181841+0903,4.889951e+03,3.649963e+03,6.129938e+03,6.603794e-13,2.101590e-13,2.101590e-13,,,,swift-xrt,det,
+MG1J181841+0903,7.359926e+03,6.129939e+03,8.589914e+03,7.835148e-13,5.854040e-13,5.854040e-13,,,,swift-xrt,det,
+MG1J181841+0903,3.163152e+08,1.000000e+08,1.000553e+09,6.508443e-12,1.451422e-12,1.451422e-12,,,,lat,det,
+MG1J181841+0903,3.164900e+09,1.000553e+09,1.001106e+10,3.172140e-12,,,,,,lat,ul,
+MG1J181841+0903,3.166650e+10,1.001106e+10,1.001659e+11,1.612530e-12,,,,,,lat,ul,
+MG1J181841+0903,3.168400e+11,1.001659e+11,1.002213e+12,1.554456e-11,,,,,,lat,ul,

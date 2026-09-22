@@ -1,0 +1,38 @@
+# %ECSV 1.0
+# ---
+# schema: astropy-2.0
+# delimiter: ','
+# datatype:
+# - {name: srcname, datatype: string}
+# - {name: en, unit: TeV, datatype: float32, description: Energy}
+# - {name: en_wlo, unit: TeV, datatype: float32, description: Energy bin width low}
+# - {name: en_wup, unit: TeV, datatype: float32, description: Energy bin width up}
+# - {name: nufnu, unit: erg / (s cm2), datatype: float32, description: Differential photon flux at energy}
+# - {name: nufnu_elo, unit: erg / (s cm2), datatype: float32, description: Lower uncertainty in nufnu}
+# - {name: nufnu_eup, unit: erg / (s cm2), datatype: float32, description: Upper uncertainty in nufnu}
+# - {name: tstart, datatype: float64}
+# - {name: tstop, datatype: float64}
+# - {name: texpo, datatype: float64}
+# - {name: instrument, datatype: string}
+# - {name: dataformat, datatype: string, description: Data Format}
+# - {name: comments, datatype: string, description: Comments}
+# meta: !!omap
+# - {Filename: "2024k_fig4_sed_OP313_mwl.ecsv"}
+# - {Source: OP313}
+# - {Figure: 'Figure 4 (SED of all studied sources), OP313'}
+# - {Title: Constraints on VHE gamma-ray emission of flat spectrum radio quasars with the MAGIC telescopes}
+# - {Comments: "Multi-wavelength companion to magic_2024k_fig4_sed_OP313.ecsv (non-MAGIC instruments)."}
+# - {Reference: magic_2024k.yaml}
+# - {Status: ''}
+srcname,en,en_wlo,en_wup,nufnu,nufnu_elo,nufnu_eup,tstart,tstop,texpo,instrument,dataformat,comments
+OP313,0.0001778279,7.782794e-05,0.0001383998,1.3841e-11,nan,nan,nan,nan,nan,lat,ul,
+OP313,0.0005623413,0.0002461136,0.0004376587,3.274e-11,nan,nan,nan,nan,nan,lat,ul,
+OP313,0.0005623413,0.0002461136,0.0004376587,3.6167e-12,3.7146e-13,3.7146e-13,nan,nan,nan,fermi-lat-12yr,det,
+OP313,0.001778279,0.0007782794,0.001383998,2.3579e-11,8.9299e-12,8.9299e-12,nan,nan,nan,lat,det,
+OP313,0.001778279,0.0007782794,0.001383998,4.5647e-12,2.4822e-13,2.4822e-13,nan,nan,nan,fermi-lat-12yr,det,
+OP313,0.005623413,0.002461136,0.004376587,3.6067e-11,1.3537e-11,1.3537e-11,nan,nan,nan,lat,det,
+OP313,0.005623413,0.002461136,0.004376587,3.3042e-12,2.6343e-13,2.6343e-13,nan,nan,nan,fermi-lat-12yr,det,
+OP313,0.01778279,0.007782794,0.01383998,1.7586e-11,nan,nan,nan,nan,nan,lat,ul,
+OP313,0.01778279,0.007782794,0.01383998,1.8439e-12,3.1463e-13,3.1463e-13,nan,nan,nan,fermi-lat-12yr,det,
+OP313,0.05623413,0.02461136,0.04376587,5.4238e-11,nan,nan,nan,nan,nan,lat,ul,
+OP313,0.3162278,0.2162278,0.6837722,1.3507e-10,nan,nan,nan,nan,nan,lat,ul,
