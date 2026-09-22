@@ -11,8 +11,8 @@
 # - {name: flux, unit: cm-2 s-1, datatype: float64, description: Flux measured in the energy range}
 # - {name: flux_elo, unit: cm-2 s-1, datatype: float64, description: Lower uncertainty of flux}
 # - {name: flux_eup, unit: cm-2 s-1, datatype: float64, description: Upper uncertainty of flux}
-# - {name: eth_lo, unit: TeV, datatype: float64, description: Lower energy threshold for integral flux calculation}
-# - {name: eth_up, unit: TeV, datatype: float64, description: Upper energy threshold for integral flux calculation}
+# - {name: eth_lo, unit: GeV, datatype: float64, description: Lower energy threshold for integral flux calculation}
+# - {name: eth_up, unit: GeV, datatype: float64, description: Upper energy threshold for integral flux calculation}
 # - {name: instrument, datatype: string, description: Instrument}
 # - {name: dataformat, datatype: string, description: Data Format}
 # - {name: comments, datatype: string, description: Comments}
